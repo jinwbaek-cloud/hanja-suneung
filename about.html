@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>플랫폼 소개 | 한알국쉬(수능버전)</title>
+  <meta name="description" content="한알국쉬(수능버전) - 수능 국어 고득점을 위한 한자어 문해력 솔루션. 수능 기출 지문 속 고난도 개념어와 문학 빈출 성어의 속뜻을 직관적으로 통찰합니다.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Serif+KR:wght@300;400;500;700;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            classicBg: '#F9F6F0',
+            classicText: '#2C2520',
+            classicRed: '#8B263E',
+            classicTeal: '#3A606E',
+            classicCard: '#FDFCF7',
+            classicBorder: '#E6DFD3',
+            classicMuted: '#7A7267'
+          },
+          fontFamily: {
+            sans: ['Outfit', 'Noto Sans KR', 'sans-serif'],
+            serif: ['Noto Serif KR', 'Georgia', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .classic-card {
+      background: #FDFCF7;
+      border: 1px solid #E6DFD3;
+      box-shadow: 0 4px 20px -2px rgba(139, 38, 62, 0.03);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .classic-card:hover {
+      box-shadow: 0 10px 30px -4px rgba(139, 38, 62, 0.08);
+    }
+  </style>
+</head>
+<body class="bg-classicBg text-classicText font-sans min-h-screen selection:bg-classicRed selection:text-white antialiased">
+
+  <div class="max-w-4xl mx-auto px-4 py-8 md:py-12 flex flex-col gap-10 min-h-screen">
+    
+    <!-- Top Header -->
+    <header class="flex items-center justify-between border-b border-classicBorder pb-6">
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="w-9 h-9 bg-classicRed flex items-center justify-center text-white font-serif font-black text-base rounded-sm shadow-sm group-hover:scale-105 transition-transform">
+          한
+        </div>
+        <div>
+          <h1 class="text-xl font-serif font-black tracking-tight text-classicText">
+            한알국쉬
+          </h1>
+          <p class="text-[10px] text-classicMuted font-serif font-medium mt-0.5">
+            한자를 알면 국어가 쉬워 (수능버전)
+          </p>
+        </div>
+      </a>
+
+      <nav class="flex items-center gap-3 text-xs font-bold">
+        <a href="index.html" class="px-3 py-1.5 rounded-lg border border-classicBorder text-classicMuted hover:text-classicText hover:bg-classicCard transition-colors">
+          ← 사전 홈으로
+        </a>
+        <a href="guide.html" class="px-3 py-1.5 rounded-lg bg-classicTeal/10 text-classicTeal border border-classicTeal/20 hover:bg-classicTeal/20 transition-colors">
+          수능 활용 가이드 ↗
+        </a>
+      </nav>
+    </header>
+
+    <!-- Main Hero Banner -->
+    <section class="classic-card rounded-3xl p-8 md:p-12 relative overflow-hidden text-center space-y-4">
+      <div class="absolute -right-16 -top-16 w-60 h-60 rounded-full bg-classicRed/5 blur-3xl pointer-events-none"></div>
+      
+      <span class="inline-block px-3 py-1 rounded-full text-xs font-bold bg-classicRed/10 text-classicRed border border-classicRed/20">
+        About Hanal-Gukshi (CSAT Edition)
+      </span>
+      
+      <h2 class="text-3xl md:text-4xl font-serif font-black tracking-tight text-classicText leading-snug">
+        “수능 국어의 본질은 결국<br class="hidden sm:inline"> <span class="text-classicRed">개념 어휘의 직관적 문해력</span>입니다.”
+      </h2>
+      
+      <p class="text-sm md:text-base text-classicMuted leading-relaxed max-w-2xl mx-auto font-medium">
+        비문학 지문에서 독해가 막히고, 문학 선지에서 아리송하게 오답을 고르는 근본적 이유는 
+        글을 못 읽어서가 아니라 <strong>문맥 속 한자어의 속뜻이 머릿속에 즉시 상형화되지 않기 때문</strong>입니다.
+      </p>
+    </section>
+
+    <!-- Core Philosophy (3 Pillars) -->
+    <section class="space-y-6">
+      <div class="border-b border-classicBorder pb-3">
+        <h3 class="text-lg font-serif font-black text-classicText flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-classicRed"></span>
+          한알국쉬 수능 버전이 지향하는 3대 원칙
+        </h3>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Principle 1 -->
+        <div class="classic-card rounded-2xl p-6 space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-classicRed/10 text-classicRed flex items-center justify-center font-black text-lg font-serif">
+            1
+          </div>
+          <h4 class="text-base font-serif font-bold text-classicText">자구(字句)의 시각적 해체</h4>
+          <p class="text-xs text-classicMuted leading-relaxed font-medium">
+            단순히 단어의 한글 사전 정의만 외우지 않습니다. 낱글자의 훈(뜻)과 음(소리)을 쪼개어 들여다봄으로써, 생소한 파생어가 나와도 스스로 그 속뜻을 추론할 수 있는 자생적 어휘력을 길러줍니다.
+          </p>
+        </div>
+
+        <!-- Principle 2 -->
+        <div class="classic-card rounded-2xl p-6 space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-classicTeal/10 text-classicTeal flex items-center justify-center font-black text-lg font-serif">
+            2
+          </div>
+          <h4 class="text-base font-serif font-bold text-classicText">평가원 기출 지문 속 전용 용례</h4>
+          <p class="text-xs text-classicMuted leading-relaxed font-medium">
+            표준국어대사전의 박제된 예문 대신, 2022~2026학년도 수능 및 6월/9월 모의평가 지문에서 해당 어휘가 실제 정답과 오답을 가르는 문맥으로 어떻게 쓰였는지를 직접 조명합니다.
+          </p>
+        </div>
+
+        <!-- Principle 3 -->
+        <div class="classic-card rounded-2xl p-6 space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-[#8A6F58]/10 text-[#8A6F58] flex items-center justify-center font-black text-lg font-serif">
+            3
+          </div>
+          <h4 class="text-base font-serif font-bold text-classicText">문학과 비문학의 이원화 타깃</h4>
+          <p class="text-xs text-classicMuted leading-relaxed font-medium">
+            고전문학 지문과 현대시 선지에 빈출되는 정서·태도 성어와, 철학·과학·경제·법률 제재를 꿰뚫는 비문학 추상 개념어를 유기적으로 분류하여 실전 선지 판별력을 극대화합니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Features -->
+    <section class="classic-card rounded-3xl p-8 space-y-6">
+      <h3 class="text-xl font-serif font-black text-classicText">수능 특화 핵심 기능 안내</h3>
+
+      <div class="space-y-4 text-xs md:text-sm text-classicText leading-relaxed">
+        <div class="flex items-start gap-3 p-3 rounded-xl bg-classicBg/60 border border-classicBorder">
+          <span class="text-base">⚡</span>
+          <div>
+            <strong class="font-bold text-classicRed">10초 순삭 미니 퀴즈:</strong> 실제 기출 지문의 빈칸에 들어갈 한자 표기를 5지선다 객관식으로 빠르게 풀어보며 감각을 점검할 수 있습니다.
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3 p-3 rounded-xl bg-classicBg/60 border border-classicBorder">
+          <span class="text-base">🖨️</span>
+          <div>
+            <strong class="font-bold text-classicTeal">아날로그 휴대 단어장 인쇄:</strong> 태블릿이나 스마트폰 화면을 벗어나 수능 시험장이나 자습실에서 종이로 회독할 수 있도록 2열 배치된 PDF 단어장을 원클릭으로 출력합니다.
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3 p-3 rounded-xl bg-classicBg/60 border border-classicBorder">
+          <span class="text-base">漢</span>
+          <div>
+            <strong class="font-bold text-[#8A6F58]">기출 지문 속 한자-한글 실시간 스위칭:</strong> 지문 예문 속 한글 단어를 낱글자 한자로 즉시 치환하여 살펴보는 훈련을 통해 실전 독해의 입체성을 체득합니다.
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3 p-3 rounded-xl bg-classicBg/60 border border-classicBorder">
+          <span class="text-base">👁️</span>
+          <div>
+            <strong class="font-bold text-classicText">아는 단어 마스터(패스) 관리:</strong> 완전히 숙지한 어휘는 메인 화면에서 지워나가며, 시험 직전까지 내가 헷갈리는 고난도 어휘에만 온전히 집중할 수 있습니다.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Platform Lead Info (익명화 완료) -->
+    <section class="classic-card rounded-3xl p-8 flex flex-col sm:flex-row items-center gap-6 border-l-4 border-l-classicRed">
+      <div class="w-16 h-16 rounded-2xl bg-classicRed/10 text-classicRed flex items-center justify-center text-2xl font-serif font-black shrink-0">
+        한
+      </div>
+      <div class="space-y-1.5 text-center sm:text-left">
+        <div class="flex flex-wrap items-center justify-center sm:justify-start gap-2">
+          <h4 class="text-lg font-serif font-black text-classicText">기획 및 편찬: 한알국쉬 연구팀</h4>
+          <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-classicBg border border-classicBorder text-classicMuted">
+            국어교육 & 한자문해력 연구
+          </span>
+        </div>
+        <p class="text-xs text-classicMuted leading-relaxed font-medium">
+          수능 국어의 평가 목표는 단순 암기가 아닌 심층 문맥 문해력입니다. 
+          고전문학의 미묘한 정서적 결부터 독서 지문의 정밀한 개념 논리까지, 
+          한자의 속뜻을 통해 국어의 벽을 넘을 수 있도록 설계된 교육 프로젝트입니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer (익명화 완료) -->
+    <footer class="mt-auto border-t border-classicBorder pt-8 text-center text-xs text-classicMuted space-y-2 pb-6">
+      <p>© 2026 한알국쉬(수능버전). All rights reserved.</p>
+      <p class="font-serif font-medium text-[10px] uppercase tracking-widest text-classicMuted">
+        기획·편찬: 한알국쉬 연구팀 • 한자를 알면 국어가 쉬워 • POWERED BY REACT & TAILWIND CSS
+      </p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
