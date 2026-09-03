@@ -3,6 +3,15 @@
 
 <head>
   <meta charset="UTF-8">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLF2001H5Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YLF2001H5Q');
+  </script>
   <!-- Uncaught Error Boundary for Visual Overlay Debugging -->
   <script>
     function isDebugModeEnabled() {
@@ -1215,8 +1224,8 @@
                                   key={idx}
                                   onClick={() => setActiveDetailContext(idx)}
                                   className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all border ${safeActiveIdx === idx
-                                      ? "bg-classicTeal text-white border-classicTeal shadow-sm"
-                                      : "bg-classicCard border-classicBorder text-classicMuted hover:border-classicTeal/30 hover:text-classicTeal"
+                                    ? "bg-classicTeal text-white border-classicTeal shadow-sm"
+                                    : "bg-classicCard border-classicBorder text-classicMuted hover:border-classicTeal/30 hover:text-classicTeal"
                                     }`}
                                 >
                                   {c.source}
@@ -1237,8 +1246,8 @@
                                   <button
                                     onClick={() => setShowHanjaInContext(prev => !prev)}
                                     className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all border flex items-center gap-1.5 shrink-0 ${showHanjaInContext
-                                        ? "bg-classicRed text-white border-classicRed shadow-sm"
-                                        : "bg-classicCard border-classicBorder text-classicMuted hover:border-classicRed/20 hover:text-classicRed"
+                                      ? "bg-classicRed text-white border-classicRed shadow-sm"
+                                      : "bg-classicCard border-classicBorder text-classicMuted hover:border-classicRed/20 hover:text-classicRed"
                                       }`}
                                     style={{ fontSize: '11px', padding: '4px 10px', display: 'flex', alignItems: 'center', gap: '0.25rem' }}
                                     title={showHanjaInContext ? "한글 기출로 보기" : "한자 기출로 보기"}
@@ -1615,8 +1624,8 @@
                                             });
                                           }}
                                           className={`px-2 py-0.5 rounded text-[9px] font-bold border transition-all ${safeActiveIdx === cIdx
-                                              ? "bg-classicRed text-white border-classicRed shadow-sm"
-                                              : "bg-classicBg text-classicMuted border-classicBorder hover:border-classicRed/20"
+                                            ? "bg-classicRed text-white border-classicRed shadow-sm"
+                                            : "bg-classicBg text-classicMuted border-classicBorder hover:border-classicRed/20"
                                             }`}
                                         >
                                           {ctx.source}
@@ -1741,8 +1750,8 @@
                           <div className="p-5 bg-classicBg/60 border border-classicBorder rounded-2xl space-y-2 animate-fade-in">
                             <div className="flex items-center gap-2">
                               <span className={`text-xs font-bold uppercase px-2.5 py-0.5 rounded border ${question.options[selectedOptionIndex] === question.correctHanja
-                                  ? "bg-green-500/10 text-green-700 border-green-500/20"
-                                  : "bg-red-500/10 text-red-700 border-red-500/20"
+                                ? "bg-green-500/10 text-green-700 border-green-500/20"
+                                : "bg-red-500/10 text-red-700 border-red-500/20"
                                 }`}>
                                 {question.options[selectedOptionIndex] === question.correctHanja ? "정답 피드백" : "오답 피드백"}
                               </span>
