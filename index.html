@@ -1127,7 +1127,21 @@
 
                     <div className="space-y-4">
                       <div>
-                        <span className="text-xs font-bold uppercase text-classicTeal tracking-wider bg-classicTeal/10 px-2 py-0.5 rounded mr-2">표준국어대사전</span>
+                        {selectedWord.definitionSource === "표준국어대사전" && (
+                          <span className="text-xs font-bold uppercase text-classicTeal tracking-wider bg-classicTeal/10 px-2 py-0.5 rounded mr-2">
+                            표준국어대사전
+                          </span>
+                        )}
+                        {selectedWord.definitionSource === "기출 지문 정의" && (
+                          <span className="text-xs font-bold uppercase text-amber-700 tracking-wider bg-amber-600/10 border border-amber-600/20 px-2 py-0.5 rounded mr-2">
+                            기출 지문 정의
+                          </span>
+                        )}
+                        {selectedWord.definitionSource === "전문용어 설명" && (
+                          <span className="text-xs font-bold uppercase text-indigo-700 tracking-wider bg-indigo-600/10 border border-indigo-600/20 px-2 py-0.5 rounded mr-2">
+                            전문용어 설명
+                          </span>
+                        )}
                         <blockquote className="mt-3 text-xl font-serif font-bold text-classicText pl-4 border-l-2 border-classicTeal leading-relaxed">
                           “{selectedWord.definition}”
                         </blockquote>
@@ -1138,18 +1152,20 @@
                         수능 국어 지문에서는 이 표준 사전의 추상적인 표현보다, '해당 개념이 기출 본문 속에서 어떠한 대칭 관계를 형성하는가'를 포착하는 것이 핵심입니다.
                       </div>
 
-                      {/* 국립국어원 표준국어대사전 실시간 링크 단추 */}
-                      <div className="pt-2">
-                        <a
-                          href={`https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=${encodeURIComponent(cleanWordText(selectedWord.word))}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="w-full py-3 px-4 bg-classicBg hover:bg-classicRed/10 text-classicRed border border-classicBorder hover:border-classicRed/20 font-serif font-black rounded-2xl text-xs flex items-center justify-center gap-1.5 transition-all text-center"
-                          style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-                        >
-                          🌐 국립국어원 표준국어대사전 ↗
-                        </a>
-                      </div>
+                      {/* 국립국어원 표준국어대사전 실시간 링크 단추 (표준국어대사전 출처인 경우에만 표시) */}
+                      {selectedWord.definitionSource === "표준국어대사전" && (
+                        <div className="pt-2">
+                          <a
+                            href={`https://stdict.korean.go.kr/search/searchResult.do?searchKeyword=${encodeURIComponent(cleanWordText(selectedWord.word))}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-full py-3 px-4 bg-classicBg hover:bg-classicRed/10 text-classicRed border border-classicBorder hover:border-classicRed/20 font-serif font-black rounded-2xl text-xs flex items-center justify-center gap-1.5 transition-all text-center"
+                            style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                          >
+                            🌐 국립국어원 표준국어대사전 ↗
+                          </a>
+                        </div>
+                      )}
                     </div>
                   </div>
 

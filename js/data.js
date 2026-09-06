@@ -31,7 +31,9 @@ window.MOCK_WORDS = {
                 "upvotes": 75,
                 "downvotes": 2,
                 "createdAt": "1일 전",
-                "comments": ["오늘부터 플래너 제대로 쓴다"],
+                "comments": [
+                    "오늘부터 플래너 제대로 쓴다"
+                ],
                 "sourceBook": "2022학년도 변증법적 탐구"
             }
         ],
@@ -43,6 +45,13 @@ window.MOCK_WORDS = {
                 "title": "정립이 사용된 실제 기출 문맥",
                 "content": "변증법은 하나의 정립이 그와 상반되는 반정립과의 대립을 거쳐 더 종합적인 제3의 정립인 종합으로 나아가는 전개 방식을 말한다. 헤겔에 따르면 정립은 직관이 지배하는 예술적 단계이다.",
                 "tip": "💡 독해 팁: 지문 전개의 첫 시작을 나타내는 틀로 '정립'이라는 단어를 사용해 논리 구조를 짠단다."
+            },
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "라자스펠트와 동료들이 선거 캠페인 연구에서 오피니언 리더의 영향력을 확인한 후, 이를 바탕으로 '커뮤니케이션 2단계 유통 이론'이라는 새로운 학문적 이론 체계를 세우는 장면에 쓰임.",
+                "title": "정립이 사용된 실제 기출 문맥",
+                "content": "이들은 이러한 결과가 오피니언 리더의 영향력에서 비롯하였음을 확인하고, 이를 핵심적 요소로 하여 커뮤니케이션 2단계 유통 이론을 정립하였다.",
+                "tip": "💡 독해 팁: 定(정할 정)과 立(세울 립)의 자구를 알면 어떤 이론이나 체계를 '분명하게 정하여 세운다'는 뜻을 문맥에서 파악하기 쉬워. 2022학년도 수능 변증법 지문에 이어 학문적 가설이나 이론을 정립하는 맥락으로 반복 출제되는 핵심 어휘야."
             }
         ]
     },
@@ -83,7 +92,10 @@ window.MOCK_WORDS = {
                 "upvotes": 120,
                 "downvotes": 5,
                 "createdAt": "18시간 전",
-                "comments": ["잔소리 종합 ㅋㅋㅋㅋ", "이거 현실 고증 100%"],
+                "comments": [
+                    "잔소리 종합 ㅋㅋㅋㅋ",
+                    "이거 현실 고증 100%"
+                ],
                 "sourceBook": "헤겔 철학 강의록"
             }
         ],
@@ -129,7 +141,9 @@ window.MOCK_WORDS = {
                 "upvotes": 90,
                 "downvotes": 1,
                 "createdAt": "2일 전",
-                "comments": ["오답 종합 분석 진짜 중요함!"],
+                "comments": [
+                    "오답 종합 분석 진짜 중요함!"
+                ],
                 "sourceBook": "헤겔 종합적 예술론"
             }
         ],
@@ -175,7 +189,9 @@ window.MOCK_WORDS = {
                 "upvotes": 145,
                 "downvotes": 3,
                 "createdAt": "1일 전",
-                "comments": ["진짜 씹팩트 ㅋㅋㅋ 멘탈 터진 상태를 대비해야 함"]
+                "comments": [
+                    "진짜 씹팩트 ㅋㅋㅋ 멘탈 터진 상태를 대비해야 함"
+                ]
             }
         ],
         "type": "구조 파악형",
@@ -186,6 +202,13 @@ window.MOCK_WORDS = {
                 "title": "전제가 사용된 실제 기출 문맥",
                 "content": "대기 모델의 계산 속도가 예측 오차의 확산 속도보다 빨라야 한다는 **전제** 하에 기상 예보가 이루어진다. 만약 대기 예측 연산이 실제 대기 흐름보다 늦어지면 예보의 실효성은 사라지기 때문이다.",
                 "tip": "💡 독해 팁: 'X를 전제로 한다'는 문장은 X가 거짓일 경우 글쓴이의 주장이 파탄 난다는 뜻이므로, 지문 독해 시 1순위로 챙겨야 해."
+            },
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "종 차별주의를 옹호하는 주장을 반박하며, 현실의 사실 관계를 바탕(전제)으로 삼아 마땅히 따라야 할 보편적 규범 원칙을 논리적으로 이끌어 낼 수 없음을 설명하는 장면에 쓰임.",
+                "title": "전제가 사용된 실제 기출 문맥",
+                "content": "어떤 현상을 있는 대로 기술한 사실을 전제로 우리의 행동이 어떠해야 한다는 보편적 규범 원칙을 논리적으로 이끌어 낼 수 없기 때문이다.",
+                "tip": "💡 독해 팁: 前(앞 전)과 提(제시할 제)의 결합을 통해 어떤 주장이나 결론을 이끌어내기에 앞서 먼저 깔아 두는 논리적 출발점임을 파악할 수 있어. 2024학년도 수능에 이어 평가원 철학·논리 지문에서 논증의 성립 조건을 다룰 때 거듭 출제되는 핵심 개념어야."
             }
         ]
     },
@@ -220,7 +243,9 @@ window.MOCK_WORDS = {
                 "upvotes": 88,
                 "downvotes": 2,
                 "createdAt": "14시간 전",
-                "comments": ["진리다 진짜"]
+                "comments": [
+                    "진리다 진짜"
+                ]
             }
         ],
         "type": "구조 파악형",
@@ -265,7 +290,9 @@ window.MOCK_WORDS = {
                 "upvotes": 105,
                 "downvotes": 0,
                 "createdAt": "2일 전",
-                "comments": ["와 검토 10분 진짜 중요함"]
+                "comments": [
+                    "와 검토 10분 진짜 중요함"
+                ]
             }
         ],
         "type": "구조 파악형",
@@ -310,7 +337,9 @@ window.MOCK_WORDS = {
                 "upvotes": 72,
                 "downvotes": 1,
                 "createdAt": "1일 전",
-                "comments": ["유추 독해법 강추!"]
+                "comments": [
+                    "유추 독해법 강추!"
+                ]
             }
         ],
         "type": "구조 파악형",
@@ -355,7 +384,10 @@ window.MOCK_WORDS = {
                 "upvotes": 115,
                 "downvotes": 2,
                 "createdAt": "15시간 전",
-                "comments": ["이게 진리", "인정합니다"]
+                "comments": [
+                    "이게 진리",
+                    "인정합니다"
+                ]
             }
         ],
         "type": "구조 파악형",
@@ -408,7 +440,9 @@ window.MOCK_WORDS = {
                 "upvotes": 95,
                 "downvotes": 3,
                 "createdAt": "9시간 전",
-                "comments": ["웃픈데 내 얘기네... ㅠㅠ"]
+                "comments": [
+                    "웃픈데 내 얘기네... ㅠㅠ"
+                ]
             }
         ],
         "type": "구조 파악형",
@@ -459,7 +493,9 @@ window.MOCK_WORDS = {
                 "upvotes": 133,
                 "downvotes": 4,
                 "createdAt": "1일 전",
-                "comments": ["이게 생활 속 변증법이짘ㅋㅋ"]
+                "comments": [
+                    "이게 생활 속 변증법이짘ㅋㅋ"
+                ]
             }
         ],
         "type": "개념 이해형",
@@ -510,7 +546,9 @@ window.MOCK_WORDS = {
                 "upvotes": 112,
                 "downvotes": 1,
                 "createdAt": "2일 전",
-                "comments": ["삭발하고 시험장에 ㅋㅋㅋ"]
+                "comments": [
+                    "삭발하고 시험장에 ㅋㅋㅋ"
+                ]
             }
         ],
         "type": "개념 이해형",
@@ -555,7 +593,10 @@ window.MOCK_WORDS = {
                 "upvotes": 178,
                 "downvotes": 3,
                 "createdAt": "1일 전",
-                "comments": ["이 말에 진짜 큰 위로 받음...", "화이팅!"]
+                "comments": [
+                    "이 말에 진짜 큰 위로 받음...",
+                    "화이팅!"
+                ]
             }
         ],
         "type": "개념 이해형",
@@ -606,7 +647,9 @@ window.MOCK_WORDS = {
                 "upvotes": 142,
                 "downvotes": 8,
                 "createdAt": "3시간 전",
-                "comments": ["진짜 뼈 때리네 ㅋㅋㅋ"]
+                "comments": [
+                    "진짜 뼈 때리네 ㅋㅋㅋ"
+                ]
             }
         ],
         "type": "개념 이해형",
@@ -651,7 +694,9 @@ window.MOCK_WORDS = {
                 "upvotes": 215,
                 "downvotes": 11,
                 "createdAt": "30분 전",
-                "comments": ["그 잠재력 수능날 터지길!"]
+                "comments": [
+                    "그 잠재력 수능날 터지길!"
+                ]
             }
         ],
         "type": "개념 이해형",
@@ -696,7 +741,9 @@ window.MOCK_WORDS = {
                 "upvotes": 128,
                 "downvotes": 3,
                 "createdAt": "1일 전",
-                "comments": ["인과관계 vs 상관관계 단골 오답 선지 패턴이지."],
+                "comments": [
+                    "인과관계 vs 상관관계 단골 오답 선지 패턴이지."
+                ],
                 "sourceBook": "물리 현상의 인과율적 성찰"
             }
         ],
@@ -771,7 +818,9 @@ window.MOCK_WORDS = {
                 "upvotes": 102,
                 "downvotes": 1,
                 "createdAt": "1일 전",
-                "comments": ["이거 리얼 ㅋㅋㅋ 나도 딴생각 엄청 함"]
+                "comments": [
+                    "이거 리얼 ㅋㅋㅋ 나도 딴생각 엄청 함"
+                ]
             }
         ],
         "type": "개념 이해형",
@@ -822,7 +871,9 @@ window.MOCK_WORDS = {
                 "upvotes": 85,
                 "downvotes": 3,
                 "createdAt": "14시간 전",
-                "comments": ["소나기 슬프다... 힘내자"]
+                "comments": [
+                    "소나기 슬프다... 힘내자"
+                ]
             }
         ],
         "type": "개념 이해형",
@@ -867,7 +918,10 @@ window.MOCK_WORDS = {
                 "upvotes": 122,
                 "downvotes": 4,
                 "createdAt": "2일 전",
-                "comments": ["탕진잼 ㅋㅋㅋㅋ", "웃프네"]
+                "comments": [
+                    "탕진잼 ㅋㅋㅋㅋ",
+                    "웃프네"
+                ]
             }
         ],
         "type": "개념 이해형",
@@ -878,6 +932,13 @@ window.MOCK_WORDS = {
                 "title": "실재가 사용된 실제 기출 문맥",
                 "content": "관념론자는 우리가 인지하는 세상이 의식의 표상일 뿐이라고 주장하지만, 유물론자는 의식과 무관하게 독립적으로 **실재**하는 물질적 세계가 선행한다고 본다.",
                 "tip": "💡 독해 팁: '실재하다'와 '존재하다'를 미묘하게 구별하는 과학 철학이나 인식론 지문에서는 외부 세계의 '의식 독립적 존재성' 여부를 눈여겨봐야 해."
+            },
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "인간과 인공 지능이라는 서로 다른 두 실재(실제로 존재하는 개체) 사이에서 도덕적 지위를 비교하고 추론하는 방법론을 논의하는 장면에 쓰임.",
+                "title": "실재가 사용된 실제 기출 문맥",
+                "content": "이 방법론에 따르면 도덕적 지위는 서로 다른 두 실재 사이의 자유 의지, 의도, 의식 등과 같은 형이상학적 속성의 동등성이 아니라, 경험적으로 인식 가능한 행동의 동등성을 비교하여 추론할 수 있다.",
+                "tip": "💡 독해 팁: 實(참 실)과 在(있을 재)의 한자 뜻을 알면 상상이나 허상이 아니라 '실제 세상에 존재하는 구체적 실체나 개체'를 뜻함을 알 수 있어. 2023학년도 수능에 이어 평가원 철학 지문에서 개체의 존재성과 지위를 따질 때 반복 출현하는 필수 어휘야."
             }
         ]
     },
@@ -918,7 +979,10 @@ window.MOCK_WORDS = {
                 "upvotes": 99,
                 "downvotes": 2,
                 "createdAt": "1일 전",
-                "comments": ["수학 공부하자 ㅠㅠ", "결측치 대체법은 밤새 공부하는 것뿐"]
+                "comments": [
+                    "수학 공부하자 ㅠㅠ",
+                    "결측치 대체법은 밤새 공부하는 것뿐"
+                ]
             }
         ],
         "type": "의미 추론형",
@@ -969,7 +1033,9 @@ window.MOCK_WORDS = {
                 "upvotes": 128,
                 "downvotes": 4,
                 "createdAt": "19시간 전",
-                "comments": ["그게 수능 점수로 굳어지면 이상치가 아니라 실력이지!"]
+                "comments": [
+                    "그게 수능 점수로 굳어지면 이상치가 아니라 실력이지!"
+                ]
             }
         ],
         "type": "의미 추론형",
@@ -1014,7 +1080,10 @@ window.MOCK_WORDS = {
                 "upvotes": 142,
                 "downvotes": 2,
                 "createdAt": "2일 전",
-                "comments": ["반지름은 극도로 작아진 멘탈 ㅋㅋㅋ", "화이팅! 꺾이지 마!"]
+                "comments": [
+                    "반지름은 극도로 작아진 멘탈 ㅋㅋㅋ",
+                    "화이팅! 꺾이지 마!"
+                ]
             }
         ],
         "type": "의미 추론형",
@@ -1065,7 +1134,9 @@ window.MOCK_WORDS = {
                 "upvotes": 167,
                 "downvotes": 4,
                 "createdAt": "2시간 전",
-                "comments": ["1교시 멘탈 관리가 진짜 수능 절반임..."]
+                "comments": [
+                    "1교시 멘탈 관리가 진짜 수능 절반임..."
+                ]
             }
         ],
         "type": "의미 추론형",
@@ -1116,7 +1187,10 @@ window.MOCK_WORDS = {
                 "upvotes": 204,
                 "downvotes": 3,
                 "createdAt": "1일 전",
-                "comments": ["오늘도 힘 얻고 간다 ㅠㅠ", "포텐 가즈아"]
+                "comments": [
+                    "오늘도 힘 얻고 간다 ㅠㅠ",
+                    "포텐 가즈아"
+                ]
             }
         ],
         "type": "의미 추론형",
@@ -1161,7 +1235,9 @@ window.MOCK_WORDS = {
                 "upvotes": 68,
                 "downvotes": 2,
                 "createdAt": "14시간 전",
-                "comments": ["하지만 칼로리 소모와 누적 공부량은 0이 아니지!"]
+                "comments": [
+                    "하지만 칼로리 소모와 누적 공부량은 0이 아니지!"
+                ]
             }
         ],
         "type": "의미 추론형",
@@ -1206,7 +1282,9 @@ window.MOCK_WORDS = {
                 "upvotes": 120,
                 "downvotes": 1,
                 "createdAt": "20시간 전",
-                "comments": ["이거 진짜 국어 보고 나면 뇌 맛탱이 감 ㅋㅋㅋ"]
+                "comments": [
+                    "이거 진짜 국어 보고 나면 뇌 맛탱이 감 ㅋㅋㅋ"
+                ]
             }
         ],
         "type": "의미 추론형",
@@ -1251,7 +1329,9 @@ window.MOCK_WORDS = {
                 "upvotes": 92,
                 "downvotes": 3,
                 "createdAt": "1일 전",
-                "comments": ["헐 뒤자리 배정 개손해..."]
+                "comments": [
+                    "헐 뒤자리 배정 개손해..."
+                ]
             }
         ],
         "type": "의미 추론형",
@@ -1296,7 +1376,9 @@ window.MOCK_WORDS = {
                 "upvotes": 240,
                 "downvotes": 3,
                 "createdAt": "1일 전",
-                "comments": ["가장 확실한 담보네요 ㅠㅠ 반드시 보상받으실 겁니다!"]
+                "comments": [
+                    "가장 확실한 담보네요 ㅠㅠ 반드시 보상받으실 겁니다!"
+                ]
             }
         ],
         "type": "개념 이해형",
@@ -1353,7 +1435,10 @@ window.MOCK_WORDS = {
                 "upvotes": 202,
                 "downvotes": 1,
                 "createdAt": "1일 전",
-                "comments": ["보증 서는 순간 연대 책임행 ㅋㅋㅋ", "법 지문이 살려준 가훈"]
+                "comments": [
+                    "보증 서는 순간 연대 책임행 ㅋㅋㅋ",
+                    "법 지문이 살려준 가훈"
+                ]
             }
         ],
         "type": "전문용어 이해형",
@@ -1410,7 +1495,10 @@ window.MOCK_WORDS = {
                 "upvotes": 165,
                 "downvotes": 3,
                 "createdAt": "14시간 전",
-                "comments": ["하지만 목적론적 해석으로 매를 벌었죠 ㅋㅋㅋ", "참신한 지각 회피설"]
+                "comments": [
+                    "하지만 목적론적 해석으로 매를 벌었죠 ㅋㅋㅋ",
+                    "참신한 지각 회피설"
+                ]
             }
         ],
         "type": "전문용어 이해형",
@@ -1461,7 +1549,10 @@ window.MOCK_WORDS = {
                 "upvotes": 84,
                 "downvotes": 2,
                 "createdAt": "2일 전",
-                "comments": ["귀엽고 강력한 법 집행이네", "이게 진정한 유치권!"]
+                "comments": [
+                    "귀엽고 강력한 법 집행이네",
+                    "이게 진정한 유치권!"
+                ]
             }
         ],
         "type": "전문용어 이해형",
@@ -1518,7 +1609,10 @@ window.MOCK_WORDS = {
                 "upvotes": 215,
                 "downvotes": 3,
                 "createdAt": "1일 전",
-                "comments": ["성적표 도착 = 기한이익 즉시 상실 ㅋㅋㅋㅋ", "눈물 난다 ㅠㅠ 동감"]
+                "comments": [
+                    "성적표 도착 = 기한이익 즉시 상실 ㅋㅋㅋㅋ",
+                    "눈물 난다 ㅠㅠ 동감"
+                ]
             }
         ],
         "type": "전문용어 이해형",
@@ -1563,7 +1657,10 @@ window.MOCK_WORDS = {
                 "upvotes": 105,
                 "downvotes": 2,
                 "createdAt": "18시간 전",
-                "comments": ["용돈 대출 금리 ㅋㅋㅋ", "센스 미쳤네"]
+                "comments": [
+                    "용돈 대출 금리 ㅋㅋㅋ",
+                    "센스 미쳤네"
+                ]
             }
         ],
         "type": "전문용어 이해형",
@@ -1608,7 +1705,9 @@ window.MOCK_WORDS = {
                 "upvotes": 192,
                 "downvotes": 3,
                 "createdAt": "6시간 전",
-                "comments": ["한계효용 체감의 법칙이 여기서 실현되네 ㅋㅋㅋ"]
+                "comments": [
+                    "한계효용 체감의 법칙이 여기서 실현되네 ㅋㅋㅋ"
+                ]
             }
         ],
         "type": "전문용어 이해형",
@@ -1653,7 +1752,10 @@ window.MOCK_WORDS = {
                 "upvotes": 254,
                 "downvotes": 5,
                 "createdAt": "4시간 전",
-                "comments": ["오늘 아침 내 모습이네 ㅋㅋㅋㅋ", "이건 인류 영원의 상충이지."]
+                "comments": [
+                    "오늘 아침 내 모습이네 ㅋㅋㅋㅋ",
+                    "이건 인류 영원의 상충이지."
+                ]
             },
             {
                 "id": 250007,
@@ -1663,7 +1765,9 @@ window.MOCK_WORDS = {
                 "upvotes": 44,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["지문 선지에서 '모순된다'의 고급 어휘 버전이지."]
+                "comments": [
+                    "지문 선지에서 '모순된다'의 고급 어휘 버전이지."
+                ]
             }
         ],
         "type": "전문용어 이해형",
@@ -1743,7 +1847,10 @@ window.MOCK_WORDS = {
                 "upvotes": 110,
                 "downvotes": 1,
                 "createdAt": "12시간 전",
-                "comments": ["눈물 흘리며 개추 누르고 갑니다.", "팩폭 멈춰!"]
+                "comments": [
+                    "눈물 흘리며 개추 누르고 갑니다.",
+                    "팩폭 멈춰!"
+                ]
             }
         ],
         "type": "전문용어 이해형",
@@ -1795,7 +1902,9 @@ window.MOCK_WORDS = {
                 "upvotes": 42,
                 "downvotes": 0,
                 "createdAt": "1일 전",
-                "comments": ["비판적 읽기가 진짜 비문학의 정답인 듯!"],
+                "comments": [
+                    "비판적 읽기가 진짜 비문학의 정답인 듯!"
+                ],
                 "sourceBook": "비판적 독서 연습"
             }
         ],
@@ -1851,7 +1960,9 @@ window.MOCK_WORDS = {
                 "upvotes": 38,
                 "downvotes": 1,
                 "createdAt": "1일 전",
-                "comments": ["부분보다 전체를 아우르는 능력!"]
+                "comments": [
+                    "부분보다 전체를 아우르는 능력!"
+                ]
             }
         ],
         "contexts": [
@@ -1896,7 +2007,9 @@ window.MOCK_WORDS = {
                 "upvotes": 47,
                 "downvotes": 0,
                 "createdAt": "2일 전",
-                "comments": ["융합 독해 시너지 굳"]
+                "comments": [
+                    "융합 독해 시너지 굳"
+                ]
             }
         ],
         "contexts": [
@@ -1941,7 +2054,9 @@ window.MOCK_WORDS = {
                 "upvotes": 51,
                 "downvotes": 2,
                 "createdAt": "12시간 전",
-                "comments": ["복습만이 망각을 이긴다"]
+                "comments": [
+                    "복습만이 망각을 이긴다"
+                ]
             }
         ],
         "contexts": [
@@ -1986,7 +2101,10 @@ window.MOCK_WORDS = {
                 "upvotes": 62,
                 "downvotes": 1,
                 "createdAt": "3일 전",
-                "comments": ["진인사대천명이다 파이팅!", "감응해 주실 거임!"]
+                "comments": [
+                    "진인사대천명이다 파이팅!",
+                    "감응해 주실 거임!"
+                ]
             }
         ],
         "contexts": [
@@ -2031,7 +2149,9 @@ window.MOCK_WORDS = {
                 "upvotes": 34,
                 "downvotes": 0,
                 "createdAt": "2일 전",
-                "comments": ["표지 독해 개추!"]
+                "comments": [
+                    "표지 독해 개추!"
+                ]
             }
         ],
         "contexts": [
@@ -2076,7 +2196,10 @@ window.MOCK_WORDS = {
                 "upvotes": 40,
                 "downvotes": 1,
                 "createdAt": "1일 전",
-                "comments": ["공부 정치 실패 ㅋㅋㅋ", "지금부터 수습하면 됨"]
+                "comments": [
+                    "공부 정치 실패 ㅋㅋㅋ",
+                    "지금부터 수습하면 됨"
+                ]
             }
         ],
         "contexts": [
@@ -2121,7 +2244,9 @@ window.MOCK_WORDS = {
                 "upvotes": 49,
                 "downvotes": 0,
                 "createdAt": "3일 전",
-                "comments": ["오답 선지 미혹 조심 진짜!"]
+                "comments": [
+                    "오답 선지 미혹 조심 진짜!"
+                ]
             }
         ],
         "contexts": [
@@ -2166,7 +2291,9 @@ window.MOCK_WORDS = {
                 "upvotes": 29,
                 "downvotes": 0,
                 "createdAt": "2일 전",
-                "comments": ["학습용 강론 개추"]
+                "comments": [
+                    "학습용 강론 개추"
+                ]
             }
         ],
         "contexts": [
@@ -2217,7 +2344,10 @@ window.MOCK_WORDS = {
                 "upvotes": 75,
                 "downvotes": 3,
                 "createdAt": "1일 전",
-                "comments": ["번개 경고 ㅋㅋㅋ", "열공각이다"]
+                "comments": [
+                    "번개 경고 ㅋㅋㅋ",
+                    "열공각이다"
+                ]
             }
         ],
         "contexts": [
@@ -2268,7 +2398,9 @@ window.MOCK_WORDS = {
                 "upvotes": 59,
                 "downvotes": 0,
                 "createdAt": "3일 전",
-                "comments": ["가족 헌법 제정 시급 ㅋㅋㅋ"]
+                "comments": [
+                    "가족 헌법 제정 시급 ㅋㅋㅋ"
+                ]
             }
         ],
         "contexts": [
@@ -2325,7 +2457,9 @@ window.MOCK_WORDS = {
                 "upvotes": 85,
                 "downvotes": 2,
                 "createdAt": "방금 전",
-                "comments": ["어휘가 진짜 힘이다!"]
+                "comments": [
+                    "어휘가 진짜 힘이다!"
+                ]
             }
         ]
     },
@@ -2367,7 +2501,9 @@ window.MOCK_WORDS = {
                 "upvotes": 85,
                 "downvotes": 2,
                 "createdAt": "방금 전",
-                "comments": ["어휘가 진짜 힘이다!"]
+                "comments": [
+                    "어휘가 진짜 힘이다!"
+                ]
             }
         ]
     },
@@ -2409,7 +2545,9 @@ window.MOCK_WORDS = {
                 "upvotes": 85,
                 "downvotes": 2,
                 "createdAt": "방금 전",
-                "comments": ["어휘가 진짜 힘이다!"]
+                "comments": [
+                    "어휘가 진짜 힘이다!"
+                ]
             }
         ]
     },
@@ -2457,7 +2595,9 @@ window.MOCK_WORDS = {
                 "upvotes": 85,
                 "downvotes": 2,
                 "createdAt": "방금 전",
-                "comments": ["어휘가 진짜 힘이다!"]
+                "comments": [
+                    "어휘가 진짜 힘이다!"
+                ]
             }
         ]
     },
@@ -2500,7 +2640,9 @@ window.MOCK_WORDS = {
                 "upvotes": 72,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["공부 꿀팁 감사!"]
+                "comments": [
+                    "공부 꿀팁 감사!"
+                ]
             }
         ]
     },
@@ -2543,7 +2685,9 @@ window.MOCK_WORDS = {
                 "upvotes": 72,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["공부 꿀팁 감사!"]
+                "comments": [
+                    "공부 꿀팁 감사!"
+                ]
             }
         ]
     },
@@ -2586,7 +2730,9 @@ window.MOCK_WORDS = {
                 "upvotes": 72,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["공부 꿀팁 감사!"]
+                "comments": [
+                    "공부 꿀팁 감사!"
+                ]
             }
         ]
     },
@@ -2629,7 +2775,9 @@ window.MOCK_WORDS = {
                 "upvotes": 72,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["공부 꿀팁 감사!"]
+                "comments": [
+                    "공부 꿀팁 감사!"
+                ]
             }
         ]
     },
@@ -2676,7 +2824,9 @@ window.MOCK_WORDS = {
                 "upvotes": 68,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["공감되네 ㅋㅋㅋ"]
+                "comments": [
+                    "공감되네 ㅋㅋㅋ"
+                ]
             }
         ]
     },
@@ -2730,7 +2880,9 @@ window.MOCK_WORDS = {
                 "upvotes": 68,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["공감되네 ㅋㅋㅋ"]
+                "comments": [
+                    "공감되네 ㅋㅋㅋ"
+                ]
             },
             {
                 "id": 260009,
@@ -2740,7 +2892,9 @@ window.MOCK_WORDS = {
                 "upvotes": 75,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["괴리감이라는 말로 우리 실생활에서도 자주 쓰이지."]
+                "comments": [
+                    "괴리감이라는 말로 우리 실생활에서도 자주 쓰이지."
+                ]
             }
         ]
     },
@@ -2794,7 +2948,9 @@ window.MOCK_WORDS = {
                 "upvotes": 68,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["공감되네 ㅋㅋㅋ"]
+                "comments": [
+                    "공감되네 ㅋㅋㅋ"
+                ]
             },
             {
                 "id": 250002,
@@ -2804,7 +2960,9 @@ window.MOCK_WORDS = {
                 "upvotes": 58,
                 "downvotes": 2,
                 "createdAt": "방금 전",
-                "comments": ["부합과 위배는 반의어 관계로 챙겨두자."]
+                "comments": [
+                    "부합과 위배는 반의어 관계로 챙겨두자."
+                ]
             }
         ]
     },
@@ -2850,7 +3008,9 @@ window.MOCK_WORDS = {
                 "upvotes": 42,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["맞아, 배경 상황 환기가 독해력의 핵심인 듯"]
+                "comments": [
+                    "맞아, 배경 상황 환기가 독해력의 핵심인 듯"
+                ]
             }
         ]
     },
@@ -2902,7 +3062,9 @@ window.MOCK_WORDS = {
                 "upvotes": 53,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["소금이나 담배 같은 게 대표적이지 ㅋㅋㅋ"]
+                "comments": [
+                    "소금이나 담배 같은 게 대표적이지 ㅋㅋㅋ"
+                ]
             }
         ]
     },
@@ -2954,7 +3116,9 @@ window.MOCK_WORDS = {
                 "upvotes": 37,
                 "downvotes": 2,
                 "createdAt": "방금 전",
-                "comments": ["자유의지가 환상일지도 모른다는 게 소름 돋음"]
+                "comments": [
+                    "자유의지가 환상일지도 모른다는 게 소름 돋음"
+                ]
             }
         ]
     },
@@ -3006,7 +3170,9 @@ window.MOCK_WORDS = {
                 "upvotes": 61,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["확통 기본 개념 무작위 추출!"]
+                "comments": [
+                    "확통 기본 개념 무작위 추출!"
+                ]
             }
         ]
     },
@@ -3058,7 +3224,9 @@ window.MOCK_WORDS = {
                 "upvotes": 48,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["클라우드 동기화 최고지"]
+                "comments": [
+                    "클라우드 동기화 최고지"
+                ]
             }
         ]
     },
@@ -3104,7 +3272,9 @@ window.MOCK_WORDS = {
                 "upvotes": 77,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["내 인생의 주체는 나다! 파이팅"]
+                "comments": [
+                    "내 인생의 주체는 나다! 파이팅"
+                ]
             }
         ]
     },
@@ -3114,7 +3284,9 @@ window.MOCK_WORDS = {
         "sound": "강호",
         "category": "개념 이해형",
         "type": "개념 이해형",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "강과 호수라는 뜻으로, 자연 속 은거지나 은일의 공간을 이르는 고전문학 필수어",
         "definition": "강과 호수를 아울러 이르는 말. 또는 속세를 떠나 상서롭고 조용한 자연속에 은거하는 곳. (표준국어대사전)",
@@ -3151,7 +3323,9 @@ window.MOCK_WORDS = {
                 "upvotes": 25,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["강호가도 하면 조선 전기 가사 문학이지!"]
+                "comments": [
+                    "강호가도 하면 조선 전기 가사 문학이지!"
+                ]
             }
         ]
     },
@@ -3161,7 +3335,9 @@ window.MOCK_WORDS = {
         "sound": "임천",
         "category": "의미 추론형",
         "type": "의미 추론형",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "수풀과 샘이라는 뜻으로, 사대부들이 은거하던 자연 속 공간을 이르는 고전문학 필수어",
         "definition": "숲과 샘. 또는 은거하는 시골이나 자연을 이르는 말. (표준국어대사전)",
@@ -3198,7 +3374,9 @@ window.MOCK_WORDS = {
                 "upvotes": 31,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["사림의 학문적 은거지 임천!"]
+                "comments": [
+                    "사림의 학문적 은거지 임천!"
+                ]
             }
         ]
     },
@@ -3208,7 +3386,9 @@ window.MOCK_WORDS = {
         "sound": "홍진",
         "category": "개념 이해형",
         "type": "개념 이해형",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "붉은 먼지라는 뜻으로, 번잡하고 명리를 다투는 속세를 이르는 고전문학 필수어",
         "definition": "붉은 빛깔의 먼지. 또는 번거롭고 속된 세상(속세)을 비유적으로 이르는 말. (표준국어대사전)",
@@ -3245,7 +3425,9 @@ window.MOCK_WORDS = {
                 "upvotes": 40,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["홍진 = 붉은 먼지 = 속세! 공식처럼 외우자."]
+                "comments": [
+                    "홍진 = 붉은 먼지 = 속세! 공식처럼 외우자."
+                ]
             }
         ]
     },
@@ -3290,7 +3472,9 @@ window.MOCK_WORDS = {
                 "upvotes": 28,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["공포 소구, 유머 소구, 감성 소구 등 종류가 참 많네."]
+                "comments": [
+                    "공포 소구, 유머 소구, 감성 소구 등 종류가 참 많네."
+                ]
             }
         ]
     },
@@ -3335,7 +3519,9 @@ window.MOCK_WORDS = {
                 "upvotes": 49,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["다중 실현 가능성이 구현과 같은 말이지!"]
+                "comments": [
+                    "다중 실현 가능성이 구현과 같은 말이지!"
+                ]
             }
         ]
     },
@@ -3380,7 +3566,9 @@ window.MOCK_WORDS = {
                 "upvotes": 34,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["집적 회로(IC)의 집적도 같은 말이야."]
+                "comments": [
+                    "집적 회로(IC)의 집적도 같은 말이야."
+                ]
             }
         ]
     },
@@ -3426,7 +3614,9 @@ window.MOCK_WORDS = {
                 "upvotes": 45,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["진심 뼈 때리는 조언이다 ㅋㅋㅋ"]
+                "comments": [
+                    "진심 뼈 때리는 조언이다 ㅋㅋㅋ"
+                ]
             }
         ]
     },
@@ -3436,7 +3626,9 @@ window.MOCK_WORDS = {
         "sound": "발복",
         "category": "개념 이해형",
         "type": "개념 이해형",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "운수가 트여 비로소 복이 닥침을 뜻하는 고전문학 필수어",
         "definition": "운이 트여서 복이 닥침. 풍수지리에서는 묘나 집터를 잘 써서 좋은 운수가 트이는 일. (표준국어대사전)",
@@ -3474,7 +3666,9 @@ window.MOCK_WORDS = {
                 "upvotes": 36,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["풍수지리적 발복! 고전 필수 상식이지."]
+                "comments": [
+                    "풍수지리적 발복! 고전 필수 상식이지."
+                ]
             }
         ]
     },
@@ -3484,7 +3678,9 @@ window.MOCK_WORDS = {
         "sound": "가인",
         "category": "개념 이해형",
         "type": "개념 이해형",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "아름다운 사람을 뜻하며 주로 사랑하는 여인을 이르는 고전문학 필수 지칭어",
         "definition": "아름다운 여인. 또는 아내를 친근하게 이르는 말. (표준국어대사전)",
@@ -3522,7 +3718,9 @@ window.MOCK_WORDS = {
                 "upvotes": 29,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["가인박명 할 때 가인이네!"]
+                "comments": [
+                    "가인박명 할 때 가인이네!"
+                ]
             }
         ]
     },
@@ -3568,7 +3766,9 @@ window.MOCK_WORDS = {
                 "upvotes": 34,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["분석철학의 주 임무가 언어적 해명이지!"]
+                "comments": [
+                    "분석철학의 주 임무가 언어적 해명이지!"
+                ]
             }
         ]
     },
@@ -3620,7 +3820,9 @@ window.MOCK_WORDS = {
                 "upvotes": 48,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["점진적 수렴! 중요한 과학 구조지."]
+                "comments": [
+                    "점진적 수렴! 중요한 과학 구조지."
+                ]
             }
         ]
     },
@@ -3666,7 +3868,9 @@ window.MOCK_WORDS = {
                 "upvotes": 59,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["심층적 독해력... 수능 필수 무기지!"]
+                "comments": [
+                    "심층적 독해력... 수능 필수 무기지!"
+                ]
             }
         ]
     },
@@ -3676,7 +3880,9 @@ window.MOCK_WORDS = {
         "sound": "야인",
         "category": "개념 이해형",
         "type": "개념 이해형",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "벼슬하지 않고 자연 속 시골에 묻혀 사는 사람을 뜻하는 고전 필수어",
         "definition": "벼슬하지 아니하고 들야(野)에 사는 사람. (표준국어대사전)",
@@ -3714,7 +3920,9 @@ window.MOCK_WORDS = {
                 "upvotes": 24,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["야인생애! 정말 단골 출제 키워드지."]
+                "comments": [
+                    "야인생애! 정말 단골 출제 키워드지."
+                ]
             }
         ]
     },
@@ -3724,7 +3932,9 @@ window.MOCK_WORDS = {
         "sound": "소일",
         "category": "의미 추론형",
         "type": "의미 추론형",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "어떠한 일에 재미를 붙여 심심하지 아니하게 세월을 보냄",
         "definition": "어떤 일에 재미를 붙여 심심하지 아니하게 세월을 보냄. (표준국어대사전)",
@@ -3762,7 +3972,9 @@ window.MOCK_WORDS = {
                 "upvotes": 19,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["소일한다는 표현은 은거 가사 단골이네."]
+                "comments": [
+                    "소일한다는 표현은 은거 가사 단골이네."
+                ]
             }
         ]
     },
@@ -3772,7 +3984,9 @@ window.MOCK_WORDS = {
         "sound": "현알",
         "category": "개념 이해형",
         "type": "개념 이해형",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "사당을 찾아가 조상을 뵙거나 지위가 높은 사람을 경건하게 뵘",
         "definition": "사당에 뵘. 또는 남을 찾아가 경건하게 뵘. (표준국어대사전)",
@@ -3810,7 +4024,9 @@ window.MOCK_WORDS = {
                 "upvotes": 28,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["현알은 고전 소설 가문 소식에서 많이 나옴!"]
+                "comments": [
+                    "현알은 고전 소설 가문 소식에서 많이 나옴!"
+                ]
             }
         ]
     },
@@ -3820,7 +4036,9 @@ window.MOCK_WORDS = {
         "sound": "전별",
         "category": "개념 이해형",
         "type": "개념 이해형",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "떠나는 사람을 보내며 잔치를 베풀고 정을 나누어 작별함",
         "definition": "떠나는 사람을 송별하기 위하여 잔치를 베풀고 작별함. (표준국어대사전)",
@@ -3858,7 +4076,9 @@ window.MOCK_WORDS = {
                 "upvotes": 33,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["전별연, 전별시 할 때 그 전별이구나!"]
+                "comments": [
+                    "전별연, 전별시 할 때 그 전별이구나!"
+                ]
             }
         ]
     },
@@ -3868,7 +4088,9 @@ window.MOCK_WORDS = {
         "sound": "사퇴",
         "category": "구조 파악형",
         "type": "구조 파악형",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "사례하거나 사죄하고 공손히 물러남",
         "definition": "사례하거나 사죄하고 물러감. (표준국어대사전)",
@@ -3906,7 +4128,9 @@ window.MOCK_WORDS = {
                 "upvotes": 21,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["국어 시험에 나오면 헷갈리기 딱 좋은 어휘네."]
+                "comments": [
+                    "국어 시험에 나오면 헷갈리기 딱 좋은 어휘네."
+                ]
             }
         ]
     },
@@ -3916,7 +4140,9 @@ window.MOCK_WORDS = {
         "sound": "진세",
         "category": "개념 이해형",
         "type": "개념 이해형",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "티끌과 먼지가 가득한 인간 세상이라는 뜻으로, 속세를 이르는 고전 필수어",
         "definition": "티끌 세상이라는 뜻으로, 속세를 비유적으로 이르는 말. (표준국어대사전)",
@@ -3954,7 +4180,9 @@ window.MOCK_WORDS = {
                 "upvotes": 37,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["홍진(홍진)이랑 진세(塵世)는 같은 티끌'진' 자를 쓰는 속세 지칭어네!"]
+                "comments": [
+                    "홍진(홍진)이랑 진세(塵世)는 같은 티끌'진' 자를 쓰는 속세 지칭어네!"
+                ]
             }
         ]
     },
@@ -3999,7 +4227,9 @@ window.MOCK_WORDS = {
                 "upvotes": 42,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["진짜 정보가 너무 많아서 선택하기 전략이 필수인 듯!"]
+                "comments": [
+                    "진짜 정보가 너무 많아서 선택하기 전략이 필수인 듯!"
+                ]
             }
         ]
     },
@@ -4050,7 +4280,9 @@ window.MOCK_WORDS = {
                 "upvotes": 61,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["소수 정예 의사결정이 양날의 검인 듯."]
+                "comments": [
+                    "소수 정예 의사결정이 양날의 검인 듯."
+                ]
             }
         ]
     },
@@ -4095,7 +4327,9 @@ window.MOCK_WORDS = {
                 "upvotes": 73,
                 "downvotes": 3,
                 "createdAt": "방금 전",
-                "comments": ["성적표 은폐는 뼈아픈 결과만을 낳을 뿐..."]
+                "comments": [
+                    "성적표 은폐는 뼈아픈 결과만을 낳을 뿐..."
+                ]
             }
         ]
     },
@@ -4140,7 +4374,9 @@ window.MOCK_WORDS = {
                 "upvotes": 49,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["견제 장치가 무너지면 독재가 시작됨."]
+                "comments": [
+                    "견제 장치가 무너지면 독재가 시작됨."
+                ]
             }
         ]
     },
@@ -4185,7 +4421,9 @@ window.MOCK_WORDS = {
                 "upvotes": 85,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["평소 공부할 때 포텐셜을 장착해 둬야 함."]
+                "comments": [
+                    "평소 공부할 때 포텐셜을 장착해 둬야 함."
+                ]
             }
         ]
     },
@@ -4195,7 +4433,9 @@ window.MOCK_WORDS = {
         "sound": "수중고혼",
         "category": "고전문학 특화",
         "type": "고전문학 특화",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "물에 빠져 죽은 외로운 넋",
         "definition": "물에 빠져 죽어 제사를 지내 줄 사람이 없는 외로운 영혼. (국어사전)",
@@ -4244,7 +4484,9 @@ window.MOCK_WORDS = {
                 "upvotes": 39,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["심청전에도 나올 것 같은 표현이다."]
+                "comments": [
+                    "심청전에도 나올 것 같은 표현이다."
+                ]
             }
         ]
     },
@@ -4254,7 +4496,9 @@ window.MOCK_WORDS = {
         "sound": "흠향",
         "category": "고전문학 특화",
         "type": "고전문학 특화",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "신령이 제물을 기쁘게 받아먹음",
         "definition": "신명이 바친 제물을 기쁘게 받아먹음. (표준국어대사전)",
@@ -4291,7 +4535,9 @@ window.MOCK_WORDS = {
                 "upvotes": 52,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["제사 지낼 때 향 피우는 이유가 이것 때문이군."]
+                "comments": [
+                    "제사 지낼 때 향 피우는 이유가 이것 때문이군."
+                ]
             }
         ]
     },
@@ -4301,7 +4547,9 @@ window.MOCK_WORDS = {
         "sound": "주달",
         "category": "고전문학 특화",
         "type": "고전문학 특화",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "신하가 임금에게 상소 등으로 아뢰어 알림",
         "definition": "임금에게 아뢰어 통하게 함. (표준국어대사전)",
@@ -4338,7 +4586,9 @@ window.MOCK_WORDS = {
                 "upvotes": 41,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["아뢸 '주' 자가 들어가는 한자어는 거의 왕한테 말하는 용도지."]
+                "comments": [
+                    "아뢸 '주' 자가 들어가는 한자어는 거의 왕한테 말하는 용도지."
+                ]
             }
         ]
     },
@@ -4383,7 +4633,9 @@ window.MOCK_WORDS = {
                 "upvotes": 36,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["단서와 실마리는 동의어!"]
+                "comments": [
+                    "단서와 실마리는 동의어!"
+                ]
             }
         ]
     },
@@ -4440,7 +4692,9 @@ window.MOCK_WORDS = {
                 "upvotes": 59,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["하나만 해서는 안 되고 둘 다 가야 시너지가 남!"]
+                "comments": [
+                    "하나만 해서는 안 되고 둘 다 가야 시너지가 남!"
+                ]
             }
         ]
     },
@@ -4491,7 +4745,9 @@ window.MOCK_WORDS = {
                 "upvotes": 81,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["무결할 '무결'이구나, 정보보안 단골 개념!"]
+                "comments": [
+                    "무결할 '무결'이구나, 정보보안 단골 개념!"
+                ]
             }
         ]
     },
@@ -4548,7 +4804,9 @@ window.MOCK_WORDS = {
                 "upvotes": 65,
                 "downvotes": 2,
                 "createdAt": "방금 전",
-                "comments": ["분산 원장 기술의 최고 장점 중 하나지."]
+                "comments": [
+                    "분산 원장 기술의 최고 장점 중 하나지."
+                ]
             }
         ]
     },
@@ -4599,7 +4857,9 @@ window.MOCK_WORDS = {
                 "upvotes": 48,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["확장할 때 확, 장의 한자 속뜻이 잘 와닿네요."]
+                "comments": [
+                    "확장할 때 확, 장의 한자 속뜻이 잘 와닿네요."
+                ]
             }
         ]
     },
@@ -4644,7 +4904,9 @@ window.MOCK_WORDS = {
                 "upvotes": 55,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["총체적 난국할 때 그 총체!"]
+                "comments": [
+                    "총체적 난국할 때 그 총체!"
+                ]
             }
         ]
     },
@@ -4689,7 +4951,9 @@ window.MOCK_WORDS = {
                 "upvotes": 43,
                 "downvotes": 2,
                 "createdAt": "방금 전",
-                "comments": ["부재중 전화할 때 그 부재구나."]
+                "comments": [
+                    "부재중 전화할 때 그 부재구나."
+                ]
             }
         ]
     },
@@ -4734,7 +4998,9 @@ window.MOCK_WORDS = {
                 "upvotes": 92,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["간극을 메우는 것이 결국 공부의 과정이지."]
+                "comments": [
+                    "간극을 메우는 것이 결국 공부의 과정이지."
+                ]
             }
         ]
     },
@@ -4785,7 +5051,9 @@ window.MOCK_WORDS = {
                 "upvotes": 53,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["문학 선지에서 '개연성 획득' 이런 말 많이 봄."]
+                "comments": [
+                    "문학 선지에서 '개연성 획득' 이런 말 많이 봄."
+                ]
             }
         ]
     },
@@ -4795,7 +5063,9 @@ window.MOCK_WORDS = {
         "sound": "자태",
         "category": "고전문학 특화",
         "type": "고전문학 특화",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "용모와 몸짓에서 드러나는 고운 맵시",
         "definition": "몸의 맵시나 겉모양. (표준국어대사전)",
@@ -4832,7 +5102,9 @@ window.MOCK_WORDS = {
                 "upvotes": 37,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["자태가 곱다 할 때 그 자태!"]
+                "comments": [
+                    "자태가 곱다 할 때 그 자태!"
+                ]
             }
         ]
     },
@@ -4883,7 +5155,9 @@ window.MOCK_WORDS = {
                 "upvotes": 49,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["단순 텍스트를 구조화할 때 쓰는 말이죠."]
+                "comments": [
+                    "단순 텍스트를 구조화할 때 쓰는 말이죠."
+                ]
             }
         ]
     },
@@ -4934,7 +5208,9 @@ window.MOCK_WORDS = {
                 "upvotes": 64,
                 "downvotes": 2,
                 "createdAt": "방금 전",
-                "comments": ["참/거짓을 따질 자격이 바로 진리 적합성이군."]
+                "comments": [
+                    "참/거짓을 따질 자격이 바로 진리 적합성이군."
+                ]
             }
         ]
     },
@@ -4979,7 +5255,9 @@ window.MOCK_WORDS = {
                 "upvotes": 34,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["존립의 '립'이 설 '립'자구나!"]
+                "comments": [
+                    "존립의 '립'이 설 '립'자구나!"
+                ]
             }
         ]
     },
@@ -5024,7 +5302,9 @@ window.MOCK_WORDS = {
                 "upvotes": 41,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["기와가 해체된다니 어원 찰지네요."]
+                "comments": [
+                    "기와가 해체된다니 어원 찰지네요."
+                ]
             }
         ]
     },
@@ -5069,7 +5349,9 @@ window.MOCK_WORDS = {
                 "upvotes": 52,
                 "downvotes": 2,
                 "createdAt": "방금 전",
-                "comments": ["당위에 맞서려는 의지가 필요하지 ㅠㅠ"]
+                "comments": [
+                    "당위에 맞서려는 의지가 필요하지 ㅠㅠ"
+                ]
             }
         ]
     },
@@ -5114,7 +5396,9 @@ window.MOCK_WORDS = {
                 "upvotes": 44,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["의견을 '개진'한다 할 때만 거의 쓰이네."]
+                "comments": [
+                    "의견을 '개진'한다 할 때만 거의 쓰이네."
+                ]
             }
         ]
     },
@@ -5159,7 +5443,9 @@ window.MOCK_WORDS = {
                 "upvotes": 61,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["매개변수 할 때 그 매개!"]
+                "comments": [
+                    "매개변수 할 때 그 매개!"
+                ]
             }
         ]
     },
@@ -5204,7 +5490,9 @@ window.MOCK_WORDS = {
                 "upvotes": 55,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["환원주의적 오류 들어봄"]
+                "comments": [
+                    "환원주의적 오류 들어봄"
+                ]
             }
         ]
     },
@@ -5214,7 +5502,9 @@ window.MOCK_WORDS = {
         "sound": "지척",
         "category": "고전문학",
         "type": "고전문학",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "아주 가까운 거리나 틈",
         "definition": "여덟 치와 한 자라는 뜻으로, 아주 가까운 거리를 이르는 말. (표준국어대사전)",
@@ -5251,7 +5541,9 @@ window.MOCK_WORDS = {
                 "upvotes": 38,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["지척을 분간치 못하다가 이런 뜻이었구나."]
+                "comments": [
+                    "지척을 분간치 못하다가 이런 뜻이었구나."
+                ]
             }
         ]
     },
@@ -5261,7 +5553,9 @@ window.MOCK_WORDS = {
         "sound": "행장",
         "category": "고전문학",
         "type": "고전문학",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "길을 떠나기 위한 차림새나 장비",
         "definition": "여행할 때 쓰는 옷차림이나 장비 따위의 물건. (표준국어대사전)",
@@ -5298,7 +5592,9 @@ window.MOCK_WORDS = {
                 "upvotes": 29,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["기행가사 풀 때 꼭 나오는 단어임."]
+                "comments": [
+                    "기행가사 풀 때 꼭 나오는 단어임."
+                ]
             }
         ]
     },
@@ -5343,7 +5639,9 @@ window.MOCK_WORDS = {
                 "upvotes": 59,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["회피보다 더 의도적인 거절의 뜻이 있네요."]
+                "comments": [
+                    "회피보다 더 의도적인 거절의 뜻이 있네요."
+                ]
             }
         ]
     },
@@ -5388,7 +5686,9 @@ window.MOCK_WORDS = {
                 "upvotes": 67,
                 "downvotes": 1,
                 "createdAt": "방금 전",
-                "comments": ["사회과학 지문에 진짜 백만 번 등장하는 핵심 개념어!"]
+                "comments": [
+                    "사회과학 지문에 진짜 백만 번 등장하는 핵심 개념어!"
+                ]
             }
         ]
     },
@@ -5433,7 +5733,9 @@ window.MOCK_WORDS = {
                 "upvotes": 58,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["과목별 밸런스가 정말 중요하지 ㅠㅠ"]
+                "comments": [
+                    "과목별 밸런스가 정말 중요하지 ㅠㅠ"
+                ]
             }
         ]
     },
@@ -5443,7 +5745,9 @@ window.MOCK_WORDS = {
         "sound": "궤란",
         "category": "고전문학",
         "type": "고전문학",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "질서나 기강이 무너져 극도로 어지러워짐",
         "definition": "무너져서 어지러워짐. 도덕이나 질서 따위가 어지럽혀져 엉망이 됨. (국어사전)",
@@ -5480,7 +5784,9 @@ window.MOCK_WORDS = {
                 "upvotes": 49,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["궤멸과 어지러움이 합쳐진 무서운 단어군."]
+                "comments": [
+                    "궤멸과 어지러움이 합쳐진 무서운 단어군."
+                ]
             }
         ]
     },
@@ -5490,7 +5796,9 @@ window.MOCK_WORDS = {
         "sound": "제수",
         "category": "고전문학",
         "type": "고전문학",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "임금이 신하에게 새로운 관직을 임명하여 내림",
         "definition": "추천에 의하지 아니하고 임금이 직접 벼슬을 내리던 일. (표준국어대사전)",
@@ -5516,6 +5824,13 @@ window.MOCK_WORDS = {
                 "title": "제수가 사용된 실제 기출 문맥",
                 "content": "상이 서사를 보시고 대희하사 즉일 여산 부사를 제수하시자, 이화 대희하여 사은하고 집에 돌아오자...",
                 "tip": "💡 문학 팁: 고전 문학에서 인물이 큰 공을 세웠거나, 임금에게 헌신을 표했을 때 관직 임명장을 즉시 받는 상황에 100% 나오는 출제 단어야."
+            },
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "고전소설 ｢금환기봉｣에서 상(임금)이 과거에 합격한 김희경과 장수정(장 소저)의 풍모와 재능을 보고 크게 기뻐하며, 즉시 두 사람에게 각각 한림학사와 태학사의 관직을 내리는 장면에 쓰임.",
+                "title": "제수가 사용된 실제 기출 문맥",
+                "content": "상이 대열하사 즉시 두 사람을 제수할새, 김희경으로 춘방 한림학사를 시키시고 장수정으로 태학사를 시키시니, 두 사람이 천은을 감사하고 물러 나오더라.",
+                "tip": "💡 문학 팁: 除(벼슬 줄 제)와 授(줄 수)를 알면 왕이 인물에게 관직을 내리는 장면임을 파악할 수 있어. 2026학년도 9모에 이어 평가원 고전문학 지문에서 관직 임명 상황에 거듭 출현한 빈출 어휘야."
             }
         ],
         "feed": [
@@ -5527,7 +5842,9 @@ window.MOCK_WORDS = {
                 "upvotes": 35,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["벼슬 제수라는 말을 사극에서도 자주 봄."]
+                "comments": [
+                    "벼슬 제수라는 말을 사극에서도 자주 봄."
+                ]
             }
         ]
     },
@@ -5537,7 +5854,9 @@ window.MOCK_WORDS = {
         "sound": "대경실색",
         "category": "고전문학",
         "type": "고전문학",
-        "tags": ["고전문학"],
+        "tags": [
+            "고전문학"
+        ],
         "isClassical": true,
         "brief": "너무 크게 놀라 얼굴빛이 흙빛으로 변함",
         "definition": "몹시 놀라 얼굴빛이 하얗게 질림. (표준국어대사전)",
@@ -5586,7 +5905,9 @@ window.MOCK_WORDS = {
                 "upvotes": 61,
                 "downvotes": 0,
                 "createdAt": "방금 전",
-                "comments": ["얼굴색을 잃다할 때 실색이군요!"]
+                "comments": [
+                    "얼굴색을 잃다할 때 실색이군요!"
+                ]
             }
         ]
     },
@@ -5622,7 +5943,8 @@ window.MOCK_WORDS = {
                 "content": "전원이 공급된 후, 변압기를 통과하면서 크게 낮아진 교류 전압은 **정류**기에서 전류를 한쪽 방향으로 흐르게 하는 전압으로 바뀐다.",
                 "tip": "💡 독해 팁: '가지런히 할 정(整)'과 '흐를 류(流)'를 알면, 복잡한 회로 지문에서도 '정류기'가 전류의 방향을 한쪽으로 정돈해 주는 소자임을 용어 자체에서 곧바로 직관할 수 있습니다."
             }
-        ]
+        ],
+        "definitionSource": "표준국어대사전"
     },
     "평활": {
         "word": "평활",
@@ -5656,7 +5978,8 @@ window.MOCK_WORDS = {
                 "content": "그런데 이 전압은 변동이 크기 때문에 이를 억제하기 위해 **평활** 회로가 사용된다. **평활** 회로에는 에너지 저장 소자가 있어, 전압이 높을 때 일시적으로 전기 에너지를 저장했다가 전압이 낮아질 때는 에너지를 방출하여 전압 변동을 억제한다.",
                 "tip": "💡 독해 팁: '평평할 평(平)'과 '매끄러울 활(滑)'을 떠올리면, 전압 그래프의 뾰족하고 거친 파형을 완만한 평지에 가깝게 매끄럽게 완화해 준다는 회로의 원리를 쉽게 이해할 수 있습니다."
             }
-        ]
+        ],
+        "definitionSource": "표준국어대사전"
     },
     "정전압": {
         "word": "정전압",
@@ -5696,7 +6019,8 @@ window.MOCK_WORDS = {
                 "content": "어댑터에서 출력되는 전압이 항상 일정하게 유지되지 않으면 이를 사용하는 전기 제품이 오작동을 일으킬 수 있다. 그래서 출력 전압이 고정된 **정전압** 소자를 이용하여 안정화된 직류 전원을 만든다.",
                 "tip": "💡 독해 팁: '정할 정(定)'의 의미를 살려 '정해진 일정한 전압'으로 새기면, 9V가 들어와도 필요한 5V만 고정 출력하고 나머지를 열로 방출하는 소자의 동작 방식을 문맥 속에서 빠르게 납득할 수 있습니다."
             }
-        ]
+        ],
+        "definitionSource": "전문용어 설명"
     },
     "제토": {
         "word": "제토",
@@ -5704,7 +6028,7 @@ window.MOCK_WORDS = {
         "sound": "제토",
         "category": "전문용어 이해형",
         "brief": "유물을 안전하게 발굴하기 위해 덮여 있는 흙이나 갯벌을 걷어내어 제거함",
-        "definition": "흙을 제거함. (2027학년도 9월 모의평가 지문 정의)",
+        "definition": "흙을 제거함. (2027학년도 9월 모의평가 지문: '제토란 흙을 제거한다는 뜻입니다.')",
         "hanjaBreakdown": [
             {
                 "character": "除",
@@ -5730,6 +6054,637 @@ window.MOCK_WORDS = {
                 "content": "다음은 **제토**인데, **제토**란 흙을 제거한다는 뜻입니다. (자료 제시) 화면을 보면, **제토** 전에는 유물이 흙 속에 감추어져 있었는데 **제토** 후에는 모습이 드러나 꺼내기 쉬운 상태가 됩니다.",
                 "tip": "💡 독해 팁: '덜 제(除)'와 '흙 토(土)'의 결합임을 파악하면, 지문에서 굳이 '제토란 흙을 제거한다는 뜻'이라는 설명을 읽지 않더라도 발굴 탐사 단계(탐사-제토-인양)의 순서와 역할을 즉각 직관할 수 있습니다."
             }
-        ]
+        ],
+        "definitionSource": "기출 지문 정의"
+    },
+    "신원": {
+        "word": "신원",
+        "hanja": "伸冤",
+        "sound": "신원",
+        "category": "고전문학",
+        "type": "고전문학",
+        "tags": [
+            "고전문학"
+        ],
+        "isClassical": true,
+        "brief": "억울하게 맺힌 원한을 펴서 풀어 줌",
+        "definition": "가슴에 맺힌 원한을 풀어 버림. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "伸",
+                "hun": "펼",
+                "sound": "신",
+                "meaning": "펴다, 펼치다"
+            },
+            {
+                "character": "冤",
+                "hun": "원통할",
+                "sound": "원",
+                "meaning": "원통하다, 억울하다"
+            }
+        ],
+        "hanjaExplanation": "‘억울하고 원통하게 맺힌 사정(冤)을 펴서 풀어 준다(伸)’는 뜻입니다. 고전소설에서 억울하게 누명을 쓰거나 억울하게 죽은 인물의 원한을 임금이나 국가가 공적으로 풀어 명예를 회복시켜 주는 사건을 이해하는 핵심 개념어입니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "장 학사(장 소저)가 표문을 올려 부친의 억울함을 호소하자, 상(임금)이 그 정회에 감동하여 억울하게 죽은 장 상서의 원한을 풀어 주는 장면에 쓰임.",
+                "title": "신원이 사용된 실제 기출 문맥",
+                "content": "이튿날 장 학사가 표문을 올려 그 부친의 신원함을 청하니, 상이 그 정회에 감동하시어 즉시 상서의 애매함을 신원하여 청주후에 추증하시더라.",
+                "tip": "💡 문학 팁: 伸(펼 신)과 冤(원통할 원)의 글자 뜻을 알면 장 소저가 단순히 부친의 신분을 확인하는 것이 아니라, ‘억울함을 풀어 명예를 회복시키는 것’을 목표로 한다는 점을 파악할 수 있어."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "등과": {
+        "word": "등과",
+        "hanja": "登科",
+        "sound": "등과",
+        "category": "고전문학",
+        "type": "고전문학",
+        "tags": [
+            "고전문학"
+        ],
+        "isClassical": true,
+        "brief": "과거 시험에 급제하여 합격자 반열에 오름",
+        "definition": "과거에 급제하던 일. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "登",
+                "hun": "오를",
+                "sound": "등",
+                "meaning": "오르다"
+            },
+            {
+                "character": "科",
+                "hun": "과목/과거",
+                "sound": "과",
+                "meaning": "과거 시험, 과목"
+            }
+        ],
+        "hanjaExplanation": "‘과거 시험(科)의 합격자 반열에 오른다(登)’는 뜻입니다. ‘등과하다’는 구조를 통해 ‘과거에 급제하다’라는 뜻을 추론할 수 있으며, 인물이 과거 시험 합격을 통해 높은 관직에 나아가는 신분 상승의 계기를 나타냅니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "장 소저가 남복을 입고 과거에 급제하여 돌아오자, 시비 영춘이 장 소저와 김생(김희경)이 함께 과거 시험에 급제한 드문 경사를 축하하며 이후의 행보를 묻는 장면에 쓰임.",
+                "title": "등과가 사용된 실제 기출 문맥",
+                "content": "“이제 소저의 몸이 이렇듯이 귀하시니 기쁘오며 또 듣자오니 김생도 소저와 함께 등과하였다 하오니 더욱 고금의 드문 일이오나 소저는 나중에 어찌하시려 하시나이까?”",
+                "tip": "💡 문학 팁: 登(오를 등)과 科(과거 과)를 알면 ‘과거 시험에 올라 합격하다’라는 의미가 드러나 인물의 신분 상승을 이해하기 쉬워."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "추증": {
+        "word": "추증",
+        "hanja": "追贈",
+        "sound": "추증",
+        "category": "고전문학",
+        "type": "고전문학",
+        "tags": [
+            "고전문학"
+        ],
+        "isClassical": true,
+        "brief": "죽은 사람의 사후에 관직이나 품계를 뒤따라 내림",
+        "definition": "종이품 이상 벼슬아치의 죽은 아버지, 할아버지, 증조할아버지에게 벼슬을 주던 일. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "追",
+                "hun": "쫓을/뒤따를",
+                "sound": "추",
+                "meaning": "뒤따르다, 사후에 더하다"
+            },
+            {
+                "character": "贈",
+                "hun": "줄",
+                "sound": "증",
+                "meaning": "주다, 증여하다"
+            }
+        ],
+        "hanjaExplanation": "‘죽은 뒤에 뒤따라(追) 벼슬이나 품계를 더하여 준다(贈)’는 뜻입니다. 고전소설에서 이미 세상을 떠난 부모나 조상의 억울함을 풀고(신원), 국가나 임금이 사후에 명예 관직을 더해 가문의 명예를 높여 주는 장면을 이해하는 핵심 어휘입니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "장 학사가 표문을 올려 부친의 신원을 청하자, 상(임금)이 감동하여 이미 억울하게 죽은 장 상서의 누명을 벗겨 준 뒤 사후에 ‘청주후’라는 관작을 더하여 내리는 장면에 쓰임.",
+                "title": "추증이 사용된 실제 기출 문맥",
+                "content": "이튿날 장 학사가 표문을 올려 그 부친의 신원함을 청하니, 상이 그 정회에 감동하시어 즉시 상서의 애매함을 신원하여 청주후에 추증하시더라.",
+                "tip": "💡 문학 팁: 追(뒤따를 추)와 贈(줄 증)을 알면 살아 있는 사람에게 새 벼슬을 주는 것이 아니라 죽은 사람에게 사후적으로 관작을 내리는 것임을 구별할 수 있어."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "형이상학": {
+        "word": "형이상학",
+        "hanja": "形而上學",
+        "sound": "형이상학",
+        "category": "개념 이해형",
+        "type": "개념 이해형",
+        "brief": "사물의 본질이나 눈에 보이는 현상을 초월한 근원적 원리를 탐구하는 학문",
+        "definition": "사물의 본질, 존재의 근본 원리를 사유나 직관에 의하여 탐구하는 학문. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "形",
+                "hun": "모양/형상",
+                "sound": "형",
+                "meaning": "형체, 구체적인 모양"
+            },
+            {
+                "character": "而",
+                "hun": "말 이을",
+                "sound": "이",
+                "meaning": "~의 위에, 그리고"
+            },
+            {
+                "character": "上",
+                "hun": "위",
+                "sound": "상",
+                "meaning": "위, 넘어서다, 초월하다"
+            },
+            {
+                "character": "學",
+                "hun": "배울",
+                "sound": "학",
+                "meaning": "학문, 연구"
+            }
+        ],
+        "hanjaExplanation": "‘눈에 보이는 물리적 형체(形)의 위(而上)에 있는 근원적 본질을 다루는 학문(學)’이라는 뜻입니다. 지문에서는 자유 의지, 의도, 의식처럼 외부에서 감각적으로 직접 관찰하거나 확인하기 어려운 내면의 본질적 속성을 가리키는 핵심 개념어로 쓰입니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "윤리적 행동주의가 도덕적 지위를 판단할 때 직접 관찰하기 어려운 자유 의지나 의식 등 내면의 형이상학적 속성 대신, 경험적으로 관찰 가능한 행동을 비교해야 한다고 보는 입장을 설명하는 장면에 쓰임.",
+                "title": "형이상학이 사용된 실제 기출 문맥",
+                "content": "이 방법론에 따르면 도덕적 지위는 서로 다른 두 실재 사이의 자유 의지, 의도, 의식 등과 같은 형이상학적 속성의 동등성이 아니라, 경험적으로 인식 가능한 행동의 동등성을 비교하여 추론할 수 있다.",
+                "tip": "💡 독해 팁: '구체적 형체(形)를 넘어선(而上)'이라는 자구를 알면, 형이상학적 속성이 눈으로 직접 볼 수 있는 외적 행동과 대조되어 '자유 의지, 의도, 의식'처럼 경험적으로 직접 확인하기 어려운 본질적 차원의 속성을 뜻함을 쉽게 파악할 수 있어."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "존재론": {
+        "word": "존재론",
+        "hanja": "存在論",
+        "sound": "존재론",
+        "category": "개념 이해형",
+        "type": "개념 이해형",
+        "brief": "무엇이 실제로 존재하며 어떤 방식으로 존재하는가를 탐구하는 철학적 관점",
+        "definition": "존재 또는 존재의 근본적·보편적인 모든 규정을 연구하는 학문. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "存",
+                "hun": "있을",
+                "sound": "존",
+                "meaning": "존재하다, 살아 있다"
+            },
+            {
+                "character": "在",
+                "hun": "있을",
+                "sound": "재",
+                "meaning": "있다, 머무르다, 실재하다"
+            },
+            {
+                "character": "論",
+                "hun": "논할",
+                "sound": "론",
+                "meaning": "논하다, 이론, 학설"
+            }
+        ],
+        "hanjaExplanation": "‘실제로 있음(存在)에 관하여 논한다(論)’는 뜻으로, 대상이 실제로 존재하는가, 또 어떤 방식으로 존재하는가를 탐구하는 철학적 관점입니다. 지문에서는 인공 행위자가 다른 실재로부터 예속되지 않고 독립적으로 존재하는 실재인가를 따지는 논증에서 핵심어로 사용됩니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "인공 행위자가 도덕적 행위자로 인정되기 위해서는 다른 실재로부터 온전히 독립적으로 존재해야 한다는 존슨의 독립성 논변을 제시하는 장면에 쓰임.",
+                "title": "존재론이 사용된 실제 기출 문맥",
+                "content": "이는 인공 행위자 X가 도덕적 행위자로 인정되기 위해서는 X는 존재론적으로 다른 실재 Y로부터 온전히 독립적이어야 한다는 것이다.",
+                "tip": "💡 독해 팁: 存(있을 존)과 在(있을 재)의 한자 뜻을 알면 '존재론적으로 독립적'이라는 표현이 단순히 기능이나 동작이 분리되어 있다는 뜻이 아니라, '실제로 존재하는 자격과 양식 자체가 다른 실재에 예속되지 않고 독립되어 있음'을 뜻함을 직관할 수 있어. '어떻게 존재하는가'를 다루는 존재론과 '어떻게 아는가'를 다루는 인식론의 차이를 잡는 것이 지문 독해의 열쇠야."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "인식론": {
+        "word": "인식론",
+        "hanja": "認識論",
+        "sound": "인식론",
+        "category": "개념 이해형",
+        "type": "개념 이해형",
+        "brief": "우리가 대상을 무엇으로 어떻게 알 수 있는가의 지식과 인식 문제를 탐구하는 관점",
+        "definition": "인식의 기원과 본질, 인식 과정의 형식과 방법 따위에 관하여 연구하는 철학의 한 부문. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "認",
+                "hun": "알/인정할",
+                "sound": "인",
+                "meaning": "알다, 분별하다, 인정하다"
+            },
+            {
+                "character": "識",
+                "hun": "알",
+                "sound": "식",
+                "meaning": "알다, 식별하다, 지식"
+            },
+            {
+                "character": "論",
+                "hun": "논할",
+                "sound": "론",
+                "meaning": "논하다, 이론, 학설"
+            }
+        ],
+        "hanjaExplanation": "‘대상을 분별하여 알고(認識) 이해하는 원리를 논한다(論)’는 뜻으로, 인간이 대상을 무엇으로 어떻게 알 수 있는가, 그 지식의 범위와 한계는 무엇인가를 다루는 철학적 관점입니다. 지문에서는 내면의 형이상학적 속성을 인간이 직접 관찰하여 알 수 없다는 인식론적 한계를 설명하는 맥락에서 쓰입니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "윤리적 행동주의가 내면의 형이상학적 속성을 우리가 직접 알아차릴 수 없다는 인식론적 한계를 인정하고, 대신 관찰 가능한 행동 패턴에 근거해 도덕적 지위를 판단해야 한다고 주장하는 장면에 쓰임.",
+                "title": "인식론이 사용된 실제 기출 문맥",
+                "content": "대신 형이상학적 속성에 대한 인식론적 한계를 인정하고 도덕적 지위의 판단은 외부에서 관찰할 수 있는 행동의 패턴에 근거해야 함을 말한다.",
+                "tip": "💡 독해 팁: 認(알 인)과 識(알 식)의 결합을 알면 '우리가 대상을 어떻게 알 수 있는가'의 문제임을 쉽게 이해할 수 있어. 존재론이 '실재가 어떤 방식으로 존재하는가'를 묻는다면, 인식론은 '그 실재를 우리가 어떻게 알 수 있는가'를 묻는 것이므로 두 영역의 대조를 파악하면 철학 지문의 논리 구조가 명쾌하게 잡힌단다."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "규범": {
+        "word": "규범",
+        "hanja": "規範",
+        "sound": "규범",
+        "category": "개념 이해형",
+        "type": "개념 이해형",
+        "brief": "인간이 행동하거나 판단할 때 마땅히 따르고 지켜야 할 기준이나 법칙",
+        "definition": "인간이 행동하거나 판단할 때에 마땅히 따르고 지켜야 할 가치 판단의 기준. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "規",
+                "hun": "법/규칙",
+                "sound": "규",
+                "meaning": "법, 규칙, 본보기"
+            },
+            {
+                "character": "範",
+                "hun": "법/본보기",
+                "sound": "범",
+                "meaning": "틀, 법, 본보기"
+            }
+        ],
+        "hanjaExplanation": "‘행동의 기준이 되는 규칙(規)과 본보기가 되는 틀(範)’이라는 뜻입니다. 단순히 세상에 실제로 존재하는 '있는 그대로의 사실(fact)'과 대비되어, 인간이 마땅히 따라야 할 도덕적 당위(ought)와 행동의 지침이 되는 원칙을 가리킵니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "인간들이 서로 유대감을 갖는다는 현실의 사실로부터 인간 종을 특별히 우대해야 한다는 도덕적 행동 지침(보편적 규범 원칙)을 논리적으로 이끌어 낼 수 없음을 지적하는 장면에 쓰임.",
+                "title": "규범이 사용된 실제 기출 문맥",
+                "content": "어떤 현상을 있는 대로 기술한 사실을 전제로 우리의 행동이 어떠해야 한다는 보편적 규범 원칙을 논리적으로 이끌어 낼 수 없기 때문이다.",
+                "tip": "💡 독해 팁: 規(규칙 규)와 範(본보기 범)의 한자 자구를 알면 규범이 '마땅히 따라야 할 본보기와 기준'을 뜻함을 알 수 있어. 지문에서 '있는 그대로 기술한 사실'과 '우리의 행동이 어떠해야 한다는 규범 원칙'을 날카롭게 구별하는 논리를 파악할 때 필수적인 어휘야."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "변압기": {
+        "word": "변압기",
+        "hanja": "變壓器",
+        "sound": "변압기",
+        "category": "전문용어 이해형",
+        "type": "전문용어 이해형",
+        "brief": "입력 전압의 변화를 통해 출력 측의 교류 전압을 높이거나 낮추어 변환하는 장치",
+        "definition": "전자 상호 유도 작용을 이용하여 교류 전압을 높이거나 낮추는 장치. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "變",
+                "hun": "변할",
+                "sound": "변",
+                "meaning": "변하다, 바꾸다, 변화시키다"
+            },
+            {
+                "character": "壓",
+                "hun": "누를",
+                "sound": "압",
+                "meaning": "누르다, 압력, 전압"
+            },
+            {
+                "character": "器",
+                "hun": "그릇",
+                "sound": "기",
+                "meaning": "그릇, 기구, 장치"
+            }
+        ],
+        "hanjaExplanation": "‘전압(壓)을 변화시키는(變) 장치(器)’라는 뜻입니다. 變壓器의 자구를 알면 입력 전압의 변화에 따라 유도된 자기장을 통해 출력 측의 교류 전압을 높이거나 낮추는 핵심 기능을 용어 자체에서 바로 추론할 수 있습니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "어댑터의 핵심 구성 요소로서 입력 전압의 변화에 따라 자기장을 유도하여 출력 측에 발생하는 교류 전압의 크기를 높이거나 낮추는 변압기의 원리와 역할을 설명하는 장면에 쓰임.",
+                "title": "변압기가 사용된 실제 기출 문맥",
+                "content": "변압기는 입력되는 전압에 변화가 생기면 자기장이 유도되어 출력 측에 발생하는 교류 전압을 높이거나 낮출 수 있는 장치이다.",
+                "tip": "💡 독해 팁: 變(변할 변), 壓(누를/전압 압), 器(그릇/장치 기)의 결합을 알면 '전압을 변화시키는 장치'라는 핵심 기능이 용어 자체에 드러나 있음을 알 수 있어. 기술 지문에서 변압기가 전압을 승압하거나 강압하는 동작 원리를 직관적으로 이해하는 열쇠가 된단다."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "외람": {
+        "word": "외람",
+        "hanja": "猥濫",
+        "sound": "외람",
+        "category": "고전문학",
+        "type": "고전문학",
+        "tags": [
+            "고전문학"
+        ],
+        "isClassical": true,
+        "brief": "하는 행동이나 생각이 자신의 분수나 처지에 지나치게 넘침",
+        "definition": "하는 행동이나 생각이 분수에 지나침. (‘외람하다’의 어근, 표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "猥",
+                "hun": "외람될",
+                "sound": "외",
+                "meaning": "외람되다, 분수에 넘치다"
+            },
+            {
+                "character": "濫",
+                "hun": "넘칠",
+                "sound": "람",
+                "meaning": "넘치다, 지나치다"
+            }
+        ],
+        "hanjaExplanation": "‘자신의 분수나 지위를 벗어나 지나치게 넘친다’는 뜻입니다. 고전소설에서 하인이나 신하가 신분적 위계상 예의에 벗어나거나 분수에 넘치는 언행을 조심스럽게 꺼낼 때 쓰는 겸양과 경계의 표현입니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "시비 영춘이 장 소저에게 남장을 벗고 본래 여성으로 돌아갈 것을 진심 어린 충언으로 권하면서, 자신이 시비의 처지에서 주인을 '상공'이 아닌 '소저'로 부르는 행위가 분수에 넘침을 조심스럽게 밝히는 장면에 쓰임.",
+                "title": "외람이 사용된 실제 기출 문맥",
+                "content": "“소저가 이제 벼슬이 공경에 올라 위엄이 사해에 진동하시매 누가 두려워하지 아니하리오마는, 첩 등의 이목이 외람하여 소저가 재상의 위풍이 당당함에도 매번 부르기를 ‘상공(相公)’이라 하지 않고 ‘소저(小姐)’라 하오니, 마음이 없는 것은 아니나 본심이 스스로 드러남이니, 마음을 꾸며 세상을 속이는 것이 실로 어려운 일이라.”",
+                "tip": "💡 문학 팁: 猥(외람될 외)와 濫(넘칠 람)을 알면 '자신의 분수나 처지를 벗어나 넘치는 상태'를 뜻함을 알 수 있어. 시비 영춘이 엄격한 신분적 위계를 충분히 의식하면서도 진심 어린 충언을 전하기 위해 주인을 '소저'라 부르는 정서적 밀착 관계를 파악하는 핵심 어휘야."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "비감": {
+        "word": "비감",
+        "hanja": "悲感",
+        "sound": "비감",
+        "category": "고전문학",
+        "type": "고전문학",
+        "tags": [
+            "고전문학"
+        ],
+        "isClassical": true,
+        "brief": "마음속 깊이 서글프고 슬픈 느낌을 받음",
+        "definition": "슬픈 느낌. 또는 그런 느낌이 있음. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "悲",
+                "hun": "슬플",
+                "sound": "비",
+                "meaning": "슬프다, 서글프다, 비통하다"
+            },
+            {
+                "character": "感",
+                "hun": "느낄",
+                "sound": "감",
+                "meaning": "느끼다, 감정"
+            }
+        ],
+        "hanjaExplanation": "‘가슴 깊이 슬프고 서글픈 감정을 느낀다’는 뜻입니다. 고전소설에서 큰 뜻이나 사회적 성취를 포기해야 하거나, 처지가 급변하여 비통하고 서글픈 심경에 잠길 때 인물의 내면 정서를 표현하는 핵심어입니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "장 소저가 시비 영춘의 충언을 받아들여 남장을 벗고 규방의 여인으로 돌아가기로 결심하면서, 7년간 천하를 호령하던 높은 관직과 공명을 내려놓아야 하는 서글픈 처지에 탄식하는 장면에 쓰임.",
+                "title": "비감이 사용된 실제 기출 문맥",
+                "content": "“그러나 애석한 것은 천하 사람이 다 나의 이름을 들으면 두려워하지 않는 이가 없더니 일조에 건곤이 바뀌어 옥당 대신이 심규 아녀자가 되니 어찌 비감하지 아니하리오.”",
+                "tip": "💡 문학 팁: 悲(슬플 비)와 感(느낄 감)의 결합을 알면 단순한 눈물이나 일시적 슬픔이 아니라, '자신의 처지가 하루아침에 바뀌어 사회적 성취를 내려놓아야 하는 상황에서 느끼는 깊은 서글픔'임을 파악하여 인물의 복합적인 내면 심리에 공감할 수 있어."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "공명": {
+        "word": "공명",
+        "hanja": "功名",
+        "sound": "공명",
+        "category": "고전문학",
+        "type": "고전문학",
+        "tags": [
+            "고전문학"
+        ],
+        "isClassical": true,
+        "brief": "공을 세워 세상에 이름을 떨침. 또는 그로 인해 얻은 사회적 명예",
+        "definition": "공을 세워서 자기의 이름을 널리 드러냄. 또는 그 이름. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "功",
+                "hun": "공",
+                "sound": "공",
+                "meaning": "공적, 성취, 공로"
+            },
+            {
+                "character": "名",
+                "hun": "이름",
+                "sound": "명",
+                "meaning": "이름, 명예, 출세"
+            }
+        ],
+        "hanjaExplanation": "‘나라나 사회에 큰 공적(功)을 세워 세상에 이름을 드높인다(名)’는 뜻입니다. 고전소설에서 주인공이 국가적 위기를 극복하며 이룩한 높은 사회적 성취와 명예를 가리키며, 소리가 울려 반응하는 공명(共鳴)과는 구분되는 개념입니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "장 소저가 남복을 입고 관직에 나아가 7년 동안 나라에 큰 공을 세우고 얻었던 높은 벼슬과 명예가, 여성의 신분으로 환원됨으로써 허무하게 사라지게 됨을 한탄하는 장면에 쓰임.",
+                "title": "공명이 사용된 실제 기출 문맥",
+                "content": "“칠 년 공명이 속절없이 되었도다.” 말을 마치매 길이 탄식하더라.",
+                "tip": "💡 문학 팁: 功(공적 공)과 名(이름 명)을 알면 단순한 호칭이 아니라 '공로를 세워 획득한 사회적 명예와 출세'를 뜻함을 이해할 수 있어. 장 소저가 여성으로 돌아가면서 잃게 되는 것이 단순한 관직 타이틀이 아니라 '자신의 능력으로 쌓아 올린 7년간의 찬란한 성취'였음을 직관할 수 있단다."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "인양": {
+        "word": "인양",
+        "hanja": "引揚",
+        "sound": "인양",
+        "category": "전문용어 이해형",
+        "type": "전문용어 이해형",
+        "brief": "물속이나 땅속에 있는 물체를 끌어당겨 수면 위나 지상으로 들어 올림",
+        "definition": "끌어서 높은 곳으로 옮김. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "引",
+                "hun": "끌",
+                "sound": "인",
+                "meaning": "끌다, 잡아당기다"
+            },
+            {
+                "character": "揚",
+                "hun": "날릴/오를",
+                "sound": "양",
+                "meaning": "들어 올리다, 오르다"
+            }
+        ],
+        "hanjaExplanation": "‘물체를 끌어당겨(引) 위로 들어 올린다(揚)’는 뜻입니다. 引揚의 자구를 알면 바닷속 갯벌이나 해저에 묻혀 있던 유물을 장비를 사용해 끌어 올려 지상으로 안전하게 옮기는 최종 발굴 공정임을 용어 자체에서 바로 추론할 수 있습니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "바닷속 해양 유물 발굴 과정에서 탐사와 제토 단계를 거친 후, 전용 장비를 사용하여 유물을 지상으로 안전하게 끌어 올리는 최종 발굴 단계를 설명하는 장면에 쓰임.",
+                "title": "인양이 사용된 실제 기출 문맥",
+                "content": "마지막은 인양으로, 인양 장비를 사용해 유물을 지상으로 안전하게 옮깁니다.",
+                "tip": "💡 독해 팁: 引(끌 인)과 揚(오를/들어 올릴 양)의 한자 뜻을 알면 '물속에 잠긴 유물을 수면 위 지상으로 끌어 올린다'는 공정의 동작이 용어 자체에 집약되어 있음을 알 수 있어. 탐사(조사) → 제토(흙 제거) → 인양(끌어올림)으로 이어지는 해양 발굴 단계의 맥락을 직관적으로 연결할 수 있단다."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "객회": {
+        "word": "객회",
+        "hanja": "客懷",
+        "sound": "객회",
+        "category": "고전문학",
+        "type": "고전문학",
+        "tags": [
+            "고전문학"
+        ],
+        "isClassical": true,
+        "brief": "고향을 떠나 객지나 유배지에서 느끼는 쓸쓸하고 울적한 마음",
+        "definition": "객지에서 느끼게 되는 울적하고 쓸쓸한 느낌. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "客",
+                "hun": "손",
+                "sound": "객",
+                "meaning": "나그네, 객지에 있는 사람"
+            },
+            {
+                "character": "懷",
+                "hun": "품을",
+                "sound": "회",
+                "meaning": "마음에 품다, 생각이나 심정"
+            }
+        ],
+        "hanjaExplanation": "‘객지에 머무는 나그네(客)가 마음에 품은 생각이나 감회(懷)’라는 뜻입니다. 고전문학에서 단순히 일반적인 마음을 뜻하는 것이 아니라, 고향을 떠나 낯선 유배지나 타향에 홀로 머무는 화자가 느끼는 외롭고 쓸쓸하며 서글픈 정서를 대변하는 핵심 어휘입니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "이진유의 가사 ｢속사미인곡｣의 첫머리에서 가을이 깊어 가는 계절적 배경과 어우러져, 낯선 섬 유배지에 홀로 남겨진 화자의 쓸쓸하고 적적한 심회를 드러내는 장면에 쓰임.",
+                "title": "속사미인곡에 사용된 실제 기출 문맥",
+                "content": "가을이 점점 깊고 객회(客懷)는 쓸쓸한데",
+                "tip": "💡 문학 팁: 客(나그네 객)과 懷(품을 회)의 결합을 알면 '객지에 있는 사람이 품은 쓸쓸한 마음'을 뜻함을 곧바로 파악할 수 있어. 시의 첫머리부터 화자가 처한 유배지의 고독하고 적적한 정서적 처지를 한눈에 읽어 내는 열쇠가 된단다."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "편액": {
+        "word": "편액",
+        "hanja": "扁額",
+        "sound": "편액",
+        "category": "고전문학",
+        "type": "고전문학",
+        "tags": [
+            "고전문학"
+        ],
+        "isClassical": true,
+        "brief": "건물이나 문의 앞머리에 이름을 적어 걸어 놓은 액자나 현판",
+        "definition": "종이, 비단, 널빤지 따위에 그림을 그리거나 글씨를 써서 방 안이나 문 위에 걸어 놓는 액자. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "扁",
+                "hun": "넓적할/현판",
+                "sound": "편",
+                "meaning": "현판, 편액, 넓적하다"
+            },
+            {
+                "character": "額",
+                "hun": "이마",
+                "sound": "액",
+                "meaning": "이마, 문 위에 다는 액자"
+            }
+        ],
+        "hanjaExplanation": "‘건물의 이마(額)와 같은 문 위에 넓적하게 걸어 놓은(扁) 현판이나 액자’를 뜻합니다. 고전문학에서 사대부들이 자신이 머무는 집이나 누각의 이름에 특별한 철학과 지향을 담아 편액을 걸어 두고, 그 공간에 고유한 의미와 가치를 부여하는 장면을 이해하는 중요한 건축·문화 어휘입니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "이진유의 ｢속사미인곡｣에서 화자가 유배지 섬에 새로 지은 거처에 '망미헌(임금을 바라보는 집)'이라는 현판(편액)을 걸어 놓고, 멀리 계신 임(임금)을 향한 변함없는 충정과 그리움을 표상하는 장면에 쓰임.",
+                "title": "속사미인곡에 사용된 실제 기출 문맥",
+                "content": "망미헌(望美軒) 편액은 섬 안의 뉘 모르리",
+                "tip": "💡 문학 팁: 扁(현판 편)과 額(이마/액자 액)의 글자 뜻을 알면 건물의 이름표인 현판을 뜻함을 쉽게 알 수 있어. '임(임금)을 바라본다'는 뜻의 '망미헌(望美軒)' 편액을 통해, 화자가 유배지 공간 자체에 임을 향한 일편단심의 의미를 부여하고 있음을 직관할 수 있단다."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "고각": {
+        "word": "고각",
+        "hanja": "高閣",
+        "sound": "고각",
+        "category": "고전문학",
+        "type": "고전문학",
+        "tags": [
+            "고전문학"
+        ],
+        "isClassical": true,
+        "brief": "높게 지은 집이나 누각",
+        "definition": "높게 지은 집이나 누각. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "高",
+                "hun": "높을",
+                "sound": "고",
+                "meaning": "높다, 뛰어남"
+            },
+            {
+                "character": "閣",
+                "hun": "누각",
+                "sound": "각",
+                "meaning": "누각, 건물, 관청"
+            }
+        ],
+        "hanjaExplanation": "‘높게 지어 올린(高) 누각이나 건물(閣)’을 뜻합니다. 군중에서 호령할 때 쓰던 북과 나발인 고각(鼓角)과는 구별되는 단어로, 고전문학에서 높은 곳에 위치한 전각, 도서나 문서를 보관하던 높은 누각 공간의 이미지를 나타냅니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "이진유의 ｢속사미인곡｣에서 임금에게 하사받았던 귀한 책 천 권이 높은 누각(고각)에 방치된 채 벌레 먹어가고 있는 상황을 서술하며, 임과 멀리 떨어진 화자의 안타까운 신세를 토로하는 장면에 쓰임.",
+                "title": "속사미인곡에 사용된 실제 기출 문맥",
+                "content": "하사받은 책 천 권이 고각(高閣)에 묵혔으니",
+                "tip": "💡 문학 팁: 高(높을 고)와 閣(누각 각)의 글자 뜻을 알면 '어딘가 높은 곳에 있는 누각이나 건물 공간'이라는 기본 이미지를 쉽게 떠올릴 수 있어. 군중의 북과 나발을 뜻하는 鼓角(고각)과 혼동하지 않아야 하며, 임금의 은혜로 받은 서책이 먼지 쌓인 높은 누각에 묵혀 있는 고독한 문맥을 정확히 파악할 수 있단다."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
+    },
+    "옥음": {
+        "word": "옥음",
+        "hanja": "玉音",
+        "sound": "옥음",
+        "category": "고전문학",
+        "type": "고전문학",
+        "tags": [
+            "고전문학"
+        ],
+        "isClassical": true,
+        "brief": "옥처럼 맑고 아름다운 소리. 또는 임금의 음성을 높여 이르는 말",
+        "definition": "옥처럼 맑고 아름다운 소리라는 뜻으로, 아름다운 목소리를 이르는 말. (표준국어대사전)",
+        "hanjaBreakdown": [
+            {
+                "character": "玉",
+                "hun": "구슬",
+                "sound": "옥",
+                "meaning": "구슬, 옥, 귀하고 존엄함을 높여 이름"
+            },
+            {
+                "character": "音",
+                "hun": "소리",
+                "sound": "음",
+                "meaning": "소리, 음성, 목소리"
+            }
+        ],
+        "hanjaExplanation": "‘옥(玉)처럼 맑고 고귀한 음성(音)’이라는 뜻입니다. 고전문학에서 玉은 임금과 관련된 사물이나 신체를 극존칭으로 높일 때 관용적으로 붙이는 표현(옥체, 옥좌, 옥음 등)으로, 유배지에 있는 화자가 꿈속에서 임금과 나눈 말씀과 목소리를 애틋하게 회상하는 문맥에서 사용됩니다.",
+        "feed": [],
+        "contexts": [
+            {
+                "source": "2027학년도 9월 모의평가",
+                "desc": "이진유의 ｢속사미인곡｣에서 화자가 꿈속에서 옥루 높은 곳으로 날아가 임금과 문답을 나누다가 잠에서 깬 뒤, 여전히 귓가에 맴도는 임금의 목소리(옥음)를 생생하게 느끼며 임을 그리워하는 장면에 쓰임.",
+                "title": "속사미인곡에 사용된 실제 기출 문맥",
+                "content": "우리 임 옥음(玉音)은 귓가에 완연하고",
+                "tip": "💡 문학 팁: 玉(구슬 옥)이 사람이나 대상을 존귀하게 높이는 수식어로 쓰임을 알면, '옥음'이 단순한 예쁜 소리가 아니라 '존엄한 임금의 목소리'를 높여 부른 표현임을 곧바로 이해할 수 있어. 화자가 꿈속에서 임금과 만나고 깬 뒤에도 그 음성을 귓가에 완연히 기억하는 애틋한 충정을 읽어 내는 열쇠야."
+            }
+        ],
+        "definitionSource": "표준국어대사전"
     }
 };
