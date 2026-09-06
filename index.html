@@ -264,22 +264,36 @@
       return "";
     };
 
+    // --- 출전 및 영역 정보 포맷팅 헬퍼 ---
+    const formatContextSource = (ctx) => {
+      if (!ctx) return "";
+      let text = ctx.source || "";
+      if (ctx.section) {
+        text += " · " + ctx.section;
+        if (ctx.domain) {
+          text += " · " + ctx.domain;
+        }
+      }
+      return text;
+    };
+
     // --- 수능 데이터셋 전처리 및 중복 병합 ---
     if (window.MOCK_WORDS) {
       const cleanWords = {};
       Object.keys(window.MOCK_WORDS).forEach(key => {
         const item = window.MOCK_WORDS[key];
         if (!item) return;
+        const itemKey = item.id || key;
         const cleaned = cleanWordText(item.word || key);
-        if (!cleanWords[cleaned]) {
+        if (!cleanWords[itemKey]) {
           const newItem = { ...item };
           newItem.word = cleaned;
           if (newItem.sound) newItem.sound = cleanWordText(newItem.sound);
           newItem.contexts = newItem.contexts ? [...newItem.contexts] : [];
-          cleanWords[cleaned] = newItem;
+          cleanWords[itemKey] = newItem;
         } else {
           if (item.contexts && Array.isArray(item.contexts)) {
-            cleanWords[cleaned].contexts.push(...item.contexts);
+            cleanWords[itemKey].contexts.push(...item.contexts);
           }
         }
       });
@@ -824,14 +838,19 @@
         allKeys.forEach(k => {
           const item = MOCK_WORDS[k];
           if (!item) return;
-          const cleaned = cleanWordText(item.word);
-          if (!seenWords.has(cleaned)) {
-            seenWords.add(cleaned);
+          // 한자와 ID를 고려하여 동음이의어(신원 등)는 별도 카드로 보존
+          const identityKey = (item.id || k) + "_" + (item.hanja || "");
+          if (!seenWords.has(identityKey)) {
+            seenWords.add(identityKey);
             uniqueKeys.push(k);
           }
         });
 
-        const activeKeys = uniqueKeys.filter(k => !passedWords.includes(k) || fadingKeys.includes(k));
+        const activeKeys = uniqueKeys.filter(k => {
+          const item = MOCK_WORDS[k];
+          const isPassed = passedWords.includes(k) || (item && item.id && passedWords.includes(item.id)) || (item && passedWords.includes(item.word));
+          return !isPassed || fadingKeys.includes(k);
+        });
 
         if (selectedClassicalFilter === "전체") {
           return activeKeys;
@@ -1255,7 +1274,7 @@
                             <div className="border border-classicBorder rounded-2xl bg-classicBg/20 p-5 space-y-4 relative hover:border-classicTeal/30 transition-all shadow-sm">
                               <div className="flex items-center justify-between" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                 <span className="px-2.5 py-1 text-[10px] font-bold bg-classicTeal/10 text-classicTeal rounded-md border border-classicTeal/20 uppercase tracking-wider">
-                                  {ctx.source}
+                                  {formatContextSource(ctx)}
                                 </span>
 
                                 {/* 한자-한글 실시간 스위칭 토글 */}
@@ -1291,6 +1310,40 @@
                                   {ctx.tip}
                                 </div>
                               )}
+                            </div>
+                          )}
+
+                          {/* 연계 어휘 (relations: homonym, contrast) - 관계가 존재하는 경우에만 작게 노출 */}
+                          {selectedWord && selectedWord.relations && selectedWord.relations.length > 0 && (
+                            <div className="border border-classicBorder/60 bg-classicBg/40 rounded-2xl p-4 mt-2 space-y-2">
+                              {selectedWord.relations.map((rel, rIdx) => {
+                                const targetWord = MOCK_WORDS[rel.targetId] || Object.values(MOCK_WORDS).find(w => w.id === rel.targetId);
+                                if (!targetWord) return null;
+                                const typeLabel = rel.type === "homonym" ? "같은 소리, 다른 뜻" : rel.type === "contrast" ? "대조해서 보기" : "함께 알아두기";
+                                return (
+                                  <div key={rIdx} className="flex flex-wrap items-center gap-3 text-xs">
+                                    <span className="font-bold text-classicMuted px-2 py-0.5 rounded bg-white border border-classicBorder/60">
+                                      {typeLabel}
+                                    </span>
+                                    <div className="flex items-center gap-2">
+                                      <span className="font-serif font-bold text-classicText">
+                                        {cleanWordText(selectedWord.word)}({selectedWord.hanja})
+                                      </span>
+                                      <span className="text-classicMuted">·</span>
+                                      <button
+                                        onClick={() => {
+                                          setSelectedWord(targetWord);
+                                          setActiveDetailContext(0);
+                                        }}
+                                        className="font-serif font-bold text-classicRed hover:underline cursor-pointer flex items-center gap-1 transition-colors"
+                                        title={`${targetWord.word}(${targetWord.hanja}) 상세 보기`}
+                                      >
+                                        {cleanWordText(targetWord.word)}({targetWord.hanja}) ↗
+                                      </button>
+                                    </div>
+                                  </div>
+                                );
+                              })}
                             </div>
                           )}
                         </>
@@ -1652,9 +1705,14 @@
                                   )}
 
                                   {currentCtx && (
-                                    <p className="text-[11px] text-classicText leading-relaxed font-medium bg-classicBg/60 p-2 rounded border border-classicBorder/30 italic">
-                                      🔍 {renderContentWithBold(currentCtx.desc || currentCtx.content)}
-                                    </p>
+                                    <div className="space-y-1">
+                                      <span className="inline-block text-[9px] font-bold text-classicTeal bg-classicTeal/10 border border-classicTeal/20 rounded px-1.5 py-0.5">
+                                        {formatContextSource(currentCtx)}
+                                      </span>
+                                      <p className="text-[11px] text-classicText leading-relaxed font-medium bg-classicBg/60 p-2 rounded border border-classicBorder/30 italic">
+                                        🔍 {renderContentWithBold(currentCtx.desc || currentCtx.content)}
+                                      </p>
+                                    </div>
                                   )}
                                 </div>
                               );
