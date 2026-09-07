@@ -13946,5 +13946,4323 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "어근-語根"
+    },
+    "동형이의어": {
+        "word": "동형이의어",
+        "hanja": "同形異義語",
+        "sound": "동형이의어",
+        "category": "전문용어 이해형",
+        "brief": "표기 형태는 같으나 어원이 다르고 의미가 다른 단어",
+        "definition": "표기 형태는 같으나 어원이 다르고 의미가 서로 다른 단어.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "同",
+                "hun": "한가지",
+                "sound": "동",
+                "meaning": "같다, 함께하다"
+            },
+            {
+                "character": "形",
+                "hun": "모양/형상",
+                "sound": "형",
+                "meaning": "형체, 구체적인 모양"
+            },
+            {
+                "character": "異",
+                "hun": "다를",
+                "sound": "이",
+                "meaning": "다르다, 비정상적이다"
+            },
+            {
+                "character": "義",
+                "hun": "옳을",
+                "sound": "의",
+                "meaning": "도리, 주의"
+            },
+            {
+                "character": "語",
+                "hun": "말씀",
+                "sound": "어",
+                "meaning": "말, 단어"
+            }
+        ],
+        "hanjaExplanation": "‘형태(形)는 같으나(同) 뜻(義)이 서로 다른(異) 말(語)’이라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "별개의 단어들이 서로 발음이 같고 의미가 다르면 동음이의어라고 하듯, 별개의 단어들이 서로 표기가 같고 의미가 다르면 동형이의어라고 한다."
+            }
+        ],
+        "feed": [],
+        "id": "동형이의어-同形異義語"
+    },
+    "강행적": {
+        "word": "강행적",
+        "hanja": "強行的",
+        "sound": "강행적",
+        "category": "전문용어 이해형",
+        "brief": "당사자의 의사와 상관없이 강제적으로 적용되는 성질을 띤 것",
+        "definition": "당사자의 의사나 합의에 구애받지 않고 법률상 강제적으로 적용되는 성질을 띤 것.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "強",
+                "hun": "강할",
+                "sound": "강",
+                "meaning": "강하다, 억지로 하다"
+            },
+            {
+                "character": "行",
+                "hun": "갈",
+                "sound": "행",
+                "meaning": "가다, 다니다, 행하다"
+            },
+            {
+                "character": "的",
+                "hun": "과녁/의",
+                "sound": "적",
+                "meaning": "~의, 속성"
+            }
+        ],
+        "hanjaExplanation": "‘강하게(強) 행하는(行) 성질을 띤(的)’이라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "그런데 법적 규제가 과도할 경우 삶의 세계를 구성해 온 고유한 직업 윤리 등 문화적․도덕적 규범이 강행적 성격을 띤 법 규범에 의해 침범당하는 경우가 생긴다."
+            }
+        ],
+        "feed": [],
+        "id": "강행적-強行的"
+    },
+    "임대차": {
+        "word": "임대차",
+        "hanja": "賃貸借",
+        "sound": "임대차",
+        "category": "전문용어 이해형",
+        "brief": "당사자 일방이 목적물을 사용하게 하고 상대방이 차임을 지급하기로 하는 계약",
+        "definition": "당사자의 한편이 상대방에게 물건을 사용하고 수익하게 할 것을 약정하고, 상대방이 이에 대하여 차임을 지급할 것을 약정함으로써 성립하는 계약.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "賃",
+                "hun": "품삯",
+                "sound": "임",
+                "meaning": "품삯, 빌리다, 임차하다"
+            },
+            {
+                "character": "貸",
+                "hun": "빌릴/빌려줄",
+                "sound": "대",
+                "meaning": "대여하다, 빌려주다"
+            },
+            {
+                "character": "借",
+                "hun": "빌릴",
+                "sound": "차",
+                "meaning": "빌리다, 꾸다"
+            }
+        ],
+        "hanjaExplanation": "‘품삯(賃)을 받고 빌려주거나(貸) 빌려 씀(借)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "임대차의 경우 그 내용은 계약으로 정해지는 것이 원칙이지만, 임대차의 목적물인 임차물이 생활의 근거인 주택이나 생업의 근거인 상가이면 임차인 보호라는 과제는 계약만으로는 실현되기 어렵다."
+            }
+        ],
+        "feed": [],
+        "id": "임대차-賃貸借"
+    },
+    "임차인": {
+        "word": "임차인",
+        "hanja": "賃借人",
+        "sound": "임차인",
+        "category": "전문용어 이해형",
+        "brief": "임대차 계약에서 돈을 내고 물건을 빌려 쓰는 사람",
+        "definition": "임대차 계약에서 차임을 내고 남의 물건을 빌려 쓰는 사람.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "賃",
+                "hun": "품삯",
+                "sound": "임",
+                "meaning": "품삯, 빌리다, 임차하다"
+            },
+            {
+                "character": "借",
+                "hun": "빌릴",
+                "sound": "차",
+                "meaning": "빌리다, 꾸다"
+            },
+            {
+                "character": "人",
+                "hun": "사람",
+                "sound": "인",
+                "meaning": "사람, 인간, 백성"
+            }
+        ],
+        "hanjaExplanation": "‘품삯(賃)을 내고 물건을 빌리는(借) 사람(人)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "임대차의 경우 그 내용은 계약으로 정해지는 것이 원칙이지만, 임대차의 목적물인 임차물이 생활의 근거인 주택이나 생업의 근거인 상가이면 임차인 보호라는 과제는 계약만으로는 실현되기 어렵다."
+            }
+        ],
+        "feed": [],
+        "id": "임차인-賃借人"
+    },
+    "원상회복": {
+        "word": "원상회복",
+        "hanja": "原狀回復",
+        "sound": "원상회복",
+        "category": "전문용어 이해형",
+        "brief": "어떤 사실이 발생하기 전의 본래 상태로 되돌림",
+        "definition": "이전의 상태로 되돌림.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "原",
+                "hun": "근본",
+                "sound": "원",
+                "meaning": "근본, 언덕, 처음"
+            },
+            {
+                "character": "狀",
+                "hun": "문서/형상",
+                "sound": "장",
+                "meaning": "문서, 편지"
+            },
+            {
+                "character": "回",
+                "hun": "돌아올",
+                "sound": "회",
+                "meaning": "돌아오다, 돌다, 회복하다"
+            },
+            {
+                "character": "復",
+                "hun": "회복할/다시",
+                "sound": "복",
+                "meaning": "회복하다, 다시, 돌아오다"
+            }
+        ],
+        "hanjaExplanation": "‘본래(原)의 상태(狀)로 다시 되돌린다(回復)’는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "예컨대 임대차 종료 후 임차물을 반환할 때 임차인이 이를 원상회복할 의무를 지는지를 결정할 때는 계약이 법률보다 우선 적용된다."
+            }
+        ],
+        "feed": [],
+        "id": "원상회복-原狀回復"
+    },
+    "운반체": {
+        "word": "운반체",
+        "hanja": "運搬體",
+        "sound": "운반체",
+        "category": "전문용어 이해형",
+        "brief": "어떤 물질을 결합하거나 실어 나르는 매개 물질",
+        "definition": "어떤 물질을 결합하거나 실어 다른 곳으로 옮겨 주는 물질이나 매개체.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "運",
+                "hun": "옮길/돌",
+                "sound": "운",
+                "meaning": "움직이다, 운행하다"
+            },
+            {
+                "character": "搬",
+                "hun": "옮길",
+                "sound": "반",
+                "meaning": "옮기다, 운반하다"
+            },
+            {
+                "character": "體",
+                "hun": "몸",
+                "sound": "체",
+                "meaning": "몸, 실체"
+            }
+        ],
+        "hanjaExplanation": "‘물질을 옮겨(運) 나르는(搬) 물체(體)’라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "이 때문에 액상 유기 화합물 또는 액화 암모니아와 같은 수소 운반체를 활용하는 방식이 제안되었다. 20 이 문제지에 관한 저작권은 한국교육과정평가원에 있습니다."
+            }
+        ],
+        "feed": [],
+        "id": "운반체-運搬體"
+    },
+    "액화": {
+        "word": "액화",
+        "hanja": "液化",
+        "sound": "액화",
+        "category": "전문용어 이해형",
+        "brief": "기체가 냉각이나 압축에 의해 액체로 변함",
+        "definition": "기체가 냉각되거나 압축되어 액체로 됨. 또는 그렇게 만듦.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "液",
+                "hun": "진액",
+                "sound": "액",
+                "meaning": "진액, 액체, 즙"
+            },
+            {
+                "character": "化",
+                "hun": "될",
+                "sound": "화",
+                "meaning": "~이 되다"
+            }
+        ],
+        "hanjaExplanation": "‘액체(液)가 됨(化)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "부피를 크게 줄일 수 있는 액화 수소 방식이 제안되었지만, 저장 및 운송 시 액화된 상태를 유지하려면 극저온의 조건이 필요하다는 문제가 있다."
+            }
+        ],
+        "feed": [],
+        "id": "액화-液化"
+    },
+    "전기분해": {
+        "word": "전기분해",
+        "hanja": "電氣分解",
+        "sound": "전기분해",
+        "category": "전문용어 이해형",
+        "brief": "전해질 용액에 전류를 통하여 화학 물질을 분해하는 일",
+        "definition": "전해질 용액이나 용융액에 전류를 통하여 물질을 화학적으로 분해하는 일.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "電",
+                "hun": "번개/전기",
+                "sound": "전",
+                "meaning": "전기, 전압"
+            },
+            {
+                "character": "氣",
+                "hun": "기운",
+                "sound": "기",
+                "meaning": "날씨, 대기, 기상"
+            },
+            {
+                "character": "分",
+                "hun": "나눌",
+                "sound": "분",
+                "meaning": "나누다"
+            },
+            {
+                "character": "解",
+                "hun": "풀",
+                "sound": "해",
+                "meaning": "풀어내다"
+            }
+        ],
+        "hanjaExplanation": "‘전기(電氣)를 통하여 물질을 나누어(分) 풀어냄(解)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "재생 에너지를 통해 생산된 전기로 물을 전기분해하면 탄소 배출 없이 수소 생산이 가능하다."
+            }
+        ],
+        "feed": [],
+        "id": "전기분해-電氣分解"
+    },
+    "광분해": {
+        "word": "광분해",
+        "hanja": "光分解",
+        "sound": "광분해",
+        "category": "전문용어 이해형",
+        "brief": "빛에너지를 흡수하여 분자가 분해되는 현상",
+        "definition": "빛을 흡수하여 물질의 분자가 화학적으로 분해되는 현상.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "光",
+                "hun": "빛",
+                "sound": "광",
+                "meaning": "빛, 광선"
+            },
+            {
+                "character": "分",
+                "hun": "나눌",
+                "sound": "분",
+                "meaning": "나누다"
+            },
+            {
+                "character": "解",
+                "hun": "풀",
+                "sound": "해",
+                "meaning": "풀어내다"
+            }
+        ],
+        "hanjaExplanation": "‘빛(光)에너지를 받아 물질이 나누어(分) 풀림(解)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "암모니아에서의 수소 추출 방식으로는 전기분해, 광분해, 그리고 가장 많이 쓰이는 열분해가 있다."
+            }
+        ],
+        "feed": [],
+        "id": "광분해-光分解"
+    },
+    "열분해": {
+        "word": "열분해",
+        "hanja": "熱分解",
+        "sound": "열분해",
+        "category": "전문용어 이해형",
+        "brief": "열을 가하여 화합물을 둘 이상의 간단한 물질로 분해하는 일",
+        "definition": "물질에 열을 가하여 더 간단한 물질로 나누는 일.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "熱",
+                "hun": "더울",
+                "sound": "열",
+                "meaning": "덥다, 열, 열기"
+            },
+            {
+                "character": "分",
+                "hun": "나눌",
+                "sound": "분",
+                "meaning": "나누다"
+            },
+            {
+                "character": "解",
+                "hun": "풀",
+                "sound": "해",
+                "meaning": "풀어내다"
+            }
+        ],
+        "hanjaExplanation": "‘열(熱)을 가하여 물질을 나누어(分) 풀어냄(解)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "암모니아에서의 수소 추출 방식으로는 전기분해, 광분해, 그리고 가장 많이 쓰이는 열분해가 있다."
+            }
+        ],
+        "feed": [],
+        "id": "열분해-熱分解"
+    },
+    "전환율": {
+        "word": "전환율",
+        "hanja": "轉換率",
+        "sound": "전환율",
+        "category": "전문용어 이해형",
+        "brief": "반응 물질이 다른 생성 물질로 바뀌는 비율",
+        "definition": "화학 반응에서 반응 물질이 생성 물질로 변화하는 비율.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "轉",
+                "hun": "구를",
+                "sound": "전",
+                "meaning": "회전하다, 구르다"
+            },
+            {
+                "character": "換",
+                "hun": "바꿀",
+                "sound": "환",
+                "meaning": "바꾸다, 교환하다"
+            },
+            {
+                "character": "率",
+                "hun": "비율",
+                "sound": "율",
+                "meaning": "비율, 거느릴 률"
+            }
+        ],
+        "hanjaExplanation": "‘바뀌어(轉) 다른 상태로 환원되는(換) 비율(率)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "Ⓐ열분해 방식을 통해 서는 0.9 이상의 전환율이 얻어지는데, 부반응은 거의 없다."
+            }
+        ],
+        "feed": [],
+        "id": "전환율-轉換率"
+    },
+    "부반응": {
+        "word": "부반응",
+        "hanja": "副反應",
+        "sound": "부반응",
+        "category": "전문용어 이해형",
+        "brief": "주된 화학 반응과 함께 일어나는 부차적인 반응",
+        "definition": "주된 반응에 곁달려 일어나는 부차적인 화학 반응.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "副",
+                "hun": "버금",
+                "sound": "부",
+                "meaning": "버금, 부차적이다, 돕다"
+            },
+            {
+                "character": "反",
+                "hun": "돌이킬/반대할",
+                "sound": "반",
+                "meaning": "반대하다, 되돌리다"
+            },
+            {
+                "character": "應",
+                "hun": "응할",
+                "sound": "응",
+                "meaning": "반응하다, 부합하다"
+            }
+        ],
+        "hanjaExplanation": "‘주된 반응에 버금가는(副) 부차적인 반응(反應)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "Ⓐ열분해 방식을 통해 서는 0.9 이상의 전환율이 얻어지는데, 부반응은 거의 없다."
+            }
+        ],
+        "feed": [],
+        "id": "부반응-副反應"
+    },
+    "산화 극": {
+        "word": "산화 극",
+        "hanja": "酸化極",
+        "sound": "산화 극",
+        "category": "전문용어 이해형",
+        "brief": "전기화학 반응에서 산화 반응이 일어나는 전극",
+        "definition": "전기화학 반응 장치에서 전자를 잃는 산화 반응이 일어나는 전극.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "酸",
+                "hun": "실",
+                "sound": "산",
+                "meaning": "시다, 산소, 산화하다"
+            },
+            {
+                "character": "化",
+                "hun": "될",
+                "sound": "화",
+                "meaning": "~이 되다"
+            },
+            {
+                "character": "極",
+                "hun": "다할/극",
+                "sound": "극",
+                "meaning": "다하다, 극진하다, 극(전극)"
+            }
+        ],
+        "hanjaExplanation": "‘산화(酸化) 반응이 일어나는 전극(極)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "수소의 대표적 활용법인 수소 연료 전지는 수소의 화학 에너지를 전기 에너지로 직접 변환하는 장치로, 산화 극, 환원 극, 전해질, 도선으로 구성된다."
+            }
+        ],
+        "feed": [],
+        "id": "산화 극-酸化極"
+    },
+    "환원 극": {
+        "word": "환원 극",
+        "hanja": "還元極",
+        "sound": "환원 극",
+        "category": "전문용어 이해형",
+        "brief": "전기화학 반응에서 환원 반응이 일어나는 전극",
+        "definition": "전기화학 반응 장치에서 전자를 얻는 환원 반응이 일어나는 전극.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "還",
+                "hun": "돌아올",
+                "sound": "환",
+                "meaning": "돌아가다, 되돌리다, 갚다"
+            },
+            {
+                "character": "元",
+                "hun": "으뜸/근원",
+                "sound": "원",
+                "meaning": "근원, 시초"
+            },
+            {
+                "character": "極",
+                "hun": "다할/극",
+                "sound": "극",
+                "meaning": "다하다, 극진하다, 극(전극)"
+            }
+        ],
+        "hanjaExplanation": "‘환원(還元) 반응이 일어나는 전극(極)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "수소의 대표적 활용법인 수소 연료 전지는 수소의 화학 에너지를 전기 에너지로 직접 변환하는 장치로, 산화 극, 환원 극, 전해질, 도선으로 구성된다."
+            }
+        ],
+        "feed": [],
+        "id": "환원 극-還元極"
+    },
+    "전해질": {
+        "word": "전해질",
+        "hanja": "電解質",
+        "sound": "전해질",
+        "category": "전문용어 이해형",
+        "brief": "용액에 녹아 이온으로 나뉘어 전기를 통하게 하는 물질",
+        "definition": "물 등의 용매에 녹아서 이온으로 해리되어 전도성을 띠는 물질.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "電",
+                "hun": "번개/전기",
+                "sound": "전",
+                "meaning": "전기, 전압"
+            },
+            {
+                "character": "解",
+                "hun": "풀",
+                "sound": "해",
+                "meaning": "풀어내다"
+            },
+            {
+                "character": "質",
+                "hun": "바탕",
+                "sound": "질",
+                "meaning": "자질, 본바탕"
+            }
+        ],
+        "hanjaExplanation": "‘전기(電)에 의해 이온으로 분해되는(解) 성질의 물질(質)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "수소의 대표적 활용법인 수소 연료 전지는 수소의 화학 에너지를 전기 에너지로 직접 변환하는 장치로, 산화 극, 환원 극, 전해질, 도선으로 구성된다."
+            }
+        ],
+        "feed": [],
+        "id": "전해질-電解質"
+    },
+    "추상화": {
+        "word": "추상화",
+        "hanja": "抽象化",
+        "sound": "추상화",
+        "category": "개념 정밀화형",
+        "brief": "개별 사물들의 공통적 특성을 추출하여 파악함",
+        "definition": "개별 사물이나 표상의 공통된 특성을 뽑아내어 일반적인 개념으로 파악함.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "抽",
+                "hun": "뽑을",
+                "sound": "추",
+                "meaning": "뽑다, 빼내다, 추상하다"
+            },
+            {
+                "character": "象",
+                "hun": "코끼리/형상",
+                "sound": "상",
+                "meaning": "형상, 모습, 상징"
+            },
+            {
+                "character": "化",
+                "hun": "될",
+                "sound": "화",
+                "meaning": "~이 되다"
+            }
+        ],
+        "hanjaExplanation": "‘핵심 형상을 뽑아내어(抽) 상(象)을 이룸(化)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "예를 들어 뉴턴이 생각한 공간은 주체나 대상과 관계없는 절대적인 것이었으나, 인포스피어는 대상과 주체가 서로 의존함으로써 존재하는 공간이자 대상이 추상화 층위를 통해서 인식되는 공간 이다."
+            }
+        ],
+        "feed": [],
+        "id": "추상화-抽象化"
+    },
+    "층위": {
+        "word": "층위",
+        "hanja": "層位",
+        "sound": "층위",
+        "category": "개념 정밀화형",
+        "brief": "단계나 계층상으로 구분되는 위치",
+        "definition": "사물이나 현상이 일정한 기준에 따라 겹쳐져 구분되는 단계나 계층상의 위치.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "層",
+                "hun": "층",
+                "sound": "층",
+                "meaning": "층, 켜, 겹치다"
+            },
+            {
+                "character": "位",
+                "hun": "자리",
+                "sound": "위",
+                "meaning": "자리, 위치, 지위"
+            }
+        ],
+        "hanjaExplanation": "‘겹겹이 쌓인 층(層)의 자리(位)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "예를 들어 뉴턴이 생각한 공간은 주체나 대상과 관계없는 절대적인 것이었으나, 인포스피어는 대상과 주체가 서로 의존함으로써 존재하는 공간이자 대상이 추상화 층위를 통해서 인식되는 공간 이다."
+            }
+        ],
+        "feed": [],
+        "id": "층위-層位"
+    },
+    "표구": {
+        "word": "표구",
+        "hanja": "表具",
+        "sound": "표구",
+        "category": "문맥적 의미 파악형",
+        "brief": "서화 등에 종이나 비단을 발라 족자나 액자 등으로 꾸밈",
+        "definition": "서화(書畫)를 족자나 액자, 병풍 따위로 꾸며 장정하는 일.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "表",
+                "hun": "겉/나타낼",
+                "sound": "표",
+                "meaning": "겉, 나타내다, 드러내다"
+            },
+            {
+                "character": "具",
+                "hun": "갖출",
+                "sound": "구",
+                "meaning": "갖추다, 자세하다, 그릇"
+            }
+        ],
+        "hanjaExplanation": "‘겉(表)을 갖추어(具) 꾸민다’는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "문학",
+                "domain": "현대소설",
+                "content": "“그거 표구할 수 있겠지?” “표구?” “그래.” “그야 할 수 있겠지."
+            }
+        ],
+        "feed": [],
+        "id": "표구-表具"
+    },
+    "호사가": {
+        "word": "호사가",
+        "hanja": "好事家",
+        "sound": "호사가",
+        "category": "문맥적 의미 파악형",
+        "brief": "일을 벌이기 좋아하거나 남의 일에 참견하기 좋아하는 사람",
+        "definition": "일을 벌이기 좋아하는 사람. 또는 남의 일에 참견하기 좋아하는 사람.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "好",
+                "hun": "좋을",
+                "sound": "호",
+                "meaning": "좋다, 훌륭하다"
+            },
+            {
+                "character": "事",
+                "hun": "일",
+                "sound": "사",
+                "meaning": "일, 사건"
+            },
+            {
+                "character": "家",
+                "hun": "집",
+                "sound": "가",
+                "meaning": "집, 사람, 전문가"
+            }
+        ],
+        "hanjaExplanation": "‘일(事) 벌이기를 좋아하는(好) 사람(家)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "문학",
+                "domain": "현대소설",
+                "content": "자네가 어디 적당한 표구사에 맡겨서 좀 해 주지 않겠나?” “그야 어렵지 않지만…… 자네도 어지간히 호사가군."
+            }
+        ],
+        "feed": [],
+        "id": "호사가-好事家"
+    },
+    "경황": {
+        "word": "경황",
+        "hanja": "景況",
+        "sound": "경황",
+        "category": "문맥적 의미 파악형",
+        "brief": "형편이나 처지, 또는 일의 형세",
+        "definition": "형편이나 처지. 또는 일의 형세.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "景",
+                "hun": "경치",
+                "sound": "경",
+                "meaning": "경치, 형편, 볕"
+            },
+            {
+                "character": "況",
+                "hun": "상황",
+                "sound": "황",
+                "meaning": "상황, 형편, 하물며"
+            }
+        ],
+        "hanjaExplanation": "‘일의 정경(景)과 형편(況)’을 뜻하며 주로 정신적 여유가 없을 때 씁니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "문학",
+                "domain": "현대소설",
+                "content": "통장을 확인할 경황도 없이."
+            }
+        ],
+        "feed": [],
+        "id": "경황-景況"
+    },
+    "천신만고": {
+        "word": "천신만고",
+        "hanja": "千辛萬苦",
+        "sound": "천신만고",
+        "category": "고전 어휘 독해형",
+        "brief": "온갖 매운맛과 쓴맛이라는 뜻으로, 극진한 고생과 고난",
+        "definition": "천 가지 매운맛과 만 가지 쓴맛이라는 뜻으로, 온갖 고생과 고난을 이르는 말.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "千",
+                "hun": "일천",
+                "sound": "천",
+                "meaning": "천"
+            },
+            {
+                "character": "辛",
+                "hun": "매울",
+                "sound": "신",
+                "meaning": "매우다, 괴롭다, 고생하다"
+            },
+            {
+                "character": "萬",
+                "hun": "일만",
+                "sound": "만",
+                "meaning": "일만, 많다, 모든"
+            },
+            {
+                "character": "苦",
+                "hun": "쓸",
+                "sound": "고",
+                "meaning": "쓰다, 괴롭다, 고생하다"
+            }
+        ],
+        "hanjaExplanation": "‘천(千) 가지 매운맛(辛)과 만(萬) 가지 쓴맛(苦)’이라는 뜻으로 온갖 모진 고생을 이릅니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "문학",
+                "domain": "고전시가",
+                "content": "미끄러운 돌사다리 천신만고 들어가서 산 밑만 겨우 보면 분하지 않으리오"
+            }
+        ],
+        "feed": [],
+        "id": "천신만고-千辛萬苦"
+    },
+    "만경창파": {
+        "word": "만경창파",
+        "hanja": "萬頃蒼波",
+        "sound": "만경창파",
+        "category": "고전 어휘 독해형",
+        "brief": "만 이랑의 푸른 물결이라는 뜻으로, 한없이 넓고 푸른 바다",
+        "definition": "만 이랑의 푸른 물결이라는 뜻으로, 한없이 넓고 푸른 바다를 이르는 말.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "萬",
+                "hun": "일만",
+                "sound": "만",
+                "meaning": "일만, 많다, 모든"
+            },
+            {
+                "character": "頃",
+                "hun": "잠깐/이랑",
+                "sound": "경",
+                "meaning": "잠깐, 눈 깜짝할 사이"
+            },
+            {
+                "character": "蒼",
+                "hun": "푸를",
+                "sound": "창",
+                "meaning": "푸르다, 창망하다"
+            },
+            {
+                "character": "波",
+                "hun": "물결",
+                "sound": "파",
+                "meaning": "물결, 파도, 파동"
+            }
+        ],
+        "hanjaExplanation": "‘만(萬) 이랑(頃)에 달하는 푸른(蒼) 물결(波)’이라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "그런 뒤에 배를 타고 만경창파에 떠서 고국으로 향하더니 한곳에 다다르니 바람결에 청아한 옥피리 소리 들리거늘 살펴보니 일위 동자가 청의를 입고 머리에 화관을 쓰고 20 이 문제지에 관한 저작권은 한국교육과정평가원에 있습니다."
+            }
+        ],
+        "feed": [],
+        "id": "만경창파-萬頃蒼波"
+    },
+    "일엽편주": {
+        "word": "일엽편주",
+        "hanja": "一葉片舟",
+        "sound": "일엽편주",
+        "category": "고전 어휘 독해형",
+        "brief": "한 장의 나뭇잎처럼 작고 가벼운 조각배",
+        "definition": "한 장의 나뭇잎처럼 작고 가벼운 조각배.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "一",
+                "hun": "한",
+                "sound": "일",
+                "meaning": "하나, 오로지"
+            },
+            {
+                "character": "葉",
+                "hun": "잎",
+                "sound": "엽",
+                "meaning": "잎, 나뭇잎, 잎사귀"
+            },
+            {
+                "character": "片",
+                "hun": "조각",
+                "sound": "편",
+                "meaning": "조각, 한 편, 조각배"
+            },
+            {
+                "character": "舟",
+                "hun": "배",
+                "sound": "주",
+                "meaning": "배, 조각배"
+            }
+        ],
+        "hanjaExplanation": "‘한(一) 잎(葉) 나뭇잎 같은 조각(片) 배(舟)’라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "10 일엽편주를 타고 살같이 오며 왈 “김 원수는 배를 잠시 멈추소서.” 하며 급히 불러 왈 “수부 왕이 청하시니 가사이다.” 하거늘 원수가 대왈 “용왕은 수부 용신이요, 진옥은 진세지인이라."
+            }
+        ],
+        "feed": [],
+        "id": "일엽편주-一葉片舟"
+    },
+    "수부": {
+        "word": "수부",
+        "hanja": "水府",
+        "sound": "수부",
+        "category": "고전 어휘 독해형",
+        "brief": "바다나 강 등의 물밑에 있다는 궁전",
+        "definition": "바다나 강 등의 물밑에 있다는 궁전. 또는 수신(水神)이 산다는 곳.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "水",
+                "hun": "물",
+                "sound": "수",
+                "meaning": "물"
+            },
+            {
+                "character": "府",
+                "hun": "관청",
+                "sound": "부",
+                "meaning": "관청, 관아, 집"
+            }
+        ],
+        "hanjaExplanation": "‘물(水)속의 궁궐이나 관청(府)’이라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "10 일엽편주를 타고 살같이 오며 왈 “김 원수는 배를 잠시 멈추소서.” 하며 급히 불러 왈 “수부 왕이 청하시니 가사이다.” 하거늘 원수가 대왈 “용왕은 수부 용신이요, 진옥은 진세지인이라."
+            }
+        ],
+        "feed": [],
+        "id": "수부-水府"
+    },
+    "사생존망": {
+        "word": "사생존망",
+        "hanja": "死生存亡",
+        "sound": "사생존망",
+        "category": "고전 어휘 독해형",
+        "brief": "죽느냐 사느냐, 존속하느냐 멸망하느냐 하는 중대한 갈림길",
+        "definition": "죽느냐 사느냐, 사느냐 없어지느냐 하는 갈림길.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "死",
+                "hun": "죽을",
+                "sound": "사",
+                "meaning": "죽다"
+            },
+            {
+                "character": "生",
+                "hun": "날/살",
+                "sound": "생",
+                "meaning": "살다, 나다, 생장하다"
+            },
+            {
+                "character": "存",
+                "hun": "있을",
+                "sound": "존",
+                "meaning": "있다, 보존하다, 살아남다"
+            },
+            {
+                "character": "亡",
+                "hun": "망할",
+                "sound": "망",
+                "meaning": "망하다, 죽다, 잃다"
+            }
+        ],
+        "hanjaExplanation": "‘죽음(死)과 삶(生), 보존(存)과 멸망(亡)’을 아울러 이릅니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "내 자식의 이름은 김진옥이거니와 화초암에서 공부하다가 이별하였더니 지금 사생존망을 모르나이다."
+            }
+        ],
+        "feed": [],
+        "id": "사생존망-死生存亡"
+    },
+    "동심합력": {
+        "word": "동심합력",
+        "hanja": "同心合力",
+        "sound": "동심합력",
+        "category": "고전 어휘 독해형",
+        "brief": "마음을 같이하여 서로 힘을 합침",
+        "definition": "마음을 같이하여 서로 힘을 합침.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "同",
+                "hun": "한가지",
+                "sound": "동",
+                "meaning": "같다, 함께하다"
+            },
+            {
+                "character": "心",
+                "hun": "마음",
+                "sound": "심",
+                "meaning": "마음, 뜻"
+            },
+            {
+                "character": "合",
+                "hun": "합할",
+                "sound": "합",
+                "meaning": "합치다, 맞추다"
+            },
+            {
+                "character": "力",
+                "hun": "힘",
+                "sound": "력",
+                "meaning": "힘, 작용"
+            }
+        ],
+        "hanjaExplanation": "‘마음(心)을 한가지로 모으고(同) 힘(力)을 합침(合)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "지금 진옥이 월국을 치는 체하다가 월국으로 도망하여 제 아비와 동심합력하여 중국을 해코자 하오니 그 처자를 어찌 살려 두리까?"
+            }
+        ],
+        "feed": [],
+        "id": "동심합력-同心合力"
+    },
+    "삭탈관직": {
+        "word": "삭탈관직",
+        "hanja": "削奪官職",
+        "sound": "삭탈관직",
+        "category": "고전 어휘 독해형",
+        "brief": "죄를 지은 벼슬아치의 관직과 품계를 박탈함",
+        "definition": "죄를 지은 관원의 벼슬과 품계를 빼앗고 벼슬아치의 명부에서 이름을 지워 버림.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "削",
+                "hun": "깎을",
+                "sound": "삭",
+                "meaning": "깎다, 빼앗다, 삭제하다"
+            },
+            {
+                "character": "奪",
+                "hun": "빼앗을",
+                "sound": "탈",
+                "meaning": "빼앗다, 박탈하다"
+            },
+            {
+                "character": "官",
+                "hun": "벼슬",
+                "sound": "관",
+                "meaning": "관아, 관청, 관원"
+            },
+            {
+                "character": "職",
+                "hun": "직분",
+                "sound": "직",
+                "meaning": "직분, 벼슬, 직업"
+            }
+        ],
+        "hanjaExplanation": "‘벼슬(官職)을 깎아(削) 빼앗음(奪)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "황제 그 말을 듣고 그러할 듯한지라 즉시 유 승상을 삭탈관직 하고 진옥의 처 유 씨를 잡아다가 죽이려 하더라."
+            }
+        ],
+        "feed": [],
+        "id": "삭탈관직-削奪官職"
+    },
+    "항서": {
+        "word": "항서",
+        "hanja": "降書",
+        "sound": "항서",
+        "category": "고전 어휘 독해형",
+        "brief": "싸움에서 져서 항복한다는 뜻을 적은 글",
+        "definition": "항복하는 뜻을 적은 글.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "降",
+                "hun": "항복할",
+                "sound": "항",
+                "meaning": "항복하다, 굴복하다"
+            },
+            {
+                "character": "書",
+                "hun": "글",
+                "sound": "서",
+                "meaning": "글, 서신"
+            }
+        ],
+        "hanjaExplanation": "‘항복하는(降) 글(書)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 6모",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "이때 적진 군중에서 항서를 써 올리거늘 원수가 받은 후에 군사를 몰아 돌아오니 용왕이 대희하여 원수와 그 부친을 좌상에 앉히고 원수 공덕을 무수히 치사하시더라."
+            }
+        ],
+        "feed": [],
+        "id": "항서-降書"
+    },
+    "체독": {
+        "word": "체독",
+        "hanja": "體讀",
+        "sound": "체독",
+        "category": "전문용어 이해형",
+        "brief": "글의 참뜻을 온몸으로 실천하며 읽음",
+        "definition": "글을 읽을 때 글자에 표현되어 있는 것 이상으로 그 참뜻을 체득하여 읽음.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "體",
+                "hun": "몸",
+                "sound": "체",
+                "meaning": "몸, 실체"
+            },
+            {
+                "character": "讀",
+                "hun": "읽을",
+                "sound": "독",
+                "meaning": "읽다, 해독하다"
+            }
+        ],
+        "hanjaExplanation": "‘몸(體)으로 읽는다(讀)’는 뜻으로, 글의 참뜻을 깊이 체득하여 읽음을 이릅니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "‘체독(體讀)’이라는 독서 방법이 궁금해서 인공지능으로 자료를 생성해서 읽어 보았다."
+            }
+        ],
+        "feed": [],
+        "id": "체독-體讀"
+    },
+    "발췌": {
+        "word": "발췌",
+        "hanja": "拔萃",
+        "sound": "발췌",
+        "category": "전문용어 이해형",
+        "brief": "책이나 글에서 중요한 요점을 뽑아냄",
+        "definition": "책이나 글에서 요점을 뽑아냄. 또는 뽑아낸 글이나 글귀.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "拔",
+                "hun": "뽑을",
+                "sound": "발",
+                "meaning": "뽑다, 빼내다, 빼어나다"
+            },
+            {
+                "character": "萃",
+                "hun": "모을",
+                "sound": "췌",
+                "meaning": "모으다, 무리, 빼어나다"
+            }
+        ],
+        "hanjaExplanation": "‘빼어난 것을 뽑아냄(拔)과 모음(萃)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "즉, 독자의 요구나 선호에 부합하는 일부 정보만 편중되게 발췌하거나 일부 해석을 누락하기도 한다."
+            }
+        ],
+        "feed": [],
+        "id": "발췌-拔萃"
+    },
+    "누락": {
+        "word": "누락",
+        "hanja": "漏落",
+        "sound": "누락",
+        "category": "개념 정밀화형",
+        "brief": "기록해야 할 대상이 빠져 떨어짐",
+        "definition": "기록할 대상이 빠짐.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "漏",
+                "hun": "샐",
+                "sound": "루",
+                "meaning": "새다, 빠뜨리다, 누락하다"
+            },
+            {
+                "character": "落",
+                "hun": "떨어질",
+                "sound": "락",
+                "meaning": "떨어지다, 빠지다, 누락하다"
+            }
+        ],
+        "hanjaExplanation": "‘새어 나가고(漏) 빠져 떨어짐(落)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "즉, 독자의 요구나 선호에 부합하는 일부 정보만 편중되게 발췌하거나 일부 해석을 누락하기도 한다."
+            }
+        ],
+        "feed": [],
+        "id": "누락-漏落"
+    },
+    "왕정복고": {
+        "word": "왕정복고",
+        "hanja": "王政復古",
+        "sound": "왕정복고",
+        "category": "개념 정밀화형",
+        "brief": "군주제가 폐지된 후 다시 왕정으로 되돌아감",
+        "definition": "군주제가 폐지되거나 중단된 뒤에 다시 왕정으로 되돌아감.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "王",
+                "hun": "임금",
+                "sound": "왕",
+                "meaning": "임금, 왕"
+            },
+            {
+                "character": "政",
+                "hun": "정사",
+                "sound": "정",
+                "meaning": "정사, 정치, 나라의 일"
+            },
+            {
+                "character": "復",
+                "hun": "회복할/다시",
+                "sound": "복",
+                "meaning": "회복하다, 다시, 돌아오다"
+            },
+            {
+                "character": "古",
+                "hun": "옛",
+                "sound": "고",
+                "meaning": "옛, 오래되다, 고전"
+            }
+        ],
+        "hanjaExplanation": "‘왕(王)의 정치(政)를 다시(復) 옛(古) 모습으로 되돌림’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "예를 들어, 1920년대 독일 영화에 반복해서 등장하는 밀실, 광인, 독재자 등을 담은 이미지의 이면에서 패전 이후 독일 사회 전반에 만연했던 현실 도피의 퇴행적인 심리와, 왕정복고를 바라는 정치적 이념을 읽어 낼 수 있다는 것이다."
+            }
+        ],
+        "feed": [],
+        "id": "왕정복고-王政復古"
+    },
+    "조망": {
+        "word": "조망",
+        "hanja": "眺望",
+        "sound": "조망",
+        "category": "개념 정밀화형",
+        "brief": "넓은 영역이나 현상을 한눈에 멀리 바라봄",
+        "definition": "먼 곳이나 넓은 경관을 한눈에 바라봄. 또는 사물의 전모나 발전 과정을 멀리 내다봄.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "眺",
+                "hun": "바라볼",
+                "sound": "조",
+                "meaning": "바라보다, 조망하다"
+            },
+            {
+                "character": "望",
+                "hun": "바랄/보름",
+                "sound": "망",
+                "meaning": "음력 보름, 둥근 달, 바라보다"
+            }
+        ],
+        "hanjaExplanation": "‘바라보며(眺) 멀리 내다봄(望)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "그런데 만약 현재를 역사처럼 조망할 수 있다면, 우리가 속한 사회의 총체적인 양상을 파악할 수 있을 것이다."
+            }
+        ],
+        "feed": [],
+        "id": "조망-眺望"
+    },
+    "역사화": {
+        "word": "역사화",
+        "hanja": "歷史化",
+        "sound": "역사화",
+        "category": "개념 정밀화형",
+        "brief": "어떤 현상이나 대상을 역사적 맥락 속에 위치시켜 파악함",
+        "definition": "사물이나 현상을 역사적인 맥락과 발전 과정 속에서 의미를 부여하여 파악함.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "歷",
+                "hun": "지낼",
+                "sound": "역",
+                "meaning": "지내다, 겪다, 역사"
+            },
+            {
+                "character": "史",
+                "hun": "역사",
+                "sound": "사",
+                "meaning": "역사, 기록, 사관"
+            },
+            {
+                "character": "化",
+                "hun": "될",
+                "sound": "화",
+                "meaning": "~이 되다"
+            }
+        ],
+        "hanjaExplanation": "‘지나온 역사(歷史)적 맥락으로 만듦(化)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "제임슨은 서사를 통한 ‘역사화’의 가능성에 주목했다."
+            }
+        ],
+        "feed": [],
+        "id": "역사화-歷史化"
+    },
+    "공론장": {
+        "word": "공론장",
+        "hanja": "公論場",
+        "sound": "공론장",
+        "category": "전문용어 이해형",
+        "brief": "시민들이 공공의 문제를 토론하고 여론을 형성하는 장소",
+        "definition": "시민들이 공공의 관심사에 대해 자유롭게 토론하고 여론을 형성하는 사회적 영역이나 마당.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "公",
+                "hun": "공평할",
+                "sound": "공",
+                "meaning": "공사, 공공의 일"
+            },
+            {
+                "character": "論",
+                "hun": "말할/이론",
+                "sound": "론",
+                "meaning": "논의, 학설"
+            },
+            {
+                "character": "場",
+                "hun": "마당",
+                "sound": "장",
+                "meaning": "장소, 마당"
+            }
+        ],
+        "hanjaExplanation": "‘공공의 의논(公論)이 이루어지는 마당(場)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "언론학자 로젠에 따르면, 공공 저널리즘은 공중을 공공 문제의 잠재적 참여자로 간주하고, 다양한 층위의 사람들을 공론장에 참여하게 함으로써, 공공 문제의 해결 방안이 원활히 토의될 수 있도록 하는 목적을 가진다."
+            }
+        ],
+        "feed": [],
+        "id": "공론장-公論場"
+    },
+    "이해 당사자": {
+        "word": "이해 당사자",
+        "hanja": "利害當事者",
+        "sound": "이해 당사자",
+        "category": "전문용어 이해형",
+        "brief": "특정 사안에 직접적인 이해관계를 가지는 사람이나 단체",
+        "definition": "어떤 일이나 문제에 직접적인 이해관계를 가지는 사람이나 집단.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "利",
+                "hun": "이로울",
+                "sound": "리",
+                "meaning": "이익, 쓸모"
+            },
+            {
+                "character": "害",
+                "hun": "해칠",
+                "sound": "해",
+                "meaning": "해치다, 해로움"
+            },
+            {
+                "character": "當",
+                "hun": "마땅할",
+                "sound": "당",
+                "meaning": "마땅하다, 당연하다"
+            },
+            {
+                "character": "事",
+                "hun": "일",
+                "sound": "사",
+                "meaning": "일, 사건"
+            },
+            {
+                "character": "者",
+                "hun": "놈/사람",
+                "sound": "자",
+                "meaning": "사람, 자, 것"
+            }
+        ],
+        "hanjaExplanation": "‘이익과 손해(利害)에 직접 해당(當)하는 일(事)의 사람(者)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "이를 위해 공공 저널리즘은 설문 이나 회의, 이해 당사자들의 집단 인터뷰 등의 사회 과학적 방법을 적극 활용한다."
+            }
+        ],
+        "feed": [],
+        "id": "이해 당사자-利害當事者"
+    },
+    "취합": {
+        "word": "취합",
+        "hanja": "聚合",
+        "sound": "취합",
+        "category": "개념 정밀화형",
+        "brief": "여러 곳의 자료나 의견을 한데 모아서 합침",
+        "definition": "모여서 합침. 또는 한데 모아 합침.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "聚",
+                "hun": "모을",
+                "sound": "취",
+                "meaning": "모으다, 모이다, 무리"
+            },
+            {
+                "character": "合",
+                "hun": "합할",
+                "sound": "합",
+                "meaning": "합치다, 맞추다"
+            }
+        ],
+        "hanjaExplanation": "‘모아서(聚) 하나로 합침(合)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "대상을 선정하고 자료를 취합 및 분석하는 등의 취재 과정에 사회 과학적 방법을 활용함으로써 주관성이 개입될 수 있는 한계를 보완하고 공중의 숙고를 촉진 한다는 것이다. 10."
+            }
+        ],
+        "feed": [],
+        "id": "취합-聚合"
+    },
+    "숙고": {
+        "word": "숙고",
+        "hanja": "熟考",
+        "sound": "숙고",
+        "category": "개념 정밀화형",
+        "brief": "곰곰이 깊이 생각함",
+        "definition": "곰곰이 잘 생각함.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "熟",
+                "hun": "익을",
+                "sound": "숙",
+                "meaning": "익다, 깊다, 깊이 생각하다"
+            },
+            {
+                "character": "考",
+                "hun": "생각할",
+                "sound": "고",
+                "meaning": "생각하다, 살피다, 시험하다"
+            }
+        ],
+        "hanjaExplanation": "‘익을 만큼 깊이(熟) 생각함(考)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "대상을 선정하고 자료를 취합 및 분석하는 등의 취재 과정에 사회 과학적 방법을 활용함으로써 주관성이 개입될 수 있는 한계를 보완하고 공중의 숙고를 촉진 한다는 것이다. 10."
+            }
+        ],
+        "feed": [],
+        "id": "숙고-熟考"
+    },
+    "축음기": {
+        "word": "축음기",
+        "hanja": "蓄音機",
+        "sound": "축음기",
+        "category": "전문용어 이해형",
+        "brief": "원반 등에 소리를 기록하고 이를 재생하는 장치",
+        "definition": "원반이나 원통에 소리를 녹음하여 재생하는 장치.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "蓄",
+                "hun": "모을",
+                "sound": "축",
+                "meaning": "모으다, 쌓다, 저축하다"
+            },
+            {
+                "character": "音",
+                "hun": "소리",
+                "sound": "음",
+                "meaning": "소리, 음성, 목소리"
+            },
+            {
+                "character": "機",
+                "hun": "틀/기미",
+                "sound": "기",
+                "meaning": "기틀, 기미, 비밀, 신비로운 움직임"
+            }
+        ],
+        "hanjaExplanation": "‘소리(音)를 모아 쌓아 두는(蓄) 기계(機)’라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "소리 특히 음악을 저장하는 방법은 축음기에서 시작하여 매체의 발명과 발맞추어 많은 발전을 이루었다."
+            }
+        ],
+        "feed": [],
+        "id": "축음기-蓄音機"
+    },
+    "이진수": {
+        "word": "이진수",
+        "hanja": "二進數",
+        "sound": "이진수",
+        "category": "전문용어 이해형",
+        "brief": "0과 1의 두 개 숫자만으로 수를 표현하는 방식",
+        "definition": "0과 1의 두 개의 숫자만을 써서 나타낸 수.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "二",
+                "hun": "두",
+                "sound": "이",
+                "meaning": "둘, 두 가지"
+            },
+            {
+                "character": "進",
+                "hun": "나아갈",
+                "sound": "진",
+                "meaning": "나아가다, 올리다, 발전하다"
+            },
+            {
+                "character": "數",
+                "hun": "셈/운수",
+                "sound": "수",
+                "meaning": "운수, 팔자"
+            }
+        ],
+        "hanjaExplanation": "‘둘(二)이 되면 자리를 올리는(進) 수(數)’라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "현재는, 소리를 디지털 신호, 즉 이진수로 이루어진 오디오 신호로 바꾸어 파일로 저장한다."
+            }
+        ],
+        "feed": [],
+        "id": "이진수-二進數"
+    },
+    "지각부호화": {
+        "word": "지각부호화",
+        "hanja": "知覺符號化",
+        "sound": "지각부호화",
+        "category": "전문용어 이해형",
+        "brief": "인간의 감각 특성을 고려하여 인지하기 어려운 데이터를 압축하는 기술",
+        "definition": "인간의 청각이나 시각 등 지각적 한계를 고려하여, 인지되지 않는 정보를 제거함으로써 데이터를 압축하여 부호화하는 방식.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "知",
+                "hun": "알",
+                "sound": "지",
+                "meaning": "알다, 지각하다, 깨닫다"
+            },
+            {
+                "character": "覺",
+                "hun": "깨달을",
+                "sound": "각",
+                "meaning": "깨닫다, 느끼다, 감각"
+            },
+            {
+                "character": "符",
+                "hun": "부신",
+                "sound": "부",
+                "meaning": "부신(증표), 부합하다, 꼭 맞다"
+            },
+            {
+                "character": "號",
+                "hun": "이름/부를",
+                "sound": "호",
+                "meaning": "이름, 호칭, 칭호"
+            },
+            {
+                "character": "化",
+                "hun": "될",
+                "sound": "화",
+                "meaning": "~이 되다"
+            }
+        ],
+        "hanjaExplanation": "‘인간의 지각(知覺) 특성을 바탕으로 기호화(符號化)하여 압축함’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "일반적으로 오디오 신호 압축에는 지각부호화를 이용한다."
+            }
+        ],
+        "feed": [],
+        "id": "지각부호화-知覺符號化"
+    },
+    "최소가청강도": {
+        "word": "최소가청강도",
+        "hanja": "最小可聽強度",
+        "sound": "최소가청강도",
+        "category": "전문용어 이해형",
+        "brief": "인간이 귀로 감지할 수 있는 가장 작은 소리의 세기",
+        "definition": "조용한 환경에서 인간의 귀로 겨우 감지할 수 있는 소리의 최소 세기나 음압 수준.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "最",
+                "hun": "가장",
+                "sound": "최",
+                "meaning": "가장, 제일, 으뜸"
+            },
+            {
+                "character": "小",
+                "hun": "작을",
+                "sound": "소",
+                "meaning": "작다, 하찮다"
+            },
+            {
+                "character": "可",
+                "hun": "옳을",
+                "sound": "가",
+                "meaning": "옳다, 가능하다, 가히"
+            },
+            {
+                "character": "聽",
+                "hun": "들을",
+                "sound": "청",
+                "meaning": "듣다, 받아들이다, 청각"
+            },
+            {
+                "character": "強",
+                "hun": "강할",
+                "sound": "강",
+                "meaning": "강하다, 억지로 하다"
+            },
+            {
+                "character": "度",
+                "hun": "법도/정도",
+                "sound": "도",
+                "meaning": "정도, 척도, 비율"
+            }
+        ],
+        "hanjaExplanation": "‘가장 작게(最小) 들을 수 있는(可聽) 소리의 세기(強度)’라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "지각부호화에서 이용하는 청각 특성에는 최소가청강도와 차폐가 있다."
+            }
+        ],
+        "feed": [],
+        "id": "최소가청강도-最小可聽強度"
+    },
+    "차폐": {
+        "word": "차폐",
+        "hanja": "遮蔽",
+        "sound": "차폐",
+        "category": "전문용어 이해형",
+        "brief": "가리어 막거나 덮어 가림",
+        "definition": "가리어 막거나 덮음. 또는 큰 소리에 의해 작은 소리가 가려져 들리지 않게 됨.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "遮",
+                "hun": "가릴",
+                "sound": "차",
+                "meaning": "가리다, 막다, 차폐하다"
+            },
+            {
+                "character": "蔽",
+                "hun": "덮을",
+                "sound": "폐",
+                "meaning": "덮다, 가리다, 억제하다"
+            }
+        ],
+        "hanjaExplanation": "‘가로막고(遮) 덮어서(蔽) 가림’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "지각부호화에서 이용하는 청각 특성에는 최소가청강도와 차폐가 있다."
+            }
+        ],
+        "feed": [],
+        "id": "차폐-遮蔽"
+    },
+    "차폐음": {
+        "word": "차폐음",
+        "hanja": "遮蔽音",
+        "sound": "차폐음",
+        "category": "전문용어 이해형",
+        "brief": "다른 소리를 가려 들리지 않게 만드는 큰 소리",
+        "definition": "청각 차폐 현상을 일으켜 다른 소리를 가려 들리지 않게 만드는 큰 소리.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "遮",
+                "hun": "가릴",
+                "sound": "차",
+                "meaning": "가리다, 막다, 차폐하다"
+            },
+            {
+                "character": "蔽",
+                "hun": "덮을",
+                "sound": "폐",
+                "meaning": "덮다, 가리다, 억제하다"
+            },
+            {
+                "character": "音",
+                "hun": "소리",
+                "sound": "음",
+                "meaning": "소리, 음성, 목소리"
+            }
+        ],
+        "hanjaExplanation": "‘다른 소리를 가려 막는(遮蔽) 소리(音)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "한편, 큰 소리로 인해 작은 소리가 들리지 않는 현상을 차폐 라고 하며 차폐를 일으키는 큰 소리를 차폐음이라 한다."
+            }
+        ],
+        "feed": [],
+        "id": "차폐음-遮蔽音"
+    },
+    "임계대역": {
+        "word": "임계대역",
+        "hanja": "臨界帶域",
+        "sound": "임계대역",
+        "category": "전문용어 이해형",
+        "brief": "청각계에서 소리의 간섭이나 차폐가 일어나는 주파수 대역폭",
+        "definition": "하나의 소리가 다른 소리를 가리는 차폐 현상이 효과적으로 일어나는 주파수 범위의 구간.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "臨",
+                "hun": "다다를",
+                "sound": "임",
+                "meaning": "가까이 다다르다, 직면하다"
+            },
+            {
+                "character": "界",
+                "hun": "경계",
+                "sound": "계",
+                "meaning": "경계, 구분선"
+            },
+            {
+                "character": "帶",
+                "hun": "띠",
+                "sound": "대",
+                "meaning": "띠를 매다, 책임을 걸치다"
+            },
+            {
+                "character": "域",
+                "hun": "지경",
+                "sound": "역",
+                "meaning": "지경, 구역, 영역"
+            }
+        ],
+        "hanjaExplanation": "‘차폐 작용의 경계(臨界)가 되는 띠 모양의 구역(帶域)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "차폐음의 주파수를 기준으로 차폐가 일어날 수 있는 가장 낮은 주파수와 가장 높은 주파수 사이의 구간을 임계대역이라고 한다."
+            }
+        ],
+        "feed": [],
+        "id": "임계대역-臨界帶域"
+    },
+    "주파수": {
+        "word": "주파수",
+        "hanja": "周波數",
+        "sound": "주파수",
+        "category": "전문용어 이해형",
+        "brief": "1초 동안에 진동하거나 반복하는 파동의 횟수",
+        "definition": "주기적 진동이 일어날 때 1초 동안에 진동이 되풀이되는 횟수.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "周",
+                "hun": "두루",
+                "sound": "주",
+                "meaning": "두루, 돌다, 주기"
+            },
+            {
+                "character": "波",
+                "hun": "물결",
+                "sound": "파",
+                "meaning": "물결, 파도, 파동"
+            },
+            {
+                "character": "數",
+                "hun": "셈/운수",
+                "sound": "수",
+                "meaning": "운수, 팔자"
+            }
+        ],
+        "hanjaExplanation": "‘물결이나 파동(波)이 도는(周) 횟수(數)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "최소가청강도는 주파수별로 그 크기가 정해져 있다."
+            }
+        ],
+        "feed": [],
+        "id": "주파수-周波數"
+    },
+    "분울": {
+        "word": "분울",
+        "hanja": "憤鬱",
+        "sound": "분울",
+        "category": "고전 어휘 독해형",
+        "brief": "분하고 답답함",
+        "definition": "분하고 답답함.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "憤",
+                "hun": "결분할",
+                "sound": "분",
+                "meaning": "분하다, 성내다, 답답하다"
+            },
+            {
+                "character": "鬱",
+                "hun": "답답할",
+                "sound": "울",
+                "meaning": "답답하다, 울체하다, 울창하다"
+            }
+        ],
+        "hanjaExplanation": "‘분하고(憤) 가슴이 답답하게 막힘(鬱)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "이화란 장사 있어 일찍 무과 급제하여 오래 벼슬을 못 하고 분울해하더니, 이 말을 듣고 상소하여 왈,"
+            }
+        ],
+        "feed": [],
+        "id": "분울-憤鬱"
+    },
+    "도임": {
+        "word": "도임",
+        "hanja": "到任",
+        "sound": "도임",
+        "category": "고전 어휘 독해형",
+        "brief": "벼슬아치가 새로 임명된 임지에 다다름",
+        "definition": "임지에 다다름.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "到",
+                "hun": "이를",
+                "sound": "도",
+                "meaning": "이르다, 다다르다"
+            },
+            {
+                "character": "任",
+                "hun": "맡길",
+                "sound": "임",
+                "meaning": "맡기다, 마음대로 하다"
+            }
+        ],
+        "hanjaExplanation": "‘맡은 임지(任)에 도착함(到)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "달리 말고 가지 말라.” 생이 대 왈, “소자 듣자오니 사악한 기운이 바른 기운을 범하지 못한다 하오니 과려치 마소서.” 인하여 즉시 하직코 발행 나흘에 여산에 이르러 도임하니라."
+            }
+        ],
+        "feed": [],
+        "id": "도임-到任"
+    },
+    "벽력": {
+        "word": "벽력",
+        "hanja": "霹靂",
+        "sound": "벽력",
+        "category": "고전 어휘 독해형",
+        "brief": "벼락이나 몹시 요란하게 울리는 소리",
+        "definition": "벼락. 또는 갑자기 크게 울리는 천둥소리.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "霹",
+                "hun": "벼락",
+                "sound": "벽",
+                "meaning": "벼락, 번개"
+            },
+            {
+                "character": "靂",
+                "hun": "벼락",
+                "sound": "력",
+                "meaning": "벼락, 벽력"
+            }
+        ],
+        "hanjaExplanation": "‘벼락 벽(霹)’과 ‘벼락 력(靂)’으로, 몹시 요란하게 울리는 벼락소리를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "연하여 나무 위에 백발 노옹과 노파가 있어 ‘살리라’ 벽력 같이 소리 지르니, 문득 천지가 무너지는 듯 일광이 어둑해지고 음풍이 크게 일어나 진동하니, 성안의 제군이 다 거꾸러지고,"
+            }
+        ],
+        "feed": [],
+        "id": "벽력-霹靂"
+    },
+    "상사": {
+        "word": "상사",
+        "hanja": "上舍",
+        "sound": "상사",
+        "category": "고전 어휘 독해형",
+        "brief": "조선 시대에 생원이나 진사를 높여 부르던 말",
+        "definition": "조선 시대에 생원·진사를 높여 부르던 말.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "上",
+                "hun": "위",
+                "sound": "상",
+                "meaning": "위, 넘어서다, 초월하다"
+            },
+            {
+                "character": "舍",
+                "hun": "집",
+                "sound": "사",
+                "meaning": "집, 관사, 머무르다"
+            }
+        ],
+        "hanjaExplanation": "‘높은(上) 관사나 유생(舍)’이라는 뜻으로 생원과 진사의 존칭입니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "문학",
+                "domain": "수필",
+                "content": "우 상사 사앙(禹上舍士仰)은 약봉의 아래에 자리를 잡고 산다."
+            }
+        ],
+        "feed": [],
+        "id": "상사-上舍"
+    },
+    "흉중": {
+        "word": "흉중",
+        "hanja": "胸中",
+        "sound": "흉중",
+        "category": "고전 어휘 독해형",
+        "brief": "가슴속이나 마음속",
+        "definition": "마음속이나 가슴속.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "胸",
+                "hun": "가슴",
+                "sound": "흉",
+                "meaning": "가슴, 마음속"
+            },
+            {
+                "character": "中",
+                "hun": "가운데",
+                "sound": "중",
+                "meaning": "안, 가운데"
+            }
+        ],
+        "hanjaExplanation": "‘가슴(胸)의 한가운데(中)’라는 뜻으로 마음속을 이릅니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "문학",
+                "domain": "수필",
+                "content": "그래서 소자 (邵子)는 ‘베 이불로 몸을 따뜻하게 하고 명아주 국으로 배를 불리고 나서 흉중의 기를 토해 내니 우주에 가득하도다.’라고 하였지."
+            }
+        ],
+        "feed": [],
+        "id": "흉중-胸中"
+    },
+    "산명수려": {
+        "word": "산명수려",
+        "hanja": "山明水麗",
+        "sound": "산명수려",
+        "category": "고전 어휘 독해형",
+        "brief": "산세가 맑고 물이 곱다는 뜻으로, 산수의 경치가 몹시 아름다움",
+        "definition": "산세가 맑고 빼어나며 물이 맑고 아름다움.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "山",
+                "hun": "뫼",
+                "sound": "산",
+                "meaning": "산, 뫼"
+            },
+            {
+                "character": "明",
+                "hun": "밝을",
+                "sound": "명",
+                "meaning": "밝히다, 분명하다, 이해하다"
+            },
+            {
+                "character": "水",
+                "hun": "물",
+                "sound": "수",
+                "meaning": "물"
+            },
+            {
+                "character": "麗",
+                "hun": "고울",
+                "sound": "려",
+                "meaning": "곱다, 화려하다"
+            }
+        ],
+        "hanjaExplanation": "‘산(山)은 밝고(明) 물(水)은 곱다(麗)’는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "문학",
+                "domain": "고전시가",
+                "content": "산명수려 좋은 곳은 소학산이 제일이라 어서 가자 바삐 가자 앞에 서고 뒤에 서고"
+            }
+        ],
+        "feed": [],
+        "id": "산명수려-山明水麗"
+    },
+    "수륙진미": {
+        "word": "수륙진미",
+        "hanja": "水陸珍味",
+        "sound": "수륙진미",
+        "category": "고전 어휘 독해형",
+        "brief": "물과 육지에서 나는 온갖 진귀한 맛의 음식",
+        "definition": "물과 육지에서 나는 온갖 산해진미.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "水",
+                "hun": "물",
+                "sound": "수",
+                "meaning": "물"
+            },
+            {
+                "character": "陸",
+                "hun": "뭍",
+                "sound": "륙",
+                "meaning": "뭍, 육지, 땅"
+            },
+            {
+                "character": "珍",
+                "hun": "보배",
+                "sound": "진",
+                "meaning": "보배, 귀하다, 진귀하다"
+            },
+            {
+                "character": "味",
+                "hun": "맛",
+                "sound": "미",
+                "meaning": "맛, 뜻, 취향"
+            }
+        ],
+        "hanjaExplanation": "‘물(水)과 육지(陸)에서 나는 보배롭고 진귀한(珍) 맛(味)’이라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "문학",
+                "domain": "고전시가",
+                "content": "집에 앉아 수륙진미 맛보기는 하려니와 부녀자들 함께 즐김 이에서 더할소냐"
+            }
+        ],
+        "feed": [],
+        "id": "수륙진미-水陸珍味"
+    },
+    "괘관": {
+        "word": "괘관",
+        "hanja": "掛冠",
+        "sound": "괘관",
+        "category": "고전 어휘 독해형",
+        "brief": "갓을 벗어 건다는 뜻으로, 벼슬을 내놓고 물러남",
+        "definition": "갓을 벗어 건다는 뜻으로, 벼슬을 내놓고 물러남을 이르는 말.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "掛",
+                "hun": "걸",
+                "sound": "괘",
+                "meaning": "걸다, 매달다, 벗어 걸다"
+            },
+            {
+                "character": "冠",
+                "hun": "갓",
+                "sound": "관",
+                "meaning": "갓, 관, 벼슬"
+            }
+        ],
+        "hanjaExplanation": "‘갓(冠)을 벗어 벽에 걺(掛)’이라는 뜻으로 벼슬을 그만둠을 비유합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "문학",
+                "domain": "고전시가",
+                "content": "동문에 괘관하고 전려에 돌아와서 성경현전 헤쳐 놓고 읽기를 파한 후에"
+            }
+        ],
+        "feed": [],
+        "id": "괘관-掛冠"
+    },
+    "전려": {
+        "word": "전려",
+        "hanja": "田廬",
+        "sound": "전려",
+        "category": "고전 어휘 독해형",
+        "brief": "시골의 논밭과 집",
+        "definition": "시골의 논밭과 집.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "田",
+                "hun": "밭",
+                "sound": "전",
+                "meaning": "밭, 농토, 시골"
+            },
+            {
+                "character": "廬",
+                "hun": "오두막",
+                "sound": "려",
+                "meaning": "오두막, 시골집"
+            }
+        ],
+        "hanjaExplanation": "‘논밭(田)과 오두막집(廬)’이라는 뜻으로 시골 고향의 삶터를 이릅니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "문학",
+                "domain": "고전시가",
+                "content": "동문에 괘관하고 전려에 돌아와서 성경현전 헤쳐 놓고 읽기를 파한 후에"
+            }
+        ],
+        "feed": [],
+        "id": "전려-田廬"
+    },
+    "임고원망": {
+        "word": "임고원망",
+        "hanja": "臨高遠望",
+        "sound": "임고원망",
+        "category": "고전 어휘 독해형",
+        "brief": "높은 곳에 올라 멀리 바라봄",
+        "definition": "높은 곳에 올라 멀리 바라봄.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "臨",
+                "hun": "다다를",
+                "sound": "임",
+                "meaning": "가까이 다다르다, 직면하다"
+            },
+            {
+                "character": "高",
+                "hun": "높을",
+                "sound": "고",
+                "meaning": "높다, 뛰어남"
+            },
+            {
+                "character": "遠",
+                "hun": "멀",
+                "sound": "원",
+                "meaning": "멀다, 아득하다"
+            },
+            {
+                "character": "望",
+                "hun": "바랄/보름",
+                "sound": "망",
+                "meaning": "음력 보름, 둥근 달, 바라보다"
+            }
+        ],
+        "hanjaExplanation": "‘높은 곳에 이르러(臨高) 아득히 멀리 바라봄(遠望)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "문학",
+                "domain": "고전시가",
+                "content": "앞내에 살진 고기도 낚고 뒷뫼에 엄긴 약도 캐다가 임고원망하여 임의소요하니 청풍이 시지하고 명월이 자래하니"
+            }
+        ],
+        "feed": [],
+        "id": "임고원망-臨高遠望"
+    },
+    "호상": {
+        "word": "호상",
+        "hanja": "護喪",
+        "sound": "호상",
+        "category": "문맥적 의미 파악형",
+        "brief": "장례에 관한 온갖 일을 도맡아 보살핌",
+        "definition": "초상에 관한 온갖 일을 맡아 보살핌. 또는 그 사람.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "護",
+                "hun": "도울/보호할",
+                "sound": "호",
+                "meaning": "보호하다, 돕다, 보살피다"
+            },
+            {
+                "character": "喪",
+                "hun": "죽을",
+                "sound": "상",
+                "meaning": "죽다, 상사, 잃다"
+            }
+        ],
+        "hanjaExplanation": "‘초상(喪)에 관한 일을 맡아 보살피고 도움(護)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "문학",
+                "domain": "현대소설",
+                "content": "(중략) 치전이의 장사는 하여간 이와 같이 하여 그날 저녁때에 눈발이 날리고 쓸쓸한 가운데－그러나 읍내의 청년 단체의 대표자의 호상까지 받고서 무사히 지냈다."
+            }
+        ],
+        "feed": [],
+        "id": "호상-護喪"
+    },
+    "범주화": {
+        "word": "범주화",
+        "hanja": "範疇化",
+        "sound": "범주화",
+        "category": "개념 정밀화형",
+        "brief": "개념이나 대상을 일정한 범주로 묶어 정리함",
+        "definition": "사물이나 개념을 성질에 따라 몇 개의 범주로 묶어 정리함.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "範",
+                "hun": "법/본보기",
+                "sound": "범",
+                "meaning": "틀, 법, 본보기"
+            },
+            {
+                "character": "疇",
+                "hun": "밭두둑/무리",
+                "sound": "주",
+                "meaning": "무리, 갈래, 같은 부류"
+            },
+            {
+                "character": "化",
+                "hun": "될",
+                "sound": "화",
+                "meaning": "~이 되다"
+            }
+        ],
+        "hanjaExplanation": "‘동일한 범주(範疇)로 묶어 냄(化)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "화법과 작문",
+                "domain": null,
+                "content": "(가) 편집부의 요청 내용 학교 신문의 기획 연재 ‘우리에게 익숙한 사고방식’의 제2회 원고와 관련하여 ‘범주화를 어떻게 바라볼 것인가’에 대해 자신의 입장을 드러내는 글을 써 주세요."
+            }
+        ],
+        "feed": [],
+        "id": "범주화-範疇化"
+    },
+    "기저": {
+        "word": "기저",
+        "hanja": "基底",
+        "sound": "기저",
+        "category": "개념 정밀화형",
+        "brief": "사물이나 현상의 바닥이 되는 근본",
+        "definition": "사물이나 현상의 밑바탕이 되는 근본.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "基",
+                "hun": "터",
+                "sound": "기",
+                "meaning": "터, 바탕, 근본"
+            },
+            {
+                "character": "底",
+                "hun": "밑",
+                "sound": "저",
+                "meaning": "밑, 바닥, 기저"
+            }
+        ],
+        "hanjaExplanation": "‘터(基)가 되는 밑바닥(底)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "화법과 작문",
+                "domain": null,
+                "content": "이러한 인지 과정의 기저에는 ‘범주화’가 깔려 있다."
+            }
+        ],
+        "feed": [],
+        "id": "기저-基底"
+    },
+    "수용": {
+        "word": "수용",
+        "hanja": "受容",
+        "sound": "수용",
+        "category": "개념 정밀화형",
+        "brief": "어떠한 자극이나 정보, 제안을 받아들임",
+        "definition": "어떠한 자극이나 정보, 의견 따위를 받아들임.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "受",
+                "hun": "받을",
+                "sound": "수",
+                "meaning": "받다, 받아들이다, 응하다"
+            },
+            {
+                "character": "容",
+                "hun": "얼굴/모양",
+                "sound": "용",
+                "meaning": "태도, 몸가짐"
+            }
+        ],
+        "hanjaExplanation": "‘받아들여(受) 용납하거나 품음(容)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 9모",
+                "section": "언어와 매체",
+                "domain": "매체",
+                "content": "시청자의 수용 양상에 대한 설명으로 가장 적절한 것은?"
+            }
+        ],
+        "feed": [],
+        "id": "수용-受容"
+    },
+    "해독": {
+        "word": "해독",
+        "hanja": "解讀",
+        "sound": "해독",
+        "category": "전문용어 이해형",
+        "brief": "문자 기호를 소리로 바꾸거나 그 의미를 이해함",
+        "definition": "문자나 기호의 음가와 의미를 풀어서 읽음.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "解",
+                "hun": "풀",
+                "sound": "해",
+                "meaning": "풀어내다"
+            },
+            {
+                "character": "讀",
+                "hun": "읽을",
+                "sound": "독",
+                "meaning": "읽다, 해독하다"
+            }
+        ],
+        "hanjaExplanation": "‘풀어서(解) 읽음(讀)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "해독은 개별 단어를 인식하는 능력으로, 단어를 빠르고 정확히 소리 내어 읽기, 단어를 한눈에 식별하기 등을 포함한다."
+            }
+        ],
+        "feed": [],
+        "id": "해독-解讀"
+    },
+    "문리 해석": {
+        "word": "문리 해석",
+        "hanja": "文理解釋",
+        "sound": "문리 해석",
+        "category": "전문용어 이해형",
+        "brief": "법률 조문의 글자 의미와 문법적 구성에 충실하게 해석함",
+        "definition": "법률 조문의 문자적 의미와 어법에 따라 의미를 해석하는 방법.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "文",
+                "hun": "글월",
+                "sound": "문",
+                "meaning": "글자, 문구"
+            },
+            {
+                "character": "理",
+                "hun": "다스릴/이치",
+                "sound": "리",
+                "meaning": "이치, 뜻"
+            },
+            {
+                "character": "解",
+                "hun": "풀",
+                "sound": "해",
+                "meaning": "풀어내다"
+            },
+            {
+                "character": "釋",
+                "hun": "풀",
+                "sound": "석",
+                "meaning": "풀이하다"
+            }
+        ],
+        "hanjaExplanation": "‘문장(文)의 결이나 이치(理)에 따라 풀이함(解釋)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "법은 사회 구성원들에게 보편적으로 적용되는 규범이므로, 성문법을 구성하는 단어나 문장은 그 일상적 의미에 충실하게 해석되어야 한다. 이러한 ‘문리 해석’이 법 해석의 출발점이다."
+            }
+        ],
+        "feed": [],
+        "id": "문리 해석-文理解釋"
+    },
+    "체계적 해석": {
+        "word": "체계적 해석",
+        "hanja": "體系的解釋",
+        "sound": "체계적 해석",
+        "category": "전문용어 이해형",
+        "brief": "법률의 전체 체계와 다른 조문과의 관련성을 고려하여 해석함",
+        "definition": "법 조문이 위치한 법률 전체의 체계적 연관성과 다른 법규와의 조화를 고려하여 규정의 의미를 해석하는 방법.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "體",
+                "hun": "몸",
+                "sound": "체",
+                "meaning": "몸, 실체"
+            },
+            {
+                "character": "系",
+                "hun": "이을",
+                "sound": "계",
+                "meaning": "잇다, 계통, 체계"
+            },
+            {
+                "character": "的",
+                "hun": "과녁/의",
+                "sound": "적",
+                "meaning": "~의, 속성"
+            },
+            {
+                "character": "解",
+                "hun": "풀",
+                "sound": "해",
+                "meaning": "풀어내다"
+            },
+            {
+                "character": "釋",
+                "hun": "풀",
+                "sound": "석",
+                "meaning": "풀이하다"
+            }
+        ],
+        "hanjaExplanation": "‘전체 체계(體系)의 맥락(的)에 맞추어 풀이함(解釋)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "그러나 문리 해석으로 그 내용을 제대로 파악하기 어려우면, 그것이 사용된 맥락을 고려하여 그 의미를 파악하는 ‘체계적 해석’, 입법 과정에서 논의된 내용을 바탕으로 그 의미를 파악 하는 ‘역사적 해석’ 등의 해석 방법을 사용할 수 있다."
+            }
+        ],
+        "feed": [],
+        "id": "체계적 해석-體系的解釋"
+    },
+    "역사적 해석": {
+        "word": "역사적 해석",
+        "hanja": "歷史的解釋",
+        "sound": "역사적 해석",
+        "category": "전문용어 이해형",
+        "brief": "입법 당시의 제정 과정과 역사적 배경을 바탕으로 법을 해석함",
+        "definition": "법률 제정 당시의 입법 과정이나 논의 내용, 역사적 배경을 바탕으로 법 조문의 의미를 파악하는 방법.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "歷",
+                "hun": "지낼",
+                "sound": "역",
+                "meaning": "지내다, 겪다, 역사"
+            },
+            {
+                "character": "史",
+                "hun": "역사",
+                "sound": "사",
+                "meaning": "역사, 기록, 사관"
+            },
+            {
+                "character": "的",
+                "hun": "과녁/의",
+                "sound": "적",
+                "meaning": "~의, 속성"
+            },
+            {
+                "character": "解",
+                "hun": "풀",
+                "sound": "해",
+                "meaning": "풀어내다"
+            },
+            {
+                "character": "釋",
+                "hun": "풀",
+                "sound": "석",
+                "meaning": "풀이하다"
+            }
+        ],
+        "hanjaExplanation": "‘지나온 역사(歷史)적 형성 맥락(的)을 바탕으로 풀이함(解釋)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "그러나 문리 해석으로 그 내용을 제대로 파악하기 어려우면, 그것이 사용된 맥락을 고려하여 그 의미를 파악하는 ‘체계적 해석’, 입법 과정에서 논의된 내용을 바탕으로 그 의미를 파악 하는 ‘역사적 해석’ 등의 해석 방법을 사용할 수 있다."
+            }
+        ],
+        "feed": [],
+        "id": "역사적 해석-歷史的解釋"
+    },
+    "유상 계약": {
+        "word": "유상 계약",
+        "hanja": "有償契約",
+        "sound": "유상 계약",
+        "category": "전문용어 이해형",
+        "brief": "당사자 쌍방이 서로 대가적 출연을 하는 계약",
+        "definition": "계약 당사자 쌍방이 서로 대가적 의미를 가지는 재산상의 출연을 하는 계약.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "有",
+                "hun": "있을",
+                "sound": "유",
+                "meaning": "있다"
+            },
+            {
+                "character": "償",
+                "hun": "갚을",
+                "sound": "상",
+                "meaning": "갚다, 보상하다, 배상하다"
+            },
+            {
+                "character": "契",
+                "hun": "맺을",
+                "sound": "계",
+                "meaning": "맺다, 계약하다, 부합하다"
+            },
+            {
+                "character": "約",
+                "hun": "묶을",
+                "sound": "약",
+                "meaning": "속박하다, 약속하다"
+            }
+        ],
+        "hanjaExplanation": "‘상응하는 보상이나 대가(償)가 있는(有) 계약(契約)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "담보는 유상 계약의 맥락에서 거래 대상의 값어치를 보장 한다는 의미로 해석된다."
+            }
+        ],
+        "feed": [],
+        "id": "유상 계약-有償契約"
+    },
+    "목적물": {
+        "word": "목적물",
+        "hanja": "目的物",
+        "sound": "목적물",
+        "category": "전문용어 이해형",
+        "brief": "법률 행위나 권리·의무의 직접적인 대상이 되는 물건",
+        "definition": "권리의 행사나 법률 행위의 직접적인 대상이 되는 물건.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "目",
+                "hun": "눈",
+                "sound": "목",
+                "meaning": "눈, 조목, 항목"
+            },
+            {
+                "character": "的",
+                "hun": "과녁/의",
+                "sound": "적",
+                "meaning": "~의, 속성"
+            },
+            {
+                "character": "物",
+                "hun": "만물/물건",
+                "sound": "물",
+                "meaning": "물질, 사물"
+            }
+        ],
+        "hanjaExplanation": "‘목적(目的)으로 삼는 물건(物)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "유상 계약의 일종인 매매 계약에서 목적물이 계약 체결 당시부터 있던 하자 때문에 대금만큼의 값어치를 하지 못하는 상태였다면, 매도인은 그 하자 발생의 원인이 무엇이든 담보 책임을 져야 한다."
+            }
+        ],
+        "feed": [],
+        "id": "목적물-目的物"
+    },
+    "하자": {
+        "word": "하자",
+        "hanja": "瑕疵",
+        "sound": "하자",
+        "category": "전문용어 이해형",
+        "brief": "사물이나 법률 관계에 흠이나 결함이 있음",
+        "definition": "흠이나 결점. 또는 법률이나 계약에서 요구되는 요건이 갖추어지지 않은 상태.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "瑕",
+                "hun": "티",
+                "sound": "하",
+                "meaning": "티, 옥의 흠, 허물"
+            },
+            {
+                "character": "疵",
+                "hun": "흠",
+                "sound": "자",
+                "meaning": "흠, 허물, 결점"
+            }
+        ],
+        "hanjaExplanation": "‘옥의 티(瑕)와 흠집(疵)’이라는 뜻으로 사물이나 법적 요건의 결함을 이릅니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "유상 계약의 일종인 매매 계약에서 목적물이 계약 체결 당시부터 있던 하자 때문에 대금만큼의 값어치를 하지 못하는 상태였다면, 매도인은 그 하자 발생의 원인이 무엇이든 담보 책임을 져야 한다."
+            }
+        ],
+        "feed": [],
+        "id": "하자-瑕疵"
+    },
+    "매도인": {
+        "word": "매도인",
+        "hanja": "賣渡人",
+        "sound": "매도인",
+        "category": "전문용어 이해형",
+        "brief": "매매 계약에서 물건이나 권리를 파는 사람",
+        "definition": "매매 계약에서 물건을 파는 쪽의 당사자.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "賣",
+                "hun": "팔",
+                "sound": "매",
+                "meaning": "팔다, 매도하다"
+            },
+            {
+                "character": "渡",
+                "hun": "건널",
+                "sound": "도",
+                "meaning": "건너다, 넘겨주다, 인도하다"
+            },
+            {
+                "character": "人",
+                "hun": "사람",
+                "sound": "인",
+                "meaning": "사람, 인간, 백성"
+            }
+        ],
+        "hanjaExplanation": "‘물건을 팔아(賣) 상대방에게 넘겨주는(渡) 사람(人)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "유상 계약의 일종인 매매 계약에서 목적물이 계약 체결 당시부터 있던 하자 때문에 대금만큼의 값어치를 하지 못하는 상태였다면, 매도인은 그 하자 발생의 원인이 무엇이든 담보 책임을 져야 한다."
+            }
+        ],
+        "feed": [],
+        "id": "매도인-賣渡人"
+    },
+    "매수인": {
+        "word": "매수인",
+        "hanja": "買受人",
+        "sound": "매수인",
+        "category": "전문용어 이해형",
+        "brief": "매매 계약에서 물건이나 권리를 사는 사람",
+        "definition": "매매 계약에서 물건을 사는 쪽의 당사자.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "買",
+                "hun": "살",
+                "sound": "매",
+                "meaning": "사다, 매수하다"
+            },
+            {
+                "character": "受",
+                "hun": "받을",
+                "sound": "수",
+                "meaning": "받다, 받아들이다, 응하다"
+            },
+            {
+                "character": "人",
+                "hun": "사람",
+                "sound": "인",
+                "meaning": "사람, 인간, 백성"
+            }
+        ],
+        "hanjaExplanation": "‘물건을 사서(買) 넘겨받는(受) 사람(人)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "그 책임의 내용은 손해 배상이 원칙이지만, 만약 하자로 인해 매수인이 계약의 목적을 달성할 수 없으면 매수인은 계약을 파기하고 대금 환불을 청구할 수도 있다."
+            }
+        ],
+        "feed": [],
+        "id": "매수인-買受人"
+    },
+    "채권": {
+        "word": "채권",
+        "hanja": "債權",
+        "sound": "채권",
+        "category": "전문용어 이해형",
+        "brief": "특정인이 다른 특정인에게 일정한 행위를 요구할 수 있는 법률상의 권리",
+        "definition": "남에게 빚을 받거나 일정한 행위를 청구할 수 있는 권리.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "債",
+                "hun": "빚",
+                "sound": "채",
+                "meaning": "빚, 채무, 빌린 돈"
+            },
+            {
+                "character": "權",
+                "hun": "권세",
+                "sound": "권",
+                "meaning": "권리, 권한"
+            }
+        ],
+        "hanjaExplanation": "‘빌려준 빚(債)에 대해 청구할 수 있는 권리(權)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "한편, 담보는 채권과 관련된 맥락에서는 채권의 실현 가능성을 보장하기 위한 조치라는 의미로 해석된다."
+            }
+        ],
+        "feed": [],
+        "id": "채권-債權"
+    },
+    "채무": {
+        "word": "채무",
+        "hanja": "債務",
+        "sound": "채무",
+        "category": "전문용어 이해형",
+        "brief": "특정인이 다른 특정인에 대하여 져야 하는 법률상의 의무",
+        "definition": "재산권상의 의무. 채권자에 대하여 일정한 급부를 하여야 할 법률상의 의무를 이른다.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "債",
+                "hun": "빚",
+                "sound": "채",
+                "meaning": "빚, 채무, 빌린 돈"
+            },
+            {
+                "character": "務",
+                "hun": "힘쓸",
+                "sound": "무",
+                "meaning": "힘쓰다, 일, 직무"
+            }
+        ],
+        "hanjaExplanation": "‘빚(債)에 대하여 이행해야 하는 의무(務)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "금전 채권은 채권자가 채무자로부터 돈을 받아야 실현 되는데, 채무자가 돈을 지급하지 않으면 강제 집행 절차를 거쳐야 한다."
+            }
+        ],
+        "feed": [],
+        "id": "채무-債務"
+    },
+    "담보 물권": {
+        "word": "담보 물권",
+        "hanja": "擔保物權",
+        "sound": "담보 물권",
+        "category": "전문용어 이해형",
+        "brief": "채권의 담보를 위해 목적 물건에 설정하는 물권",
+        "definition": "채권의 담보를 위하여 특정 물건에 대하여 채권자에게 우선변제권을 주는 물권.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "擔",
+                "hun": "멜",
+                "sound": "담",
+                "meaning": "메다, 책임지다, 감당하다"
+            },
+            {
+                "character": "保",
+                "hun": "지킬",
+                "sound": "보",
+                "meaning": "지키다, 유지하다, 보증하다"
+            },
+            {
+                "character": "物",
+                "hun": "만물/물건",
+                "sound": "물",
+                "meaning": "물질, 사물"
+            },
+            {
+                "character": "權",
+                "hun": "권세",
+                "sound": "권",
+                "meaning": "권리, 권한"
+            }
+        ],
+        "hanjaExplanation": "‘채무를 보증하고 담보(擔保)하기 위해 물건(物)에 설정하는 권리(權)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "담보 물권이 그 예이다."
+            }
+        ],
+        "feed": [],
+        "id": "담보 물권-擔保物權"
+    },
+    "강제 집행": {
+        "word": "강제 집행",
+        "hanja": "強制執行",
+        "sound": "강제 집행",
+        "category": "전문용어 이해형",
+        "brief": "국가 권력으로 사법상의 청구권을 강제로 실현함",
+        "definition": "국가의 공권력을 행사하여 사법상의 청구권을 강제적으로 실현하는 일.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "強",
+                "hun": "강할",
+                "sound": "강",
+                "meaning": "강하다, 억지로 하다"
+            },
+            {
+                "character": "制",
+                "hun": "절제할/법도",
+                "sound": "제",
+                "meaning": "규정하다, 억제하다"
+            },
+            {
+                "character": "執",
+                "hun": "잡을",
+                "sound": "집",
+                "meaning": "잡다, 맡다, 집행하다"
+            },
+            {
+                "character": "行",
+                "hun": "갈",
+                "sound": "행",
+                "meaning": "가다, 다니다, 행하다"
+            }
+        ],
+        "hanjaExplanation": "‘강제(強制)로 권리 내용을 집행(執行)하여 실현함’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "금전 채권은 채권자가 채무자로부터 돈을 받아야 실현 되는데, 채무자가 돈을 지급하지 않으면 강제 집행 절차를 거쳐야 한다."
+            }
+        ],
+        "feed": [],
+        "id": "강제 집행-強制執行"
+    },
+    "주채무자": {
+        "word": "주채무자",
+        "hanja": "主債務者",
+        "sound": "주채무자",
+        "category": "전문용어 이해형",
+        "brief": "보증 채무의 바탕이 되는 본래의 채무를 부담하는 당사자",
+        "definition": "보증 관계에서 보증인의 종된 채무에 대하여 본래의 원래 채무를 부담하는 주된 채무자.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "主",
+                "hun": "임금/주인",
+                "sound": "주",
+                "meaning": "주체, 나, 판단하는 주관"
+            },
+            {
+                "character": "債",
+                "hun": "빚",
+                "sound": "채",
+                "meaning": "빚, 채무, 빌린 돈"
+            },
+            {
+                "character": "務",
+                "hun": "힘쓸",
+                "sound": "무",
+                "meaning": "힘쓰다, 일, 직무"
+            },
+            {
+                "character": "者",
+                "hun": "놈/사람",
+                "sound": "자",
+                "meaning": "사람, 자, 것"
+            }
+        ],
+        "hanjaExplanation": "‘주된(主) 빚과 의무(債務)를 진 사람(者)’이라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "이때 원래의 채무자를 주채무자, 주채무자 대신 채무를 이행하는 사람을 보증인이라 하고, 주채무자가 부담하는 채무를 주채무, 보증인이 부담하는 채무를 보증 채무라 한다."
+            }
+        ],
+        "feed": [],
+        "id": "주채무자-主債務者"
+    },
+    "보증인": {
+        "word": "보증인",
+        "hanja": "保證人",
+        "sound": "보증인",
+        "category": "전문용어 이해형",
+        "brief": "주채무자가 빚을 갚지 않을 때 대신 갚기로 약정한 사람",
+        "definition": "채무자가 채무를 이행하지 아니할 때에 그를 대신하여 이행할 의무를 부담하는 사람.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "保",
+                "hun": "지킬",
+                "sound": "보",
+                "meaning": "지키다, 유지하다, 보증하다"
+            },
+            {
+                "character": "證",
+                "hun": "증거",
+                "sound": "증",
+                "meaning": "증명하다, 밝히다"
+            },
+            {
+                "character": "人",
+                "hun": "사람",
+                "sound": "인",
+                "meaning": "사람, 인간, 백성"
+            }
+        ],
+        "hanjaExplanation": "‘보호하고 증명(保證)하여 대신 책임지는 사람(人)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "이때 원래의 채무자를 주채무자, 주채무자 대신 채무를 이행하는 사람을 보증인이라 하고, 주채무자가 부담하는 채무를 주채무, 보증인이 부담하는 채무를 보증 채무라 한다."
+            }
+        ],
+        "feed": [],
+        "id": "보증인-保證人"
+    },
+    "보증 채무": {
+        "word": "보증 채무",
+        "hanja": "保證債務",
+        "sound": "보증 채무",
+        "category": "전문용어 이해형",
+        "brief": "주채무자가 의무를 이행하지 않을 때 보증인이 대신 이행해야 하는 채무",
+        "definition": "주채무자가 채무를 이행하지 아니하는 경우에 보증인이 이행하여야 하는 채무.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "保",
+                "hun": "지킬",
+                "sound": "보",
+                "meaning": "지키다, 유지하다, 보증하다"
+            },
+            {
+                "character": "證",
+                "hun": "증거",
+                "sound": "증",
+                "meaning": "증명하다, 밝히다"
+            },
+            {
+                "character": "債",
+                "hun": "빚",
+                "sound": "채",
+                "meaning": "빚, 채무, 빌린 돈"
+            },
+            {
+                "character": "務",
+                "hun": "힘쓸",
+                "sound": "무",
+                "meaning": "힘쓰다, 일, 직무"
+            }
+        ],
+        "hanjaExplanation": "‘보증인(保證)이 부담하는 채무(債務)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "이때 원래의 채무자를 주채무자, 주채무자 대신 채무를 이행하는 사람을 보증인이라 하고, 주채무자가 부담하는 채무를 주채무, 보증인이 부담하는 채무를 보증 채무라 한다."
+            }
+        ],
+        "feed": [],
+        "id": "보증 채무-保證債務"
+    },
+    "기명 날인": {
+        "word": "기명 날인",
+        "hanja": "記名捺印",
+        "sound": "기명 날인",
+        "category": "전문용어 이해형",
+        "brief": "문서에 이름을 적고 도장을 찍음",
+        "definition": "문서에 이름을 적고 도장을 찍음.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "記",
+                "hun": "기록할",
+                "sound": "기",
+                "meaning": "기록하다, 적다, 기억하다"
+            },
+            {
+                "character": "名",
+                "hun": "이름",
+                "sound": "명",
+                "meaning": "이름, 명예, 출세"
+            },
+            {
+                "character": "捺",
+                "hun": "누를",
+                "sound": "날",
+                "meaning": "누르다, 도장을 찍다"
+            },
+            {
+                "character": "印",
+                "hun": "도장",
+                "sound": "인",
+                "meaning": "도장, 찍다, 흔적"
+            }
+        ],
+        "hanjaExplanation": "‘이름(名)을 기록하고(記) 도장을 찍음(捺印)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "우선 ｢민법｣에 의하면 보증 계약을 할 때는 일반적인 계약 과는 달리 계약서가 작성되어야 하고, 여기에는 보증인의 서명 이나 기명 날인이 있어야 한다."
+            }
+        ],
+        "feed": [],
+        "id": "기명 날인-記名捺印"
+    },
+    "간주": {
+        "word": "간주",
+        "hanja": "看做",
+        "sound": "간주",
+        "category": "전문용어 이해형",
+        "brief": "상태나 성질이 그와 같다고 여김",
+        "definition": "상태, 모양, 성질 따위가 그와 같다고 봄. 또는 그렇다고 여김.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "看",
+                "hun": "볼",
+                "sound": "간",
+                "meaning": "보다, 바라보다, 여기다"
+            },
+            {
+                "character": "做",
+                "hun": "지을",
+                "sound": "주",
+                "meaning": "짓다, 만들다, 여기다"
+            }
+        ],
+        "hanjaExplanation": "‘보아서(看) 그렇게 여겨 만듦(做)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "사회·법",
+                "content": "예컨대 보증 기간이 명시되지 않은 경우 보증 기간은 3년으로 간주된다."
+            }
+        ],
+        "feed": [],
+        "id": "간주-看做"
+    },
+    "선형 열팽창 계수": {
+        "word": "선형 열팽창 계수",
+        "hanja": "線形熱膨脹係數",
+        "sound": "선형 열팽창 계수",
+        "category": "전문용어 이해형",
+        "brief": "온도가 올라감에 따라 물체의 길이가 늘어나는 비율을 나타낸 수치",
+        "definition": "온도가 1도 상승함에 따라 물체의 길이가 변화하는 비율을 나타내는 계수.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "線",
+                "hun": "줄",
+                "sound": "선",
+                "meaning": "줄, 선, 굵기"
+            },
+            {
+                "character": "形",
+                "hun": "모양/형상",
+                "sound": "형",
+                "meaning": "형체, 구체적인 모양"
+            },
+            {
+                "character": "熱",
+                "hun": "더울",
+                "sound": "열",
+                "meaning": "덥다, 열, 열기"
+            },
+            {
+                "character": "膨",
+                "hun": "부풀",
+                "sound": "팽",
+                "meaning": "부풀다, 커지다"
+            },
+            {
+                "character": "脹",
+                "hun": "부풀",
+                "sound": "창",
+                "meaning": "부풀다, 늘어나다"
+            },
+            {
+                "character": "係",
+                "hun": "맬",
+                "sound": "계",
+                "meaning": "매다, 이어지다"
+            },
+            {
+                "character": "數",
+                "hun": "셈/운수",
+                "sound": "수",
+                "meaning": "운수, 팔자"
+            }
+        ],
+        "hanjaExplanation": "‘선형(線形)으로 열(熱)을 받아 팽창(膨脹)하는 수치 계수(係數)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "그중 길이의 변화를 수치화한 것이 선형 열팽창 계수인데, 이는 온도 변화에 따른 길이 변화율을 온도 변화량 으로 나눈 값이다."
+            }
+        ],
+        "feed": [],
+        "id": "선형 열팽창 계수-線形熱膨脹係數"
+    },
+    "합금": {
+        "word": "합금",
+        "hanja": "合金",
+        "sound": "합금",
+        "category": "전문용어 이해형",
+        "brief": "금속에 다른 금속이나 비금속 원소를 섞어 만든 물질",
+        "definition": "금속에 다른 금속이나 비금속을 녹여 섞어서 만든 물질.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "合",
+                "hun": "합할",
+                "sound": "합",
+                "meaning": "합치다, 맞추다"
+            },
+            {
+                "character": "金",
+                "hun": "쇠/돈",
+                "sound": "금",
+                "meaning": "돈, 자금, 황금"
+            }
+        ],
+        "hanjaExplanation": "‘금속(金)들을 하나로 합침(合)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "합금인 인바(invar)와 순수한 금속인 알루미늄은 선형 열팽창 계수가 양수인 물질이며 인바는 알루미늄에 비해 매우 작은 선형 열팽창 계수를 갖는다. 20 이 문제지에 관한 저작권은 한국교육과정평가원에 있습니다."
+            }
+        ],
+        "feed": [],
+        "id": "합금-合金"
+    },
+    "역수": {
+        "word": "역수",
+        "hanja": "逆數",
+        "sound": "역수",
+        "category": "전문용어 이해형",
+        "brief": "어떤 수에 곱하여 1이 되는 수",
+        "definition": "어떤 수에 곱하여 그 결과가 1이 되는 수.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "逆",
+                "hun": "거스를",
+                "sound": "역",
+                "meaning": "거스르다, 반대로"
+            },
+            {
+                "character": "數",
+                "hun": "셈/운수",
+                "sound": "수",
+                "meaning": "운수, 팔자"
+            }
+        ],
+        "hanjaExplanation": "‘거꾸로(逆) 뒤집은 수(數)’라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "과학·기술",
+                "content": "이때 이 원의 호를 포함하는 원의 반지름을 휘어진 띠의 곡률 반지름이라 하는데, 곡률은 이 곡률 반지름의 역수이다."
+            }
+        ],
+        "feed": [],
+        "id": "역수-逆數"
+    },
+    "자기의식": {
+        "word": "자기의식",
+        "hanja": "自己意識",
+        "sound": "자기의식",
+        "category": "개념 정밀화형",
+        "brief": "자신이 생각하고 행동하는 주체임을 스스로 자각함",
+        "definition": "자신의 행동이나 생각, 존재 따위를 스스로 자각하고 인식하는 일.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "自",
+                "hun": "스스로",
+                "sound": "자",
+                "meaning": "자기 스스로, 자신"
+            },
+            {
+                "character": "己",
+                "hun": "몸",
+                "sound": "기",
+                "meaning": "몸, 자기, 자신"
+            },
+            {
+                "character": "意",
+                "hun": "뜻",
+                "sound": "의",
+                "meaning": "마음, 생각"
+            },
+            {
+                "character": "識",
+                "hun": "알/표지",
+                "sound": "식/지",
+                "meaning": "표시하다, 알다"
+            }
+        ],
+        "hanjaExplanation": "‘자기(自己) 자신에 대한 생각(意)과 알아차림(識)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "그러나 칸트는 ‘나는 생각한다.’, 즉 ‘자기의식’은 인식이 이루어 지는 것을 가능하게 하는 조건 중 하나에 불과하다고 본다."
+            }
+        ],
+        "feed": [],
+        "id": "자기의식-自己意識"
+    },
+    "통시적": {
+        "word": "통시적",
+        "hanja": "通時的",
+        "sound": "통시적",
+        "category": "개념 정밀화형",
+        "brief": "시간의 흐름이나 역사적 변천 과정에 따라 파악하는 성질을 띤 것",
+        "definition": "시간의 흐름이나 역사적 변천에 따라 현상을 파악하는 성질을 띤 것.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "通",
+                "hun": "통할",
+                "sound": "통",
+                "meaning": "통하다, 두루, 왕래하다"
+            },
+            {
+                "character": "時",
+                "hun": "때",
+                "sound": "시",
+                "meaning": "때, 시간, 시절"
+            },
+            {
+                "character": "的",
+                "hun": "과녁/의",
+                "sound": "적",
+                "meaning": "~의, 속성"
+            }
+        ],
+        "hanjaExplanation": "‘시간(時)을 통하여(通) 이어지는 성질을 띤(的)’이라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "독서",
+                "domain": "인문·철학",
+                "content": "칸트는 통시적으로 동일한 인격의 존재를 직접 증명하는 대신 ‘시간의 흐름 속에서 마주치는 복수의 주관이 동일한 인격으로 인식된다.’라는 가정이 반드시 선행되어야 한다고 제안한다."
+            }
+        ],
+        "feed": [],
+        "id": "통시적-通時的"
+    },
+    "노소고하": {
+        "word": "노소고하",
+        "hanja": "老少高下",
+        "sound": "노소고하",
+        "category": "고전 어휘 독해형",
+        "brief": "늙은이와 젊은이, 지위의 높음과 낮음",
+        "definition": "늙은이와 젊은이, 신분이나 지위의 높음과 낮음을 통틀어 이르는 말.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "老",
+                "hun": "늙을",
+                "sound": "로(노)",
+                "meaning": "늙다, 어른"
+            },
+            {
+                "character": "少",
+                "hun": "적을/젊을",
+                "sound": "소",
+                "meaning": "젊다, 어리다, 적다"
+            },
+            {
+                "character": "高",
+                "hun": "높을",
+                "sound": "고",
+                "meaning": "높다, 뛰어남"
+            },
+            {
+                "character": "下",
+                "hun": "아래",
+                "sound": "하",
+                "meaning": "아래, 내리다"
+            }
+        ],
+        "hanjaExplanation": "‘늙은이(老)와 젊은이(少), 높은(高) 지위와 낮은(下) 지위’를 아울러 이릅니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "호랑이가 수령 말을 듣더니마는 거두룸을 피우며 오늘은 노소고하를 막론하고 자세히 말해 보라"
+            }
+        ],
+        "feed": [],
+        "id": "노소고하-老少高下"
+    },
+    "기식": {
+        "word": "기식",
+        "hanja": "寄食",
+        "sound": "기식",
+        "category": "고전 어휘 독해형",
+        "brief": "남의 집에 얹혀 거저 밥을 얻어먹음",
+        "definition": "남의 집에 얹혀 거저 밥을 얻어먹음.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "寄",
+                "hun": "부칠",
+                "sound": "기",
+                "meaning": "부치다, 얹혀살다, 맡기다"
+            },
+            {
+                "character": "食",
+                "hun": "밥/먹을",
+                "sound": "식",
+                "meaning": "밥, 먹다, 기식하다"
+            }
+        ],
+        "hanjaExplanation": "‘남의 집에 얹혀(寄) 밥을 먹음(食)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "사냥개라 허는 것은 같은 우리 모족(毛族)으로 사람 집에 기식허니 제 무슨 아첨으로 내 잘 맡는 자랑허여 심산궁곡 층암절벽 찾고 찾어 들어와 동제 간 살해만 허니"
+            }
+        ],
+        "feed": [],
+        "id": "기식-寄食"
+    },
+    "심산궁곡": {
+        "word": "심산궁곡",
+        "hanja": "深山窮谷",
+        "sound": "심산궁곡",
+        "category": "고전 어휘 독해형",
+        "brief": "골이 깊고 험한 깊은 산과 으슥한 골짜기",
+        "definition": "골이 깊고 험한 깊은 산과 으슥한 골짜기.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "深",
+                "hun": "깊을",
+                "sound": "심",
+                "meaning": "깊다, 심오하다, 깊어지다"
+            },
+            {
+                "character": "山",
+                "hun": "뫼",
+                "sound": "산",
+                "meaning": "산, 뫼"
+            },
+            {
+                "character": "窮",
+                "hun": "다할/가난할",
+                "sound": "궁",
+                "meaning": "다하다, 궁하다, 가난하다"
+            },
+            {
+                "character": "谷",
+                "hun": "골",
+                "sound": "곡",
+                "meaning": "골, 골짜기"
+            }
+        ],
+        "hanjaExplanation": "‘깊은(深) 산(山)과 막다른 으슥한(窮) 골짜기(谷)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "사냥개라 허는 것은 같은 우리 모족(毛族)으로 사람 집에 기식허니 제 무슨 아첨으로 내 잘 맡는 자랑허여 심산궁곡 층암절벽 찾고 찾어 들어와 동제 간 살해만 허니"
+            }
+        ],
+        "feed": [],
+        "id": "심산궁곡-深山窮谷"
+    },
+    "층암절벽": {
+        "word": "층암절벽",
+        "hanja": "層巖絶壁",
+        "sound": "층암절벽",
+        "category": "고전 어휘 독해형",
+        "brief": "겹겹이 쌓인 바위와 깎아지른 듯한 낭떠러지",
+        "definition": "겹겹이 층을 이룬 바위와 깎아지른 듯이 가파른 낭떠러지.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "層",
+                "hun": "층",
+                "sound": "층",
+                "meaning": "층, 켜, 겹치다"
+            },
+            {
+                "character": "巖",
+                "hun": "바위",
+                "sound": "암",
+                "meaning": "바위, 험하다, 암벽"
+            },
+            {
+                "character": "絶",
+                "hun": "끊을",
+                "sound": "절",
+                "meaning": "끊다, 가파르다, 뛰어나다"
+            },
+            {
+                "character": "壁",
+                "hun": "벽",
+                "sound": "벽",
+                "meaning": "벽, 낭떠러지, 절벽"
+            }
+        ],
+        "hanjaExplanation": "‘층(層)을 이룬 바위(巖)와 깎아지른 듯 끊어진(絶) 절벽(壁)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "사냥개라 허는 것은 같은 우리 모족(毛族)으로 사람 집에 기식허니 제 무슨 아첨으로 내 잘 맡는 자랑허여 심산궁곡 층암절벽 찾고 찾어 들어와 동제 간 살해만 허니"
+            }
+        ],
+        "feed": [],
+        "id": "층암절벽-層巖絶壁"
+    },
+    "오대독신": {
+        "word": "오대독신",
+        "hanja": "五代獨身",
+        "sound": "오대독신",
+        "category": "고전 어휘 독해형",
+        "brief": "오 대째 아들이 하나뿐인 외아들",
+        "definition": "오 대에 걸쳐 외아들로 이어져 내려온 자손.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "五",
+                "hun": "다섯",
+                "sound": "오",
+                "meaning": "다섯, 다섯 번"
+            },
+            {
+                "character": "代",
+                "hun": "대신할",
+                "sound": "대",
+                "meaning": "대신하다, 시대, 세대"
+            },
+            {
+                "character": "獨",
+                "hun": "홀로",
+                "sound": "독",
+                "meaning": "홀로, 외로이"
+            },
+            {
+                "character": "身",
+                "hun": "몸",
+                "sound": "신",
+                "meaning": "몸, 신분"
+            }
+        ],
+        "hanjaExplanation": "‘오(五) 대(代) 동안 홀로(獨) 이어 온 자손(身)’이라는 뜻입니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "나는 오대독신으로 오십이 다 되도록 슬하 일점혈육이 없소 만일 내가 죽게 되면 선영에 죄가 망극허오 차라리 내 왼눈이나 하나 빼 잡수시오"
+            }
+        ],
+        "feed": [],
+        "id": "오대독신-五代獨身"
+    },
+    "일점혈육": {
+        "word": "일점혈육",
+        "hanja": "一點血肉",
+        "sound": "일점혈육",
+        "category": "고전 어휘 독해형",
+        "brief": "오직 하나뿐인 자식이나 피붙이",
+        "definition": "혈육이라곤 오직 하나뿐임. 또는 그 사람.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "一",
+                "hun": "한",
+                "sound": "일",
+                "meaning": "하나, 오로지"
+            },
+            {
+                "character": "點",
+                "hun": "점",
+                "sound": "점",
+                "meaning": "점, 조금, 조목"
+            },
+            {
+                "character": "血",
+                "hun": "피",
+                "sound": "혈",
+                "meaning": "피, 혈통, 혈육"
+            },
+            {
+                "character": "肉",
+                "hun": "고기",
+                "sound": "육",
+                "meaning": "고기, 살, 몸"
+            }
+        ],
+        "hanjaExplanation": "‘한(一) 점(點)의 피붙이(血肉)’라는 뜻으로 유일한 혈육을 이릅니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "나는 오대독신으로 오십이 다 되도록 슬하 일점혈육이 없소 만일 내가 죽게 되면 선영에 죄가 망극허오 차라리 내 왼눈이나 하나 빼 잡수시오"
+            }
+        ],
+        "feed": [],
+        "id": "일점혈육-一點血肉"
+    },
+    "선영": {
+        "word": "선영",
+        "hanja": "先塋",
+        "sound": "선영",
+        "category": "고전 어휘 독해형",
+        "brief": "조상의 무덤",
+        "definition": "조상의 무덤.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "先",
+                "hun": "먼저",
+                "sound": "선",
+                "meaning": "먼저, 앞서서"
+            },
+            {
+                "character": "塋",
+                "hun": "무덤",
+                "sound": "영",
+                "meaning": "무덤, 묘지, 선영"
+            }
+        ],
+        "hanjaExplanation": "‘조상(先)의 무덤(塋)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "나는 오대독신으로 오십이 다 되도록 슬하 일점혈육이 없소 만일 내가 죽게 되면 선영에 죄가 망극허오 차라리 내 왼눈이나 하나 빼 잡수시오"
+            }
+        ],
+        "feed": [],
+        "id": "선영-先塋"
+    },
+    "망극": {
+        "word": "망극",
+        "hanja": "罔極",
+        "sound": "망극",
+        "category": "고전 어휘 독해형",
+        "brief": "은혜나 슬픔, 죄 따위가 끝없이 큼",
+        "definition": "은혜나 슬픔, 죄송함 따위가 더없이 큼.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "罔",
+                "hun": "없을",
+                "sound": "망",
+                "meaning": "없다, 그물, 속이다"
+            },
+            {
+                "character": "極",
+                "hun": "다할/극",
+                "sound": "극",
+                "meaning": "다하다, 극진하다, 극(전극)"
+            }
+        ],
+        "hanjaExplanation": "‘다함이나 끝(極)이 없음(罔)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "고전소설",
+                "content": "나는 오대독신으로 오십이 다 되도록 슬하 일점혈육이 없소 만일 내가 죽게 되면 선영에 죄가 망극허오 차라리 내 왼눈이나 하나 빼 잡수시오"
+            }
+        ],
+        "feed": [],
+        "id": "망극-罔極"
+    },
+    "사단": {
+        "word": "사단",
+        "hanja": "事端",
+        "sound": "사단",
+        "category": "문맥적 의미 파악형",
+        "brief": "사건의 실마리나 일의 발단",
+        "definition": "사건의 단서. 또는 일의 발단.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "事",
+                "hun": "일",
+                "sound": "사",
+                "meaning": "일, 사건"
+            },
+            {
+                "character": "端",
+                "hun": "끝",
+                "sound": "단",
+                "meaning": "첫머리, 끝, 바르다"
+            }
+        ],
+        "hanjaExplanation": "‘일(事)의 실마리이자 발단(端)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "현대소설",
+                "content": "이러한 사단이 벌어지게 된 것은 다름이 아니었다."
+            }
+        ],
+        "feed": [],
+        "id": "사단-事端"
+    },
+    "사찰 요원": {
+        "word": "사찰 요원",
+        "hanja": "査察要員",
+        "sound": "사찰 요원",
+        "category": "전문용어 이해형",
+        "brief": "조사하고 살피는 임무를 맡은 사람",
+        "definition": "기관이나 단체의 실태를 조사하고 감찰하는 임무를 맡은 요원.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "査",
+                "hun": "조사할",
+                "sound": "사",
+                "meaning": "조사하다, 살피다, 검사하다"
+            },
+            {
+                "character": "察",
+                "hun": "살필",
+                "sound": "찰",
+                "meaning": "살피다, 관찰하다, 조사하다"
+            },
+            {
+                "character": "要",
+                "hun": "요긴할",
+                "sound": "요",
+                "meaning": "중요하다, 으뜸"
+            },
+            {
+                "character": "員",
+                "hun": "인원",
+                "sound": "원",
+                "meaning": "인원, 사람, 수효"
+            }
+        ],
+        "hanjaExplanation": "‘조사하고 살피는(査察) 긴요한 사람(要員)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "현대소설",
+                "content": "온 씨의 어조가 진지한 것이 아니었다면 허명두 씨는 욕설을 퍼부어 네가 무슨 사찰 요원이냐고 따질 뻔하였다."
+            }
+        ],
+        "feed": [],
+        "id": "사찰 요원-査察要員"
+    },
+    "요충지": {
+        "word": "요충지",
+        "hanja": "要衝地",
+        "sound": "요충지",
+        "category": "전문용어 이해형",
+        "brief": "지세가 군사적이나 지리적으로 매우 중요한 곳",
+        "definition": "지세가 군사적으로나 교통상으로 매우 중요한 곳.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "要",
+                "hun": "요긴할",
+                "sound": "요",
+                "meaning": "중요하다, 으뜸"
+            },
+            {
+                "character": "衝",
+                "hun": "찌를/부딪칠",
+                "sound": "충",
+                "meaning": "부딪치다, 찌르다, 요충지"
+            },
+            {
+                "character": "地",
+                "hun": "땅",
+                "sound": "지",
+                "meaning": "땅, 지역, 토지"
+            }
+        ],
+        "hanjaExplanation": "‘중요하고(要) 요긴하게 찌르는(衝) 땅(地)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "현대소설",
+                "content": "특히 독가촌은 오늘의 달라진 인문지리의 환경 으로 따져 보았을 적에 고속도로와 접속이 되게 될 교통 요충지가 되었을 뿐 아니라 관광지로서의 좋은 조건을 모두 구비 하고 있다는 것이었다."
+            }
+        ],
+        "feed": [],
+        "id": "요충지-要衝地"
+    },
+    "불하": {
+        "word": "불하",
+        "hanja": "拂下",
+        "sound": "불하",
+        "category": "전문용어 이해형",
+        "brief": "국가나 공공 단체의 재산을 개인에게 팔아넘김",
+        "definition": "국가나 공공 단체의 재산을 개인에게 팔아넘김.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "拂",
+                "hun": "떨칠",
+                "sound": "불",
+                "meaning": "떨치다, 불하하다, 지불하다"
+            },
+            {
+                "character": "下",
+                "hun": "아래",
+                "sound": "하",
+                "meaning": "아래, 내리다"
+            }
+        ],
+        "hanjaExplanation": "‘털어내거나 치르고(拂) 아래로 내줌(下)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "현대소설",
+                "content": "물론 불하를 내게 될 적에는 이미 지어진 집 임자에게 기득권을 부여하게 될 터이었다."
+            }
+        ],
+        "feed": [],
+        "id": "불하-拂下"
+    },
+    "기득권": {
+        "word": "기득권",
+        "hanja": "旣得權",
+        "sound": "기득권",
+        "category": "전문용어 이해형",
+        "brief": "특정 개인이 과거부터 이미 차지하여 누리고 있는 권리",
+        "definition": "특정한 자연인이나 법인이 적법하게 취득하여 현재 누리고 있는 권리.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "旣",
+                "hun": "이미",
+                "sound": "기",
+                "meaning": "이미, 벌써, 끝나다"
+            },
+            {
+                "character": "得",
+                "hun": "얻을",
+                "sound": "득",
+                "meaning": "얻다, 획득하다, 이익"
+            },
+            {
+                "character": "權",
+                "hun": "권세",
+                "sound": "권",
+                "meaning": "권리, 권한"
+            }
+        ],
+        "hanjaExplanation": "‘이미(旣) 얻은(得) 권리(權)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "현대소설",
+                "content": "물론 불하를 내게 될 적에는 이미 지어진 집 임자에게 기득권을 부여하게 될 터이었다."
+            }
+        ],
+        "feed": [],
+        "id": "기득권-旣得權"
+    },
+    "봉고파출": {
+        "word": "봉고파출",
+        "hanja": "封庫罷黜",
+        "sound": "봉고파출",
+        "category": "고전 어휘 독해형",
+        "brief": "부정을 저지른 관리를 파면하고 관가의 창고를 봉하여 잠금",
+        "definition": "부정을 저지른 관리를 파면하고 관가의 창고를 봉하여 잠그던 일.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "封",
+                "hun": "봉할",
+                "sound": "봉",
+                "meaning": "봉하다, 닫다, 봉투"
+            },
+            {
+                "character": "庫",
+                "hun": "곳집",
+                "sound": "고",
+                "meaning": "곳집, 창고"
+            },
+            {
+                "character": "罷",
+                "hun": "파할",
+                "sound": "파",
+                "meaning": "파하다, 면직하다, 그만두다"
+            },
+            {
+                "character": "黜",
+                "hun": "내칠",
+                "sound": "출",
+                "meaning": "내치다, 물리치다, 파면하다"
+            }
+        ],
+        "hanjaExplanation": "‘창고를 봉하여 잠그고(封庫) 수령을 파면하여 내쫓음(罷黜)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "고전시가",
+                "content": "뉘라서 어사 벼슬 좋다고 하던가 봉고파출 쾌한 일가 형문 곤장 차마 하랴"
+            }
+        ],
+        "feed": [],
+        "id": "봉고파출-封庫罷黜"
+    },
+    "형문": {
+        "word": "형문",
+        "hanja": "刑問",
+        "sound": "형문",
+        "category": "고전 어휘 독해형",
+        "brief": "죄인을 심문할 때 형벌을 가하며 묻는 일",
+        "definition": "죄인을 신문할 때 정강이를 치는 형벌.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "刑",
+                "hun": "형벌",
+                "sound": "형",
+                "meaning": "형벌, 벌하다, 다스리다"
+            },
+            {
+                "character": "問",
+                "hun": "물을",
+                "sound": "문",
+                "meaning": "묻다, 심문하다, 방문하다"
+            }
+        ],
+        "hanjaExplanation": "‘형벌(刑)을 가하며 죄상을 캐물음(問)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "고전시가",
+                "content": "뉘라서 어사 벼슬 좋다고 하던가 봉고파출 쾌한 일가 형문 곤장 차마 하랴"
+            }
+        ],
+        "feed": [],
+        "id": "형문-刑問"
+    },
+    "곤장": {
+        "word": "곤장",
+        "hanja": "棍杖",
+        "sound": "곤장",
+        "category": "고전 어휘 독해형",
+        "brief": "죄인의 볼기를 치는 데 쓰던 굵은 나무 몽둥이",
+        "definition": "조선 시대에 중죄인의 볼기를 치는 데 쓰던 넓고 긴 몽둥이.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "棍",
+                "hun": "몽둥이",
+                "sound": "곤",
+                "meaning": "몽둥이, 곤장"
+            },
+            {
+                "character": "杖",
+                "hun": "지팡이",
+                "sound": "장",
+                "meaning": "지팡이, 몽둥이, 매질하다"
+            }
+        ],
+        "hanjaExplanation": "‘큰 몽둥이(棍)와 지팡이(杖)’라는 뜻으로 형벌 도구를 이릅니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "문학",
+                "domain": "고전시가",
+                "content": "뉘라서 어사 벼슬 좋다고 하던가 봉고파출 쾌한 일가 형문 곤장 차마 하랴"
+            }
+        ],
+        "feed": [],
+        "id": "곤장-棍杖"
+    },
+    "풍혈지": {
+        "word": "풍혈지",
+        "hanja": "風穴地",
+        "sound": "풍혈지",
+        "category": "전문용어 이해형",
+        "brief": "바위틈에서 찬 공기가 나와 여름에도 서늘한 저온 지형",
+        "definition": "여름철에 암석 틈새에서 주위보다 찬 공기가 새어 나와 국소적으로 저온 환경이 형성되는 지형이나 지역.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "風",
+                "hun": "바람",
+                "sound": "풍",
+                "meaning": "바람"
+            },
+            {
+                "character": "穴",
+                "hun": "구멍",
+                "sound": "혈",
+                "meaning": "구멍, 굴, 바위틈"
+            },
+            {
+                "character": "地",
+                "hun": "땅",
+                "sound": "지",
+                "meaning": "땅, 지역, 토지"
+            }
+        ],
+        "hanjaExplanation": "‘바람(風)이 나오는 바위 구멍(穴)이 있는 땅(地)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "화법과 작문",
+                "domain": null,
+                "content": "바로 풍혈지라는 곳입니다."
+            }
+        ],
+        "feed": [],
+        "id": "풍혈지-風穴地"
+    },
+    "국소적": {
+        "word": "국소적",
+        "hanja": "局所的",
+        "sound": "국소적",
+        "category": "전문용어 이해형",
+        "brief": "전체가 아닌 특정 국한된 일부 부분에만 미치는 것",
+        "definition": "전체에 걸치지 않고 어느 한 부분이나 특정 영역에만 한정되는 것.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "局",
+                "hun": "판",
+                "sound": "국",
+                "meaning": "판, 부분, 한정되다"
+            },
+            {
+                "character": "所",
+                "hun": "바",
+                "sound": "소",
+                "meaning": "바, 곳, 장소"
+            },
+            {
+                "character": "的",
+                "hun": "과녁/의",
+                "sound": "적",
+                "meaning": "~의, 속성"
+            }
+        ],
+        "hanjaExplanation": "‘한정된 판(局)의 특정 장소(所)에 국한되는 성질(的)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "화법과 작문",
+                "domain": null,
+                "content": "풍혈지는 여름철에 돌 사이에서 주위보다 찬 공기가 새어 나와 국소적으로 저온 환경이 형성된 지역을 의미합니다."
+            }
+        ],
+        "feed": [],
+        "id": "국소적-局所的"
+    },
+    "애추": {
+        "word": "애추",
+        "hanja": "崖錐",
+        "sound": "애추",
+        "category": "전문용어 이해형",
+        "brief": "절벽 밑에 떨어진 부서진 암석 조각이 쌓여 형성된 반원뿔 모양의 지형",
+        "definition": "벼랑 밑에 부서진 암석이 부채꼴 모양으로 쌓여 이루어진 반원뿔형의 지형.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "崖",
+                "hun": "벼랑",
+                "sound": "애",
+                "meaning": "벼랑, 언덕, 낭떠러지"
+            },
+            {
+                "character": "錐",
+                "hun": "송곳",
+                "sound": "추",
+                "meaning": "송곳, 뾰족하다, 원뿔"
+            }
+        ],
+        "hanjaExplanation": "‘벼랑(崖) 밑에 송곳이나 원뿔(錐) 모양으로 쌓인 돌무더기 지형’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "화법과 작문",
+                "domain": null,
+                "content": "풍혈지는 주로 애추가 있는 곳에서 나타납니다."
+            }
+        ],
+        "feed": [],
+        "id": "애추-崖錐"
+    },
+    "합용 병서": {
+        "word": "합용 병서",
+        "hanja": "合用竝書",
+        "sound": "합용 병서",
+        "category": "전문용어 이해형",
+        "brief": "훈민정음에서 서로 다른 둘 이상의 자음을 가로로 나란히 붙여 쓰는 일",
+        "definition": "훈민정음에서 서로 다른 둘 이상의 자음 글자를 가로로 나란히 붙여 쓰는 일.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "合",
+                "hun": "합할",
+                "sound": "합",
+                "meaning": "합치다, 맞추다"
+            },
+            {
+                "character": "用",
+                "hun": "쓸",
+                "sound": "용",
+                "meaning": "쓰다, 사용하다, 기능"
+            },
+            {
+                "character": "竝",
+                "hun": "나란할",
+                "sound": "병",
+                "meaning": "나란하다, 아우르다, 나란히 쓰다"
+            },
+            {
+                "character": "書",
+                "hun": "글",
+                "sound": "서",
+                "meaning": "글, 서신"
+            }
+        ],
+        "hanjaExplanation": "‘서로 다른 글자를 합하여 써서(合用) 나란히 적음(竝書)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "언어와 매체",
+                "domain": "문법",
+                "content": "15세기 국어에서 ‘ㅄ, ㅳ, ㅴ…’의 합용 병서는 초성에서 두 소리의 연쇄로 발음되는 자음군을 나타냈다."
+            }
+        ],
+        "feed": [],
+        "id": "합용 병서-合用竝書"
+    },
+    "유성 마찰음": {
+        "word": "유성 마찰음",
+        "hanja": "有聲摩擦音",
+        "sound": "유성 마찰음",
+        "category": "전문용어 이해형",
+        "brief": "성대의 진동이 동반되는 마찰음",
+        "definition": "조음 기관의 틈새로 공기가 마찰하며 날 때 성대의 진동이 함께 수반되는 소리.",
+        "definitionSource": null,
+        "hanjaBreakdown": [
+            {
+                "character": "有",
+                "hun": "있을",
+                "sound": "유",
+                "meaning": "있다"
+            },
+            {
+                "character": "聲",
+                "hun": "소리",
+                "sound": "성",
+                "meaning": "소리"
+            },
+            {
+                "character": "摩",
+                "hun": "문지를",
+                "sound": "마",
+                "meaning": "문지르다, 비비다, 마찰하다"
+            },
+            {
+                "character": "擦",
+                "hun": "비빌",
+                "sound": "찰",
+                "meaning": "비비다, 문지르다, 마찰하다"
+            },
+            {
+                "character": "音",
+                "hun": "소리",
+                "sound": "음",
+                "meaning": "소리, 음성, 목소리"
+            }
+        ],
+        "hanjaExplanation": "‘목소리의 울림(有聲)이 있고 공기가 비벼져 나는 소리(摩擦音)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "언어와 매체",
+                "domain": "문법",
+                "content": "15세기 국어의 ‘ㅿ’은 15세기 국어의 ‘ㅅ’과 같은 조음 위치의 유성 마찰음을 나타냈다."
+            }
+        ],
+        "feed": [],
+        "id": "유성 마찰음-有聲摩擦音"
+    },
+    "구개음화": {
+        "word": "구개음화",
+        "hanja": "口蓋音化",
+        "sound": "구개음화",
+        "category": "전문용어 이해형",
+        "brief": "끝소리 ‘ㄷ’, ‘ㅌ’이 ‘ㅣ’ 모음 앞에서 ‘ㅈ’, ‘ㅊ’으로 바뀌는 음운 현상",
+        "definition": "끝소리가 ‘ㄷ’, ‘ㅌ’인 형태소가 모음 ‘ㅣ’나 반모음 ‘ㅣ[j]’로 시작하는 형식 형태소와 만나 구개음인 ‘ㅈ’, ‘ㅊ’으로 발음되는 현상.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "口",
+                "hun": "입",
+                "sound": "구",
+                "meaning": "사람 수, 인구"
+            },
+            {
+                "character": "蓋",
+                "hun": "덮을/대개",
+                "sound": "개",
+                "meaning": "덮다, 대개, 아마도"
+            },
+            {
+                "character": "音",
+                "hun": "소리",
+                "sound": "음",
+                "meaning": "소리, 음성, 목소리"
+            },
+            {
+                "character": "化",
+                "hun": "될",
+                "sound": "화",
+                "meaning": "~이 되다"
+            }
+        ],
+        "hanjaExplanation": "‘입천장소리인 구개음(口蓋音)으로 바뀜(化)’을 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "언어와 매체",
+                "domain": "문법",
+                "content": "15세기 국어에서는 경구개음이 자음 체계에 존재하지 않아서 구개음화가 발생하지 않았다."
+            }
+        ],
+        "feed": [],
+        "id": "구개음화-口蓋音化"
+    },
+    "의존 형태소": {
+        "word": "의존 형태소",
+        "hanja": "依存形態素",
+        "sound": "의존 형태소",
+        "category": "전문용어 이해형",
+        "brief": "다른 말에 기대어 쓰여 홀로 자립하여 쓰이지 못하는 형태소",
+        "definition": "다른 말에 기대어서만 쓰일 수 있는 형태소. 조사, 어미, 접사, 어간 따위가 이에 속한다.",
+        "definitionSource": "표준국어대사전",
+        "hanjaBreakdown": [
+            {
+                "character": "依",
+                "hun": "의지할",
+                "sound": "의",
+                "meaning": "의지하다, 기대다, 따르다"
+            },
+            {
+                "character": "存",
+                "hun": "있을",
+                "sound": "존",
+                "meaning": "있다, 보존하다, 살아남다"
+            },
+            {
+                "character": "形",
+                "hun": "모양/형상",
+                "sound": "형",
+                "meaning": "형체, 구체적인 모양"
+            },
+            {
+                "character": "態",
+                "hun": "태도",
+                "sound": "태",
+                "meaning": "모습, 형편, 짓"
+            },
+            {
+                "character": "素",
+                "hun": "본디/바탕",
+                "sound": "소",
+                "meaning": "근본, 바탕, 요소"
+            }
+        ],
+        "hanjaExplanation": "‘다른 요소에 의지하여(依存) 존재하는 형태소(形態素)’를 뜻합니다.",
+        "contexts": [
+            {
+                "source": "2026 본수",
+                "section": "언어와 매체",
+                "domain": "문법",
+                "content": "<학습 활동> 국어의 의존 형태소에는 접사, 조사, 어미 등이 있다."
+            }
+        ],
+        "feed": [],
+        "id": "의존 형태소-依存形態素"
     }
 };
