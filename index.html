@@ -1119,6 +1119,11 @@
                         <span
                           className="text-xs font-bold px-2.5 py-0.5 rounded border bg-amber-50 border-amber-200 text-amber-800 inline-flex items-center gap-1"
                           aria-label={`난이도 ${selectedWord.difficulty}`}
+                          title={
+                            selectedWord.difficulty === 1 ? "난이도 1: 비교적 친숙하여 문맥만으로도 의미를 파악하기 쉬운 어휘" :
+                            selectedWord.difficulty === 2 ? "난이도 2: 추상적·학술적 성격이 있어 한자 풀이가 의미 이해에 실질적으로 도움이 되는 어휘" :
+                            "난이도 3: 전문 개념·고전어·희귀어로, 정확한 이해를 위해 추가 설명이 필요한 어휘"
+                          }
                         >
                           난이도 {selectedWord.difficulty} · {
                             selectedWord.difficulty === 1 ? "기본" :
@@ -1136,9 +1141,9 @@
                           독해 난이도 안내
                         </span>
                         <span className="leading-normal">
-                          {selectedWord.difficulty === 1 && "비교적 친숙한 기본 어휘로, 한자의 기본 음훈을 통해 맥락을 파악할 수 있는 어휘"}
-                          {selectedWord.difficulty === 2 && "추상적·학술적 성격이 있어 한자 풀이가 지문 독해와 의미 이해에 도움이 되는 어휘"}
-                          {selectedWord.difficulty === 3 && "전문 학술 개념이나 고전 문학에 특화되어 정확한 사전 지식이 요구되는 어휘"}
+                          {selectedWord.difficulty === 1 && "비교적 친숙하여 문맥만으로도 의미를 파악하기 쉬운 어휘"}
+                          {selectedWord.difficulty === 2 && "추상적·학술적 성격이 있어 한자 풀이가 의미 이해에 실질적으로 도움이 되는 어휘"}
+                          {selectedWord.difficulty === 3 && "전문 개념·고전어·희귀어로, 정확한 이해를 위해 추가 설명이 필요한 어휘"}
                         </span>
                       </div>
                     )}
@@ -1642,9 +1647,9 @@
                       </span>
                       {[
                         { label: "전체", val: "전체", desc: "전체 난이도 보기" },
-                        { label: "1 · 기본", val: 1, desc: "비교적 친숙한 기본 어휘" },
-                        { label: "2 · 심화", val: 2, desc: "추상·학술 어휘" },
-                        { label: "3 · 전문·고전", val: 3, desc: "전문·고전·희귀 어휘" }
+                        { label: "1 · 기본", val: 1, desc: "비교적 친숙하여 문맥만으로도 의미를 파악하기 쉬운 어휘" },
+                        { label: "2 · 심화", val: 2, desc: "추상적·학술적 성격이 있어 한자 풀이가 의미 이해에 실질적으로 도움이 되는 어휘" },
+                        { label: "3 · 전문·고전", val: 3, desc: "전문 개념·고전어·희귀어로, 정확한 이해를 위해 추가 설명이 필요한 어휘" }
                       ].map(diff => {
                         const isActive = selectedDifficulty === diff.val;
                         const count = diff.val === "전체"
@@ -1729,8 +1734,9 @@
                                   <span
                                     className="text-[10px] font-bold px-2 py-0.5 rounded border bg-amber-50/90 border-amber-200/90 text-amber-800"
                                     title={
-                                      wordData.difficulty === 1 ? "난이도 1: 친숙한 기본 어휘" :
-                                      wordData.difficulty === 2 ? "난이도 2: 추상·학술 어휘" : "난이도 3: 전문·고전·희귀 어휘"
+                                      wordData.difficulty === 1 ? "난이도 1: 비교적 친숙하여 문맥만으로도 의미를 파악하기 쉬운 어휘" :
+                                      wordData.difficulty === 2 ? "난이도 2: 추상적·학술적 성격이 있어 한자 풀이가 의미 이해에 실질적으로 도움이 되는 어휘" :
+                                      "난이도 3: 전문 개념·고전어·희귀어로, 정확한 이해를 위해 추가 설명이 필요한 어휘"
                                     }
                                   >
                                     난이도 {wordData.difficulty}
