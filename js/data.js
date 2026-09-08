@@ -48,7 +48,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "정립-定立",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "반정립": {
         "word": "반정립",
@@ -91,7 +92,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "반정립-反定立",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "종합": {
         "word": "종합",
@@ -150,7 +152,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "종합-綜合",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "전제": {
         "word": "전제",
@@ -223,7 +226,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "전제-前提",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "유추": {
         "word": "유추",
@@ -258,7 +262,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "유추-類推",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "수렴": {
         "word": "수렴",
@@ -307,7 +312,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "수렴-收斂",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "발산": {
         "word": "발산",
@@ -342,7 +348,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "발산-發散",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "변증법": {
         "word": "변증법",
@@ -385,7 +392,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "변증법-辨證法",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 3
     },
     "동일성": {
         "word": "동일성",
@@ -432,7 +440,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "동일성-同一性",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "자아": {
         "word": "자아",
@@ -467,7 +476,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "자아-自我",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "도외시": {
         "word": "도외시",
@@ -508,7 +518,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "도외시-度外視",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "잠재": {
         "word": "잠재",
@@ -551,7 +562,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "잠재-潛在",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "인과": {
         "word": "인과",
@@ -604,7 +616,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "인과-因果",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "실재": {
         "word": "실재",
@@ -659,7 +672,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "실재-實在",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "결측치": {
         "word": "결측치",
@@ -700,7 +714,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "결측치-缺測値",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "이상치": {
         "word": "이상치",
@@ -741,7 +756,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "이상치-異常値",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "곡률": {
         "word": "곡률",
@@ -785,7 +801,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "곡률-曲率",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "민감도": {
         "word": "민감도",
@@ -827,7 +844,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "민감도-敏感度",
-        "definitionSource": "우리말샘"
+        "definitionSource": "우리말샘",
+        "difficulty": 2
     },
     "담보": {
         "word": "담보",
@@ -868,7 +886,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "담보-擔保",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "효용": {
         "word": "효용",
@@ -915,7 +934,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "효용-效用",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "상충": {
         "word": "상충",
@@ -970,7 +990,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "상충-相衝",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "비판적": {
         "word": "비판적",
@@ -1041,7 +1062,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "비판적-批判的",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "종합적": {
         "word": "종합적",
@@ -1100,7 +1122,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "종합적-綜合的",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "교차하다": {
         "word": "교차하다",
@@ -1135,7 +1158,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "교차하다-交叉하다",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "망각": {
         "word": "망각",
@@ -1170,7 +1194,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "망각-忘却",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "감응하다": {
         "word": "감응하다",
@@ -1205,7 +1230,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "감응하다-感應하다",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "표지": {
         "word": "표지",
@@ -1270,7 +1296,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "표지-標識",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "실정": {
         "word": "실정",
@@ -1305,7 +1332,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "실정-失政",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "미혹시키다": {
         "word": "미혹시키다",
@@ -1340,7 +1368,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "미혹시키다-迷惑시키다",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 2
     },
     "강론하다": {
         "word": "강론하다",
@@ -1375,7 +1404,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "강론하다-講論하다",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 3
     },
     "재이론": {
         "word": "재이론",
@@ -1416,7 +1446,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "재이론-災異論",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "성문법": {
         "word": "성문법",
@@ -1463,7 +1494,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "성문법-成文法",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 3
     },
     "귀속": {
         "word": "귀속",
@@ -1510,7 +1542,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "귀속-歸屬",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "제약": {
         "word": "제약",
@@ -1569,7 +1602,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "제약-制約",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "방식": {
         "word": "방식",
@@ -1640,7 +1674,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "방식-方式",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "가치": {
         "word": "가치",
@@ -1705,7 +1740,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "가치-價値",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "도출": {
         "word": "도출",
@@ -1764,7 +1800,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "도출-導出",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "괴리": {
         "word": "괴리",
@@ -1800,7 +1837,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "괴리-乖離",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "부합": {
         "word": "부합",
@@ -1871,7 +1909,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "부합-符合",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "환기": {
         "word": "환기",
@@ -1938,7 +1977,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "환기-喚起",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "탄력성": {
         "word": "탄력성",
@@ -1981,7 +2021,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "탄력성-彈力性",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "선결정": {
         "word": "선결정",
@@ -2024,7 +2065,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "선결정-先決定",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 2
     },
     "무작위": {
         "word": "무작위",
@@ -2067,7 +2109,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "무작위-無作爲",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "동기화": {
         "word": "동기화",
@@ -2110,7 +2153,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "동기화-同期化",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "주체": {
         "word": "주체",
@@ -2183,7 +2227,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "주체-主體",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "강호": {
         "word": "강호",
@@ -2222,7 +2267,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "강호-江湖",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "임천": {
         "word": "임천",
@@ -2263,7 +2309,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "임천-林泉",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "홍진": {
         "word": "홍진",
@@ -2302,7 +2349,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "홍진-紅塵",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "소구": {
         "word": "소구",
@@ -2339,7 +2387,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "소구-訴求",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "구현": {
         "word": "구현",
@@ -2406,7 +2455,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "구현-具現",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "집적": {
         "word": "집적",
@@ -2443,7 +2493,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "집적-集積",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "현혹": {
         "word": "현혹",
@@ -2480,7 +2531,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "현혹-眩惑",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "발복": {
         "word": "발복",
@@ -2521,7 +2573,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "발복-發福",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "가인": {
         "word": "가인",
@@ -2562,7 +2615,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "가인-佳人",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "해명": {
         "word": "해명",
@@ -2599,7 +2653,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "해명-解明",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "점진적": {
         "word": "점진적",
@@ -2636,7 +2691,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "점진적-漸進的",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "심층": {
         "word": "심층",
@@ -2679,7 +2735,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "심층-深層",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "야인": {
         "word": "야인",
@@ -2720,7 +2777,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "야인-野人",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "소일": {
         "word": "소일",
@@ -2761,7 +2819,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "소일-消日",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "현알": {
         "word": "현알",
@@ -2802,7 +2861,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "현알-顯謁",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "전별": {
         "word": "전별",
@@ -2849,7 +2909,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "전별-餞別",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "사퇴": {
         "word": "사퇴",
@@ -2890,7 +2951,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "사퇴-謝退",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "진세": {
         "word": "진세",
@@ -2943,7 +3005,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "진세-塵世",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 3
     },
     "산재": {
         "word": "산재",
@@ -2980,7 +3043,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "산재-散在",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "과두제": {
         "word": "과두제",
@@ -3023,7 +3087,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "과두제-寡頭制",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 3
     },
     "은폐": {
         "word": "은폐",
@@ -3064,7 +3129,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "은폐-隱蔽",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "견제": {
         "word": "견제",
@@ -3101,7 +3167,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "견제-牽制",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "발현": {
         "word": "발현",
@@ -3138,7 +3205,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "발현-發現",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "수중고혼": {
         "word": "수중고혼",
@@ -3191,7 +3259,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "수중고혼-水中孤魂",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 3
     },
     "흠향": {
         "word": "흠향",
@@ -3232,7 +3301,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "흠향-歆饗",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 3
     },
     "주달": {
         "word": "주달",
@@ -3273,7 +3343,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "주달-奏達",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 3
     },
     "단서": {
         "word": "단서",
@@ -3328,7 +3399,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "단서-端緖",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "상호보완적": {
         "word": "상호보완적",
@@ -3383,7 +3455,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "상호보완적-相互補完的",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 2
     },
     "무결성": {
         "word": "무결성",
@@ -3426,7 +3499,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "무결성-無缺性",
-        "definitionSource": "우리말샘"
+        "definitionSource": "우리말샘",
+        "difficulty": 3
     },
     "탈중앙성": {
         "word": "탈중앙성",
@@ -3475,7 +3549,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "탈중앙성-脫中央性",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "확장성": {
         "word": "확장성",
@@ -3518,7 +3593,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "확장성-擴張性",
-        "definitionSource": "우리말샘"
+        "definitionSource": "우리말샘",
+        "difficulty": 2
     },
     "총체": {
         "word": "총체",
@@ -3567,7 +3643,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "총체-總體",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "부재": {
         "word": "부재",
@@ -3622,7 +3699,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "부재-不在",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "간극": {
         "word": "간극",
@@ -3671,7 +3749,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "간극-間隙",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "개연성": {
         "word": "개연성",
@@ -3720,7 +3799,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "개연성-蓋然性",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "자태": {
         "word": "자태",
@@ -3761,7 +3841,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "자태-姿態",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "재구성": {
         "word": "재구성",
@@ -3828,7 +3909,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "재구성-再構成",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "적합성": {
         "word": "적합성",
@@ -3871,7 +3953,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "적합성-適合性",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "존립": {
         "word": "존립",
@@ -3907,7 +3990,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "존립-存立",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "와해": {
         "word": "와해",
@@ -3943,7 +4027,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "와해-瓦解",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "당위": {
         "word": "당위",
@@ -3985,7 +4070,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "당위-當爲",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "개진": {
         "word": "개진",
@@ -4021,7 +4107,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "개진-開陳",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "매개": {
         "word": "매개",
@@ -4069,7 +4156,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "매개-媒介",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "환원": {
         "word": "환원",
@@ -4111,7 +4199,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "환원-還元",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "지척": {
         "word": "지척",
@@ -4151,7 +4240,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "지척-咫尺",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "행장": {
         "word": "행장",
@@ -4191,7 +4281,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "행장-行裝",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "기피": {
         "word": "기피",
@@ -4227,7 +4318,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "기피-忌避",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "담론": {
         "word": "담론",
@@ -4263,7 +4355,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "담론-談論",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "편중": {
         "word": "편중",
@@ -4299,7 +4392,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "편중-偏重",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 1
     },
     "궤란": {
         "word": "궤란",
@@ -4339,7 +4433,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "궤란-憒亂",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "제수": {
         "word": "제수",
@@ -4393,7 +4488,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "제수-除授",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 3
     },
     "대경실색": {
         "word": "대경실색",
@@ -4451,7 +4547,8 @@ window.MOCK_WORDS = {
         ],
         "feed": [],
         "id": "대경실색-大驚失色",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 2
     },
     "정류": {
         "word": "정류",
@@ -4488,7 +4585,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "정류-整流"
+        "id": "정류-整流",
+        "difficulty": 3
     },
     "평활": {
         "word": "평활",
@@ -4525,7 +4623,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": null,
-        "id": "평활-平滑"
+        "id": "평활-平滑",
+        "difficulty": 3
     },
     "정전압": {
         "word": "정전압",
@@ -4568,7 +4667,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": null,
-        "id": "정전압-定電壓"
+        "id": "정전압-定電壓",
+        "difficulty": 3
     },
     "제토": {
         "word": "제토",
@@ -4605,7 +4705,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": null,
-        "id": "제토-除土"
+        "id": "제토-除土",
+        "difficulty": 3
     },
     "신원-伸冤": {
         "word": "신원",
@@ -4652,7 +4753,8 @@ window.MOCK_WORDS = {
                 "type": "homonym",
                 "targetId": "신원-身元"
             }
-        ]
+        ],
+        "difficulty": 3
     },
     "등과": {
         "word": "등과",
@@ -4693,7 +4795,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "등과-登科"
+        "id": "등과-登科",
+        "difficulty": 3
     },
     "추증": {
         "word": "추증",
@@ -4734,7 +4837,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "추증-追贈"
+        "id": "추증-追贈",
+        "difficulty": 3
     },
     "형이상학": {
         "word": "형이상학",
@@ -4789,7 +4893,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "형이상학-形而上學"
+        "id": "형이상학-形而上學",
+        "difficulty": 3
     },
     "존재론": {
         "word": "존재론",
@@ -4832,7 +4937,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "존재론-存在論"
+        "id": "존재론-存在論",
+        "difficulty": 3
     },
     "인식론": {
         "word": "인식론",
@@ -4875,7 +4981,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "인식론-認識論"
+        "id": "인식론-認識論",
+        "difficulty": 3
     },
     "규범": {
         "word": "규범",
@@ -4936,7 +5043,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "규범-規範"
+        "id": "규범-規範",
+        "difficulty": 1
     },
     "변압기": {
         "word": "변압기",
@@ -4979,7 +5087,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "변압기-變壓器"
+        "id": "변압기-變壓器",
+        "difficulty": 3
     },
     "외람": {
         "word": "외람",
@@ -5020,7 +5129,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": null,
-        "id": "외람-猥濫"
+        "id": "외람-猥濫",
+        "difficulty": 2
     },
     "비감": {
         "word": "비감",
@@ -5061,7 +5171,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "비감-悲感"
+        "id": "비감-悲感",
+        "difficulty": 2
     },
     "공명": {
         "word": "공명",
@@ -5114,7 +5225,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "공명-功名"
+        "id": "공명-功名",
+        "difficulty": 2
     },
     "인양": {
         "word": "인양",
@@ -5151,7 +5263,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "인양-引揚"
+        "id": "인양-引揚",
+        "difficulty": 2
     },
     "객회": {
         "word": "객회",
@@ -5192,7 +5305,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "객회-客懷"
+        "id": "객회-客懷",
+        "difficulty": 3
     },
     "편액": {
         "word": "편액",
@@ -5233,7 +5347,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "편액-扁額"
+        "id": "편액-扁額",
+        "difficulty": 3
     },
     "고각": {
         "word": "고각",
@@ -5274,7 +5389,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "고각-高閣"
+        "id": "고각-高閣",
+        "difficulty": 3
     },
     "옥음": {
         "word": "옥음",
@@ -5315,7 +5431,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "옥음-玉音"
+        "id": "옥음-玉音",
+        "difficulty": 3
     },
     "범주": {
         "word": "범주",
@@ -5364,7 +5481,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "범주-範疇"
+        "id": "범주-範疇",
+        "difficulty": 2
     },
     "직관": {
         "word": "직관",
@@ -5407,7 +5525,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "직관-直觀"
+        "id": "직관-直觀",
+        "difficulty": 2
     },
     "표상": {
         "word": "표상",
@@ -5456,7 +5575,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "표상-表象"
+        "id": "표상-表象",
+        "difficulty": 3
     },
     "중화": {
         "word": "중화",
@@ -5493,7 +5613,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "중화-中和"
+        "id": "중화-中和",
+        "difficulty": 3
     },
     "고양": {
         "word": "고양",
@@ -5530,7 +5651,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "고양-高揚"
+        "id": "고양-高揚",
+        "difficulty": 2
     },
     "정합적": {
         "word": "정합적",
@@ -5573,7 +5695,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "정합적-整合的"
+        "id": "정합적-整合的",
+        "difficulty": 3
     },
     "소거": {
         "word": "소거",
@@ -5610,7 +5733,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "소거-消去"
+        "id": "소거-消去",
+        "difficulty": 3
     },
     "재객관화": {
         "word": "재객관화",
@@ -5659,7 +5783,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "재객관화-再客觀化",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "흠결": {
         "word": "흠결",
@@ -5696,7 +5821,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "흠결-欠缺"
+        "id": "흠결-欠缺",
+        "difficulty": 3
     },
     "태환": {
         "word": "태환",
@@ -5733,7 +5859,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "태환-兌換"
+        "id": "태환-兌換",
+        "difficulty": 3
     },
     "평가절하": {
         "word": "평가절하",
@@ -5782,7 +5909,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "평가절하-平價切下"
+        "id": "평가절하-平價切下",
+        "difficulty": 3
     },
     "평가절상": {
         "word": "평가절상",
@@ -5831,7 +5959,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "평가절상-平價切上"
+        "id": "평가절상-平價切上",
+        "difficulty": 3
     },
     "투영": {
         "word": "투영",
@@ -5886,7 +6015,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "투영-投影"
+        "id": "투영-投影",
+        "difficulty": 3
     },
     "명재경각": {
         "word": "명재경각",
@@ -5939,7 +6069,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "명재경각-命在頃刻"
+        "id": "명재경각-命在頃刻",
+        "difficulty": 3
     },
     "직계": {
         "word": "직계",
@@ -5980,7 +6111,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "직계-直啓"
+        "id": "직계-直啓",
+        "difficulty": 3
     },
     "하교": {
         "word": "하교",
@@ -6021,7 +6153,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "하교-下敎"
+        "id": "하교-下敎",
+        "difficulty": 3
     },
     "금부": {
         "word": "금부",
@@ -6062,7 +6195,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "금부-禁府"
+        "id": "금부-禁府",
+        "difficulty": 3
     },
     "정배": {
         "word": "정배",
@@ -6103,7 +6237,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "정배-定配"
+        "id": "정배-定配",
+        "difficulty": 3
     },
     "초종례": {
         "word": "초종례",
@@ -6150,7 +6285,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "초종례-初終禮",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "염습": {
         "word": "염습",
@@ -6191,7 +6327,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "염습-殮襲"
+        "id": "염습-殮襲",
+        "difficulty": 3
     },
     "미복": {
         "word": "미복",
@@ -6232,7 +6369,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "미복-微服"
+        "id": "미복-微服",
+        "difficulty": 3
     },
     "사직": {
         "word": "사직",
@@ -6273,7 +6411,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "사직-社稷"
+        "id": "사직-社稷",
+        "difficulty": 3
     },
     "삭망": {
         "word": "삭망",
@@ -6314,7 +6453,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "삭망-朔望"
+        "id": "삭망-朔望",
+        "difficulty": 3
     },
     "내빈왕객": {
         "word": "내빈왕객",
@@ -6367,7 +6507,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "내빈왕객-來賓往客",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "궁귀": {
         "word": "궁귀",
@@ -6408,7 +6549,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "궁귀-窮鬼",
-        "definitionSource": "표준국어대사전"
+        "definitionSource": "표준국어대사전",
+        "difficulty": 3
     },
     "천기": {
         "word": "천기",
@@ -6449,7 +6591,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "천기-天機"
+        "id": "천기-天機",
+        "difficulty": 2
     },
     "희로우락": {
         "word": "희로우락",
@@ -6502,7 +6645,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "희로우락-喜怒憂樂",
-        "definitionSource": null
+        "definitionSource": null,
+        "difficulty": 3
     },
     "상지": {
         "word": "상지",
@@ -6539,7 +6683,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "상지-上肢"
+        "id": "상지-上肢",
+        "difficulty": 3
     },
     "하지": {
         "word": "하지",
@@ -6576,7 +6721,8 @@ window.MOCK_WORDS = {
             }
         ],
         "definitionSource": "표준국어대사전",
-        "id": "하지-下肢"
+        "id": "하지-下肢",
+        "difficulty": 3
     },
     "천견설": {
         "word": "천견설",
@@ -6616,7 +6762,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "천견설-天譴說",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "천인감응론": {
         "word": "천인감응론",
@@ -6668,7 +6815,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "천인감응론-天人感應論",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "견책": {
         "word": "견책",
@@ -6702,7 +6850,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "견책-譴責",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "역설": {
         "word": "역설",
@@ -6736,7 +6885,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "역설-力說",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "공리주의": {
         "word": "공리주의",
@@ -6782,7 +6932,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "공리주의-功利主義",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "응보주의": {
         "word": "응보주의",
@@ -6834,7 +6985,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "응보주의-應報主義",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "일반예방주의": {
         "word": "일반예방주의",
@@ -6898,7 +7050,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "일반예방주의-一般豫防主義",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "증폭": {
         "word": "증폭",
@@ -6932,7 +7085,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "증폭-增幅",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "주형": {
         "word": "주형",
@@ -6966,7 +7120,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "주형-鑄型",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "이합체": {
         "word": "이합체",
@@ -7006,7 +7161,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "이합체-二合體",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "탐침": {
         "word": "탐침",
@@ -7040,7 +7196,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "탐침-探針",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "소광": {
         "word": "소광",
@@ -7074,7 +7231,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "소광-消光",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "궤변": {
         "word": "궤변",
@@ -7108,7 +7266,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "궤변-詭辯",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "자구책": {
         "word": "자구책",
@@ -7148,7 +7307,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "자구책-自救策",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "부정": {
         "word": "부정",
@@ -7182,7 +7342,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "부정-不正",
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "신원-身元": {
         "word": "신원",
@@ -7222,7 +7383,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "신원-身元",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "청흥": {
         "word": "청흥",
@@ -7256,7 +7418,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "청흥-淸興",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "속사": {
         "word": "속사",
@@ -7290,7 +7453,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "속사-俗事",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "어객": {
         "word": "어객",
@@ -7324,7 +7488,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "어객-漁客",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "청고": {
         "word": "청고",
@@ -7358,7 +7523,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "청고-淸高",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "풍진": {
         "word": "풍진",
@@ -7392,7 +7558,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "풍진-風塵",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "청담": {
         "word": "청담",
@@ -7426,7 +7593,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "청담-淸談",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "이방": {
         "word": "이방",
@@ -7460,7 +7628,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "이방-吏房",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "승상접하": {
         "word": "승상접하",
@@ -7506,7 +7675,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "승상접하-承上接下",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "일심봉공": {
         "word": "일심봉공",
@@ -7552,7 +7722,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "일심봉공-一心奉公",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "민원": {
         "word": "민원",
@@ -7586,7 +7757,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "민원-民怨",
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "독수공방": {
         "word": "독수공방",
@@ -7632,7 +7804,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "독수공방-獨守空房",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "박명": {
         "word": "박명",
@@ -7666,7 +7839,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "박명-薄命",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "전전반측": {
         "word": "전전반측",
@@ -7712,7 +7886,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "전전반측-輾轉反側",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "일도방백": {
         "word": "일도방백",
@@ -7758,7 +7933,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "일도방백-一道方伯",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "고사": {
         "word": "고사",
@@ -7792,7 +7968,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "고사-枯死",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "유휴": {
         "word": "유휴",
@@ -7826,7 +8003,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "유휴-遊休",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "독점": {
         "word": "독점",
@@ -7872,7 +8050,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "독점-獨占",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "선순환": {
         "word": "선순환",
@@ -7912,7 +8091,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "선순환-善循環",
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "한계 소비 성향": {
         "word": "한계 소비 성향",
@@ -7970,7 +8150,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "한계 소비 성향-限界消費性向",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "투입": {
         "word": "투입",
@@ -8016,7 +8197,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "투입-投入",
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "실체": {
         "word": "실체",
@@ -8056,7 +8238,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "실체-實體",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "유물론": {
         "word": "유물론",
@@ -8096,7 +8279,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "유물론-唯物論",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "자유의지": {
         "word": "자유의지",
@@ -8142,7 +8326,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "자유의지-自由意志",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "임의": {
         "word": "임의",
@@ -8182,7 +8367,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "임의-任意",
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "시차": {
         "word": "시차",
@@ -8216,7 +8402,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "시차-視差",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "관성": {
         "word": "관성",
@@ -8250,7 +8437,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "관성-慣性",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "피사체": {
         "word": "피사체",
@@ -8290,7 +8478,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "피사체-被寫體",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "검출": {
         "word": "검출",
@@ -8324,7 +8513,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "검출-檢出",
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "남녀유별": {
         "word": "남녀유별",
@@ -8370,7 +8560,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "남녀유별-男女有別",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "예의염치": {
         "word": "예의염치",
@@ -8416,7 +8607,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "예의염치-禮義廉恥",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "자탄": {
         "word": "자탄",
@@ -8450,7 +8642,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "자탄-自嘆",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "신수": {
         "word": "신수",
@@ -8484,7 +8677,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "신수-身數",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "경향": {
         "word": "경향",
@@ -8518,7 +8712,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "경향-京鄕",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "종용": {
         "word": "종용",
@@ -8552,7 +8747,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "종용-從容",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "적선": {
         "word": "적선",
@@ -8586,7 +8782,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "적선-積善",
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "급보": {
         "word": "급보",
@@ -8620,7 +8817,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "급보-急報",
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "징조": {
         "word": "징조",
@@ -8654,7 +8852,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "징조-徵兆",
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "수심": {
         "word": "수심",
@@ -8688,7 +8887,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "수심-愁心",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "출어": {
         "word": "출어",
@@ -8722,7 +8922,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "출어-出漁",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "수라장": {
         "word": "수라장",
@@ -8762,7 +8963,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "수라장-修羅場",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "축항": {
         "word": "축항",
@@ -8796,7 +8998,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "축항-築港",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "노도": {
         "word": "노도",
@@ -8830,7 +9033,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "노도-怒濤",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "제상": {
         "word": "제상",
@@ -8864,7 +9068,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "제상-祭床",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "풍설": {
         "word": "풍설",
@@ -8898,7 +9103,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "풍설-風說",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "작인": {
         "word": "작인",
@@ -8932,7 +9138,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "작인-作人",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "고리대금": {
         "word": "고리대금",
@@ -8984,7 +9191,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "고리대금-高利貸金",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "뇌수": {
         "word": "뇌수",
@@ -9018,7 +9226,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "뇌수-腦髓",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "공후배필": {
         "word": "공후배필",
@@ -9064,7 +9273,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "공후배필-公侯配匹",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "군자호구": {
         "word": "군자호구",
@@ -9110,7 +9320,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "군자호구-君子好逑",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "원업": {
         "word": "원업",
@@ -9144,7 +9355,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "원업-怨業",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "장안유협": {
         "word": "장안유협",
@@ -9190,7 +9402,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "장안유협-長安遊俠",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "경박자": {
         "word": "경박자",
@@ -9230,7 +9443,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "경박자-輕薄子",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "천연여질": {
         "word": "천연여질",
@@ -9276,7 +9490,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "천연여질-天然麗質",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "백년기약": {
         "word": "백년기약",
@@ -9322,7 +9537,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "백년기약-百年期約",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "삼춘화류": {
         "word": "삼춘화류",
@@ -9368,7 +9584,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "삼춘화류-三春花柳",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "소상야우": {
         "word": "소상야우",
@@ -9414,7 +9631,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "소상야우-瀟湘夜雨",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "화표천년": {
         "word": "화표천년",
@@ -9460,7 +9678,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "화표천년-華表千年",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "별학": {
         "word": "별학",
@@ -9494,7 +9713,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "별학-別鶴",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "부용장": {
         "word": "부용장",
@@ -9534,7 +9754,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "부용장-芙蓉帳",
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "타결": {
         "word": "타결",
@@ -9568,7 +9789,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "타결-妥結",
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "학령 인구": {
         "word": "학령 인구",
@@ -9614,7 +9836,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "학령 인구-學齡人口",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "음절": {
         "word": "음절",
@@ -9666,7 +9889,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "음절-音節",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "음운": {
         "word": "음운",
@@ -9724,7 +9948,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "음운-音韻",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "초성": {
         "word": "초성",
@@ -9764,7 +9989,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "초성-初聲",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "종성": {
         "word": "종성",
@@ -9804,7 +10030,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "종성-終聲",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "접사": {
         "word": "접사",
@@ -9844,7 +10071,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "접사-接辭",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "사동사": {
         "word": "사동사",
@@ -9884,7 +10112,8 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "사동사-使動詞",
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "조화-造化": {
         "word": "조화",
@@ -9937,7 +10166,8 @@ window.MOCK_WORDS = {
                 "type": "homonym",
                 "targetId": "조화-調和"
             }
-        ]
+        ],
+        "difficulty": 2
     },
     "천명": {
         "word": "천명",
@@ -9995,7 +10225,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "천명-天命"
+        "id": "천명-天命",
+        "difficulty": 2
     },
     "성명-星命": {
         "id": "성명-星命",
@@ -10035,7 +10266,8 @@ window.MOCK_WORDS = {
                 "content": "그는 인간의 힘으로 어찌할 수 없는 천명(天命), 천체의 운행에 따라 길흉을 점치는 영역인 성명(星命), 시세(時勢)에 따라 인간의 힘이 참여하는 조명(造命) 으로 운명을 나누었다."
             }
         ],
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "조명": {
         "word": "조명",
@@ -10069,7 +10301,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "조명-造命"
+        "id": "조명-造命",
+        "difficulty": 3
     },
     "귀천": {
         "word": "귀천",
@@ -10103,7 +10336,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "귀천-貴賤"
+        "id": "귀천-貴賤",
+        "difficulty": 2
     },
     "민권": {
         "word": "민권",
@@ -10137,7 +10371,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "민권-民權"
+        "id": "민권-民權",
+        "difficulty": 2
     },
     "천부 인권": {
         "word": "천부 인권",
@@ -10183,7 +10418,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "천부 인권-天賦人權"
+        "id": "천부 인권-天賦人權",
+        "difficulty": 2
     },
     "인위적 권리": {
         "word": "인위적 권리",
@@ -10235,7 +10471,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "인위적 권리-人爲的權利"
+        "id": "인위적 권리-人爲的權利",
+        "difficulty": 2
     },
     "형평 운동": {
         "word": "형평 운동",
@@ -10281,7 +10518,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "형평 운동-衡平運動"
+        "id": "형평 운동-衡平運動",
+        "difficulty": 2
     },
     "정보 비대칭": {
         "word": "정보 비대칭",
@@ -10333,7 +10571,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "정보 비대칭-情報非對稱"
+        "id": "정보 비대칭-情報非對稱",
+        "difficulty": 2
     },
     "역선택": {
         "word": "역선택",
@@ -10373,7 +10612,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "역선택-逆選擇"
+        "id": "역선택-逆選擇",
+        "difficulty": 2
     },
     "진위": {
         "word": "진위",
@@ -10413,7 +10653,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "진위-眞僞"
+        "id": "진위-眞僞",
+        "difficulty": 2
     },
     "편향": {
         "word": "편향",
@@ -10453,7 +10694,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "편향-偏向"
+        "id": "편향-偏向",
+        "difficulty": 2
     },
     "왜곡": {
         "word": "왜곡",
@@ -10499,7 +10741,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "왜곡-歪曲"
+        "id": "왜곡-歪曲",
+        "difficulty": 1
     },
     "오인": {
         "word": "오인",
@@ -10539,7 +10782,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "오인-誤認"
+        "id": "오인-誤認",
+        "difficulty": 1
     },
     "위헌": {
         "word": "위헌",
@@ -10573,7 +10817,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "위헌-違憲"
+        "id": "위헌-違憲",
+        "difficulty": 2
     },
     "유해-有害": {
         "id": "유해-有害",
@@ -10613,7 +10858,8 @@ window.MOCK_WORDS = {
                 "content": "표현의 자유가 기본권 이라는 점을 감안해 법적 근거를 갖추되, 유해하거나 불법인 정보를 플랫폼 사업자가 사전에 자율적으로 삭제하거나 차단하고, 미흡하면 사후에 정부가 규제해야 한다는 것이다."
             }
         ],
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "표면 장력": {
         "word": "표면 장력",
@@ -10659,7 +10905,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "표면 장력-表面張力"
+        "id": "표면 장력-表面張力",
+        "difficulty": 3
     },
     "팽창": {
         "word": "팽창",
@@ -10699,7 +10946,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "팽창-膨脹"
+        "id": "팽창-膨脹",
+        "difficulty": 1
     },
     "수축": {
         "word": "수축",
@@ -10733,7 +10981,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "수축-收縮"
+        "id": "수축-收縮",
+        "difficulty": 1
     },
     "정비례": {
         "word": "정비례",
@@ -10773,7 +11022,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "정비례-正比例"
+        "id": "정비례-正比例",
+        "difficulty": 1
     },
     "반비례": {
         "word": "반비례",
@@ -10813,7 +11063,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "반비례-反比例"
+        "id": "반비례-反比例",
+        "difficulty": 1
     },
     "폐포": {
         "word": "폐포",
@@ -10847,7 +11098,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "폐포-肺胞"
+        "id": "폐포-肺胞",
+        "difficulty": 2
     },
     "계면 활성제": {
         "word": "계면 활성제",
@@ -10899,7 +11151,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "계면 활성제-界面活性劑"
+        "id": "계면 활성제-界面活性劑",
+        "difficulty": 3
     },
     "점도": {
         "word": "점도",
@@ -10933,7 +11186,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "점도-粘度"
+        "id": "점도-粘度",
+        "difficulty": 2
     },
     "영장": {
         "word": "영장",
@@ -10967,7 +11221,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "영장-令狀"
+        "id": "영장-令狀",
+        "difficulty": 2
     },
     "전사": {
         "word": "전사",
@@ -11001,7 +11256,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "전사-戰死"
+        "id": "전사-戰死",
+        "difficulty": 1
     },
     "유해-遺骸": {
         "id": "유해-遺骸",
@@ -11047,7 +11303,8 @@ window.MOCK_WORDS = {
                 "content": "[중략 부분의 줄거리] 나와 부대원들은 훈련에 대비해 참호를 파다가 발견한 유해를 인근 마을의 노인과 함께 수습하여 매장하는 일을 행한다."
             }
         ],
-        "feed": []
+        "feed": [],
+        "difficulty": 3
     },
     "유골": {
         "word": "유골",
@@ -11087,7 +11344,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "유골-遺骨"
+        "id": "유골-遺骨",
+        "difficulty": 3
     },
     "소신공양": {
         "word": "소신공양",
@@ -11133,7 +11391,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "소신공양-燒身供養"
+        "id": "소신공양-燒身供養",
+        "difficulty": 3
     },
     "쇠년": {
         "word": "쇠년",
@@ -11167,7 +11426,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "쇠년-衰年"
+        "id": "쇠년-衰年",
+        "difficulty": 3
     },
     "이순": {
         "word": "이순",
@@ -11201,7 +11461,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "이순-耳順"
+        "id": "이순-耳順",
+        "difficulty": 2
     },
     "노경": {
         "word": "노경",
@@ -11235,7 +11496,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "노경-老境"
+        "id": "노경-老境",
+        "difficulty": 2
     },
     "본관": {
         "word": "본관",
@@ -11269,7 +11531,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "본관-本官"
+        "id": "본관-本官",
+        "difficulty": 3
     },
     "매복": {
         "word": "매복",
@@ -11303,7 +11566,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "매복-埋伏"
+        "id": "매복-埋伏",
+        "difficulty": 2
     },
     "우마": {
         "word": "우마",
@@ -11337,7 +11601,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "우마-牛馬"
+        "id": "우마-牛馬",
+        "difficulty": 1
     },
     "별호": {
         "word": "별호",
@@ -11371,7 +11636,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "별호-別號"
+        "id": "별호-別號",
+        "difficulty": 2
     },
     "열읍": {
         "word": "열읍",
@@ -11405,7 +11671,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "열읍-列邑"
+        "id": "열읍-列邑",
+        "difficulty": 3
     },
     "착취": {
         "word": "착취",
@@ -11439,7 +11706,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "착취-搾取"
+        "id": "착취-搾取",
+        "difficulty": 1
     },
     "격서": {
         "word": "격서",
@@ -11473,7 +11741,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "격서-檄書"
+        "id": "격서-檄書",
+        "difficulty": 3
     },
     "정벌": {
         "word": "정벌",
@@ -11507,7 +11776,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "정벌-征伐"
+        "id": "정벌-征伐",
+        "difficulty": 2
     },
     "천리": {
         "word": "천리",
@@ -11541,7 +11811,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "천리-天理"
+        "id": "천리-天理",
+        "difficulty": 2
     },
     "향화": {
         "word": "향화",
@@ -11575,7 +11846,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "향화-香火"
+        "id": "향화-香火",
+        "difficulty": 2
     },
     "문무제신": {
         "word": "문무제신",
@@ -11621,7 +11893,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "문무제신-文武諸臣"
+        "id": "문무제신-文武諸臣",
+        "difficulty": 3
     },
     "무명 소적": {
         "word": "무명 소적",
@@ -11667,7 +11940,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "무명 소적-無名小賊"
+        "id": "무명 소적-無名小賊",
+        "difficulty": 3
     },
     "성명-姓名": {
         "id": "성명-姓名",
@@ -11713,7 +11987,8 @@ window.MOCK_WORDS = {
                 "content": "인터넷 ID는 현실에서의 성명과 달리 그 사용자인 개인과 동일시될 수 없고, 인터넷 ID 자체는 사람이 아니므로 명예 주체성을 인정할 수 없다는 것이다."
             }
         ],
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "화촉": {
         "word": "화촉",
@@ -11747,7 +12022,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "화촉-華燭"
+        "id": "화촉-華燭",
+        "difficulty": 2
     },
     "조족등": {
         "word": "조족등",
@@ -11787,7 +12063,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "조족등-照足燈"
+        "id": "조족등-照足燈",
+        "difficulty": 3
     },
     "청사초롱": {
         "word": "청사초롱",
@@ -11833,7 +12110,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "청사초롱-靑紗燭籠"
+        "id": "청사초롱-靑紗燭籠",
+        "difficulty": 2
     },
     "조화-調和": {
         "id": "조화-調和",
@@ -11879,7 +12157,8 @@ window.MOCK_WORDS = {
                 "content": "초현실파의 그림처럼 의외의 것이되 배경에 조화되어 버린 철봉이 하나, 나는 뛰어가 매달리어 턱걸이를 겨우 네 번을 하다."
             }
         ],
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "자생력": {
         "word": "자생력",
@@ -11919,7 +12198,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "자생력-自生力"
+        "id": "자생력-自生力",
+        "difficulty": 1
     },
     "제초제": {
         "word": "제초제",
@@ -11959,7 +12239,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "제초제-除草劑"
+        "id": "제초제-除草劑",
+        "difficulty": 1
     },
     "토착": {
         "word": "토착",
@@ -11993,7 +12274,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "토착-土着"
+        "id": "토착-土着",
+        "difficulty": 1
     },
     "외래종": {
         "word": "외래종",
@@ -12033,7 +12315,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "외래종-外來種"
+        "id": "외래종-外來種",
+        "difficulty": 1
     },
     "동력분산식": {
         "word": "동력분산식",
@@ -12085,7 +12368,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "동력분산식-動力分散式"
+        "id": "동력분산식-動力分散式",
+        "difficulty": 3
     },
     "동력집중식": {
         "word": "동력집중식",
@@ -12137,7 +12421,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "동력집중식-動力集中式"
+        "id": "동력집중식-動力集中式",
+        "difficulty": 3
     },
     "구동": {
         "word": "구동",
@@ -12171,7 +12456,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "구동-驅動"
+        "id": "구동-驅動",
+        "difficulty": 2
     },
     "객차": {
         "word": "객차",
@@ -12205,7 +12491,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "객차-客車"
+        "id": "객차-客車",
+        "difficulty": 1
     },
     "흡음재": {
         "word": "흡음재",
@@ -12245,7 +12532,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "흡음재-吸音材"
+        "id": "흡음재-吸音材",
+        "difficulty": 3
     },
     "축중": {
         "word": "축중",
@@ -12279,7 +12567,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "축중-軸重"
+        "id": "축중-軸重",
+        "difficulty": 3
     },
     "구상-構想": {
         "id": "구상-構想",
@@ -12325,7 +12614,8 @@ window.MOCK_WORDS = {
                 "content": "민진: 그럼 메뉴는 우리가 처음 구상한 것에 ‘나의 서재’를 추가 해서 ‘나의 방’, ‘나의 서재’, ‘조별 사진’, ‘단체 사진’, ‘행사 사진’으로 하면 되겠다."
             }
         ],
-        "feed": []
+        "feed": [],
+        "difficulty": 1
     },
     "상공": {
         "word": "상공",
@@ -12359,7 +12649,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "상공-上空"
+        "id": "상공-上空",
+        "difficulty": 1
     },
     "구상-球狀": {
         "id": "구상-球狀",
@@ -12399,7 +12690,8 @@ window.MOCK_WORDS = {
                 "content": "구상의 기구에 매달려 올라갑니다. 지금 교수님께서 손으로 공 모양을 만드셨는데, 구상은 동그란 형태를 말씀하시는 거죠? 네, 풍선 형태입니다."
             }
         ],
-        "feed": []
+        "feed": [],
+        "difficulty": 2
     },
     "기종": {
         "word": "기종",
@@ -12433,7 +12725,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기종-機種"
+        "id": "기종-機種",
+        "difficulty": 1
     },
     "일기도": {
         "word": "일기도",
@@ -12473,7 +12766,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "일기도-日氣圖"
+        "id": "일기도-日氣圖",
+        "difficulty": 1
     },
     "변이음": {
         "word": "변이음",
@@ -12513,7 +12807,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "변이음-變異音"
+        "id": "변이음-變異音",
+        "difficulty": 3
     },
     "상보적 분포": {
         "word": "상보적 분포",
@@ -12565,7 +12860,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "상보적 분포-相補的分布"
+        "id": "상보적 분포-相補的分布",
+        "difficulty": 3
     },
     "형태소": {
         "word": "형태소",
@@ -12611,7 +12907,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "형태소-形態素"
+        "id": "형태소-形態素",
+        "difficulty": 2
     },
     "이형태": {
         "word": "이형태",
@@ -12657,7 +12954,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "이형태-異形態"
+        "id": "이형태-異形態",
+        "difficulty": 3
     },
     "자동적 교체": {
         "word": "자동적 교체",
@@ -12709,7 +13007,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "자동적 교체-自動的交替"
+        "id": "자동적 교체-自動的交替",
+        "difficulty": 3
     },
     "비자동적 교체": {
         "word": "비자동적 교체",
@@ -12767,7 +13066,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "비자동적 교체-非自動的交替"
+        "id": "비자동적 교체-非自動的交替",
+        "difficulty": 3
     },
     "파열음": {
         "word": "파열음",
@@ -12813,7 +13113,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "파열음-破裂音"
+        "id": "파열음-破裂音",
+        "difficulty": 3
     },
     "무성음": {
         "word": "무성음",
@@ -12853,7 +13154,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "무성음-無聲音"
+        "id": "무성음-無聲音",
+        "difficulty": 3
     },
     "유성음": {
         "word": "유성음",
@@ -12893,7 +13195,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "유성음-有聲音"
+        "id": "유성음-有聲音",
+        "difficulty": 3
     },
     "직접 구성 요소": {
         "word": "직접 구성 요소",
@@ -12957,7 +13260,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "직접 구성 요소-直接構成要素"
+        "id": "직접 구성 요소-直接構成要素",
+        "difficulty": 3
     },
     "파생": {
         "word": "파생",
@@ -12997,7 +13301,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "파생-派生"
+        "id": "파생-派生",
+        "difficulty": 2
     },
     "합성": {
         "word": "합성",
@@ -13037,7 +13342,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "합성-合成"
+        "id": "합성-合成",
+        "difficulty": 2
     },
     "어근": {
         "word": "어근",
@@ -13077,7 +13383,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "어근-語根"
+        "id": "어근-語根",
+        "difficulty": 2
     },
     "동형이의어": {
         "word": "동형이의어",
@@ -13129,7 +13436,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "동형이의어-同形異義語"
+        "id": "동형이의어-同形異義語",
+        "difficulty": 3
     },
     "강행적": {
         "word": "강행적",
@@ -13169,7 +13477,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "강행적-強行的"
+        "id": "강행적-強行的",
+        "difficulty": 2
     },
     "임대차": {
         "word": "임대차",
@@ -13209,7 +13518,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "임대차-賃貸借"
+        "id": "임대차-賃貸借",
+        "difficulty": 2
     },
     "임차인": {
         "word": "임차인",
@@ -13249,7 +13559,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "임차인-賃借人"
+        "id": "임차인-賃借人",
+        "difficulty": 2
     },
     "원상회복": {
         "word": "원상회복",
@@ -13295,7 +13606,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "원상회복-原狀回復"
+        "id": "원상회복-原狀回復",
+        "difficulty": 2
     },
     "운반체": {
         "word": "운반체",
@@ -13335,7 +13647,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "운반체-運搬體"
+        "id": "운반체-運搬體",
+        "difficulty": 2
     },
     "액화": {
         "word": "액화",
@@ -13369,7 +13682,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "액화-液化"
+        "id": "액화-液化",
+        "difficulty": 2
     },
     "전기분해": {
         "word": "전기분해",
@@ -13415,7 +13729,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "전기분해-電氣分解"
+        "id": "전기분해-電氣分解",
+        "difficulty": 2
     },
     "광분해": {
         "word": "광분해",
@@ -13455,7 +13770,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "광분해-光分解"
+        "id": "광분해-光分解",
+        "difficulty": 3
     },
     "열분해": {
         "word": "열분해",
@@ -13495,7 +13811,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "열분해-熱分解"
+        "id": "열분해-熱分解",
+        "difficulty": 3
     },
     "전환율": {
         "word": "전환율",
@@ -13535,7 +13852,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "전환율-轉換率"
+        "id": "전환율-轉換率",
+        "difficulty": 3
     },
     "부반응": {
         "word": "부반응",
@@ -13575,7 +13893,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "부반응-副反應"
+        "id": "부반응-副反應",
+        "difficulty": 3
     },
     "산화 극": {
         "word": "산화 극",
@@ -13615,7 +13934,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "산화 극-酸化極"
+        "id": "산화 극-酸化極",
+        "difficulty": 3
     },
     "환원 극": {
         "word": "환원 극",
@@ -13655,7 +13975,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "환원 극-還元極"
+        "id": "환원 극-還元極",
+        "difficulty": 3
     },
     "전해질": {
         "word": "전해질",
@@ -13695,7 +14016,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "전해질-電解質"
+        "id": "전해질-電解質",
+        "difficulty": 2
     },
     "추상화": {
         "word": "추상화",
@@ -13735,7 +14057,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "추상화-抽象化"
+        "id": "추상화-抽象化",
+        "difficulty": 2
     },
     "층위": {
         "word": "층위",
@@ -13769,7 +14092,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "층위-層位"
+        "id": "층위-層位",
+        "difficulty": 2
     },
     "표구": {
         "word": "표구",
@@ -13803,7 +14127,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "표구-表具"
+        "id": "표구-表具",
+        "difficulty": 2
     },
     "호사가": {
         "word": "호사가",
@@ -13843,7 +14168,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "호사가-好事家"
+        "id": "호사가-好事家",
+        "difficulty": 2
     },
     "경황": {
         "word": "경황",
@@ -13877,7 +14203,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "경황-景況"
+        "id": "경황-景況",
+        "difficulty": 2
     },
     "천신만고": {
         "word": "천신만고",
@@ -13923,7 +14250,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "천신만고-千辛萬苦"
+        "id": "천신만고-千辛萬苦",
+        "difficulty": 2
     },
     "만경창파": {
         "word": "만경창파",
@@ -13969,7 +14297,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "만경창파-萬頃蒼波"
+        "id": "만경창파-萬頃蒼波",
+        "difficulty": 2
     },
     "일엽편주": {
         "word": "일엽편주",
@@ -14015,7 +14344,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "일엽편주-一葉片舟"
+        "id": "일엽편주-一葉片舟",
+        "difficulty": 2
     },
     "수부": {
         "word": "수부",
@@ -14049,7 +14379,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "수부-水府"
+        "id": "수부-水府",
+        "difficulty": 2
     },
     "사생존망": {
         "word": "사생존망",
@@ -14095,7 +14426,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사생존망-死生存亡"
+        "id": "사생존망-死生存亡",
+        "difficulty": 2
     },
     "동심합력": {
         "word": "동심합력",
@@ -14141,7 +14473,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "동심합력-同心合力"
+        "id": "동심합력-同心合力",
+        "difficulty": 2
     },
     "삭탈관직": {
         "word": "삭탈관직",
@@ -14187,7 +14520,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "삭탈관직-削奪官職"
+        "id": "삭탈관직-削奪官職",
+        "difficulty": 3
     },
     "항서": {
         "word": "항서",
@@ -14221,7 +14555,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "항서-降書"
+        "id": "항서-降書",
+        "difficulty": 2
     },
     "체독": {
         "word": "체독",
@@ -14255,7 +14590,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "체독-體讀"
+        "id": "체독-體讀",
+        "difficulty": 3
     },
     "발췌": {
         "word": "발췌",
@@ -14289,7 +14625,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "발췌-拔萃"
+        "id": "발췌-拔萃",
+        "difficulty": 2
     },
     "누락": {
         "word": "누락",
@@ -14329,7 +14666,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "누락-漏落"
+        "id": "누락-漏落",
+        "difficulty": 2
     },
     "왕정복고": {
         "word": "왕정복고",
@@ -14375,7 +14713,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "왕정복고-王政復古"
+        "id": "왕정복고-王政復古",
+        "difficulty": 2
     },
     "조망": {
         "word": "조망",
@@ -14409,7 +14748,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "조망-眺望"
+        "id": "조망-眺望",
+        "difficulty": 2
     },
     "역사화": {
         "word": "역사화",
@@ -14449,7 +14789,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "역사화-歷史化"
+        "id": "역사화-歷史化",
+        "difficulty": 2
     },
     "공론장": {
         "word": "공론장",
@@ -14489,7 +14830,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "공론장-公論場"
+        "id": "공론장-公論場",
+        "difficulty": 2
     },
     "이해 당사자": {
         "word": "이해 당사자",
@@ -14541,7 +14883,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "이해 당사자-利害當事者"
+        "id": "이해 당사자-利害當事者",
+        "difficulty": 2
     },
     "취합": {
         "word": "취합",
@@ -14575,7 +14918,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "취합-聚合"
+        "id": "취합-聚合",
+        "difficulty": 2
     },
     "숙고": {
         "word": "숙고",
@@ -14609,7 +14953,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "숙고-熟考"
+        "id": "숙고-熟考",
+        "difficulty": 2
     },
     "축음기": {
         "word": "축음기",
@@ -14649,7 +14994,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "축음기-蓄音機"
+        "id": "축음기-蓄音機",
+        "difficulty": 2
     },
     "이진수": {
         "word": "이진수",
@@ -14689,7 +15035,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "이진수-二進數"
+        "id": "이진수-二進數",
+        "difficulty": 2
     },
     "지각부호화": {
         "word": "지각부호화",
@@ -14741,7 +15088,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "지각부호화-知覺符號化"
+        "id": "지각부호화-知覺符號化",
+        "difficulty": 3
     },
     "최소가청강도": {
         "word": "최소가청강도",
@@ -14799,7 +15147,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "최소가청강도-最小可聽強度"
+        "id": "최소가청강도-最小可聽強度",
+        "difficulty": 3
     },
     "차폐": {
         "word": "차폐",
@@ -14833,7 +15182,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "차폐-遮蔽"
+        "id": "차폐-遮蔽",
+        "difficulty": 3
     },
     "차폐음": {
         "word": "차폐음",
@@ -14873,7 +15223,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "차폐음-遮蔽音"
+        "id": "차폐음-遮蔽音",
+        "difficulty": 3
     },
     "임계대역": {
         "word": "임계대역",
@@ -14919,7 +15270,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "임계대역-臨界帶域"
+        "id": "임계대역-臨界帶域",
+        "difficulty": 3
     },
     "주파수": {
         "word": "주파수",
@@ -14959,7 +15311,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "주파수-周波數"
+        "id": "주파수-周波數",
+        "difficulty": 2
     },
     "분울": {
         "word": "분울",
@@ -14993,7 +15346,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "분울-憤鬱"
+        "id": "분울-憤鬱",
+        "difficulty": 2
     },
     "도임": {
         "word": "도임",
@@ -15027,7 +15381,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "도임-到任"
+        "id": "도임-到任",
+        "difficulty": 3
     },
     "벽력": {
         "word": "벽력",
@@ -15061,7 +15416,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "벽력-霹靂"
+        "id": "벽력-霹靂",
+        "difficulty": 2
     },
     "상사": {
         "word": "상사",
@@ -15095,7 +15451,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "상사-上舍"
+        "id": "상사-上舍",
+        "difficulty": 2
     },
     "흉중": {
         "word": "흉중",
@@ -15129,7 +15486,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "흉중-胸中"
+        "id": "흉중-胸中",
+        "difficulty": 2
     },
     "산명수려": {
         "word": "산명수려",
@@ -15175,7 +15533,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "산명수려-山明水麗"
+        "id": "산명수려-山明水麗",
+        "difficulty": 2
     },
     "수륙진미": {
         "word": "수륙진미",
@@ -15221,7 +15580,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "수륙진미-水陸珍味"
+        "id": "수륙진미-水陸珍味",
+        "difficulty": 2
     },
     "괘관": {
         "word": "괘관",
@@ -15255,7 +15615,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "괘관-掛冠"
+        "id": "괘관-掛冠",
+        "difficulty": 3
     },
     "전려": {
         "word": "전려",
@@ -15289,7 +15650,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "전려-田廬"
+        "id": "전려-田廬",
+        "difficulty": 3
     },
     "임고원망": {
         "word": "임고원망",
@@ -15335,7 +15697,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "임고원망-臨高遠望"
+        "id": "임고원망-臨高遠望",
+        "difficulty": 3
     },
     "호상": {
         "word": "호상",
@@ -15369,7 +15732,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "호상-護喪"
+        "id": "호상-護喪",
+        "difficulty": 3
     },
     "범주화": {
         "word": "범주화",
@@ -15415,7 +15779,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "범주화-範疇化"
+        "id": "범주화-範疇化",
+        "difficulty": 2
     },
     "기저": {
         "word": "기저",
@@ -15449,7 +15814,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기저-基底"
+        "id": "기저-基底",
+        "difficulty": 2
     },
     "수용": {
         "word": "수용",
@@ -15501,7 +15867,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "수용-受容"
+        "id": "수용-受容",
+        "difficulty": 1
     },
     "해독": {
         "word": "해독",
@@ -15535,7 +15902,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "해독-解讀"
+        "id": "해독-解讀",
+        "difficulty": 2
     },
     "문리 해석": {
         "word": "문리 해석",
@@ -15581,7 +15949,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "문리 해석-文理解釋"
+        "id": "문리 해석-文理解釋",
+        "difficulty": 3
     },
     "체계적 해석": {
         "word": "체계적 해석",
@@ -15633,7 +16002,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "체계적 해석-體系的解釋"
+        "id": "체계적 해석-體系的解釋",
+        "difficulty": 3
     },
     "역사적 해석": {
         "word": "역사적 해석",
@@ -15685,7 +16055,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "역사적 해석-歷史的解釋"
+        "id": "역사적 해석-歷史的解釋",
+        "difficulty": 3
     },
     "유상 계약": {
         "word": "유상 계약",
@@ -15731,7 +16102,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "유상 계약-有償契約"
+        "id": "유상 계약-有償契約",
+        "difficulty": 3
     },
     "목적물": {
         "word": "목적물",
@@ -15771,7 +16143,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "목적물-目的物"
+        "id": "목적물-目的物",
+        "difficulty": 2
     },
     "하자": {
         "word": "하자",
@@ -15811,7 +16184,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "하자-瑕疵"
+        "id": "하자-瑕疵",
+        "difficulty": 2
     },
     "매도인": {
         "word": "매도인",
@@ -15851,7 +16225,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "매도인-賣渡人"
+        "id": "매도인-賣渡人",
+        "difficulty": 3
     },
     "매수인": {
         "word": "매수인",
@@ -15891,7 +16266,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "매수인-買受人"
+        "id": "매수인-買受人",
+        "difficulty": 3
     },
     "채권": {
         "word": "채권",
@@ -15925,7 +16301,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "채권-債權"
+        "id": "채권-債權",
+        "difficulty": 2
     },
     "채무": {
         "word": "채무",
@@ -15959,7 +16336,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "채무-債務"
+        "id": "채무-債務",
+        "difficulty": 2
     },
     "담보 물권": {
         "word": "담보 물권",
@@ -16005,7 +16383,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "담보 물권-擔保物權"
+        "id": "담보 물권-擔保物權",
+        "difficulty": 3
     },
     "강제 집행": {
         "word": "강제 집행",
@@ -16051,7 +16430,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "강제 집행-強制執行"
+        "id": "강제 집행-強制執行",
+        "difficulty": 3
     },
     "주채무자": {
         "word": "주채무자",
@@ -16097,7 +16477,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "주채무자-主債務者"
+        "id": "주채무자-主債務者",
+        "difficulty": 3
     },
     "보증인": {
         "word": "보증인",
@@ -16137,7 +16518,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "보증인-保證人"
+        "id": "보증인-保證人",
+        "difficulty": 2
     },
     "보증 채무": {
         "word": "보증 채무",
@@ -16183,7 +16565,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "보증 채무-保證債務"
+        "id": "보증 채무-保證債務",
+        "difficulty": 3
     },
     "기명 날인": {
         "word": "기명 날인",
@@ -16229,7 +16612,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기명 날인-記名捺印"
+        "id": "기명 날인-記名捺印",
+        "difficulty": 3
     },
     "간주": {
         "word": "간주",
@@ -16269,7 +16653,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "간주-看做"
+        "id": "간주-看做",
+        "difficulty": 2
     },
     "선형 열팽창 계수": {
         "word": "선형 열팽창 계수",
@@ -16333,7 +16718,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "선형 열팽창 계수-線形熱膨脹係數"
+        "id": "선형 열팽창 계수-線形熱膨脹係數",
+        "difficulty": 3
     },
     "합금": {
         "word": "합금",
@@ -16367,7 +16753,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "합금-合金"
+        "id": "합금-合金",
+        "difficulty": 1
     },
     "역수": {
         "word": "역수",
@@ -16401,7 +16788,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "역수-逆數"
+        "id": "역수-逆數",
+        "difficulty": 2
     },
     "자기의식": {
         "word": "자기의식",
@@ -16447,7 +16835,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "자기의식-自己意識"
+        "id": "자기의식-自己意識",
+        "difficulty": 2
     },
     "통시적": {
         "word": "통시적",
@@ -16487,7 +16876,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "통시적-通時的"
+        "id": "통시적-通時的",
+        "difficulty": 2
     },
     "노소고하": {
         "word": "노소고하",
@@ -16533,7 +16923,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "노소고하-老少高下"
+        "id": "노소고하-老少高下",
+        "difficulty": 3
     },
     "기식": {
         "word": "기식",
@@ -16567,7 +16958,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기식-寄食"
+        "id": "기식-寄食",
+        "difficulty": 3
     },
     "심산궁곡": {
         "word": "심산궁곡",
@@ -16613,7 +17005,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "심산궁곡-深山窮谷"
+        "id": "심산궁곡-深山窮谷",
+        "difficulty": 3
     },
     "층암절벽": {
         "word": "층암절벽",
@@ -16659,7 +17052,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "층암절벽-層巖絶壁"
+        "id": "층암절벽-層巖絶壁",
+        "difficulty": 3
     },
     "오대독신": {
         "word": "오대독신",
@@ -16705,7 +17099,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "오대독신-五代獨身"
+        "id": "오대독신-五代獨身",
+        "difficulty": 3
     },
     "일점혈육": {
         "word": "일점혈육",
@@ -16751,7 +17146,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "일점혈육-一點血肉"
+        "id": "일점혈육-一點血肉",
+        "difficulty": 2
     },
     "선영": {
         "word": "선영",
@@ -16785,7 +17181,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "선영-先塋"
+        "id": "선영-先塋",
+        "difficulty": 3
     },
     "망극": {
         "word": "망극",
@@ -16819,7 +17216,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "망극-罔極"
+        "id": "망극-罔極",
+        "difficulty": 2
     },
     "사단": {
         "word": "사단",
@@ -16853,7 +17251,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사단-事端"
+        "id": "사단-事端",
+        "difficulty": 3
     },
     "사찰 요원": {
         "word": "사찰 요원",
@@ -16899,7 +17298,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사찰 요원-査察要員"
+        "id": "사찰 요원-査察要員",
+        "difficulty": 2
     },
     "요충지": {
         "word": "요충지",
@@ -16939,7 +17339,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "요충지-要衝地"
+        "id": "요충지-要衝地",
+        "difficulty": 2
     },
     "불하": {
         "word": "불하",
@@ -16979,7 +17380,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "불하-拂下"
+        "id": "불하-拂下",
+        "difficulty": 2
     },
     "기득권": {
         "word": "기득권",
@@ -17019,7 +17421,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기득권-旣得權"
+        "id": "기득권-旣得權",
+        "difficulty": 1
     },
     "봉고파출": {
         "word": "봉고파출",
@@ -17065,7 +17468,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "봉고파출-封庫罷黜"
+        "id": "봉고파출-封庫罷黜",
+        "difficulty": 3
     },
     "형문": {
         "word": "형문",
@@ -17099,7 +17503,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "형문-刑問"
+        "id": "형문-刑問",
+        "difficulty": 3
     },
     "곤장": {
         "word": "곤장",
@@ -17133,7 +17538,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "곤장-棍杖"
+        "id": "곤장-棍杖",
+        "difficulty": 3
     },
     "풍혈지": {
         "word": "풍혈지",
@@ -17173,7 +17579,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "풍혈지-風穴地"
+        "id": "풍혈지-風穴地",
+        "difficulty": 3
     },
     "국소적": {
         "word": "국소적",
@@ -17213,7 +17620,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "국소적-局所的"
+        "id": "국소적-局所的",
+        "difficulty": 2
     },
     "애추": {
         "word": "애추",
@@ -17247,7 +17655,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "애추-崖錐"
+        "id": "애추-崖錐",
+        "difficulty": 3
     },
     "합용 병서": {
         "word": "합용 병서",
@@ -17293,7 +17702,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "합용 병서-合用竝書"
+        "id": "합용 병서-合用竝書",
+        "difficulty": 3
     },
     "유성 마찰음": {
         "word": "유성 마찰음",
@@ -17345,7 +17755,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "유성 마찰음-有聲摩擦音"
+        "id": "유성 마찰음-有聲摩擦音",
+        "difficulty": 3
     },
     "구개음화": {
         "word": "구개음화",
@@ -17397,7 +17808,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "구개음화-口蓋音化"
+        "id": "구개음화-口蓋音化",
+        "difficulty": 2
     },
     "의존 형태소": {
         "word": "의존 형태소",
@@ -17449,7 +17861,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "의존 형태소-依存形態素"
+        "id": "의존 형태소-依存形態素",
+        "difficulty": 3
     },
     "경영 공시": {
         "word": "경영 공시",
@@ -17495,7 +17908,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "경영 공시-經營公示"
+        "id": "경영 공시-經營公示",
+        "difficulty": 2
     },
     "사외 이사": {
         "word": "사외 이사",
@@ -17541,7 +17955,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사외 이사-社外理事"
+        "id": "사외 이사-社外理事",
+        "difficulty": 2
     },
     "주식 평가 보상권": {
         "word": "주식 평가 보상권",
@@ -17605,7 +18020,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "주식 평가 보상권-株式評價補償權"
+        "id": "주식 평가 보상권-株式評價補償權",
+        "difficulty": 3
     },
     "단위체": {
         "word": "단위체",
@@ -17645,7 +18061,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "단위체-單位體"
+        "id": "단위체-單位體",
+        "difficulty": 3
     },
     "중합": {
         "word": "중합",
@@ -17679,7 +18096,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "중합-重合"
+        "id": "중합-重合",
+        "difficulty": 3
     },
     "고분자": {
         "word": "고분자",
@@ -17719,7 +18137,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "고분자-高分子"
+        "id": "고분자-高分子",
+        "difficulty": 3
     },
     "공유 결합": {
         "word": "공유 결합",
@@ -17765,7 +18184,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "공유 결합-共有結合"
+        "id": "공유 결합-共有結合",
+        "difficulty": 3
     },
     "공유 전자쌍": {
         "word": "공유 전자쌍",
@@ -17817,7 +18237,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "공유 전자쌍-共有電子雙"
+        "id": "공유 전자쌍-共有電子雙",
+        "difficulty": 3
     },
     "개시제": {
         "word": "개시제",
@@ -17857,7 +18278,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "개시제-開始劑"
+        "id": "개시제-開始劑",
+        "difficulty": 3
     },
     "물성": {
         "word": "물성",
@@ -17891,7 +18313,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "물성-物性"
+        "id": "물성-物性",
+        "difficulty": 2
     },
     "진리 적합성": {
         "word": "진리 적합성",
@@ -17943,7 +18366,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "진리 적합성-眞理適合性"
+        "id": "진리 적합성-眞理適合性",
+        "difficulty": 3
     },
     "분석적 문장": {
         "word": "분석적 문장",
@@ -17995,7 +18419,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "분석적 문장-分析的文章"
+        "id": "분석적 문장-分析的文章",
+        "difficulty": 3
     },
     "종합적 문장": {
         "word": "종합적 문장",
@@ -18047,7 +18472,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "종합적 문장-綜合的文章"
+        "id": "종합적 문장-綜合的文章",
+        "difficulty": 3
     },
     "표현적 용법": {
         "word": "표현적 용법",
@@ -18099,7 +18525,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "표현적 용법-表現的用法"
+        "id": "표현적 용법-表現的用法",
+        "difficulty": 3
     },
     "기술적 용법": {
         "word": "기술적 용법",
@@ -18151,7 +18578,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기술적 용법-記述的用法"
+        "id": "기술적 용법-記述的用法",
+        "difficulty": 3
     },
     "전건 긍정식": {
         "word": "전건 긍정식",
@@ -18203,7 +18631,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "전건 긍정식-前件肯定式"
+        "id": "전건 긍정식-前件肯定式",
+        "difficulty": 3
     },
     "진진지연": {
         "word": "진진지연",
@@ -18249,7 +18678,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "진진지연-秦晉之緣"
+        "id": "진진지연-秦晉之緣",
+        "difficulty": 3
     },
     "상표": {
         "word": "상표",
@@ -18283,7 +18713,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "상표-上表"
+        "id": "상표-上表",
+        "difficulty": 3
     },
     "천우신조": {
         "word": "천우신조",
@@ -18329,7 +18760,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "천우신조-天佑神助"
+        "id": "천우신조-天佑神助",
+        "difficulty": 3
     },
     "필마단창": {
         "word": "필마단창",
@@ -18375,7 +18807,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "필마단창-匹馬單槍"
+        "id": "필마단창-匹馬單槍",
+        "difficulty": 3
     },
     "난신적자": {
         "word": "난신적자",
@@ -18421,7 +18854,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "난신적자-亂臣賊子"
+        "id": "난신적자-亂臣賊子",
+        "difficulty": 3
     },
     "음양술수": {
         "word": "음양술수",
@@ -18467,7 +18901,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "음양술수-陰陽術數"
+        "id": "음양술수-陰陽術數",
+        "difficulty": 3
     },
     "당대발복": {
         "word": "당대발복",
@@ -18513,7 +18948,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "당대발복-當代發福"
+        "id": "당대발복-當代發福",
+        "difficulty": 3
     },
     "기인취물": {
         "word": "기인취물",
@@ -18559,7 +18995,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기인취물-欺人取物"
+        "id": "기인취물-欺人取物",
+        "difficulty": 3
     },
     "공납": {
         "word": "공납",
@@ -18593,7 +19030,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "공납-公納"
+        "id": "공납-公納",
+        "difficulty": 3
     },
     "혼금": {
         "word": "혼금",
@@ -18627,7 +19065,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "혼금-閽禁"
+        "id": "혼금-閽禁",
+        "difficulty": 3
     },
     "비리호송": {
         "word": "비리호송",
@@ -18673,7 +19112,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "비리호송-非理好訟"
+        "id": "비리호송-非理好訟",
+        "difficulty": 3
     },
     "감언이설": {
         "word": "감언이설",
@@ -18719,7 +19159,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "감언이설-甘言利說"
+        "id": "감언이설-甘言利說",
+        "difficulty": 2
     },
     "부지거처": {
         "word": "부지거처",
@@ -18765,7 +19206,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "부지거처-不知去處"
+        "id": "부지거처-不知去處",
+        "difficulty": 3
     },
     "사서": {
         "word": "사서",
@@ -18799,7 +19241,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사서-史書"
+        "id": "사서-史書",
+        "difficulty": 3
     },
     "자음군 단순화": {
         "word": "자음군 단순화",
@@ -18857,7 +19300,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "자음군 단순화-子音群單純化"
+        "id": "자음군 단순화-子音群單純化",
+        "difficulty": 3
     },
     "재판매 가격 유지 행위": {
         "word": "재판매 가격 유지 행위",
@@ -18933,7 +19377,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "재판매 가격 유지 행위-再販賣價格維持行爲"
+        "id": "재판매 가격 유지 행위-再販賣價格維持行爲",
+        "difficulty": 3
     },
     "시정명령": {
         "word": "시정명령",
@@ -18979,7 +19424,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "시정명령-是正命令"
+        "id": "시정명령-是正命令",
+        "difficulty": 2
     },
     "과징금": {
         "word": "과징금",
@@ -19019,7 +19465,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "과징금-課徵金"
+        "id": "과징금-課徵金",
+        "difficulty": 2
     },
     "소비자 후생": {
         "word": "소비자 후생",
@@ -19071,7 +19518,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "소비자 후생-消費者厚生"
+        "id": "소비자 후생-消費者厚生",
+        "difficulty": 3
     },
     "기만 광고": {
         "word": "기만 광고",
@@ -19117,7 +19565,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기만 광고-欺瞞廣告"
+        "id": "기만 광고-欺瞞廣告",
+        "difficulty": 1
     },
     "경제적 이해관계": {
         "word": "경제적 이해관계",
@@ -19181,7 +19630,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "경제적 이해관계-經濟的利害關係"
+        "id": "경제적 이해관계-經濟的利害關係",
+        "difficulty": 1
     },
     "명예훼손죄": {
         "word": "명예훼손죄",
@@ -19233,7 +19683,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "명예훼손죄-名譽毁損罪"
+        "id": "명예훼손죄-名譽毁損罪",
+        "difficulty": 2
     },
     "작업증명": {
         "word": "작업증명",
@@ -19279,7 +19730,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "작업증명-作業證明"
+        "id": "작업증명-作業證明",
+        "difficulty": 3
     },
     "보안성": {
         "word": "보안성",
@@ -19319,7 +19771,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "보안성-保安性"
+        "id": "보안성-保安性",
+        "difficulty": 1
     },
     "미결정성": {
         "word": "미결정성",
@@ -19365,7 +19818,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "미결정성-未決定性"
+        "id": "미결정성-未決定性",
+        "difficulty": 3
     },
     "동일시": {
         "word": "동일시",
@@ -19405,7 +19859,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "동일시-同一視"
+        "id": "동일시-同一視",
+        "difficulty": 1
     },
     "환영": {
         "word": "환영",
@@ -19439,7 +19894,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "환영-幻影"
+        "id": "환영-幻影",
+        "difficulty": 2
     },
     "선랑": {
         "word": "선랑",
@@ -19473,7 +19929,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "선랑-仙郞"
+        "id": "선랑-仙郞",
+        "difficulty": 3
     },
     "교방": {
         "word": "교방",
@@ -19507,7 +19964,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "교방-敎坊"
+        "id": "교방-敎坊",
+        "difficulty": 3
     },
     "행수": {
         "word": "행수",
@@ -19541,7 +19999,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "행수-行首"
+        "id": "행수-行首",
+        "difficulty": 3
     },
     "절색": {
         "word": "절색",
@@ -19575,7 +20034,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "절색-絶色"
+        "id": "절색-絶色",
+        "difficulty": 2
     },
     "풍류": {
         "word": "풍류",
@@ -19609,7 +20069,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "풍류-風流"
+        "id": "풍류-風流",
+        "difficulty": 2
     },
     "사령": {
         "word": "사령",
@@ -19643,7 +20104,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사령-使令"
+        "id": "사령-使令",
+        "difficulty": 3
     },
     "군관": {
         "word": "군관",
@@ -19677,7 +20139,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "군관-軍官"
+        "id": "군관-軍官",
+        "difficulty": 3
     },
     "귀인": {
         "word": "귀인",
@@ -19711,7 +20174,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "귀인-貴人"
+        "id": "귀인-貴人",
+        "difficulty": 2
     },
     "사가": {
         "word": "사가",
@@ -19745,7 +20209,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사가-社歌"
+        "id": "사가-社歌",
+        "difficulty": 2
     },
     "조석": {
         "word": "조석",
@@ -19779,7 +20244,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "조석-朝夕"
+        "id": "조석-朝夕",
+        "difficulty": 2
     },
     "성세궁경": {
         "word": "성세궁경",
@@ -19825,7 +20291,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "성세궁경-聖世躬耕"
+        "id": "성세궁경-聖世躬耕",
+        "difficulty": 3
     },
     "희황상인": {
         "word": "희황상인",
@@ -19871,7 +20338,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "희황상인-羲皇上人"
+        "id": "희황상인-羲皇上人",
+        "difficulty": 3
     },
     "품사 통용": {
         "word": "품사 통용",
@@ -19917,7 +20385,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "품사 통용-品詞通用"
+        "id": "품사 통용-品詞通用",
+        "difficulty": 3
     },
     "의존 명사": {
         "word": "의존 명사",
@@ -19963,7 +20432,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "의존 명사-依存名詞"
+        "id": "의존 명사-依存名詞",
+        "difficulty": 2
     },
     "유음화": {
         "word": "유음화",
@@ -20003,7 +20473,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "유음화-流音化"
+        "id": "유음화-流音化",
+        "difficulty": 2
     },
     "척사파": {
         "word": "척사파",
@@ -20043,7 +20514,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "척사파-斥邪派"
+        "id": "척사파-斥邪派",
+        "difficulty": 2
     },
     "개화": {
         "word": "개화",
@@ -20077,7 +20549,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "개화-開化"
+        "id": "개화-開化",
+        "difficulty": 1
     },
     "개물성무": {
         "word": "개물성무",
@@ -20123,7 +20596,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "개물성무-開物成務"
+        "id": "개물성무-開物成務",
+        "difficulty": 3
     },
     "화민성속": {
         "word": "화민성속",
@@ -20169,7 +20643,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "화민성속-化民成俗"
+        "id": "화민성속-化民成俗",
+        "difficulty": 3
     },
     "자강": {
         "word": "자강",
@@ -20203,7 +20678,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "자강-自強"
+        "id": "자강-自強",
+        "difficulty": 1
     },
     "민족 주체성": {
         "word": "민족 주체성",
@@ -20255,7 +20731,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "민족 주체성-民族主體性"
+        "id": "민족 주체성-民族主體性",
+        "difficulty": 2
     },
     "준거": {
         "word": "준거",
@@ -20289,7 +20766,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "준거-準據"
+        "id": "준거-準據",
+        "difficulty": 2
     },
     "인격 수양": {
         "word": "인격 수양",
@@ -20335,7 +20813,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "인격 수양-人格修養"
+        "id": "인격 수양-人格修養",
+        "difficulty": 2
     },
     "약육강식": {
         "word": "약육강식",
@@ -20381,7 +20860,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "약육강식-弱肉強食"
+        "id": "약육강식-弱肉強食",
+        "difficulty": 2
     },
     "실증": {
         "word": "실증",
@@ -20415,7 +20895,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "실증-實證"
+        "id": "실증-實證",
+        "difficulty": 1
     },
     "과학만능주의": {
         "word": "과학만능주의",
@@ -20473,7 +20954,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "과학만능주의-科學萬能主義"
+        "id": "과학만능주의-科學萬能主義",
+        "difficulty": 2
     },
     "순확산": {
         "word": "순확산",
@@ -20513,7 +20995,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "순확산-順擴散"
+        "id": "순확산-順擴散",
+        "difficulty": 3
     },
     "역확산": {
         "word": "역확산",
@@ -20553,7 +21036,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "역확산-逆擴散"
+        "id": "역확산-逆擴散",
+        "difficulty": 3
     },
     "잠재 표현": {
         "word": "잠재 표현",
@@ -20599,7 +21083,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "잠재 표현-潛在表現"
+        "id": "잠재 표현-潛在表現",
+        "difficulty": 3
     },
     "지도 학습": {
         "word": "지도 학습",
@@ -20645,7 +21130,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "지도 학습-指導學習"
+        "id": "지도 학습-指導學習",
+        "difficulty": 2
     },
     "표면 연기": {
         "word": "표면 연기",
@@ -20691,7 +21177,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "표면 연기-表面演技"
+        "id": "표면 연기-表面演技",
+        "difficulty": 2
     },
     "심층 연기": {
         "word": "심층 연기",
@@ -20737,7 +21224,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "심층 연기-深層演技"
+        "id": "심층 연기-深層演技",
+        "difficulty": 2
     },
     "자기 정체성": {
         "word": "자기 정체성",
@@ -20789,7 +21277,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "자기 정체성-自己正體性"
+        "id": "자기 정체성-自己正體性",
+        "difficulty": 1
     },
     "익명성": {
         "word": "익명성",
@@ -20829,7 +21318,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "익명성-匿名性"
+        "id": "익명성-匿名性",
+        "difficulty": 1
     },
     "명예 주체성": {
         "word": "명예 주체성",
@@ -20881,7 +21371,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "명예 주체성-名譽主體性"
+        "id": "명예 주체성-名譽主體性",
+        "difficulty": 3
     },
     "판시": {
         "word": "판시",
@@ -20915,7 +21406,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "판시-判示"
+        "id": "판시-判示",
+        "difficulty": 2
     },
     "헌법 소원": {
         "word": "헌법 소원",
@@ -20961,7 +21453,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "헌법 소원-憲法訴願"
+        "id": "헌법 소원-憲法訴願",
+        "difficulty": 3
     },
     "토설": {
         "word": "토설",
@@ -20995,7 +21488,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "토설-吐說"
+        "id": "토설-吐說",
+        "difficulty": 2
     },
     "방성통곡": {
         "word": "방성통곡",
@@ -21041,7 +21535,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "방성통곡-放聲痛哭"
+        "id": "방성통곡-放聲痛哭",
+        "difficulty": 2
     },
     "구년지수": {
         "word": "구년지수",
@@ -21087,7 +21582,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "구년지수-九年之水"
+        "id": "구년지수-九年之水",
+        "difficulty": 3
     },
     "칠년대한": {
         "word": "칠년대한",
@@ -21133,7 +21629,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "칠년대한-七年大旱"
+        "id": "칠년대한-七年大旱",
+        "difficulty": 3
     },
     "앙천통곡": {
         "word": "앙천통곡",
@@ -21179,7 +21676,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "앙천통곡-仰天痛哭"
+        "id": "앙천통곡-仰天痛哭",
+        "difficulty": 3
     },
     "돈수백배": {
         "word": "돈수백배",
@@ -21225,7 +21723,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "돈수백배-頓首百拜"
+        "id": "돈수백배-頓首百拜",
+        "difficulty": 3
     },
     "진무": {
         "word": "진무",
@@ -21259,7 +21758,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "진무-鎭撫"
+        "id": "진무-鎭撫",
+        "difficulty": 3
     },
     "지리멸렬": {
         "word": "지리멸렬",
@@ -21305,7 +21805,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "지리멸렬-支離滅裂"
+        "id": "지리멸렬-支離滅裂",
+        "difficulty": 2
     },
     "위선": {
         "word": "위선",
@@ -21339,7 +21840,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "위선-僞善"
+        "id": "위선-僞善",
+        "difficulty": 1
     },
     "위악": {
         "word": "위악",
@@ -21373,7 +21875,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "위악-僞惡"
+        "id": "위악-僞惡",
+        "difficulty": 2
     },
     "단자": {
         "word": "단자",
@@ -21407,7 +21910,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "단자-單子"
+        "id": "단자-單子",
+        "difficulty": 3
     },
     "군정": {
         "word": "군정",
@@ -21441,7 +21945,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "군정-軍丁"
+        "id": "군정-軍丁",
+        "difficulty": 3
     },
     "갑민": {
         "word": "갑민",
@@ -21475,7 +21980,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "갑민-甲民"
+        "id": "갑민-甲民",
+        "difficulty": 3
     },
     "참소": {
         "word": "참소",
@@ -21509,7 +22015,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "참소-讒訴"
+        "id": "참소-讒訴",
+        "difficulty": 3
     },
     "충군": {
         "word": "충군",
@@ -21543,7 +22050,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "충군-充軍"
+        "id": "충군-充軍",
+        "difficulty": 3
     },
     "팔종성가족용": {
         "word": "팔종성가족용",
@@ -21601,7 +22109,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "팔종성가족용-八終聲可足用"
+        "id": "팔종성가족용-八終聲可足用",
+        "difficulty": 3
     },
     "공포 소구": {
         "word": "공포 소구",
@@ -21648,7 +22157,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "공포 소구-恐怖訴求"
+        "id": "공포 소구-恐怖訴求",
+        "difficulty": 3
     },
     "설득 효과": {
         "word": "설득 효과",
@@ -21695,7 +22205,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "설득 효과-說得效果"
+        "id": "설득 효과-說得效果",
+        "difficulty": 1
     },
     "공포 통제 반응": {
         "word": "공포 통제 반응",
@@ -21754,7 +22265,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "공포 통제 반응-恐怖統制反應"
+        "id": "공포 통제 반응-恐怖統制反應",
+        "difficulty": 3
     },
     "위험 통제 반응": {
         "word": "위험 통제 반응",
@@ -21813,7 +22325,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "위험 통제 반응-危險統制反應"
+        "id": "위험 통제 반응-危險統制反應",
+        "difficulty": 3
     },
     "효능감": {
         "word": "효능감",
@@ -21854,7 +22367,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "효능감-效能感"
+        "id": "효능감-效能感",
+        "difficulty": 2
     },
     "촉매 활성": {
         "word": "촉매 활성",
@@ -21901,7 +22415,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "촉매 활성-觸媒活性"
+        "id": "촉매 활성-觸媒活性",
+        "difficulty": 3
     },
     "활성 성분": {
         "word": "활성 성분",
@@ -21948,7 +22463,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "활성 성분-活性成分"
+        "id": "활성 성분-活性成分",
+        "difficulty": 3
     },
     "지지체": {
         "word": "지지체",
@@ -21989,7 +22505,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "지지체-支持體"
+        "id": "지지체-支持體",
+        "difficulty": 3
     },
     "증진제": {
         "word": "증진제",
@@ -22030,7 +22547,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "증진제-增進劑"
+        "id": "증진제-增進劑",
+        "difficulty": 3
     },
     "화학 흡착": {
         "word": "화학 흡착",
@@ -22077,7 +22595,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "화학 흡착-化學吸着"
+        "id": "화학 흡착-化學吸着",
+        "difficulty": 3
     },
     "탈착": {
         "word": "탈착",
@@ -22112,7 +22631,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "탈착-脫着"
+        "id": "탈착-脫着",
+        "difficulty": 3
     },
     "소결": {
         "word": "소결",
@@ -22147,7 +22667,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "소결-燒結"
+        "id": "소결-燒結",
+        "difficulty": 3
     },
     "전자 밀도": {
         "word": "전자 밀도",
@@ -22194,7 +22715,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "전자 밀도-電子密度"
+        "id": "전자 밀도-電子密度",
+        "difficulty": 3
     },
     "동일론": {
         "word": "동일론",
@@ -22235,7 +22757,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "동일론-同一論"
+        "id": "동일론-同一論",
+        "difficulty": 3
     },
     "기능주의": {
         "word": "기능주의",
@@ -22282,7 +22805,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기능주의-機能主義"
+        "id": "기능주의-機能主義",
+        "difficulty": 2
     },
     "함수적 역할": {
         "word": "함수적 역할",
@@ -22335,7 +22859,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "함수적 역할-函數的役割"
+        "id": "함수적 역할-函數的役割",
+        "difficulty": 2
     },
     "사고 실험": {
         "word": "사고 실험",
@@ -22382,7 +22907,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사고 실험-思考實驗"
+        "id": "사고 실험-思考實驗",
+        "difficulty": 2
     },
     "확장 인지": {
         "word": "확장 인지",
@@ -22429,7 +22955,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "확장 인지-擴張認知"
+        "id": "확장 인지-擴張認知",
+        "difficulty": 3
     },
     "심적 상태": {
         "word": "심적 상태",
@@ -22476,7 +23003,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "심적 상태-心的狀態"
+        "id": "심적 상태-心的狀態",
+        "difficulty": 2
     },
     "파생적 상태": {
         "word": "파생적 상태",
@@ -22529,7 +23057,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "파생적 상태-派生的狀態"
+        "id": "파생적 상태-派生的狀態",
+        "difficulty": 2
     },
     "인지 과정": {
         "word": "인지 과정",
@@ -22576,7 +23105,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "인지 과정-認知過程"
+        "id": "인지 과정-認知過程",
+        "difficulty": 1
     },
     "객관주의": {
         "word": "객관주의",
@@ -22623,7 +23153,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "객관주의-客觀主義"
+        "id": "객관주의-客觀主義",
+        "difficulty": 2
     },
     "계책": {
         "word": "계책",
@@ -22658,7 +23189,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "계책-計策"
+        "id": "계책-計策",
+        "difficulty": 1
     },
     "주효": {
         "word": "주효",
@@ -22693,7 +23225,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "주효-酒肴"
+        "id": "주효-酒肴",
+        "difficulty": 3
     },
     "후의": {
         "word": "후의",
@@ -22728,7 +23261,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "후의-厚意"
+        "id": "후의-厚意",
+        "difficulty": 1
     },
     "자색": {
         "word": "자색",
@@ -22763,7 +23297,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "자색-姿色"
+        "id": "자색-姿色",
+        "difficulty": 2
     },
     "소실": {
         "word": "소실",
@@ -22798,7 +23333,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "소실-小室"
+        "id": "소실-小室",
+        "difficulty": 2
     },
     "치군택민": {
         "word": "치군택민",
@@ -22845,7 +23381,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "치군택민-致君澤民"
+        "id": "치군택민-致君澤民",
+        "difficulty": 3
     },
     "조월경운": {
         "word": "조월경운",
@@ -22892,7 +23429,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "조월경운-釣月耕雲"
+        "id": "조월경운-釣月耕雲",
+        "difficulty": 3
     },
     "일호말": {
         "word": "일호말",
@@ -22933,7 +23471,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "일호말-一毫末"
+        "id": "일호말-一毫末",
+        "difficulty": 3
     },
     "이욕": {
         "word": "이욕",
@@ -22968,7 +23507,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "이욕-利慾"
+        "id": "이욕-利慾",
+        "difficulty": 2
     },
     "관형격 조사": {
         "word": "관형격 조사",
@@ -23021,7 +23561,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "관형격 조사-冠形格助詞"
+        "id": "관형격 조사-冠形格助詞",
+        "difficulty": 2
     },
     "정보 주체": {
         "word": "정보 주체",
@@ -23068,7 +23609,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "정보 주체-情報主體"
+        "id": "정보 주체-情報主體",
+        "difficulty": 2
     },
     "개인 정보 자기 결정권": {
         "word": "개인 정보 자기 결정권",
@@ -23145,7 +23687,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "개인 정보 자기 결정권-個人情報自己決定權"
+        "id": "개인 정보 자기 결정권-個人情報自己決定權",
+        "difficulty": 3
     },
     "법제화": {
         "word": "법제화",
@@ -23186,7 +23729,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "법제화-法制化"
+        "id": "법제화-法制化",
+        "difficulty": 2
     },
     "독점화": {
         "word": "독점화",
@@ -23227,7 +23771,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "독점화-獨占化"
+        "id": "독점화-獨占化",
+        "difficulty": 2
     },
     "압전 효과": {
         "word": "압전 효과",
@@ -23274,7 +23819,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "압전 효과-壓電效果"
+        "id": "압전 효과-壓電效果",
+        "difficulty": 3
     },
     "압전체": {
         "word": "압전체",
@@ -23315,7 +23861,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "압전체-壓電體"
+        "id": "압전체-壓電體",
+        "difficulty": 3
     },
     "고유 주파수": {
         "word": "고유 주파수",
@@ -23368,7 +23915,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "고유 주파수-固有周波數"
+        "id": "고유 주파수-固有周波數",
+        "difficulty": 3
     },
     "질량 민감도": {
         "word": "질량 민감도",
@@ -23421,7 +23969,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "질량 민감도-質量敏感度"
+        "id": "질량 민감도-質量敏感度",
+        "difficulty": 3
     },
     "반응 시간": {
         "word": "반응 시간",
@@ -23468,7 +24017,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "반응 시간-反應時間"
+        "id": "반응 시간-反應時間",
+        "difficulty": 1
     },
     "양천제": {
         "word": "양천제",
@@ -23509,7 +24059,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "양천제-良賤制"
+        "id": "양천제-良賤制",
+        "difficulty": 3
     },
     "천역": {
         "word": "천역",
@@ -23544,7 +24095,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "천역-賤役"
+        "id": "천역-賤役",
+        "difficulty": 3
     },
     "속량": {
         "word": "속량",
@@ -23579,7 +24131,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "속량-贖良"
+        "id": "속량-贖良",
+        "difficulty": 3
     },
     "유학": {
         "word": "유학",
@@ -23614,7 +24167,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "유학-幼學"
+        "id": "유학-幼學",
+        "difficulty": 3
     },
     "직역": {
         "word": "직역",
@@ -23649,7 +24203,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "직역-職役"
+        "id": "직역-職役",
+        "difficulty": 3
     },
     "사농공상": {
         "word": "사농공상",
@@ -23696,7 +24251,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사농공상-士農工商"
+        "id": "사농공상-士農工商",
+        "difficulty": 2
     },
     "사민": {
         "word": "사민",
@@ -23731,7 +24287,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사민-四民"
+        "id": "사민-四民",
+        "difficulty": 3
     },
     "도덕적 능력주의": {
         "word": "도덕적 능력주의",
@@ -23796,7 +24353,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "도덕적 능력주의-道德的能力主義"
+        "id": "도덕적 능력주의-道德的能力主義",
+        "difficulty": 2
     },
     "공거제": {
         "word": "공거제",
@@ -23837,7 +24395,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "공거제-貢擧制"
+        "id": "공거제-貢擧制",
+        "difficulty": 3
     },
     "신분 세습": {
         "word": "신분 세습",
@@ -23884,7 +24443,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "신분 세습-身分世襲"
+        "id": "신분 세습-身分世襲",
+        "difficulty": 3
     },
     "유교적 의례": {
         "word": "유교적 의례",
@@ -23937,7 +24497,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "유교적 의례-儒敎的儀禮"
+        "id": "유교적 의례-儒敎的儀禮",
+        "difficulty": 3
     },
     "준행": {
         "word": "준행",
@@ -23972,7 +24533,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "준행-遵行"
+        "id": "준행-遵行",
+        "difficulty": 3
     },
     "행정 구역 개편": {
         "word": "행정 구역 개편",
@@ -24031,7 +24593,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "행정 구역 개편-行政區域改編"
+        "id": "행정 구역 개편-行政區域改編",
+        "difficulty": 2
     },
     "천은": {
         "word": "천은",
@@ -24066,7 +24629,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "천은-天恩"
+        "id": "천은-天恩",
+        "difficulty": 3
     },
     "입조": {
         "word": "입조",
@@ -24101,7 +24665,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "입조-入朝"
+        "id": "입조-入朝",
+        "difficulty": 3
     },
     "도문": {
         "word": "도문",
@@ -24136,7 +24701,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "도문-到門"
+        "id": "도문-到門",
+        "difficulty": 3
     },
     "백학선": {
         "word": "백학선",
@@ -24177,7 +24743,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "백학선-白鶴扇"
+        "id": "백학선-白鶴扇",
+        "difficulty": 3
     },
     "무양": {
         "word": "무양",
@@ -24212,7 +24779,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "무양-無恙"
+        "id": "무양-無恙",
+        "difficulty": 3
     },
     "월훈": {
         "word": "월훈",
@@ -24247,7 +24815,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "월훈-月暈"
+        "id": "월훈-月暈",
+        "difficulty": 3
     },
     "문의": {
         "word": "문의",
@@ -24282,7 +24851,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "문의-文漪"
+        "id": "문의-文漪",
+        "difficulty": 3
     },
     "합성어": {
         "word": "합성어",
@@ -24323,7 +24893,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "합성어-合成語"
+        "id": "합성어-合成語",
+        "difficulty": 2
     },
     "파생어": {
         "word": "파생어",
@@ -24364,7 +24935,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "파생어-派生語"
+        "id": "파생어-派生語",
+        "difficulty": 2
     },
     "초인지": {
         "word": "초인지",
@@ -24405,7 +24977,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "초인지-超認知"
+        "id": "초인지-超認知",
+        "difficulty": 2
     },
     "독서 전략": {
         "word": "독서 전략",
@@ -24452,7 +25025,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "독서 전략-讀書戰略"
+        "id": "독서 전략-讀書戰略",
+        "difficulty": 1
     },
     "경마식 보도": {
         "word": "경마식 보도",
@@ -24505,7 +25079,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "경마식 보도-競馬式報道"
+        "id": "경마식 보도-競馬式報道",
+        "difficulty": 3
     },
     "득표율": {
         "word": "득표율",
@@ -24546,7 +25121,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "득표율-得票率"
+        "id": "득표율-得票率",
+        "difficulty": 1
     },
     "공정성": {
         "word": "공정성",
@@ -24587,7 +25163,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "공정성-公正性"
+        "id": "공정성-公正性",
+        "difficulty": 1
     },
     "기회균등": {
         "word": "기회균등",
@@ -24634,7 +25211,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기회균등-機會均等"
+        "id": "기회균등-機會均等",
+        "difficulty": 1
     },
     "합헌": {
         "word": "합헌",
@@ -24669,7 +25247,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "합헌-合憲"
+        "id": "합헌-合憲",
+        "difficulty": 2
     },
     "왜곡 보도": {
         "word": "왜곡 보도",
@@ -24716,7 +25295,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "왜곡 보도-歪曲報道"
+        "id": "왜곡 보도-歪曲報道",
+        "difficulty": 1
     },
     "오차 범위": {
         "word": "오차 범위",
@@ -24763,7 +25343,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "오차 범위-誤差範圍"
+        "id": "오차 범위-誤差範圍",
+        "difficulty": 2
     },
     "표본 오차": {
         "word": "표본 오차",
@@ -24810,7 +25391,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "표본 오차-標本誤差"
+        "id": "표본 오차-標本誤差",
+        "difficulty": 2
     },
     "경합": {
         "word": "경합",
@@ -24845,7 +25427,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "경합-競合"
+        "id": "경합-競合",
+        "difficulty": 2
     },
     "중앙값": {
         "word": "중앙값",
@@ -24880,7 +25463,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "중앙값-中央값"
+        "id": "중앙값-中央값",
+        "difficulty": 2
     },
     "최빈값": {
         "word": "최빈값",
@@ -24915,7 +25499,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "최빈값-最頻값"
+        "id": "최빈값-最頻값",
+        "difficulty": 2
     },
     "대푯값": {
         "word": "대푯값",
@@ -24950,7 +25535,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "대푯값-代表값"
+        "id": "대푯값-代表값",
+        "difficulty": 2
     },
     "문턱값": {
         "word": "문턱값",
@@ -24979,7 +25565,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "문턱값-門턱값"
+        "id": "문턱값-門턱값",
+        "difficulty": 2
     },
     "항상성": {
         "word": "항상성",
@@ -25020,7 +25607,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "항상성-恒常性"
+        "id": "항상성-恒常性",
+        "difficulty": 1
     },
     "가변성": {
         "word": "가변성",
@@ -25061,7 +25649,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "가변성-可變性"
+        "id": "가변성-可變性",
+        "difficulty": 1
     },
     "법치": {
         "word": "법치",
@@ -25096,7 +25685,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "법치-法治"
+        "id": "법치-法治",
+        "difficulty": 2
     },
     "부국강병": {
         "word": "부국강병",
@@ -25143,7 +25733,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "부국강병-富國强兵"
+        "id": "부국강병-富國强兵",
+        "difficulty": 2
     },
     "통치술": {
         "word": "통치술",
@@ -25184,7 +25775,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "통치술-統治術"
+        "id": "통치술-統治術",
+        "difficulty": 2
     },
     "시비": {
         "word": "시비",
@@ -25219,7 +25811,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "시비-是非"
+        "id": "시비-是非",
+        "difficulty": 2
     },
     "입법": {
         "word": "입법",
@@ -25254,7 +25847,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "입법-立法"
+        "id": "입법-立法",
+        "difficulty": 1
     },
     "중앙집권화": {
         "word": "중앙집권화",
@@ -25307,7 +25901,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "중앙집권화-中央集權化"
+        "id": "중앙집권화-中央集權化",
+        "difficulty": 2
     },
     "인의예지": {
         "word": "인의예지",
@@ -25354,7 +25949,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "인의예지-仁義禮智"
+        "id": "인의예지-仁義禮智",
+        "difficulty": 2
     },
     "주석": {
         "word": "주석",
@@ -25389,7 +25985,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "주석-註釋"
+        "id": "주석-註釋",
+        "difficulty": 1
     },
     "이단": {
         "word": "이단",
@@ -25424,7 +26021,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "이단-異端"
+        "id": "이단-異端",
+        "difficulty": 1
     },
     "충군-忠君": {
         "word": "충군",
@@ -25459,7 +26057,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "충군-忠君"
+        "id": "충군-忠君",
+        "difficulty": 3
     },
     "국변": {
         "word": "국변",
@@ -25494,7 +26093,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "국변-國變"
+        "id": "국변-國變",
+        "difficulty": 3
     },
     "계교": {
         "word": "계교",
@@ -25535,7 +26135,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "계교-計巧"
+        "id": "계교-計巧",
+        "difficulty": 3
     },
     "사은숙배": {
         "word": "사은숙배",
@@ -25582,7 +26183,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사은숙배-謝恩肅拜"
+        "id": "사은숙배-謝恩肅拜",
+        "difficulty": 3
     },
     "도반": {
         "word": "도반",
@@ -25617,7 +26219,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "도반-道伴"
+        "id": "도반-道伴",
+        "difficulty": 3
     },
     "분서갱유": {
         "word": "분서갱유",
@@ -25664,7 +26267,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "분서갱유-焚書坑儒"
+        "id": "분서갱유-焚書坑儒",
+        "difficulty": 2
     },
     "사상 통제": {
         "word": "사상 통제",
@@ -25711,7 +26315,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사상 통제-思想統制"
+        "id": "사상 통제-思想統制",
+        "difficulty": 2
     },
     "치국 계책": {
         "word": "치국 계책",
@@ -25758,7 +26363,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "치국 계책-治國計策"
+        "id": "치국 계책-治國計策",
+        "difficulty": 3
     },
     "통물": {
         "word": "통물",
@@ -25793,7 +26399,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "통물-統物"
+        "id": "통물-統物",
+        "difficulty": 3
     },
     "통변": {
         "word": "통변",
@@ -25828,7 +26435,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "통변-通變"
+        "id": "통변-通變",
+        "difficulty": 3
     },
     "인의": {
         "word": "인의",
@@ -25863,7 +26471,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "인의-仁義"
+        "id": "인의-仁義",
+        "difficulty": 2
     },
     "왕도 정치": {
         "word": "왕도 정치",
@@ -25910,7 +26519,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "왕도 정치-王道政治"
+        "id": "왕도 정치-王道政治",
+        "difficulty": 2
     },
     "교화": {
         "word": "교화",
@@ -25945,7 +26555,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "교화-敎化"
+        "id": "교화-敎化",
+        "difficulty": 2
     },
     "권세": {
         "word": "권세",
@@ -25980,7 +26591,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "권세-權勢"
+        "id": "권세-權勢",
+        "difficulty": 1
     },
     "흥망성쇠": {
         "word": "흥망성쇠",
@@ -26027,7 +26639,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "흥망성쇠-興亡盛衰"
+        "id": "흥망성쇠-興亡盛衰",
+        "difficulty": 2
     },
     "국조": {
         "word": "국조",
@@ -26062,7 +26675,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "국조-國朝"
+        "id": "국조-國朝",
+        "difficulty": 3
     },
     "혈액 응고": {
         "word": "혈액 응고",
@@ -26109,7 +26723,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "혈액 응고-血液凝固"
+        "id": "혈액 응고-血液凝固",
+        "difficulty": 2
     },
     "혈전": {
         "word": "혈전",
@@ -26144,7 +26759,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "혈전-血栓"
+        "id": "혈전-血栓",
+        "difficulty": 2
     },
     "불용성": {
         "word": "불용성",
@@ -26185,7 +26801,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "불용성-不溶性"
+        "id": "불용성-不溶性",
+        "difficulty": 2
     },
     "혈관 석회화": {
         "word": "혈관 석회화",
@@ -26238,7 +26855,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "혈관 석회화-血管石灰化"
+        "id": "혈관 석회화-血管石灰化",
+        "difficulty": 2
     },
     "골다공증": {
         "word": "골다공증",
@@ -26285,7 +26903,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "골다공증-骨多孔症"
+        "id": "골다공증-骨多孔症",
+        "difficulty": 2
     },
     "이중차분법": {
         "word": "이중차분법",
@@ -26338,7 +26957,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "이중차분법-二重差分法"
+        "id": "이중차분법-二重差分法",
+        "difficulty": 3
     },
     "평행추세 가정": {
         "word": "평행추세 가정",
@@ -26397,7 +27017,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "평행추세 가정-平行趨勢假定"
+        "id": "평행추세 가정-平行趨勢假定",
+        "difficulty": 3
     },
     "시행집단": {
         "word": "시행집단",
@@ -26444,7 +27065,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "시행집단-施行集團"
+        "id": "시행집단-施行集團",
+        "difficulty": 2
     },
     "비교집단": {
         "word": "비교집단",
@@ -26491,7 +27113,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "비교집단-比較集團"
+        "id": "비교집단-比較集團",
+        "difficulty": 2
     },
     "통계적 유사성": {
         "word": "통계적 유사성",
@@ -26550,7 +27173,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "통계적 유사성-統計的類似性"
+        "id": "통계적 유사성-統計的類似性",
+        "difficulty": 2
     },
     "경기변동": {
         "word": "경기변동",
@@ -26597,7 +27221,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "경기변동-景氣變動"
+        "id": "경기변동-景氣變動",
+        "difficulty": 2
     },
     "적강선녀": {
         "word": "적강선녀",
@@ -26644,7 +27269,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "적강선녀-謫降仙女"
+        "id": "적강선녀-謫降仙女",
+        "difficulty": 3
     },
     "총애": {
         "word": "총애",
@@ -26679,7 +27305,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "총애-寵愛"
+        "id": "총애-寵愛",
+        "difficulty": 1
     },
     "혼비백산": {
         "word": "혼비백산",
@@ -26726,7 +27353,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "혼비백산-魂飛魄散"
+        "id": "혼비백산-魂飛魄散",
+        "difficulty": 3
     },
     "박장대소": {
         "word": "박장대소",
@@ -26773,7 +27401,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "박장대소-拍掌大笑"
+        "id": "박장대소-拍掌大笑",
+        "difficulty": 1
     },
     "천문구중": {
         "word": "천문구중",
@@ -26820,7 +27449,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "천문구중-天門九重"
+        "id": "천문구중-天門九重",
+        "difficulty": 3
     },
     "원루": {
         "word": "원루",
@@ -26855,7 +27485,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "원루-怨淚"
+        "id": "원루-怨淚",
+        "difficulty": 3
     },
     "반벽청등": {
         "word": "반벽청등",
@@ -26902,7 +27533,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "반벽청등-半壁靑燈"
+        "id": "반벽청등-半壁靑燈",
+        "difficulty": 3
     },
     "부정 축재": {
         "word": "부정 축재",
@@ -26949,7 +27581,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "부정 축재-不正蓄財"
+        "id": "부정 축재-不正蓄財",
+        "difficulty": 3
     },
     "소절수": {
         "word": "소절수",
@@ -26990,7 +27623,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "소절수-小切手"
+        "id": "소절수-小切手",
+        "difficulty": 3
     },
     "교환 가치": {
         "word": "교환 가치",
@@ -27037,7 +27671,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "교환 가치-交換價値"
+        "id": "교환 가치-交換價値",
+        "difficulty": 2
     },
     "비동일성": {
         "word": "비동일성",
@@ -27084,7 +27719,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "비동일성-非同一性"
+        "id": "비동일성-非同一性",
+        "difficulty": 2
     },
     "비정형성": {
         "word": "비정형성",
@@ -27131,7 +27767,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "비정형성-非定型性"
+        "id": "비정형성-非定型性",
+        "difficulty": 2
     },
     "전위 예술": {
         "word": "전위 예술",
@@ -27178,7 +27815,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "전위 예술-前衛藝術"
+        "id": "전위 예술-前衛藝術",
+        "difficulty": 2
     },
     "계몽": {
         "word": "계몽",
@@ -27213,7 +27851,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "계몽-啓蒙"
+        "id": "계몽-啓蒙",
+        "difficulty": 1
     },
     "침전": {
         "word": "침전",
@@ -27248,7 +27887,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "침전-沈澱"
+        "id": "침전-沈澱",
+        "difficulty": 2
     },
     "자율성": {
         "word": "자율성",
@@ -27289,7 +27929,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "자율성-自律性"
+        "id": "자율성-自律性",
+        "difficulty": 1
     },
     "재현": {
         "word": "재현",
@@ -27324,7 +27965,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "재현-再現"
+        "id": "재현-再現",
+        "difficulty": 1
     },
     "무상 처분": {
         "word": "무상 처분",
@@ -27371,7 +28013,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "무상 처분-無償處分"
+        "id": "무상 처분-無償處分",
+        "difficulty": 3
     },
     "무상 취득자": {
         "word": "무상 취득자",
@@ -27424,7 +28067,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "무상 취득자-無償取得者"
+        "id": "무상 취득자-無償取得者",
+        "difficulty": 3
     },
     "피상속인": {
         "word": "피상속인",
@@ -27471,7 +28115,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "피상속인-被相續人"
+        "id": "피상속인-被相續人",
+        "difficulty": 3
     },
     "유류분": {
         "word": "유류분",
@@ -27512,7 +28157,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "유류분-遺留分"
+        "id": "유류분-遺留分",
+        "difficulty": 3
     },
     "유류분권": {
         "word": "유류분권",
@@ -27559,7 +28205,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "유류분권-遺留分權"
+        "id": "유류분권-遺留分權",
+        "difficulty": 3
     },
     "유류분 부족액": {
         "word": "유류분 부족액",
@@ -27618,7 +28265,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "유류분 부족액-遺留分不足額"
+        "id": "유류분 부족액-遺留分不足額",
+        "difficulty": 3
     },
     "지분": {
         "word": "지분",
@@ -27653,7 +28301,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "지분-持分"
+        "id": "지분-持分",
+        "difficulty": 2
     },
     "시가": {
         "word": "시가",
@@ -27688,7 +28337,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "시가-市價"
+        "id": "시가-市價",
+        "difficulty": 2
     },
     "산정": {
         "word": "산정",
@@ -27723,7 +28373,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "산정-算定"
+        "id": "산정-算定",
+        "difficulty": 2
     },
     "적합도": {
         "word": "적합도",
@@ -27764,7 +28415,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "적합도-適合度"
+        "id": "적합도-適合度",
+        "difficulty": 2
     },
     "균등": {
         "word": "균등",
@@ -27799,7 +28451,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "균등-均等"
+        "id": "균등-均等",
+        "difficulty": 1
     },
     "갱신": {
         "word": "갱신",
@@ -27834,7 +28487,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "갱신-更新"
+        "id": "갱신-更新",
+        "difficulty": 1
     },
     "합산": {
         "word": "합산",
@@ -27869,7 +28523,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "합산-合算"
+        "id": "합산-合算",
+        "difficulty": 1
     },
     "빈도수": {
         "word": "빈도수",
@@ -27910,7 +28565,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "빈도수-頻度數"
+        "id": "빈도수-頻度數",
+        "difficulty": 1
     },
     "참언": {
         "word": "참언",
@@ -27945,7 +28601,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "참언-讒言"
+        "id": "참언-讒言",
+        "difficulty": 3
     },
     "적거": {
         "word": "적거",
@@ -27980,7 +28637,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "적거-謫居"
+        "id": "적거-謫居",
+        "difficulty": 3
     },
     "영결": {
         "word": "영결",
@@ -28015,7 +28673,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "영결-永訣"
+        "id": "영결-永訣",
+        "difficulty": 3
     },
     "장계": {
         "word": "장계",
@@ -28050,7 +28709,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "장계-狀啓"
+        "id": "장계-狀啓",
+        "difficulty": 3
     },
     "첩서": {
         "word": "첩서",
@@ -28085,7 +28745,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "첩서-捷書"
+        "id": "첩서-捷書",
+        "difficulty": 3
     },
     "문초": {
         "word": "문초",
@@ -28120,7 +28781,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "문초-問招"
+        "id": "문초-問招",
+        "difficulty": 3
     },
     "풍설-風雪": {
         "word": "풍설",
@@ -28155,7 +28817,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "풍설-風雪"
+        "id": "풍설-風雪",
+        "difficulty": 3
     },
     "창천": {
         "word": "창천",
@@ -28190,7 +28853,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "창천-蒼天"
+        "id": "창천-蒼天",
+        "difficulty": 3
     },
     "난만": {
         "word": "난만",
@@ -28225,7 +28889,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "난만-爛漫"
+        "id": "난만-爛漫",
+        "difficulty": 2
     },
     "도덕률": {
         "word": "도덕률",
@@ -28266,7 +28931,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "도덕률-道德律"
+        "id": "도덕률-道德律",
+        "difficulty": 2
     },
     "공리적": {
         "word": "공리적",
@@ -28307,7 +28973,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "공리적-功利的"
+        "id": "공리적-功利的",
+        "difficulty": 2
     },
     "유서": {
         "word": "유서",
@@ -28342,7 +29009,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "유서-類書"
+        "id": "유서-類書",
+        "difficulty": 3
     },
     "집성": {
         "word": "집성",
@@ -28377,7 +29045,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "집성-集成"
+        "id": "집성-集成",
+        "difficulty": 3
     },
     "고증": {
         "word": "고증",
@@ -28412,7 +29081,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "고증-考證"
+        "id": "고증-考證",
+        "difficulty": 2
     },
     "안설": {
         "word": "안설",
@@ -28447,7 +29117,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "안설-按說"
+        "id": "안설-按說",
+        "difficulty": 3
     },
     "박물학": {
         "word": "박물학",
@@ -28488,7 +29159,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "박물학-博物學"
+        "id": "박물학-博物學",
+        "difficulty": 2
     },
     "절충": {
         "word": "절충",
@@ -28523,7 +29195,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "절충-折衷"
+        "id": "절충-折衷",
+        "difficulty": 2
     },
     "원류설": {
         "word": "원류설",
@@ -28564,7 +29237,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "원류설-源流說"
+        "id": "원류설-源流說",
+        "difficulty": 3
     },
     "중화 관념": {
         "word": "중화 관념",
@@ -28611,7 +29285,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "중화 관념-中華觀念"
+        "id": "중화 관념-中華觀念",
+        "difficulty": 3
     },
     "불확정 개념": {
         "word": "불확정 개념",
@@ -28664,7 +29339,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "불확정 개념-不確定槪念"
+        "id": "불확정 개념-不確定槪念",
+        "difficulty": 3
     },
     "손해 배상 예정액": {
         "word": "손해 배상 예정액",
@@ -28729,7 +29405,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "손해 배상 예정액-損害賠償豫定額"
+        "id": "손해 배상 예정액-損害賠償豫定額",
+        "difficulty": 3
     },
     "위약벌": {
         "word": "위약벌",
@@ -28770,7 +29447,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "위약벌-違約罰"
+        "id": "위약벌-違約罰",
+        "difficulty": 3
     },
     "기속 행위": {
         "word": "기속 행위",
@@ -28817,7 +29495,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기속 행위-羈束行爲"
+        "id": "기속 행위-羈束行爲",
+        "difficulty": 3
     },
     "재량 행위": {
         "word": "재량 행위",
@@ -28864,7 +29543,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "재량 행위-裁量行爲"
+        "id": "재량 행위-裁量行爲",
+        "difficulty": 3
     },
     "재량 준칙": {
         "word": "재량 준칙",
@@ -28911,7 +29591,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "재량 준칙-裁量準則"
+        "id": "재량 준칙-裁量準則",
+        "difficulty": 3
     },
     "행정 관행": {
         "word": "행정 관행",
@@ -28958,7 +29639,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "행정 관행-行政慣行"
+        "id": "행정 관행-行政慣行",
+        "difficulty": 3
     },
     "평등 원칙": {
         "word": "평등 원칙",
@@ -29005,7 +29687,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "평등 원칙-平等原則"
+        "id": "평등 원칙-平等原則",
+        "difficulty": 2
     },
     "대사량": {
         "word": "대사량",
@@ -29046,7 +29729,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "대사량-代謝量"
+        "id": "대사량-代謝量",
+        "difficulty": 2
     },
     "기초 대사량": {
         "word": "기초 대사량",
@@ -29099,7 +29783,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기초 대사량-基礎代謝量"
+        "id": "기초 대사량-基礎代謝量",
+        "difficulty": 2
     },
     "체표 면적": {
         "word": "체표 면적",
@@ -29146,7 +29831,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "체표 면적-體表面積"
+        "id": "체표 면적-體表面積",
+        "difficulty": 2
     },
     "열량계": {
         "word": "열량계",
@@ -29187,7 +29873,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "열량계-熱量計"
+        "id": "열량계-熱量計",
+        "difficulty": 2
     },
     "증가율": {
         "word": "증가율",
@@ -29228,7 +29915,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "증가율-增加率"
+        "id": "증가율-增加率",
+        "difficulty": 1
     },
     "상대 성장": {
         "word": "상대 성장",
@@ -29275,7 +29963,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "상대 성장-相對成長"
+        "id": "상대 성장-相對成長",
+        "difficulty": 3
     },
     "최소 제곱법": {
         "word": "최소 제곱법",
@@ -29316,7 +30005,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "최소 제곱법-最小제곱法"
+        "id": "최소 제곱법-最小제곱法",
+        "difficulty": 3
     },
     "대사 체중": {
         "word": "대사 체중",
@@ -29363,7 +30053,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "대사 체중-代謝體重"
+        "id": "대사 체중-代謝體重",
+        "difficulty": 3
     },
     "초야우생": {
         "word": "초야우생",
@@ -29410,7 +30101,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "초야우생-草野愚生"
+        "id": "초야우생-草野愚生",
+        "difficulty": 3
     },
     "천석고황": {
         "word": "천석고황",
@@ -29457,7 +30149,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "천석고황-泉石膏肓"
+        "id": "천석고황-泉石膏肓",
+        "difficulty": 3
     },
     "연하": {
         "word": "연하",
@@ -29492,7 +30185,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "연하-烟霞"
+        "id": "연하-烟霞",
+        "difficulty": 3
     },
     "풍월": {
         "word": "풍월",
@@ -29527,7 +30221,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "풍월-風月"
+        "id": "풍월-風月",
+        "difficulty": 1
     },
     "화만산": {
         "word": "화만산",
@@ -29568,7 +30263,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "화만산-花滿山"
+        "id": "화만산-花滿山",
+        "difficulty": 3
     },
     "월만대": {
         "word": "월만대",
@@ -29609,7 +30305,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "월만대-月滿臺"
+        "id": "월만대-月滿臺",
+        "difficulty": 3
     },
     "가흥": {
         "word": "가흥",
@@ -29644,7 +30341,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "가흥-佳興"
+        "id": "가흥-佳興",
+        "difficulty": 3
     },
     "어약연비": {
         "word": "어약연비",
@@ -29691,7 +30389,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "어약연비-魚躍鳶飛"
+        "id": "어약연비-魚躍鳶飛",
+        "difficulty": 3
     },
     "운영천광": {
         "word": "운영천광",
@@ -29738,7 +30437,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "운영천광-雲影天光"
+        "id": "운영천광-雲影天光",
+        "difficulty": 3
     },
     "태평성대": {
         "word": "태평성대",
@@ -29785,6 +30485,7 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "태평성대-太平聖代"
+        "id": "태평성대-太平聖代",
+        "difficulty": 2
     }
 };
