@@ -10,7 +10,7 @@
       "raw_removed_contexts": 18,
       "raw_added_contexts": 0,
       "net_context_change": -18,
-      "words_affected": 8,
+      "words_affected": 11,
       "zero_context_words_created": 4
     },
     "phase1c": {
@@ -88,19 +88,19 @@
   },
   "sense_contamination_reconciliation": {
     "total_candidates": 9,
-    "actual_sense_contamination": 3,
+    "actual_sense_contamination": 2,
     "actual_sense_contamination_items": [
       "사가(社歌)",
-      "사직(社稷)",
-      "사퇴(謝退)"
+      "사직(社稷)"
     ],
-    "disambiguation_refinement": 5,
+    "disambiguation_refinement": 6,
     "disambiguation_refinement_items": [
       "실정(失政)",
       "산재(散在)",
       "종용(從容)",
       "역설(力說)",
-      "시차(視差)"
+      "시차(視差)",
+      "사퇴(謝退)"
     ],
     "wording_refinement": 1,
     "wording_refinement_items": [
@@ -110,8 +110,8 @@
   "ai_error_cases_reconciliation": {
     "total_evaluated_cases": 20,
     "actual_error_count": 5,
-    "editorial_refinement_count": 4,
-    "disambiguation_refinement_count": 5,
+    "editorial_refinement_count": 3,
+    "disambiguation_refinement_count": 6,
     "process_observation_count": 5,
     "potential_risk_count": 1
   },

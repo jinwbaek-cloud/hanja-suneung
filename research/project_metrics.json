@@ -245,18 +245,8 @@
     }
   },
   "verification_statistics": {
-    "unsupported_or_mismatched_contexts_raw_removed": 44,
-    "unsupported_contexts_sources": {
-      "Phase 1B (f586aaf) legacy non-target removals": 18,
-      "Phase 1C (f87244b) replaced/refined": 2,
-      "Phase 3B-2 (1dffcd4) question_or_unverified_removals": 26
-    },
-    "verified_contexts_added": 5,
-    "verified_contexts_sources": {
-      "Phase 1C (f87244b) 귀속/수렴/상충 verified additions": 4,
-      "Phase 3B-2 (1dffcd4) 홍진 verified passage replacement": 1
-    },
     "net_context_change_range_b": -42,
+    "net_context_change_note": "코퍼스 순도 확립을 위한 순감소량이며, 단순 허위 문맥 삭제 수치가 아님 (Phase별 세부 내역은 context_changes 참조)",
     "zero_context_entries_removed": 16,
     "zero_context_entries_sources": {
       "Phase 1C (f87244b)": 4,
@@ -274,8 +264,9 @@
     "difficulties_assigned": 701,
     "difficulty_boundary_audited": 39,
     "homograph_sense_contamination_candidates": 9,
-    "actual_sense_contamination_corrected": 3,
-    "disambiguation_wording_refined": 6,
+    "actual_sense_contamination_corrected": 2,
+    "disambiguation_refinement_count": 6,
+    "wording_refinement_count": 1,
     "top_level_type_audited": 701,
     "top_level_type_actually_removed": 339,
     "seo_pages_files_refined": 5
@@ -330,13 +321,14 @@
       "name": "Sense contamination (동음이의어/다른 한자 의미 오염)",
       "description": "표제어의 한글 독음이 같다는 이유로 다른 한자나 다른 동음이의어의 의미가 해설/사유에 침투하는 오류",
       "evidence_cases": [
-        "사가(社歌에 私家 침투)",
-        "사직(社稷에 辭職 침투)",
-        "실정(失政에 實情 침투)",
-        "산재(散在에 産災 침투)",
-        "종용(從容에 慫慂 침투)",
-        "역설(力說에 逆說 침투)",
-        "시차(視差에 時差 침투)"
+        "사가(社歌에 私家 의미 침투 - actual)",
+        "사직(社稷에 辭職 의미 침투 - actual)",
+        "실정(失政 - 實情 혼동 방지 정제)",
+        "산재(散在 - 産災 혼동 방지 정제)",
+        "종용(從容 - 慫慂 혼동 방지 정제)",
+        "역설(力說 - 逆說 혼동 방지 정제)",
+        "시차(視差 - 時差 혼동 방지 정제)",
+        "사퇴(謝退 - 辭退 혼동 방지 정제)"
       ]
     },
     {
@@ -439,7 +431,7 @@
       "raw_removed": 18,
       "raw_added": 0,
       "net_change": -18,
-      "words_affected": 8,
+      "words_affected": 11,
       "zero_context_words_created": 4,
       "description": "2016~2021학년도 구 수능/모평 비인가 레거시 문맥 18건 제거 (920 -> 902)"
     },

@@ -42,7 +42,7 @@ research/
 5. **`worktime_audit.json`**:
    - AntiGravity IDE 세션 트랜스크립트 로그를 바탕으로 산출한 경과시간(Wall-clock span)과 10분 상한 활동 프록시(Interval-capped proxy), 10분 엄격 갭 배제 프록시(Strict gap-exclusion proxy), 16개 작업 세션 분할 내역, 15개 세부 Phase별 소요 시간 분석을 담고 있습니다.
 6. **`ai_error_cases.md`**:
-   - 수능 코퍼스 편찬 중 관찰된 20개 사례를 실제 오류(`ACTUAL_ERROR`: 5건), 편찬상 정제(`EDITORIAL_REFINEMENT`: 4건), 동음어 구별 정제(`DISAMBIGUATION_REFINEMENT`: 5건), 공정 관찰(`PROCESS_OBSERVATION`: 5건), 잠재 위험(`POTENTIAL_RISK`: 1건)으로 엄격히 분류한 분석 보고서입니다.
+   - 수능 코퍼스 편찬 중 관찰된 20개 사례를 실제 오류(`ACTUAL_ERROR`: 5건), 편찬상 정제(`EDITORIAL_REFINEMENT`: 3건), 동음어 구별 정제(`DISAMBIGUATION_REFINEMENT`: 6건), 공정 관찰(`PROCESS_OBSERVATION`: 5건), 잠재 위험(`POTENTIAL_RISK`: 1건)으로 엄격히 분류한 분석 보고서입니다.
 7. **`presentation_statistics.md`**:
    - 학술 발표나 논문에서 즉시 인용할 수 있는 4대 핵심 연구 명제, 작업시간 표현 표준 문장 3종, 10대 핵심 통계 지표, 대표 사례 5선을 선별한 문서입니다.
 8. **`evidence/`**:
