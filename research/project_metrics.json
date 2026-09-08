@@ -213,7 +213,9 @@
       "final_contexts": 879,
       "context_net_change": -42,
       "context_net_change_rate_percent": -4.56
-    }
+    },
+    "metric_label": "Git line churn",
+    "caveat": "JSON 직렬화 및 일괄 포맷팅/들여쓰기 영향이 포함된 수치로, 연구자/에이전트가 직접 창작한 순수 저작 라인 수(authored code lines)와 동일하지 않음"
   },
   "worktime_summary": {
     "full_project_range": {
@@ -243,11 +245,18 @@
     }
   },
   "verification_statistics": {
-    "unsupported_contexts_removed": 43,
+    "unsupported_or_mismatched_contexts_raw_removed": 44,
     "unsupported_contexts_sources": {
-      "Phase 1B (f586aaf)": 18,
-      "Phase 3B-2 (1dffcd4)": 25
+      "Phase 1B (f586aaf) legacy non-target removals": 18,
+      "Phase 1C (f87244b) replaced/refined": 2,
+      "Phase 3B-2 (1dffcd4) question_or_unverified_removals": 26
     },
+    "verified_contexts_added": 5,
+    "verified_contexts_sources": {
+      "Phase 1C (f87244b) 귀속/수렴/상충 verified additions": 4,
+      "Phase 3B-2 (1dffcd4) 홍진 verified passage replacement": 1
+    },
+    "net_context_change_range_b": -42,
     "zero_context_entries_removed": 16,
     "zero_context_entries_sources": {
       "Phase 1C (f87244b)": 4,
@@ -255,22 +264,20 @@
     },
     "section_domain_restored": 96,
     "section_domain_restored_sources": {
-      "Phase 3B": 95,
-      "Phase 3B-2 (1dffcd4)": 1
+      "Phase 3B (9cbcafa working tree)": 95,
+      "Phase 3B-2 (1dffcd4) 홍진 replacement": 1
     },
-    "fake_mock_contexts_pruned": 25,
-    "mock_feed_cleared": 53,
+    "feed_mock_text_cleared_to_empty_array": 53,
     "categories_normalized": 134,
-    "definition_sources_verified": 260,
-    "definition_sources_verified_sources": {
-      "Phase 3D (6309ec4)": 247,
-      "Phase 3E (646be4c)": 13
-    },
+    "definition_source_field_missing_reviewed": 101,
     "editorial_review_closed": 13,
     "difficulties_assigned": 701,
     "difficulty_boundary_audited": 39,
-    "homograph_sense_contamination_audited": 8,
-    "top_level_type_removed": 701,
+    "homograph_sense_contamination_candidates": 9,
+    "actual_sense_contamination_corrected": 3,
+    "disambiguation_wording_refined": 6,
+    "top_level_type_audited": 701,
+    "top_level_type_actually_removed": 339,
     "seo_pages_files_refined": 5
   },
   "error_taxonomy": [
@@ -425,5 +432,123 @@
       "size_bytes": 2601
     }
   ],
-  "generated_at": "2026-09-08T06:50:56.350617+00:00"
+  "generated_at": "2026-09-08T06:50:56.350617+00:00",
+  "context_changes": {
+    "phase1b": {
+      "commit_range": "2d1c83a -> f586aaf",
+      "raw_removed": 18,
+      "raw_added": 0,
+      "net_change": -18,
+      "words_affected": 8,
+      "zero_context_words_created": 4,
+      "description": "2016~2021학년도 구 수능/모평 비인가 레거시 문맥 18건 제거 (920 -> 902)"
+    },
+    "phase1c": {
+      "commit_range": "f586aaf -> f87244b",
+      "raw_removed": 2,
+      "raw_added": 4,
+      "net_change": 2,
+      "removed_zero_context_words": 4,
+      "net_word_change": -4,
+      "description": "Phase 1B에서 고립된 zero-context 4개 표제어(다원적, 유동성, 종속, 포섭) 영구 제거(717 -> 713); 귀속 2건 신규 기출 문맥 추가 및 수렴/상충 2건 원문 정제(902 -> 904)"
+    },
+    "phase3b2": {
+      "commit_range": "9cbcafa -> 1dffcd4",
+      "raw_removed": 26,
+      "raw_added": 1,
+      "net_change": -25,
+      "removed_words": 12,
+      "removed_breakdown": {
+        "question_material": 2,
+        "mock_context_word_verified_elsewhere": 12,
+        "not_verified_anywhere": 12
+      },
+      "description": "선지 텍스트(2건), 지문 비매칭 mock 문맥(12건), 출전 미확인 고립 단어 문맥(12건) 등 26건 제거, 1건 검증 지문 문맥(홍진) 추가하여 순변화 -25건(904 -> 879), 고립된 12개 단어 엔트리 영구 제거(713 -> 701)"
+    }
+  },
+  "definition_source_work": {
+    "phase3d_field_missing_reviewed": 101,
+    "phase3d_source_assigned": 84,
+    "phase3d_standard_assigned": 81,
+    "phase3d_urimal_assigned": 3,
+    "phase3d_null_assigned": 17,
+    "phase3d_protected_existing_entries": 600,
+    "phase3e_editorial_targets": 13,
+    "phase3e_words_modified": 11,
+    "phase3e_definition_source_field_changes": 4,
+    "phase3e_net_source_distribution_change": 0,
+    "final_distribution": {
+      "표준국어대사전": 434,
+      "우리말샘": 40,
+      "null": 227
+    }
+  },
+  "legacy_cleanup": {
+    "top_level_type_audited_entries": 701,
+    "top_level_type_present_before": 339,
+    "top_level_type_removed_fields": 339,
+    "top_level_type_final_count": 0,
+    "top_level_type_match_with_category": 296,
+    "top_level_type_mismatch_with_category": 43,
+    "feed_audited_entries": 713,
+    "feed_nonempty_cleared": 53,
+    "feed_fields_removed": 0,
+    "feed_fields_normalized_to_empty_array": 53,
+    "feed_final_empty_array_count": 701
+  },
+  "tool_usage": {
+    "september_campaign": {
+      "total_transcript_events": 6090,
+      "tool_related_events": 5601,
+      "events_with_tool_calls": 2878,
+      "actual_tool_call_objects": 2878,
+      "explicit_tool_action_events": 2723
+    },
+    "final_editorial_range": {
+      "total_transcript_events": 1689,
+      "tool_related_events": 1583,
+      "events_with_tool_calls": 806,
+      "actual_tool_call_objects": 806,
+      "explicit_tool_action_events": 777
+    }
+  },
+  "worktime": {
+    "capped_interval_proxy": {
+      "description": "연속 이벤트 간격이 임계치를 초과할 때 최대 임계치로 상한 처리하는 활동 프록시: sum(min(dt, threshold))",
+      "september_campaign": {
+        "wall_clock_minutes": 3019.57,
+        "capped_5m_minutes": 956.88,
+        "capped_10m_minutes": 1098.02,
+        "capped_15m_minutes": 1191.62,
+        "capped_10m_hours": 18.3,
+        "confidence": "ESTIMATED"
+      },
+      "final_editorial_range": {
+        "wall_clock_minutes": 334.97,
+        "capped_5m_minutes": 224.15,
+        "capped_10m_minutes": 243.18,
+        "capped_15m_minutes": 253.73,
+        "capped_10m_hours": 4.05,
+        "confidence": "ESTIMATED"
+      }
+    },
+    "strict_gap_exclusion_proxy": {
+      "description": "임계치를 초과하는 비활동 간격을 전액 0으로 배제하는 보수적 하한 프록시: sum(dt if dt <= threshold else 0)",
+      "september_campaign": {
+        "strict_5m_minutes": 731.88,
+        "strict_10m_minutes": 898.02,
+        "strict_15m_minutes": 921.62,
+        "strict_10m_hours": 14.97,
+        "confidence": "ESTIMATED"
+      },
+      "final_editorial_range": {
+        "strict_5m_minutes": 184.15,
+        "strict_10m_minutes": 213.18,
+        "strict_15m_minutes": 223.73,
+        "strict_10m_hours": 3.55,
+        "confidence": "ESTIMATED"
+      }
+    }
+  },
+  "updated_at": "2026-09-08T07:10:26.337248+00:00"
 }

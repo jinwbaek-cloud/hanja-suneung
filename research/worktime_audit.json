@@ -22,7 +22,9 @@
       "primary_active_time_minutes": 1339.42,
       "primary_active_time_hours": 22.3,
       "event_count": 6956,
-      "tool_call_count": 6271
+      "tool_call_count": 6271,
+      "active_time_strict_10min_proxy_minutes": 1069.42,
+      "active_time_strict_10min_proxy_hours": 17.82
     },
     "september_campaign_range": {
       "description": "Continuous September compilation and editorial campaign (2026-09-06 04:15 UTC to 2026-09-08 06:34 UTC)",
@@ -37,7 +39,13 @@
       "primary_active_time_minutes": 1098.02,
       "primary_active_time_hours": 18.3,
       "event_count": 6090,
-      "tool_call_count": 5601
+      "tool_call_count": 5601,
+      "active_time_strict_5min_proxy_minutes": 731.88,
+      "active_time_strict_10min_proxy_minutes": 898.02,
+      "active_time_strict_15min_proxy_minutes": 921.62,
+      "active_time_strict_10min_proxy_hours": 14.97,
+      "tool_related_events": 5601,
+      "actual_tool_call_objects": 2878
     },
     "final_editorial_validation_range": {
       "description": "All-corpus baseline 7204b1d (2026-09-08 00:59 UTC / 09:59 KST) to final deploy baseline a18f436 (2026-09-08 06:34 UTC / 15:34 KST)",
@@ -52,10 +60,16 @@
       "primary_active_time_minutes": 243.18,
       "primary_active_time_hours": 4.1,
       "event_count": 1689,
-      "tool_call_count": 1583
+      "tool_call_count": 1583,
+      "active_time_strict_5min_proxy_minutes": 184.15,
+      "active_time_strict_10min_proxy_minutes": 213.18,
+      "active_time_strict_15min_proxy_minutes": 223.73,
+      "active_time_strict_10min_proxy_hours": 3.55,
+      "tool_related_events": 1583,
+      "actual_tool_call_objects": 806
     }
   },
-  "primary_active_time_method": "AntiGravity 작업 로그 기준 추정 active time, 10분 이상 비활동 구간 제외 (delta_t > 0: min(delta_t, 10.0))",
+  "primary_active_time_method": "Interval-capped proxy: sum(min(delta_t, threshold)) where intervals between consecutive events are capped at threshold",
   "session_count": 16,
   "sessions": [
     {
@@ -398,9 +412,13 @@
     }
   ],
   "caveats": [
-    "총 경과시간(Wall-clock span)은 최초 이벤트부터 최종 이벤트까지의 달력상 경과 시간이며, 연구자의 수면, 식사, 휴식 및 기타 업무 시간이 포함되어 있습니다.",
-    "추정 Active time은 AntiGravity 세션 로그의 연속 이벤트 간격을 10분 임계치로 절삭하여 계산한 값으로, 10분 이상의 비활동 구간은 작업시간에서 완전히 배제하였습니다.",
-    "기출 문제지 PDF 실물 대조 및 국어사전 수동 교차 검증 등 IDE 외부에서 진행된 오프라인 연구 시간은 이 로그에 온전히 기록되지 않으므로, 실제 연구 투입 시간의 하한(lower-bound) 성격을 갖습니다.",
+    "총 경과시간(Wall-clock span)은 최초 이벤트부터 최종 이벤트까지의 단순 달력상 경과 시간이며, 연구자의 수면, 식사, 휴식 및 기타 업무 시간이 포함되어 있습니다.",
+    "인터벌 캡 프록시(Interval-capped proxy: sum(min(dt, 10m)))는 연속 이벤트 간격이 10분을 초과할 경우 최대 10분으로 상한을 두어 가산한 값으로, 비활동 구간을 0으로 전액 배제하는 방식이 아닙니다.",
+    "엄격 갭 배제 프록시(Strict gap-exclusion proxy: sum(dt if dt <= 10m else 0))는 10분을 초과하는 간격을 0으로 전액 배제한 보수적 하한선 추정치입니다.",
+    "도구 사용량 지표 중 5,601건(9월 캠페인) 및 1,583건(Range B)은 모델의 도구 호출과 IDE의 실행 응답을 합산한 도구 관련 이벤트 수치이며, 모델이 순수 생성한 실제 도구 호출 객체(actual_tool_call_objects)는 9월 캠페인 2,878회, Range B 806회입니다.",
+    "기출 문제지 PDF 실물 대조 및 국어사전 수동 교차 검증 등 IDE 외부에서 진행된 오프라인 연구 시간은 이 로그에 온전히 기록되지 않으므로, 실제 인간 연구 투입 시간의 근사 프록시로 해석해야 합니다.",
     "6월 프로토타입부터 9월까지의 전체 프로젝트 범위(FULL PROJECT RANGE)는 중간 로그 공백이 존재하므로 신뢰도 등급을 PARTIAL로 명시합니다."
-  ]
+  ],
+  "secondary_active_time_method": "Strict gap-exclusion proxy: sum(delta_t if delta_t <= threshold else 0) where intervals exceeding threshold are completely excluded",
+  "updated_at": "2026-09-08T07:10:33.966362+00:00"
 }

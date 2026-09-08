@@ -1,0 +1,152 @@
+{
+  "phase": "Phase 6B Research Metrics Correction Audit",
+  "generated_at": "2026-09-08T07:09:55.938333+00:00",
+  "baseline_commit": "d1636d1",
+  "context_reconciliation": {
+    "phase1b": {
+      "commit_range": "2d1c83a -> f586aaf",
+      "baseline_contexts": 920,
+      "final_contexts": 902,
+      "raw_removed_contexts": 18,
+      "raw_added_contexts": 0,
+      "net_context_change": -18,
+      "words_affected": 8,
+      "zero_context_words_created": 4
+    },
+    "phase1c": {
+      "commit_range": "f586aaf -> f87244b",
+      "baseline_contexts": 902,
+      "final_contexts": 904,
+      "raw_removed_contexts": 2,
+      "raw_added_contexts": 4,
+      "net_context_change": 2,
+      "removed_zero_context_words": 4,
+      "net_word_change": -4,
+      "explanation": "Removed 4 zero-context words created in Phase 1B (717 -> 713); added 2 verified contexts for 귀속 (2024 6모, 2024 9모) and refined 2 context contents for 수렴 and 상충"
+    },
+    "phase3b2": {
+      "commit_range": "9cbcafa -> 1dffcd4",
+      "baseline_contexts": 904,
+      "final_contexts": 879,
+      "raw_removed_contexts": 26,
+      "raw_added_contexts": 1,
+      "net_context_change": -25,
+      "removed_words": 12,
+      "categories_of_removed": {
+        "question_material": 2,
+        "mock_context_word_verified_elsewhere": 12,
+        "not_verified_anywhere": 12
+      },
+      "verified_replacement_added": 1,
+      "metadata_only_modified": 95
+    }
+  },
+  "definition_source_reconciliation": {
+    "phase3d": {
+      "commit_range": "4e89050 -> 6309ec4",
+      "total_entries": 701,
+      "field_missing_audited": 101,
+      "assigned_standard": 81,
+      "assigned_urimal": 3,
+      "assigned_null": 17,
+      "protected_existing_entries": 600
+    },
+    "phase3e": {
+      "commit_range": "6309ec4 -> 646be4c",
+      "editorial_review_targets": 13,
+      "words_with_diff": 11,
+      "words_no_diff_retained": 2,
+      "definition_source_field_changes": 4,
+      "net_definition_source_distribution_change": 0
+    },
+    "final_distribution": {
+      "표준국어대사전": 434,
+      "우리말샘": 40,
+      "null": 227
+    }
+  },
+  "schema_legacy_cleanup_reconciliation": {
+    "top_level_type": {
+      "commit_range": "5300d1c -> bd0d657",
+      "audited_entries": 701,
+      "actual_type_fields_present_before": 339,
+      "actual_type_fields_removed": 339,
+      "final_type_fields_count": 0,
+      "match_with_category": 296,
+      "mismatch_with_category": 43
+    },
+    "feed_normalization": {
+      "commit_range": "f87244b -> 9cbcafa",
+      "total_entries": 713,
+      "feed_fields_present_before": 713,
+      "feed_fields_present_after": 713,
+      "non_empty_feed_before": 53,
+      "non_empty_feed_after": 0,
+      "feed_fields_deleted": 0,
+      "feed_normalized_to_empty_array": 53
+    }
+  },
+  "sense_contamination_reconciliation": {
+    "total_candidates": 9,
+    "actual_sense_contamination": 3,
+    "actual_sense_contamination_items": [
+      "사가(社歌)",
+      "사직(社稷)",
+      "사퇴(謝退)"
+    ],
+    "disambiguation_refinement": 5,
+    "disambiguation_refinement_items": [
+      "실정(失政)",
+      "산재(散在)",
+      "종용(從容)",
+      "역설(力說)",
+      "시차(視差)"
+    ],
+    "wording_refinement": 1,
+    "wording_refinement_items": [
+      "괘관(掛冠)"
+    ]
+  },
+  "ai_error_cases_reconciliation": {
+    "total_evaluated_cases": 20,
+    "actual_error_count": 5,
+    "editorial_refinement_count": 4,
+    "disambiguation_refinement_count": 5,
+    "process_observation_count": 5,
+    "potential_risk_count": 1
+  },
+  "tool_usage_reconciliation": {
+    "september_campaign": {
+      "total_events": 6090,
+      "tool_related_events": 5601,
+      "events_with_tool_calls": 2878,
+      "actual_tool_call_objects": 2878,
+      "explicit_tool_action_events": 2723
+    },
+    "final_editorial_range": {
+      "total_events": 1689,
+      "tool_related_events": 1583,
+      "events_with_tool_calls": 806,
+      "actual_tool_call_objects": 806,
+      "explicit_tool_action_events": 777
+    }
+  },
+  "active_time_reconciliation": {
+    "september_campaign": {
+      "wall_clock_minutes": 3019.57,
+      "capped_10m_proxy_minutes": 1098.02,
+      "capped_10m_proxy_hours": 18.3,
+      "strict_10m_proxy_minutes": 898.02,
+      "strict_10m_proxy_hours": 14.97,
+      "confidence": "ESTIMATED"
+    },
+    "final_editorial_range": {
+      "wall_clock_minutes": 334.97,
+      "capped_10m_proxy_minutes": 243.18,
+      "capped_10m_proxy_hours": 4.05,
+      "strict_10m_proxy_minutes": 213.18,
+      "strict_10m_proxy_hours": 3.55,
+      "confidence": "ESTIMATED"
+    }
+  }
+}
