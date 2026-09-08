@@ -1,0 +1,691 @@
+[
+  {
+    "key": "변증법",
+    "word": "변증법",
+    "hanja": "辨證法",
+    "contexts": [
+      "[2022 본수] 변증법은 대등한 위상을 지니는 세 범주의 병렬이 아니라, 대립적인 두 범주가 조화로운 통일을 이루어 가는 수렴적 상향성을 구조적 특징으로 한다."
+    ],
+    "old_difficulty": 3,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "정반합 모순 지양: 철학 전문용어이나 수능 빈출로 친숙성 높아 2 검토 가능하나 3 부여",
+    "final_difficulty": 3,
+    "final_confidence": "LOW",
+    "corrected_reason": "정반합 모순 지양: 철학 전문용어이나 수능 빈출로 친숙성 높아 2 검토 가능하나 3 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 3 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "인과",
+    "word": "인과",
+    "hanja": "因果",
+    "contexts": [
+      "[2022 6모] 근대 이후 서양의 철학자들은 과학적 세계관이 대두하면서 이전과는 달리 인과를 물리적 작용 사이의 관계로 국한하려는 경향을 보였다.",
+      "[2026 9모] SF에서는 과학적 진위가 아니라 개연성, 즉 작품의 주요 설정이나 사건의 인과 관계가 합리적으로 납득될 수 있느냐가 중요하다.",
+      "[2025 6모] 이를 바탕으로 ⓓ세 글의 정보를 종합하여 ‘동물 저작권의 성립 요건’에 관해 인과 관계 구조로 정리하였다.",
+      "[2025 본수] 그는 인과 실증의 방법에 근거한 근대 학문 전체를 과학이라 파악하고, 과학을 습득하여 전통 학문의 폐단에서 벗어나야 한다고 주장 했다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 1,
+    "old_confidence": "LOW",
+    "old_reason": "원인과 결과: 일상적으로 널리 쓰이나 독서 논리 인과관계 핵심 개념어로 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "원인과 결과: 일상적으로 널리 쓰이나 독서 논리 인과관계 핵심 개념어로 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "실정",
+    "word": "실정",
+    "hanja": "失政",
+    "contexts": [
+      "[2022 6모] 그에 따르면, 군주가 실정(失政)을 저지르면 그로 말미암아 변화된 음양의 기를 통해 감응한 하늘이 가뭄과 홍수, 일식과 월식 등 재이를 통해 경고를 내린다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 1,
+    "old_confidence": "LOW",
+    "old_reason": "실제 사정(實情) vs 잘못된 정치(失政): 문맥에 따른 의미 구별 필요하여 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "정치를 잘못함(失政): 한자 구성(잃을/그르칠 실, 정치 정)으로 의미 추론이 가능하며 군주의 통치상 과오를 가리키는 전통 정치·사상 개념어",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "도출",
+    "word": "도출",
+    "hanja": "導出",
+    "contexts": [
+      "[2024 6모] 위티는 이 두 요인을 레벤달이 말한 두 가지 통제 반응과 관련지어 다음과 같은 결론을 도출하였다.",
+      "[2026 6모] 일반적인 원리를 전제로 인증 숏 현상의 문제에 대한 해결 방안을 도출한다.",
+      "[2026 9모] 제안 정책 개선 방안 도출",
+      "[2026 본수] 칸트는 두 전제 모두 납득할 수 있다고 보지만, 그 전제들로부터 ‘영혼이 인격이다’라는 결론은 도출되지 않는다고 지적한다.",
+      "[2025 6모] 이처럼 독도 바다사자의 복원에는 정확한 실태 조사, 사회적 합의 도출 등 앞으로 해결해야 할 과제가 많습니다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 1,
+    "old_confidence": "LOW",
+    "old_reason": "결론을 이끌어냄: 일상적 사고어로 볼 수도 있으나 논리 추론 학술어로 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "결론을 이끌어냄: 일상적 사고어로 볼 수도 있으나 논리 추론 학술어로 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "환기",
+    "word": "환기",
+    "hanja": "喚起",
+    "contexts": [
+      "[2022 9모] 개별 광고가 구매자의 내면에 잠재된 필요나 욕구를 환기하여 대상 상품에 대한 소비를 촉진하는 효과가 합쳐지면 경제 전반에 선순환을 기대할 수 있다.",
+      "[2026 6모] 청중의 기억을 환기하여 발표 내용과 청중과의 관련성을 드러내고 있다.",
+      "[2026 본수] 청중과 공유하는 경험을 환기하며 발표를 시작하고 있다.",
+      "[2025 6모] ③ 청중의 관심을 끌기 위해 화제와 관련한 청중의 경험을 환기 하고 있다.",
+      "[2025 9모] ③ 발표 순서를 안내하기 위해 활용한 ㉠과, 발표 순서를 환기 하기 위해 활용한 ㉡을 정리하여 발표 내용을 구조화한다.",
+      "[2025 본수] ③ 화자의 눈앞에 없지만 ‘부’름으로써 환기되는 대상이다."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "주의를 환기함: 문맥 추론 용이하여 1 부여하나 관념적 의미로 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "주의를 환기함: 문맥 추론 용이하여 1 부여하나 관념적 의미로 2 검토 가능",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "소구",
+    "word": "소구",
+    "hanja": "訴求",
+    "contexts": [
+      "[2024 6모] 공포 소구는 그 메시지에 담긴 권고를 따르지 않을 때의 해로운 결과를 강조하여 수용자를 설득하는 것으로, 1950년대 초부터 설득 전략 연구자들의 연구 대상이 되었다."
+    ],
+    "old_difficulty": 3,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "광고 심리 호소: 광고학 전문어이나 일반 독해에서도 자주 접해 2 검토 가능하나 3 부여",
+    "final_difficulty": 3,
+    "final_confidence": "LOW",
+    "corrected_reason": "광고 심리 호소: 광고학 전문어이나 일반 독해에서도 자주 접해 2 검토 가능하나 3 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 3 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "산재",
+    "word": "산재",
+    "hanja": "散在",
+    "contexts": [
+      "[2025 6모] 많은 정보가 산재해 있는 디지털 환경에서 더욱 중요해졌다. 궁금증 해소나 글쓰기 등 문제 해결을 위한 목적으로..."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "흩어져 존재함: 일상 상태어로 1 부여하나 산업재해(産災) 혼동 주의 및 학술어로 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "여기저기 흩어져 존재함: 일상생활 및 다양한 독서 지문에서 널리 쓰이며 문맥을 통해 쉽게 이해되는 기본 상태 어휘",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "견제",
+    "word": "견제",
+    "hanja": "牽制",
+    "contexts": [
+      "[2025 6모] 사외 이사 제도는 독단적인 의사 결정을 견제함으로써 폐쇄적 경영으로 인한 정보와 권한의 집중을 억제하는 효과를..."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "행동을 억제함: 일상 시사용어로 1 부여하나 권력분립 등 학술 맥락에서 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "행동을 억제함: 일상 시사용어로 1 부여하나 권력분립 등 학술 맥락에서 2 검토 가능",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "총체",
+    "word": "총체",
+    "hanja": "總體",
+    "contexts": [
+      "[2025 9모] 영화가 담아내고자 하는 현실은 물리적 시ㆍ공간이 분할되지 않는 하나의 총체로, 그 의미가 미리 정해지지 않은 미결정의 상태이다.",
+      "[2026 6모] 미식 관광은 방문객들이 음식을 통해 그 지역의 맛을 즐기고 역사적, 문화적 지식까지 함께 얻게 함으로써 지역과 연결되는 총체적 경험을 제공한다.",
+      "[2026 9모] 오늘날의 사회는 분산적이고 파편적이기 때문에 그 총체적인 양상은 시간이 흐른 뒤에야, 즉 역사가 된 이후에야 파악된다."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "전체를 아우름: 일상적 기본어로 1 부여하나 추상성에 따라 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "전체를 아우름: 일상적 기본어로 1 부여하나 추상성에 따라 2 검토 가능",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "간극",
+    "word": "간극",
+    "hanja": "間隙",
+    "contexts": [
+      "[2025 9모] 관객은 상상적 작업을 통해, 영화가 보여 주는 세계의 중심에 자신을 위치시킴으로써, 허구적 세계와 현실 사이의 간극을 없앤다.",
+      "[2026 6모] 이 작품 속 초월적 세계는 다른 영웅소설에서처럼 인간 세계와의 간극을 지닌 곳으로 인식되지만, 인간 세계에나 있을 법한 갈등이 일어나는 곳으로도 그려진다.",
+      "[2025 본수] 그러나 이런 식의 자기 고백이 지속될 수 없는 까닭은 이 이상화된 ‘그’와 실제의 ‘그’ 사이의 간극이 주는 부끄러움 때문이다."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "생각이나 대상 사이 틈: 일상어로 1 부여하나 추상적 거리감으로 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "생각이나 대상 사이 틈: 일상어로 1 부여하나 추상적 거리감으로 2 검토 가능",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "와해",
+    "word": "와해",
+    "hanja": "瓦解",
+    "contexts": [
+      "[2026 6모] 이로써 사회 각 영역의 자율적 조절 기능이 훼손되고 사회의 통합이 법에 의해 와해된다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 1,
+    "old_confidence": "LOW",
+    "old_reason": "조직이나 세력의 붕괴: 일상 시사용어로 1 가능하나 한자 비유성(기와 무너짐) 고려해 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "조직이나 세력의 붕괴: 일상 시사용어로 1 가능하나 한자 비유성(기와 무너짐) 고려해 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "당위",
+    "word": "당위",
+    "hanja": "當爲",
+    "contexts": [
+      "[2026 6모] 결국 법의 규범 구조가 균열된 상태에서, 법으로 문제를 해결해야 한다는 당위만 남는다.",
+      "[2025 6모] 공적 가치는 국가 차원의 사건에 참여 하는 당위로 제시되고, 사적 목표는 가문의 일원으로서 그 사건 해결에 가담하는 동력이 된다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 3,
+    "old_confidence": "LOW",
+    "old_reason": "마땅히 그러해야 함: 철학 개념어(Sollen)로 깊은 지식 필요해 3 검토 가능하나 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "마땅히 그러해야 함: 철학 개념어(Sollen)로 깊은 지식 필요해 3 검토 가능하나 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "편중",
+    "word": "편중",
+    "hanja": "偏重",
+    "contexts": [
+      "[2026 9모] 학습한 정보에 문제가 없더라도 정보의 추출 및 조합 과정에서 정보의 왜곡이 나타날 수 있다. 즉, 독자의 요구나 선호에 부합하는 일부 정보만 편중되게 발췌하거나 일부 해석을 누락하기도 한다."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "치우침: 일상적으로 널리 쓰여 1 부여하나 사회 비판 학술 맥락에서 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "치우침: 일상적으로 널리 쓰여 1 부여하나 사회 비판 학술 맥락에서 2 검토 가능",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "형이상학",
+    "word": "형이상학",
+    "hanja": "形而上學",
+    "contexts": [
+      "[2027 9모] 이 방법론에 따르면 도덕적 지위는 서로 다른 두 실재 사이의 자유 의지, 의도, 의식 등과 같은 형이상학적 속성의 동등성이 아니라, 경험적으로 인식 가능한 행동의 동등성을 비교하여 추론할 수 있다.",
+      "[2025 본수] 우리 영혼은 언제까지나 그 어머니의 탯줄과 이어지려 하고, 또다시 그 어머니의 어머니의 탯줄과 이어져 나가면서 우리 존재를 설명하고 근원을 밝혀 나가며, 마침내는 마지막 어머니의 탯줄이 이어지는 우리들의 우주와 만나게 된다…… 우리의 배꼽은 우리가 그 마지막 우주와 만나고자 하는 향수의 표상이며 가능성의 상징이며 존재의 비밀로 나아가는 형이상학이다."
+    ],
+    "old_difficulty": 3,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "존재 근본 원리 탐구: 철학 전문용어이나 상용 지칭어로 2 검토 가능하나 3 부여",
+    "final_difficulty": 3,
+    "final_confidence": "LOW",
+    "corrected_reason": "존재 근본 원리 탐구: 철학 전문용어이나 상용 지칭어로 2 검토 가능하나 3 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 3 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "범주",
+    "word": "범주",
+    "hanja": "範疇",
+    "contexts": [
+      "[2022 본수] 변증법은 대등한 위상을 지니는 세 범주의 병렬이 아니라, 대립적인 두 범주가 조화로운 통일을 이루어 가는 수렴적 상향성을 구조적 특징으로 한다.",
+      "[2026 6모] 플로리디는 인간을 정보적 상호 연결에 의해 구현되는 인포그의 하나로 본다는 점에서, 인간을 별도의 범주로 분류하는 인간중심주의와 대비된다.",
+      "[2026 9모] 범주화는 우리가 대상을 이해하는 방식 중 하나로, 개별 대상을 동일한 속성끼리 묶어 파악하는 사고방식이다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 3,
+    "old_confidence": "LOW",
+    "old_reason": "사고의 기본 틀: 칸트 철학 범주론으로 3 검토 가능하나 일반 분류 개념어로 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "사고의 기본 틀: 칸트 철학 범주론으로 3 검토 가능하나 일반 분류 개념어로 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "투영",
+    "word": "투영",
+    "hanja": "投影",
+    "contexts": [
+      "[2022 본수] 카메라가 3차원 실세계를 2차원 영상으로 투영하면 크기가 동일한 물체라도 카메라로부터 멀리 있을수록 더 작게 나타나는데, 위에서 내려다보는 시점의 영상에서는 거리에 따른 물체의 크기 변화가 없어야 하기 때문이다.",
+      "[2022 9모] 키넥트 센서는 저해상도 입체 이미지를 고해상도 컬러 이미지에 투영하여 사용자가 검출되는 경우, <그림>과 같이 신체 부위에 대응되는 25개의 연결점을 선으로 이은 3D 골격 이미지를 제공한다.",
+      "[2025 6모] ④ ㉯에서 연상되는 상황이 현실이 될 경우 ㉮에 투영된 염원은 실현 가능성이 사라진다.",
+      "[2025 9모] 화자는 자신을 물고기에 투영하면서, 성년이 된 지금도 여전히 생가에서의 ‘시린’ 기억을 간직하고 있는 자신을 발견한다."
+    ],
+    "old_difficulty": 3,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "빛 비춤/심리 투사: 심리학/기하학 전문어이나 일반 은유로도 쓰여 2 검토 가능하나 3 부여",
+    "final_difficulty": 3,
+    "final_confidence": "LOW",
+    "corrected_reason": "빛 비춤/심리 투사: 심리학/기하학 전문어이나 일반 은유로도 쓰여 2 검토 가능하나 3 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 3 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "역설",
+    "word": "역설",
+    "hanja": "力說",
+    "contexts": [
+      "[2022 6모] 그는 인간이 감각적인 존재라는 사실에 맞추어 제도가 운용될 것을 역설한다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 3,
+    "old_confidence": "LOW",
+    "old_reason": "힘주어 말함(力說): 패러독스(逆說)와 동음이의어로 오독 위험 있어 3 검토 가능하나 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "자신의 주장이나 견해를 힘주어 말함: 학술 및 논설 지문에서 핵심 논지를 강조하는 서술어로 자주 쓰이는 논리적 어휘",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "공리주의",
+    "word": "공리주의",
+    "hanja": "功利主義",
+    "contexts": [
+      "[2022 6모] 이처럼 베카리아는 잔혹한 형벌을 반대하여 휴머니스트로, 최대 다수의 최대 행복을 말하여 공리주의자로, 자유로운 인간들 사이의 합의를 바탕으로 논의를 전개하여 사회 계약론자로 이해된다."
+    ],
+    "old_difficulty": 3,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "최대 다수 최대 행복: 윤리 교과 기본 개념으로 2 검토 가능하나 학술 이론으로 3 부여",
+    "final_difficulty": 3,
+    "final_confidence": "LOW",
+    "corrected_reason": "최대 다수 최대 행복: 윤리 교과 기본 개념으로 2 검토 가능하나 학술 이론으로 3 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 3 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "주형",
+    "word": "주형",
+    "hanja": "鑄型",
+    "contexts": [
+      "[2022 6모] PCR는 주형 DNA, 프라이머, DNA 중합 효소, 4종의 뉴클레오타이드가 필요하다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 3,
+    "old_confidence": "LOW",
+    "old_reason": "물건 틀/생물 주형 가닥: 분자생물학 특수 문맥 고려 시 3 검토 가능하나 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "물건 틀/생물 주형 가닥: 분자생물학 특수 문맥 고려 시 3 검토 가능하나 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "시차",
+    "word": "시차",
+    "hanja": "視差",
+    "contexts": [
+      "[2022 9모] HMD는 가상 현실 트레드밀과 연동하여 사용자의 시선이 머무는 가상 공간을 표현하는, 시차가 있는 영상을 전달한다."
+    ],
+    "old_difficulty": 3,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "관측 위치별 겉보기 위치 차: 천문학 전문어이나 일반 시차(시간차)와 혼동되어 3 부여",
+    "final_difficulty": 3,
+    "final_confidence": "LOW",
+    "corrected_reason": "보는 위치에 따른 시야각이나 방향의 차이(양안 시차): 광학·천문학 및 VR 기술 지문의 핵심 원리를 설명하는 과학 전문용어",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 3 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "종용",
+    "word": "종용",
+    "hanja": "從容",
+    "contexts": [
+      "[2022 9모] 아무리 부인이 타신 터이라도 이러한 정세를 말씀하시고, 한편 이물 구석에 종용히 끼어 가게 하여 주시면 그 아니 적선이오?"
+    ],
+    "old_difficulty": 2,
+    "alternative": 3,
+    "old_confidence": "LOW",
+    "old_reason": "조용함(從容): 권유함(慫慂)과 동음이의 위험 및 고어성 있어 3 검토 가능하나 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "태도가 조용하고 차분함: 고전문학(배비장전)에서 남모르게 가만히 또는 침착하게 행동하는 양상을 나타내는 고전 표현 어휘",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "타결",
+    "word": "타결",
+    "hanja": "妥結",
+    "contexts": [
+      "[2022 9모] 그럼 3층에 도서관을 설치하는 것으로 협상이 타결되었습니다."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "협상 매듭지음: 시사 보도 빈출어로 1 부여하나 공식 협상 전문성 고려해 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "협상 매듭지음: 시사 보도 빈출어로 1 부여하나 공식 협상 전문성 고려해 2 검토 가능",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "오인",
+    "word": "오인",
+    "hanja": "誤認",
+    "contexts": [
+      "[2027 6모] 또 허위․왜곡 정보가 시민의 사회적․정치적 사안 판단에 쓰이고, 정책 담당자도 특정 개인이나 집단이 의도적으로 유통한 정보를 시민의 진정한 의견으로 오인할 수 있다.",
+      "[2025 9모] ‘표시광고법’은 소비자를 속이거나 오인하게 할 우려가 있는 부당한 광고를 금지한다."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "잘못 보고 판단함: 일상어로 1 부여하나 법학상 착오 오인 등에서 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "잘못 보고 판단함: 일상어로 1 부여하나 법학상 착오 오인 등에서 2 검토 가능",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "표면 장력",
+    "word": "표면 장력",
+    "hanja": "表面張力",
+    "contexts": [
+      "[2027 6모] 구형은 동일한 부피에서 표면적이 최소인 형태인데 이는 액체 분자 간의 인력으로 발생하는 표면 장력의 작용 때문이다."
+    ],
+    "old_difficulty": 3,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "액체 표면 수축력: 물리 전문용어이나 중고교 과학 친숙성 있어 2 검토 가능하나 3 부여",
+    "final_difficulty": 3,
+    "final_confidence": "LOW",
+    "corrected_reason": "액체 표면 수축력: 물리 전문용어이나 중고교 과학 친숙성 있어 2 검토 가능하나 3 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 3 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "계면 활성제",
+    "word": "계면 활성제",
+    "hanja": "界面活性劑",
+    "contexts": [
+      "[2027 6모] 폐포 내벽에 분비되는 계면 활성제는 폐포 안팎의 표면 장력을 조절하여 작은 폐포가 쉽게 붕괴되지 않도록 돕는다."
+    ],
+    "old_difficulty": 3,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "표면장력 저하 물질: 화학 전문용어이나 일상 세제 상식어로 2 검토 가능하나 3 부여",
+    "final_difficulty": 3,
+    "final_confidence": "LOW",
+    "corrected_reason": "표면장력 저하 물질: 화학 전문용어이나 일상 세제 상식어로 2 검토 가능하나 3 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 3 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "착취",
+    "word": "착취",
+    "hanja": "搾取",
+    "contexts": [
+      "[2027 6모] 조선 팔도로 다니며 불의한 재물을 탈취하고, 가난하여 의지할 곳 없는 자거든 재물 주어 구제하되 성명을 통치 말고, 열읍 수령 중 백성을 착취하여 얻은 자의 재물을 탈취하라."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "쥐어짜 빼앗음: 일상어로 1 부여하나 노동경제학적 개념어로 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "쥐어짜 빼앗음: 일상어로 1 부여하나 노동경제학적 개념어로 2 검토 가능",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "강행적",
+    "word": "강행적",
+    "hanja": "強行的",
+    "contexts": [
+      "[2026 6모] 그런데 법적 규제가 과도할 경우 삶의 세계를 구성해 온 고유한 직업 윤리 등 문화적․도덕적 규범이 강행적 성격을 띤 법 규범에 의해 침범당하는 경우가 생긴다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 3,
+    "old_confidence": "LOW",
+    "old_reason": "강제 적용되는 성질: 법학 강행규정 전문어 맥락 고려 시 3 검토 가능하나 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "강제 적용되는 성질: 법학 강행규정 전문어 맥락 고려 시 3 검토 가능하나 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "층위",
+    "word": "층위",
+    "hanja": "層位",
+    "contexts": [
+      "[2026 6모] 예를 들어 뉴턴이 생각한 공간은 주체나 대상과 관계없는 절대적인 것이었으나, 인포스피어는 대상과 주체가 서로 의존함으로써 존재하는 공간이자 대상이 추상화 층위를 통해서 인식되는 공간 이다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 3,
+    "old_confidence": "LOW",
+    "old_reason": "사고나 구조의 단계 층: 추상성 높아 3 검토 가능하나 독서 지문 빈출어로 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "사고나 구조의 단계 층: 추상성 높아 3 검토 가능하나 독서 지문 빈출어로 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "누락",
+    "word": "누락",
+    "hanja": "漏落",
+    "contexts": [
+      "[2026 9모] 즉, 독자의 요구나 선호에 부합하는 일부 정보만 편중되게 발췌하거나 일부 해석을 누락하기도 한다.",
+      "[2025 본수] ④ 독서 목적을 고려하면, 2문단에서는 ‘지느러미는 배를 젓는 노와 같은 형태’에 ‘ ’를 누락하였군."
+    ],
+    "old_difficulty": 2,
+    "alternative": 1,
+    "old_confidence": "LOW",
+    "old_reason": "기록 등에서 빠뜨림: 일상어로 1 가능하나 통계/행정 맥락 고려해 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "기록 등에서 빠뜨림: 일상어로 1 가능하나 통계/행정 맥락 고려해 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "취합",
+    "word": "취합",
+    "hanja": "聚合",
+    "contexts": [
+      "[2026 9모] 대상을 선정하고 자료를 취합 및 분석하는 등의 취재 과정에 사회 과학적 방법을 활용함으로써 주관성이 개입될 수 있는 한계를 보완하고 공중의 숙고를 촉진 한다는 것이다. 10."
+    ],
+    "old_difficulty": 2,
+    "alternative": 1,
+    "old_confidence": "LOW",
+    "old_reason": "자료를 모아 합침: 일상 행정어로 1 가능하나 공문서 맥락 고려해 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "자료를 모아 합침: 일상 행정어로 1 가능하나 공문서 맥락 고려해 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "숙고",
+    "word": "숙고",
+    "hanja": "熟考",
+    "contexts": [
+      "[2026 9모] 대상을 선정하고 자료를 취합 및 분석하는 등의 취재 과정에 사회 과학적 방법을 활용함으로써 주관성이 개입될 수 있는 한계를 보완하고 공중의 숙고를 촉진 한다는 것이다. 10."
+    ],
+    "old_difficulty": 2,
+    "alternative": 1,
+    "old_confidence": "LOW",
+    "old_reason": "깊이 생각함: 일상어로 1 가능하나 철학/사고 맥락 고려해 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "깊이 생각함: 일상어로 1 가능하나 철학/사고 맥락 고려해 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "기저",
+    "word": "기저",
+    "hanja": "基底",
+    "contexts": [
+      "[2026 9모] 이러한 인지 과정의 기저에는 ‘범주화’가 깔려 있다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 3,
+    "old_confidence": "LOW",
+    "old_reason": "밑바탕과 기초: 수학 기저(basis) 등 전문성 높아 3 검토 가능하나 독서 은유어로 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "밑바탕과 기초: 수학 기저(basis) 등 전문성 높아 3 검토 가능하나 독서 은유어로 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "통시적",
+    "word": "통시적",
+    "hanja": "通時的",
+    "contexts": [
+      "[2026 본수] 칸트는 통시적으로 동일한 인격의 존재를 직접 증명하는 대신 ‘시간의 흐름 속에서 마주치는 복수의 주관이 동일한 인격으로 인식된다.’라는 가정이 반드시 선행되어야 한다고 제안한다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 3,
+    "old_confidence": "LOW",
+    "old_reason": "시간 흐름에 따른 관점: 언어학 전문어로 3 검토 가능하나 국어 기본 독해어로 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "시간 흐름에 따른 관점: 언어학 전문어로 3 검토 가능하나 국어 기본 독해어로 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "불하",
+    "word": "불하",
+    "hanja": "拂下",
+    "contexts": [
+      "[2026 본수] 물론 불하를 내게 될 적에는 이미 지어진 집 임자에게 기득권을 부여하게 될 터이었다.",
+      "[2023 6모] 그래 전, 걸 십만 원에 불하 맡아다, 백만 원 하난 냉겨 먹을 테문서, 그래 겨우 둔 만 원야?"
+    ],
+    "old_difficulty": 2,
+    "alternative": 3,
+    "old_confidence": "LOW",
+    "old_reason": "국유재산 민간 매각: 행정법 전문용어 맥락 고려 시 3 검토 가능하나 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "LOW",
+    "corrected_reason": "국유재산 민간 매각: 행정법 전문용어 맥락 고려 시 3 검토 가능하나 2 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 2 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "기득권",
+    "word": "기득권",
+    "hanja": "旣得權",
+    "contexts": [
+      "[2026 본수] 물론 불하를 내게 될 적에는 이미 지어진 집 임자에게 기득권을 부여하게 될 터이었다."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "이미 차지한 권리: 일상 시사용어로 1 부여하나 사회과학적 분석어로 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "이미 차지한 권리: 일상 시사용어로 1 부여하나 사회과학적 분석어로 2 검토 가능",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "사가",
+    "word": "사가",
+    "hanja": "社歌",
+    "contexts": [
+      "[2025 9모] 새로 맞춘 제복으로 단장한 남녀 전 사원이 각 부서별로 군대처럼 질서 정연하게 도열해 서서 연단에 선 지휘자의 손끝을 우러러보며 사가(社歌)를 제창하기 직전의 예비 운동으로 목청을 가다듬는 헛기침들을 하고 있었다."
+    ],
+    "old_difficulty": 2,
+    "alternative": 3,
+    "old_confidence": "LOW",
+    "old_reason": "개인의 사사로운 집: 문맥에 따라 회사 노래(社歌) 등 다의어 위험 있어 3 검토 가능하나 2 부여",
+    "final_difficulty": 2,
+    "final_confidence": "MEDIUM",
+    "corrected_reason": "회사나 조직을 상징하는 노래: 한자 구성(모일/회사 사, 노래 가)으로 의미 추론이 쉬우나 일상 사용 빈도는 높지 않은 어휘",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "기존 reason의 私家(사사로운 집) 오류를 제거하고 실제 기출 문맥인 社歌(회사의 노래)로 재검토함. 한자 구성(회사 사, 노래 가)으로 의미 파악이 가능하나 일상 사용 빈도가 높지 않아 difficulty 2가 완벽히 타당하므로 KEEP하고, confidence는 MEDIUM으로 상향함."
+  },
+  {
+    "key": "고유 주파수",
+    "word": "고유 주파수",
+    "hanja": "固有周波數",
+    "contexts": [
+      "[2024 9모] 이때 전압의 주파수를 수정의 고유 주파수와 일치시켜 수정이 큰 폭으로 진동하도록 하여 진동을 측정하기 쉽게 만든 것이 수정 진동자이다."
+    ],
+    "old_difficulty": 3,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "물체 고유 진동수: 진동물리학 전문어이나 과학 지문 빈출로 2 검토 가능하나 3 부여",
+    "final_difficulty": 3,
+    "final_confidence": "LOW",
+    "corrected_reason": "물체 고유 진동수: 진동물리학 전문어이나 과학 지문 빈출로 2 검토 가능하나 3 부여",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 3 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "균등",
+    "word": "균등",
+    "hanja": "均等",
+    "contexts": [
+      "[2023 9모] 이렇게 받은 A의 값은 A가 링크한 다른 웹 페이지들에 균등하게 나눠진다."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "고르고 가름: 일상 기본어로 1 부여하나 헌법/통계 개념어로 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "고르고 가름: 일상 기본어로 1 부여하나 헌법/통계 개념어로 2 검토 가능",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  },
+  {
+    "key": "갱신",
+    "word": "갱신",
+    "hanja": "更新",
+    "contexts": [
+      "[2023 9모] 웹 페이지들을 연결하는 링크들은 변할 수 있기 때문에 검색 엔진은 주기적으로 웹 페이지의 중요도를 갱신한다."
+    ],
+    "old_difficulty": 1,
+    "alternative": 2,
+    "old_confidence": "LOW",
+    "old_reason": "새로 고침: 일상 기본어로 1 부여하나 법률/계약 전문 맥락에서 2 검토 가능",
+    "final_difficulty": 1,
+    "final_confidence": "LOW",
+    "corrected_reason": "새로 고침: 일상 기본어로 1 부여하나 법률/계약 전문 맥락에서 2 검토 가능",
+    "decision": "KEEP_DIFFICULTY",
+    "reason_for_decision": "실제 기출 context와 고교 독자의 독해 난도를 엄밀히 재검토한 결과, 기존 difficulty 1 판정이 타당하며 변경 사유(A, B, C)에 해당하지 않음. 1↔2 또는 2↔3 경계선상 borderline 특성을 유지하여 편찬 정보로 보존함."
+  }
+]

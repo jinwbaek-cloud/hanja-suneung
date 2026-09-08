@@ -1,0 +1,406 @@
+{
+  "project": "한알국쉬 수능 (suneung.easyhanja.org)",
+  "log_sources_used": [
+    "conversation_e4ab815f (2026-06-20, prototype creation)",
+    "conversation_8a425301 (2026-06-21, early dataset inspection)",
+    "conversation_eabfab74 (2026-09-06, 2027 9mo PDF check)",
+    "conversation_f0fcc2f0 (2026-09-06 ~ 2026-09-08, corpus extraction, revalidation, Phase 1 - 3B)",
+    "conversation_59863e76 (2026-09-08, Phase 3B-2 - Phase 5 closure)"
+  ],
+  "log_sources_missing": "Logs between 2026-06-22 and 2026-09-05 are incomplete/absent in this repo history (during which LEET branch was pursued and offline corpus drafting occurred before git repo init on 2026-09-03). Therefore FULL PROJECT RANGE is rated PARTIAL.",
+  "ranges": {
+    "full_project_range": {
+      "description": "Earliest prototype session (2026-06-20) to final deploy baseline a18f436 (2026-09-08)",
+      "confidence": "PARTIAL",
+      "earliest_event": "2026-06-20T05:56:10+00:00",
+      "latest_event": "2026-09-08T06:34:48+00:00",
+      "wall_clock_span_minutes": 115238.63,
+      "wall_clock_span_days": 80.0,
+      "active_time_5min_threshold_minutes": 1144.22,
+      "active_time_10min_threshold_minutes": 1339.42,
+      "active_time_15min_threshold_minutes": 1467.12,
+      "primary_active_time_minutes": 1339.42,
+      "primary_active_time_hours": 22.3,
+      "event_count": 6956,
+      "tool_call_count": 6271
+    },
+    "september_campaign_range": {
+      "description": "Continuous September compilation and editorial campaign (2026-09-06 04:15 UTC to 2026-09-08 06:34 UTC)",
+      "confidence": "ESTIMATED",
+      "earliest_event": "2026-09-06T04:15:14+00:00",
+      "latest_event": "2026-09-08T06:34:48+00:00",
+      "wall_clock_span_minutes": 3019.57,
+      "wall_clock_span_hours": 50.3,
+      "active_time_5min_threshold_minutes": 956.88,
+      "active_time_10min_threshold_minutes": 1098.02,
+      "active_time_15min_threshold_minutes": 1191.62,
+      "primary_active_time_minutes": 1098.02,
+      "primary_active_time_hours": 18.3,
+      "event_count": 6090,
+      "tool_call_count": 5601
+    },
+    "final_editorial_validation_range": {
+      "description": "All-corpus baseline 7204b1d (2026-09-08 00:59 UTC / 09:59 KST) to final deploy baseline a18f436 (2026-09-08 06:34 UTC / 15:34 KST)",
+      "confidence": "ESTIMATED",
+      "earliest_event": "2026-09-08T00:59:50+00:00",
+      "latest_event": "2026-09-08T06:34:48+00:00",
+      "wall_clock_span_minutes": 334.97,
+      "wall_clock_span_hours": 5.6,
+      "active_time_5min_threshold_minutes": 224.15,
+      "active_time_10min_threshold_minutes": 243.18,
+      "active_time_15min_threshold_minutes": 253.73,
+      "primary_active_time_minutes": 243.18,
+      "primary_active_time_hours": 4.1,
+      "event_count": 1689,
+      "tool_call_count": 1583
+    }
+  },
+  "primary_active_time_method": "AntiGravity 작업 로그 기준 추정 active time, 10분 이상 비활동 구간 제외 (delta_t > 0: min(delta_t, 10.0))",
+  "session_count": 16,
+  "sessions": [
+    {
+      "session_index": 1,
+      "conversation_id_short": "e4ab815f",
+      "start_time_utc": "2026-06-20T05:56:10+00:00",
+      "end_time_utc": "2026-06-20T07:40:51+00:00",
+      "start_time_kst": "2026-06-20 14:56:10",
+      "end_time_kst": "2026-06-20 16:40:51",
+      "wall_clock_minutes": 104.68,
+      "active_time_10m_minutes": 97.15,
+      "event_count": 286,
+      "tool_call_count": 216,
+      "primary_task": "Initial prototype development"
+    },
+    {
+      "session_index": 2,
+      "conversation_id_short": "e4ab815f",
+      "start_time_utc": "2026-06-20T10:08:09+00:00",
+      "end_time_utc": "2026-06-20T10:08:09+00:00",
+      "start_time_kst": "2026-06-20 19:08:09",
+      "end_time_kst": "2026-06-20 19:08:09",
+      "wall_clock_minutes": 0.0,
+      "active_time_10m_minutes": 0.0,
+      "event_count": 1,
+      "tool_call_count": 0,
+      "primary_task": "Initial prototype development"
+    },
+    {
+      "session_index": 3,
+      "conversation_id_short": "e4ab815f",
+      "start_time_utc": "2026-06-20T20:40:24+00:00",
+      "end_time_utc": "2026-06-20T21:03:42+00:00",
+      "start_time_kst": "2026-06-21 05:40:24",
+      "end_time_kst": "2026-06-21 06:03:42",
+      "wall_clock_minutes": 23.3,
+      "active_time_10m_minutes": 19.2,
+      "event_count": 48,
+      "tool_call_count": 34,
+      "primary_task": "Initial prototype development"
+    },
+    {
+      "session_index": 4,
+      "conversation_id_short": "e4ab815f",
+      "start_time_utc": "2026-06-20T22:41:22+00:00",
+      "end_time_utc": "2026-06-20T22:56:43+00:00",
+      "start_time_kst": "2026-06-21 07:41:22",
+      "end_time_kst": "2026-06-21 07:56:43",
+      "wall_clock_minutes": 15.35,
+      "active_time_10m_minutes": 15.35,
+      "event_count": 79,
+      "tool_call_count": 49,
+      "primary_task": "Initial prototype development"
+    },
+    {
+      "session_index": 5,
+      "conversation_id_short": "8a425301",
+      "start_time_utc": "2026-06-21T20:07:58+00:00",
+      "end_time_utc": "2026-06-21T21:07:40+00:00",
+      "start_time_kst": "2026-06-22 05:07:58",
+      "end_time_kst": "2026-06-22 06:07:40",
+      "wall_clock_minutes": 59.7,
+      "active_time_10m_minutes": 59.7,
+      "event_count": 452,
+      "tool_call_count": 371,
+      "primary_task": "Dataset and mock update inspection"
+    },
+    {
+      "session_index": 6,
+      "conversation_id_short": "eabfab74",
+      "start_time_utc": "2026-09-06T04:15:14+00:00",
+      "end_time_utc": "2026-09-06T06:06:55+00:00",
+      "start_time_kst": "2026-09-06 13:15:14",
+      "end_time_kst": "2026-09-06 15:06:55",
+      "wall_clock_minutes": 111.68,
+      "active_time_10m_minutes": 100.8,
+      "event_count": 680,
+      "tool_call_count": 588,
+      "primary_task": "2027-09 mock and PDF verification"
+    },
+    {
+      "session_index": 7,
+      "conversation_id_short": "f0fcc2f0",
+      "start_time_utc": "2026-09-06T07:17:19+00:00",
+      "end_time_utc": "2026-09-06T09:36:23+00:00",
+      "start_time_kst": "2026-09-06 16:17:19",
+      "end_time_kst": "2026-09-06 18:36:23",
+      "wall_clock_minutes": 139.07,
+      "active_time_10m_minutes": 120.18,
+      "event_count": 521,
+      "tool_call_count": 451,
+      "primary_task": "Corpus extraction & verification (2022-2027)"
+    },
+    {
+      "session_index": 8,
+      "conversation_id_short": "f0fcc2f0",
+      "start_time_utc": "2026-09-06T10:22:26+00:00",
+      "end_time_utc": "2026-09-06T10:57:20+00:00",
+      "start_time_kst": "2026-09-06 19:22:26",
+      "end_time_kst": "2026-09-06 19:57:20",
+      "wall_clock_minutes": 34.9,
+      "active_time_10m_minutes": 20.52,
+      "event_count": 146,
+      "tool_call_count": 121,
+      "primary_task": "Corpus extraction & verification (2022-2027)"
+    },
+    {
+      "session_index": 9,
+      "conversation_id_short": "f0fcc2f0",
+      "start_time_utc": "2026-09-06T21:55:20+00:00",
+      "end_time_utc": "2026-09-06T23:46:39+00:00",
+      "start_time_kst": "2026-09-07 06:55:20",
+      "end_time_kst": "2026-09-07 08:46:39",
+      "wall_clock_minutes": 111.32,
+      "active_time_10m_minutes": 101.1,
+      "event_count": 683,
+      "tool_call_count": 644,
+      "primary_task": "Corpus extraction & verification (2022-2027)"
+    },
+    {
+      "session_index": 10,
+      "conversation_id_short": "f0fcc2f0",
+      "start_time_utc": "2026-09-07T00:49:02+00:00",
+      "end_time_utc": "2026-09-07T01:20:44+00:00",
+      "start_time_kst": "2026-09-07 09:49:02",
+      "end_time_kst": "2026-09-07 10:20:44",
+      "wall_clock_minutes": 31.7,
+      "active_time_10m_minutes": 31.7,
+      "event_count": 123,
+      "tool_call_count": 95,
+      "primary_task": "Corpus extraction & verification (2022-2027)"
+    },
+    {
+      "session_index": 11,
+      "conversation_id_short": "f0fcc2f0",
+      "start_time_utc": "2026-09-07T05:00:34+00:00",
+      "end_time_utc": "2026-09-07T05:09:36+00:00",
+      "start_time_kst": "2026-09-07 14:00:34",
+      "end_time_kst": "2026-09-07 14:09:36",
+      "wall_clock_minutes": 9.03,
+      "active_time_10m_minutes": 9.03,
+      "event_count": 23,
+      "tool_call_count": 21,
+      "primary_task": "Corpus extraction & verification (2022-2027)"
+    },
+    {
+      "session_index": 12,
+      "conversation_id_short": "f0fcc2f0",
+      "start_time_utc": "2026-09-07T05:57:14+00:00",
+      "end_time_utc": "2026-09-07T06:58:10+00:00",
+      "start_time_kst": "2026-09-07 14:57:14",
+      "end_time_kst": "2026-09-07 15:58:10",
+      "wall_clock_minutes": 60.93,
+      "active_time_10m_minutes": 49.57,
+      "event_count": 136,
+      "tool_call_count": 122,
+      "primary_task": "Corpus extraction & verification (2022-2027)"
+    },
+    {
+      "session_index": 13,
+      "conversation_id_short": "f0fcc2f0",
+      "start_time_utc": "2026-09-07T08:07:50+00:00",
+      "end_time_utc": "2026-09-07T10:48:43+00:00",
+      "start_time_kst": "2026-09-07 17:07:50",
+      "end_time_kst": "2026-09-07 19:48:43",
+      "wall_clock_minutes": 160.88,
+      "active_time_10m_minutes": 154.48,
+      "event_count": 803,
+      "tool_call_count": 761,
+      "primary_task": "Corpus extraction & verification (2022-2027)"
+    },
+    {
+      "session_index": 14,
+      "conversation_id_short": "f0fcc2f0",
+      "start_time_utc": "2026-09-07T11:47:35+00:00",
+      "end_time_utc": "2026-09-07T11:47:45+00:00",
+      "start_time_kst": "2026-09-07 20:47:35",
+      "end_time_kst": "2026-09-07 20:47:45",
+      "wall_clock_minutes": 0.17,
+      "active_time_10m_minutes": 0.17,
+      "event_count": 5,
+      "tool_call_count": 4,
+      "primary_task": "Corpus extraction & verification (2022-2027)"
+    },
+    {
+      "session_index": 15,
+      "conversation_id_short": "f0fcc2f0",
+      "start_time_utc": "2026-09-07T21:56:22+00:00",
+      "end_time_utc": "2026-09-08T02:34:07+00:00",
+      "start_time_kst": "2026-09-08 06:56:22",
+      "end_time_kst": "2026-09-08 11:34:07",
+      "wall_clock_minutes": 277.75,
+      "active_time_10m_minutes": 271.02,
+      "event_count": 1742,
+      "tool_call_count": 1640,
+      "primary_task": "Phase 1 - Phase 3B DB audit & restoration"
+    },
+    {
+      "session_index": 16,
+      "conversation_id_short": "f0fcc2f0",
+      "start_time_utc": "2026-09-08T03:59:16+00:00",
+      "end_time_utc": "2026-09-08T06:34:48+00:00",
+      "start_time_kst": "2026-09-08 12:59:16",
+      "end_time_kst": "2026-09-08 15:34:48",
+      "wall_clock_minutes": 155.53,
+      "active_time_10m_minutes": 139.45,
+      "event_count": 1228,
+      "tool_call_count": 1154,
+      "primary_task": "Phase 1 - Phase 3B DB audit & restoration"
+    }
+  ],
+  "phase_time_estimates": [
+    {
+      "phase": "Pre-7204b1d CSAT Corpus Building",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 2684.6,
+      "active_time_10m_minutes": 854.83,
+      "event_count": 4402,
+      "tool_call_count": 4019
+    },
+    {
+      "phase": "Phase 1 factual correction",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 36.75,
+      "active_time_10m_minutes": 36.17,
+      "event_count": 200,
+      "tool_call_count": 183
+    },
+    {
+      "phase": "Phase 1B provenance cleanup",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 7.22,
+      "active_time_10m_minutes": 6.77,
+      "event_count": 38,
+      "tool_call_count": 36
+    },
+    {
+      "phase": "Phase 1C corpus closure",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 12.75,
+      "active_time_10m_minutes": 12.72,
+      "event_count": 70,
+      "tool_call_count": 63
+    },
+    {
+      "phase": "Phase 2 legacy cleanup",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 28.6,
+      "active_time_10m_minutes": 28.6,
+      "event_count": 122,
+      "tool_call_count": 118
+    },
+    {
+      "phase": "Phase 3A metadata audit",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 109.13,
+      "active_time_10m_minutes": 33.98,
+      "event_count": 52,
+      "tool_call_count": 48
+    },
+    {
+      "phase": "Phase 3B section/domain restoration",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 16.48,
+      "active_time_10m_minutes": 16.48,
+      "event_count": 134,
+      "tool_call_count": 123
+    },
+    {
+      "phase": "Phase 3B-2 corpus integrity repair",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 17.2,
+      "active_time_10m_minutes": 17.2,
+      "event_count": 198,
+      "tool_call_count": 188
+    },
+    {
+      "phase": "Phase 3C category normalization",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 7.87,
+      "active_time_10m_minutes": 7.87,
+      "event_count": 66,
+      "tool_call_count": 61
+    },
+    {
+      "phase": "Phase 3D definitionSource verification",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 20.77,
+      "active_time_10m_minutes": 20.77,
+      "event_count": 167,
+      "tool_call_count": 163
+    },
+    {
+      "phase": "Phase 3E editorial review closure",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 5.78,
+      "active_time_10m_minutes": 5.78,
+      "event_count": 35,
+      "tool_call_count": 33
+    },
+    {
+      "phase": "Phase 4A difficulty classification",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 11.57,
+      "active_time_10m_minutes": 11.57,
+      "event_count": 177,
+      "tool_call_count": 172
+    },
+    {
+      "phase": "Phase 4A-2 boundary / sense audit",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 8.93,
+      "active_time_10m_minutes": 8.93,
+      "event_count": 42,
+      "tool_call_count": 40
+    },
+    {
+      "phase": "Phase 4B UI integration",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 14.57,
+      "active_time_10m_minutes": 14.57,
+      "event_count": 219,
+      "tool_call_count": 198
+    },
+    {
+      "phase": "Phase 4C final regression closure",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 6.83,
+      "active_time_10m_minutes": 6.83,
+      "event_count": 70,
+      "tool_call_count": 64
+    },
+    {
+      "phase": "Phase 5 SEO foundation",
+      "confidence": "ESTIMATED",
+      "wall_clock_minutes": 30.52,
+      "active_time_10m_minutes": 14.43,
+      "event_count": 121,
+      "tool_call_count": 111
+    }
+  ],
+  "caveats": [
+    "총 경과시간(Wall-clock span)은 최초 이벤트부터 최종 이벤트까지의 달력상 경과 시간이며, 연구자의 수면, 식사, 휴식 및 기타 업무 시간이 포함되어 있습니다.",
+    "추정 Active time은 AntiGravity 세션 로그의 연속 이벤트 간격을 10분 임계치로 절삭하여 계산한 값으로, 10분 이상의 비활동 구간은 작업시간에서 완전히 배제하였습니다.",
+    "기출 문제지 PDF 실물 대조 및 국어사전 수동 교차 검증 등 IDE 외부에서 진행된 오프라인 연구 시간은 이 로그에 온전히 기록되지 않으므로, 실제 연구 투입 시간의 하한(lower-bound) 성격을 갖습니다.",
+    "6월 프로토타입부터 9월까지의 전체 프로젝트 범위(FULL PROJECT RANGE)는 중간 로그 공백이 존재하므로 신뢰도 등급을 PARTIAL로 명시합니다."
+  ]
+}

@@ -1,0 +1,2224 @@
+{
+  "phase": "Phase 3C Category Normalization",
+  "baseline_words": 701,
+  "baseline_contexts": 879,
+  "statistics": {
+    "before_distinct_categories": [
+      "개념 이해형",
+      "개념 정밀화형",
+      "고전 어휘 독해형",
+      "고전문학",
+      "고전문학 특화",
+      "구조 파악형",
+      "문맥적 의미 파악형",
+      "배경 지식형",
+      "의미 추론형",
+      "일반",
+      "전문용어 이해형"
+    ],
+    "after_distinct_categories": [
+      "개념 이해형",
+      "구조 파악형",
+      "의미 추론형",
+      "전문용어 이해형"
+    ],
+    "changed_count": 134,
+    "unchanged_standard_count": 567,
+    "review_count": 35,
+    "initial_category_counts": {
+      "구조 파악형": 35,
+      "개념 이해형": 147,
+      "의미 추론형": 166,
+      "전문용어 이해형": 219,
+      "고전문학 특화": 4,
+      "일반": 9,
+      "고전문학": 30,
+      "배경 지식형": 5,
+      "개념 정밀화형": 13,
+      "문맥적 의미 파악형": 5,
+      "고전 어휘 독해형": 68
+    },
+    "final_category_counts": {
+      "구조 파악형": 36,
+      "개념 이해형": 170,
+      "의미 추론형": 250,
+      "전문용어 이해형": 245
+    }
+  },
+  "changes": [
+    {
+      "key": "수중고혼_수중고혼-水中孤魂",
+      "dict_key": "수중고혼",
+      "word": "수중고혼",
+      "hanja": "水中孤魂",
+      "id": "수중고혼-水中孤魂",
+      "before_category": "고전문학 특화",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 특화 기본 매핑: 고전문학 지문에서 한자 의미와 문맥을 통해 파악하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "흠향_흠향-歆饗",
+      "dict_key": "흠향",
+      "word": "흠향",
+      "hanja": "歆饗",
+      "id": "흠향-歆饗",
+      "before_category": "고전문학 특화",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 특화 기본 매핑: 고전문학 지문에서 한자 의미와 문맥을 통해 파악하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "주달_주달-奏達",
+      "dict_key": "주달",
+      "word": "주달",
+      "hanja": "奏達",
+      "id": "주달-奏達",
+      "before_category": "고전문학 특화",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 특화 기본 매핑: 고전문학 지문에서 한자 의미와 문맥을 통해 파악하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "자태_자태-姿態",
+      "dict_key": "자태",
+      "word": "자태",
+      "hanja": "姿態",
+      "id": "자태-姿態",
+      "before_category": "고전문학 특화",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 특화 기본 매핑: 고전문학 지문에서 한자 의미와 문맥을 통해 파악하는 어휘",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "존립_존립-存立",
+      "dict_key": "존립",
+      "word": "존립",
+      "hanja": "存立",
+      "id": "존립-存立",
+      "before_category": "일반",
+      "after_category": "개념 이해형",
+      "reason": "사물이나 조직이 존속하여 성립함을 뜻하는 추상적 개념어",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "독서/사회·법"
+      ]
+    },
+    {
+      "key": "와해_와해-瓦解",
+      "dict_key": "와해",
+      "word": "와해",
+      "hanja": "瓦解",
+      "id": "와해-瓦解",
+      "before_category": "일반",
+      "after_category": "의미 추론형",
+      "reason": "기와가 깨지고 흩어지듯 무너진다는 한자 구성과 문맥 추론 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "독서/사회·법"
+      ]
+    },
+    {
+      "key": "당위_당위-當爲",
+      "dict_key": "당위",
+      "word": "당위",
+      "hanja": "當爲",
+      "id": "당위-當爲",
+      "before_category": "일반",
+      "after_category": "개념 이해형",
+      "reason": "마땅히 그렇게 되어야 하는 규범적·철학적 당위 개념어",
+      "primary_context_sources": [
+        "2026 6모",
+        "2025 6모"
+      ],
+      "section_domain": [
+        "독서/사회·법",
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "개진_개진-開陳",
+      "dict_key": "개진",
+      "word": "개진",
+      "hanja": "開陳",
+      "id": "개진-開陳",
+      "before_category": "일반",
+      "after_category": "의미 추론형",
+      "reason": "의견이나 생각을 열어서 펼쳐 보인다는 문맥 추론 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "독서/사회·법"
+      ]
+    },
+    {
+      "key": "매개_매개-媒介",
+      "dict_key": "매개",
+      "word": "매개",
+      "hanja": "媒介",
+      "id": "매개-媒介",
+      "before_category": "일반",
+      "after_category": "구조 파악형",
+      "reason": "관계와 논리적 연결을 매개하는 구조 파악 어휘",
+      "primary_context_sources": [
+        "2026 6모",
+        "2026 본수",
+        "2025 본수"
+      ],
+      "section_domain": [
+        "독서/인문·철학",
+        "독서/인문·철학",
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "환원_환원-還元",
+      "dict_key": "환원",
+      "word": "환원",
+      "hanja": "還元",
+      "id": "환원-還元",
+      "before_category": "일반",
+      "after_category": "개념 이해형",
+      "reason": "근본 상태나 다른 형태로 되돌리거나 분석하는 학술적 개념어",
+      "primary_context_sources": [
+        "2026 6모",
+        "2023 9모"
+      ],
+      "section_domain": [
+        "독서/인문·철학",
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "지척_지척-咫尺",
+      "dict_key": "지척",
+      "word": "지척",
+      "hanja": "咫尺",
+      "id": "지척-咫尺",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "행장_행장-行裝",
+      "dict_key": "행장",
+      "word": "행장",
+      "hanja": "行裝",
+      "id": "행장-行裝",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "기피_기피-忌避",
+      "dict_key": "기피",
+      "word": "기피",
+      "hanja": "忌避",
+      "id": "기피-忌避",
+      "before_category": "일반",
+      "after_category": "의미 추론형",
+      "reason": "꺼려서 피한다는 한자 구성과 문맥 추론 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "독서/사회·법"
+      ]
+    },
+    {
+      "key": "담론_담론-談論",
+      "dict_key": "담론",
+      "word": "담론",
+      "hanja": "談論",
+      "id": "담론-談論",
+      "before_category": "일반",
+      "after_category": "개념 이해형",
+      "reason": "특정 주제에 대한 논의와 사유 체계를 뜻하는 사회·학술적 개념어",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "독서/사회·법"
+      ]
+    },
+    {
+      "key": "편중_편중-偏重",
+      "dict_key": "편중",
+      "word": "편중",
+      "hanja": "偏重",
+      "id": "편중-偏重",
+      "before_category": "일반",
+      "after_category": "개념 이해형",
+      "reason": "한쪽으로 치우침을 나타내는 추상적 개념어",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "궤란_궤란-憒亂",
+      "dict_key": "궤란",
+      "word": "궤란",
+      "hanja": "憒亂",
+      "id": "궤란-憒亂",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "제수_제수-除授",
+      "dict_key": "제수",
+      "word": "제수",
+      "hanja": "除授",
+      "id": "제수-除授",
+      "before_category": "고전문학",
+      "after_category": "전문용어 이해형",
+      "reason": "추천이나 과거 없이 관직을 직접 내리는 조선 관제 전문용어",
+      "primary_context_sources": [
+        "2026 9모",
+        "2027 9모",
+        "2027 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설",
+        "문학/고전소설",
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "대경실색_대경실색-大驚失色",
+      "dict_key": "대경실색",
+      "word": "대경실색",
+      "hanja": "大驚失色",
+      "id": "대경실색-大驚失色",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모",
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설",
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "신원_신원-伸冤",
+      "dict_key": "신원-伸冤",
+      "word": "신원",
+      "hanja": "伸冤",
+      "id": "신원-伸冤",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2027 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "등과_등과-登科",
+      "dict_key": "등과",
+      "word": "등과",
+      "hanja": "登科",
+      "id": "등과-登科",
+      "before_category": "고전문학",
+      "after_category": "전문용어 이해형",
+      "reason": "과거 시험에 급제함을 뜻하는 조선 과거 제도 전문용어",
+      "primary_context_sources": [
+        "2027 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "추증_추증-追贈",
+      "dict_key": "추증",
+      "word": "추증",
+      "hanja": "追贈",
+      "id": "추증-追贈",
+      "before_category": "고전문학",
+      "after_category": "전문용어 이해형",
+      "reason": "사후에 벼슬을 올려주는 조선 관제 전문용어",
+      "primary_context_sources": [
+        "2027 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "외람_외람-猥濫",
+      "dict_key": "외람",
+      "word": "외람",
+      "hanja": "猥濫",
+      "id": "외람-猥濫",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2027 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "비감_비감-悲感",
+      "dict_key": "비감",
+      "word": "비감",
+      "hanja": "悲感",
+      "id": "비감-悲感",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2027 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "공명_공명-功名",
+      "dict_key": "공명",
+      "word": "공명",
+      "hanja": "功名",
+      "id": "공명-功名",
+      "before_category": "고전문학",
+      "after_category": "개념 이해형",
+      "reason": "세속적인 공훈과 명예를 뜻하는 유교적 가치·추상 개념어",
+      "primary_context_sources": [
+        "2027 9모",
+        "2026 9모",
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설",
+        "문학/고전시가",
+        "문학/수필"
+      ]
+    },
+    {
+      "key": "객회_객회-客懷",
+      "dict_key": "객회",
+      "word": "객회",
+      "hanja": "客懷",
+      "id": "객회-客懷",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2027 9모"
+      ],
+      "section_domain": [
+        "문학/현대소설"
+      ]
+    },
+    {
+      "key": "편액_편액-扁額",
+      "dict_key": "편액",
+      "word": "편액",
+      "hanja": "扁額",
+      "id": "편액-扁額",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2027 9모"
+      ],
+      "section_domain": [
+        "문학/현대소설"
+      ]
+    },
+    {
+      "key": "고각_고각-高閣",
+      "dict_key": "고각",
+      "word": "고각",
+      "hanja": "高閣",
+      "id": "고각-高閣",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2027 9모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "옥음_옥음-玉音",
+      "dict_key": "옥음",
+      "word": "옥음",
+      "hanja": "玉音",
+      "id": "옥음-玉音",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2027 9모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "명재경각_명재경각-命在頃刻",
+      "dict_key": "명재경각",
+      "word": "명재경각",
+      "hanja": "命在頃刻",
+      "id": "명재경각-命在頃刻",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "직계_직계-直啓",
+      "dict_key": "직계",
+      "word": "직계",
+      "hanja": "直啓",
+      "id": "직계-直啓",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "하교_하교-下敎",
+      "dict_key": "하교",
+      "word": "하교",
+      "hanja": "下敎",
+      "id": "하교-下敎",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "금부_금부-禁府",
+      "dict_key": "금부",
+      "word": "금부",
+      "hanja": "禁府",
+      "id": "금부-禁府",
+      "before_category": "고전문학",
+      "after_category": "전문용어 이해형",
+      "reason": "조선시대 의금부를 가리키는 사법 관청 전문용어",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "정배_정배-定配",
+      "dict_key": "정배",
+      "word": "정배",
+      "hanja": "定配",
+      "id": "정배-定配",
+      "before_category": "고전문학",
+      "after_category": "전문용어 이해형",
+      "reason": "죄인을 특정 지역으로 유배 보내는 조선 형벌 제도 전문용어",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "초종례_초종례-初終禮",
+      "dict_key": "초종례",
+      "word": "초종례",
+      "hanja": "初終禮",
+      "id": "초종례-初終禮",
+      "before_category": "고전문학",
+      "after_category": "전문용어 이해형",
+      "reason": "사람이 숨진 직후부터 장례를 시작하는 유교 상장례 의전 전문용어",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "염습_염습-殮襲",
+      "dict_key": "염습",
+      "word": "염습",
+      "hanja": "殮襲",
+      "id": "염습-殮襲",
+      "before_category": "고전문학",
+      "after_category": "전문용어 이해형",
+      "reason": "시신을 씻기고 옷을 입혀 묶는 유교 상장례 의식 전문용어",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "미복_미복-微服",
+      "dict_key": "미복",
+      "word": "미복",
+      "hanja": "微服",
+      "id": "미복-微服",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "사직_사직-社稷",
+      "dict_key": "사직",
+      "word": "사직",
+      "hanja": "社稷",
+      "id": "사직-社稷",
+      "before_category": "고전문학",
+      "after_category": "전문용어 이해형",
+      "reason": "토지신과 곡식신에게 제사 지내는 제단이자 국가 사직을 뜻하는 역사·제도 전문용어",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "삭망_삭망-朔望",
+      "dict_key": "삭망",
+      "word": "삭망",
+      "hanja": "朔望",
+      "id": "삭망-朔望",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "내빈왕객_내빈왕객-來賓往客",
+      "dict_key": "내빈왕객",
+      "word": "내빈왕객",
+      "hanja": "來賓往客",
+      "id": "내빈왕객-來賓往客",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "궁귀_궁귀-窮鬼",
+      "dict_key": "궁귀",
+      "word": "궁귀",
+      "hanja": "窮鬼",
+      "id": "궁귀-窮鬼",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "천기_천기-天機",
+      "dict_key": "천기",
+      "word": "천기",
+      "hanja": "天機",
+      "id": "천기-天機",
+      "before_category": "고전문학",
+      "after_category": "개념 이해형",
+      "reason": "하늘의 기미와 자연의 오묘한 이치를 뜻하는 철학·문학적 개념어",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/수필"
+      ]
+    },
+    {
+      "key": "희로우락_희로우락-喜怒憂樂",
+      "dict_key": "희로우락",
+      "word": "희로우락",
+      "hanja": "喜怒憂樂",
+      "id": "희로우락-喜怒憂樂",
+      "before_category": "고전문학",
+      "after_category": "의미 추론형",
+      "reason": "고전문학 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2022 본수"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "천견설_천견설-天譴說",
+      "dict_key": "천견설",
+      "word": "천견설",
+      "hanja": "天譴說",
+      "id": "천견설-天譴說",
+      "before_category": "배경 지식형",
+      "after_category": "전문용어 이해형",
+      "reason": "배경 지식형 기본 매핑: 특정 분야 및 역사·철학적 전문 지식에 해당하는 전문용어",
+      "primary_context_sources": [
+        "2022 6모"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "천인감응론_천인감응론-天人感應論",
+      "dict_key": "천인감응론",
+      "word": "천인감응론",
+      "hanja": "天人感應論",
+      "id": "천인감응론-天人感應論",
+      "before_category": "배경 지식형",
+      "after_category": "전문용어 이해형",
+      "reason": "배경 지식형 기본 매핑: 특정 분야 및 역사·철학적 전문 지식에 해당하는 전문용어",
+      "primary_context_sources": [
+        "2022 6모"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "공리주의_공리주의-功利主義",
+      "dict_key": "공리주의",
+      "word": "공리주의",
+      "hanja": "功利主義",
+      "id": "공리주의-功利主義",
+      "before_category": "배경 지식형",
+      "after_category": "전문용어 이해형",
+      "reason": "배경 지식형 기본 매핑: 특정 분야 및 역사·철학적 전문 지식에 해당하는 전문용어",
+      "primary_context_sources": [
+        "2022 6모"
+      ],
+      "section_domain": [
+        "독서/사회·법"
+      ]
+    },
+    {
+      "key": "이방_이방-吏房",
+      "dict_key": "이방",
+      "word": "이방",
+      "hanja": "吏房",
+      "id": "이방-吏房",
+      "before_category": "배경 지식형",
+      "after_category": "전문용어 이해형",
+      "reason": "배경 지식형 기본 매핑: 특정 분야 및 역사·철학적 전문 지식에 해당하는 전문용어",
+      "primary_context_sources": [
+        "2022 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "일도방백_일도방백-一道方伯",
+      "dict_key": "일도방백",
+      "word": "일도방백",
+      "hanja": "一道方伯",
+      "id": "일도방백-一道方伯",
+      "before_category": "배경 지식형",
+      "after_category": "전문용어 이해형",
+      "reason": "배경 지식형 기본 매핑: 특정 분야 및 역사·철학적 전문 지식에 해당하는 전문용어",
+      "primary_context_sources": [
+        "2022 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "조화_조화-造化",
+      "dict_key": "조화-造化",
+      "word": "조화",
+      "hanja": "造化",
+      "id": "조화-造化",
+      "before_category": "고전문학",
+      "after_category": "개념 이해형",
+      "reason": "우주 만물을 생성하고 변화시키는 자연의 원리를 뜻하는 철학적 개념어",
+      "primary_context_sources": [
+        "2022 본수",
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/수필",
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "추상화_추상화-抽象化",
+      "dict_key": "추상화",
+      "word": "추상화",
+      "hanja": "抽象化",
+      "id": "추상화-抽象化",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "층위_층위-層位",
+      "dict_key": "층위",
+      "word": "층위",
+      "hanja": "層位",
+      "id": "층위-層位",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "표구_표구-表具",
+      "dict_key": "표구",
+      "word": "표구",
+      "hanja": "表具",
+      "id": "표구-表具",
+      "before_category": "문맥적 의미 파악형",
+      "after_category": "의미 추론형",
+      "reason": "문맥적 의미 파악형 기본 매핑: 문맥과 한자 구성을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/현대소설"
+      ]
+    },
+    {
+      "key": "호사가_호사가-好事家",
+      "dict_key": "호사가",
+      "word": "호사가",
+      "hanja": "好事家",
+      "id": "호사가-好事家",
+      "before_category": "문맥적 의미 파악형",
+      "after_category": "의미 추론형",
+      "reason": "문맥적 의미 파악형 기본 매핑: 문맥과 한자 구성을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/현대소설"
+      ]
+    },
+    {
+      "key": "경황_경황-景況",
+      "dict_key": "경황",
+      "word": "경황",
+      "hanja": "景況",
+      "id": "경황-景況",
+      "before_category": "문맥적 의미 파악형",
+      "after_category": "의미 추론형",
+      "reason": "문맥적 의미 파악형 기본 매핑: 문맥과 한자 구성을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/현대소설"
+      ]
+    },
+    {
+      "key": "천신만고_천신만고-千辛萬苦",
+      "dict_key": "천신만고",
+      "word": "천신만고",
+      "hanja": "千辛萬苦",
+      "id": "천신만고-千辛萬苦",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "만경창파_만경창파-萬頃蒼波",
+      "dict_key": "만경창파",
+      "word": "만경창파",
+      "hanja": "萬頃蒼波",
+      "id": "만경창파-萬頃蒼波",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "일엽편주_일엽편주-一葉片舟",
+      "dict_key": "일엽편주",
+      "word": "일엽편주",
+      "hanja": "一葉片舟",
+      "id": "일엽편주-一葉片舟",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "수부_수부-水府",
+      "dict_key": "수부",
+      "word": "수부",
+      "hanja": "水府",
+      "id": "수부-水府",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "사생존망_사생존망-死生存亡",
+      "dict_key": "사생존망",
+      "word": "사생존망",
+      "hanja": "死生存亡",
+      "id": "사생존망-死生存亡",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "동심합력_동심합력-同心合力",
+      "dict_key": "동심합력",
+      "word": "동심합력",
+      "hanja": "同心合力",
+      "id": "동심합력-同心合力",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "삭탈관직_삭탈관직-削奪官職",
+      "dict_key": "삭탈관직",
+      "word": "삭탈관직",
+      "hanja": "削奪官職",
+      "id": "삭탈관직-削奪官職",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "관직과 벼슬을 빼앗고 벼슬아치 명부에서 이름을 지우는 조선 관제 형벌 전문용어",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "항서_항서-降書",
+      "dict_key": "항서",
+      "word": "항서",
+      "hanja": "降書",
+      "id": "항서-降書",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "누락_누락-漏落",
+      "dict_key": "누락",
+      "word": "누락",
+      "hanja": "漏落",
+      "id": "누락-漏落",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 9모",
+        "2025 본수"
+      ],
+      "section_domain": [
+        "독서/인문·철학",
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "왕정복고_왕정복고-王政復古",
+      "dict_key": "왕정복고",
+      "word": "왕정복고",
+      "hanja": "王政復古",
+      "id": "왕정복고-王政復古",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "조망_조망-眺望",
+      "dict_key": "조망",
+      "word": "조망",
+      "hanja": "眺望",
+      "id": "조망-眺望",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "역사화_역사화-歷史化",
+      "dict_key": "역사화",
+      "word": "역사화",
+      "hanja": "歷史化",
+      "id": "역사화-歷史化",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "취합_취합-聚合",
+      "dict_key": "취합",
+      "word": "취합",
+      "hanja": "聚合",
+      "id": "취합-聚合",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "독서/사회·법"
+      ]
+    },
+    {
+      "key": "숙고_숙고-熟考",
+      "dict_key": "숙고",
+      "word": "숙고",
+      "hanja": "熟考",
+      "id": "숙고-熟考",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "독서/사회·법"
+      ]
+    },
+    {
+      "key": "분울_분울-憤鬱",
+      "dict_key": "분울",
+      "word": "분울",
+      "hanja": "憤鬱",
+      "id": "분울-憤鬱",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "도임_도임-到任",
+      "dict_key": "도임",
+      "word": "도임",
+      "hanja": "到任",
+      "id": "도임-到任",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "벽력_벽력-霹靂",
+      "dict_key": "벽력",
+      "word": "벽력",
+      "hanja": "霹靂",
+      "id": "벽력-霹靂",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "상사_상사-上舍",
+      "dict_key": "상사",
+      "word": "상사",
+      "hanja": "上舍",
+      "id": "상사-上舍",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "부모나 친족이 사망하여 치르는 상례 및 상장 제도 전문용어",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/수필"
+      ]
+    },
+    {
+      "key": "흉중_흉중-胸中",
+      "dict_key": "흉중",
+      "word": "흉중",
+      "hanja": "胸中",
+      "id": "흉중-胸中",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/수필"
+      ]
+    },
+    {
+      "key": "산명수려_산명수려-山明水麗",
+      "dict_key": "산명수려",
+      "word": "산명수려",
+      "hanja": "山明水麗",
+      "id": "산명수려-山明水麗",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "수륙진미_수륙진미-水陸珍味",
+      "dict_key": "수륙진미",
+      "word": "수륙진미",
+      "hanja": "水陸珍味",
+      "id": "수륙진미-水陸珍味",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "괘관_괘관-掛冠",
+      "dict_key": "괘관",
+      "word": "괘관",
+      "hanja": "掛冠",
+      "id": "괘관-掛冠",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "전려_전려-田廬",
+      "dict_key": "전려",
+      "word": "전려",
+      "hanja": "田廬",
+      "id": "전려-田廬",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "임고원망_임고원망-臨高遠望",
+      "dict_key": "임고원망",
+      "word": "임고원망",
+      "hanja": "臨高遠望",
+      "id": "임고원망-臨高遠望",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "호상_호상-護喪",
+      "dict_key": "호상",
+      "word": "호상",
+      "hanja": "護喪",
+      "id": "호상-護喪",
+      "before_category": "문맥적 의미 파악형",
+      "after_category": "의미 추론형",
+      "reason": "문맥적 의미 파악형 기본 매핑: 문맥과 한자 구성을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "문학/현대소설"
+      ]
+    },
+    {
+      "key": "범주화_범주화-範疇化",
+      "dict_key": "범주화",
+      "word": "범주화",
+      "hanja": "範疇化",
+      "id": "범주화-範疇化",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 9모",
+        "2023 본수"
+      ],
+      "section_domain": [
+        "화법과 작문/None",
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "기저_기저-基底",
+      "dict_key": "기저",
+      "word": "기저",
+      "hanja": "基底",
+      "id": "기저-基底",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 9모"
+      ],
+      "section_domain": [
+        "화법과 작문/None"
+      ]
+    },
+    {
+      "key": "수용_수용-受容",
+      "dict_key": "수용",
+      "word": "수용",
+      "hanja": "受容",
+      "id": "수용-受容",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 9모",
+        "2025 6모",
+        "2025 9모",
+        "2025 본수"
+      ],
+      "section_domain": [
+        "언어와 매체/매체",
+        "독서/과학·기술",
+        "문학/현대시",
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "자기의식_자기의식-自己意識",
+      "dict_key": "자기의식",
+      "word": "자기의식",
+      "hanja": "自己意識",
+      "id": "자기의식-自己意識",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "통시적_통시적-通時的",
+      "dict_key": "통시적",
+      "word": "통시적",
+      "hanja": "通時的",
+      "id": "통시적-通時的",
+      "before_category": "개념 정밀화형",
+      "after_category": "개념 이해형",
+      "reason": "개념 정밀화형 기본 매핑: 추상적·학술적 개념을 정밀하게 이해하는 어휘",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "노소고하_노소고하-老少高下",
+      "dict_key": "노소고하",
+      "word": "노소고하",
+      "hanja": "老少高下",
+      "id": "노소고하-老少高下",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "기식_기식-寄食",
+      "dict_key": "기식",
+      "word": "기식",
+      "hanja": "寄食",
+      "id": "기식-寄食",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "심산궁곡_심산궁곡-深山窮谷",
+      "dict_key": "심산궁곡",
+      "word": "심산궁곡",
+      "hanja": "深山窮谷",
+      "id": "심산궁곡-深山窮谷",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "층암절벽_층암절벽-層巖絶壁",
+      "dict_key": "층암절벽",
+      "word": "층암절벽",
+      "hanja": "層巖絶壁",
+      "id": "층암절벽-層巖絶壁",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "오대독신_오대독신-五代獨身",
+      "dict_key": "오대독신",
+      "word": "오대독신",
+      "hanja": "五代獨身",
+      "id": "오대독신-五代獨身",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "일점혈육_일점혈육-一點血肉",
+      "dict_key": "일점혈육",
+      "word": "일점혈육",
+      "hanja": "一點血肉",
+      "id": "일점혈육-一點血肉",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "선영_선영-先塋",
+      "dict_key": "선영",
+      "word": "선영",
+      "hanja": "先塋",
+      "id": "선영-先塋",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "망극_망극-罔極",
+      "dict_key": "망극",
+      "word": "망극",
+      "hanja": "罔極",
+      "id": "망극-罔極",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "사단_사단-事端",
+      "dict_key": "사단",
+      "word": "사단",
+      "hanja": "事端",
+      "id": "사단-事端",
+      "before_category": "문맥적 의미 파악형",
+      "after_category": "의미 추론형",
+      "reason": "문맥적 의미 파악형 기본 매핑: 문맥과 한자 구성을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/현대소설"
+      ]
+    },
+    {
+      "key": "봉고파출_봉고파출-封庫罷黜",
+      "dict_key": "봉고파출",
+      "word": "봉고파출",
+      "hanja": "封庫罷黜",
+      "id": "봉고파출-封庫罷黜",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "부정을 저지른 지방관의 관고를 봉하고 파직하는 조선 감찰 제도 전문용어",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "형문_형문-刑問",
+      "dict_key": "형문",
+      "word": "형문",
+      "hanja": "刑問",
+      "id": "형문-刑問",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "죄인을 정강이를 치며 심문하는 조선 사법 형벌 전문용어",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "곤장_곤장-棍杖",
+      "dict_key": "곤장",
+      "word": "곤장",
+      "hanja": "棍杖",
+      "id": "곤장-棍杖",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "죄인을 때리는 형구 및 조선 사법 태형 제도 전문용어",
+      "primary_context_sources": [
+        "2026 본수"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "진진지연_진진지연-秦晉之緣",
+      "dict_key": "진진지연",
+      "word": "진진지연",
+      "hanja": "秦晉之緣",
+      "id": "진진지연-秦晉之緣",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "상표_상표-上表",
+      "dict_key": "상표",
+      "word": "상표",
+      "hanja": "上表",
+      "id": "상표-上表",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "천우신조_천우신조-天佑神助",
+      "dict_key": "천우신조",
+      "word": "천우신조",
+      "hanja": "天佑神助",
+      "id": "천우신조-天佑神助",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "필마단창_필마단창-匹馬單槍",
+      "dict_key": "필마단창",
+      "word": "필마단창",
+      "hanja": "匹馬單槍",
+      "id": "필마단창-匹馬單槍",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "난신적자_난신적자-亂臣賊子",
+      "dict_key": "난신적자",
+      "word": "난신적자",
+      "hanja": "亂臣賊子",
+      "id": "난신적자-亂臣賊子",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "음양술수_음양술수-陰陽術數",
+      "dict_key": "음양술수",
+      "word": "음양술수",
+      "hanja": "陰陽術數",
+      "id": "음양술수-陰陽術數",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "음양오행설을 바탕으로 길흉화복을 점치는 도교·동양철학 사상 전문용어",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "당대발복_당대발복-當代發福",
+      "dict_key": "당대발복",
+      "word": "당대발복",
+      "hanja": "當代發福",
+      "id": "당대발복-當代發福",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "기인취물_기인취물-欺人取物",
+      "dict_key": "기인취물",
+      "word": "기인취물",
+      "hanja": "欺人取物",
+      "id": "기인취물-欺人取物",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "공납_공납-公納",
+      "dict_key": "공납",
+      "word": "공납",
+      "hanja": "公納",
+      "id": "공납-公納",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "지방 특산물을 중앙에 바치게 하던 조선 조세 제도 전문용어",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "혼금_혼금-閽禁",
+      "dict_key": "혼금",
+      "word": "혼금",
+      "hanja": "閽禁",
+      "id": "혼금-閽禁",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "인정부터 파루까지 야간 통행을 금지하던 조선 치안 제도 전문용어",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "비리호송_비리호송-非理好訟",
+      "dict_key": "비리호송",
+      "word": "비리호송",
+      "hanja": "非理好訟",
+      "id": "비리호송-非理好訟",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "감언이설_감언이설-甘言利說",
+      "dict_key": "감언이설",
+      "word": "감언이설",
+      "hanja": "甘言利說",
+      "id": "감언이설-甘言利說",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "부지거처_부지거처-不知去處",
+      "dict_key": "부지거처",
+      "word": "부지거처",
+      "hanja": "不知去處",
+      "id": "부지거처-不知去處",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "사서_사서-史書",
+      "dict_key": "사서",
+      "word": "사서",
+      "hanja": "史書",
+      "id": "사서-史書",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 6모"
+      ],
+      "section_domain": [
+        "문학/수필"
+      ]
+    },
+    {
+      "key": "선랑_선랑-仙郞",
+      "dict_key": "선랑",
+      "word": "선랑",
+      "hanja": "仙郞",
+      "id": "선랑-仙郞",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "교방_교방-敎坊",
+      "dict_key": "교방",
+      "word": "교방",
+      "hanja": "敎坊",
+      "id": "교방-敎坊",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "기녀들에게 가무를 가르치던 관아 및 제도 전문용어",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "행수_행수-行首",
+      "dict_key": "행수",
+      "word": "행수",
+      "hanja": "行首",
+      "id": "행수-行首",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "절색_절색-絶色",
+      "dict_key": "절색",
+      "word": "절색",
+      "hanja": "絶色",
+      "id": "절색-絶色",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "풍류_풍류-風流",
+      "dict_key": "풍류",
+      "word": "풍류",
+      "hanja": "風流",
+      "id": "풍류-風流",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "사령_사령-使令",
+      "dict_key": "사령",
+      "word": "사령",
+      "hanja": "使令",
+      "id": "사령-使令",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "관아에서 잔심부름과 형벌 집행을 맡던 나졸·하례 직책 전문용어",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "군관_군관-軍官",
+      "dict_key": "군관",
+      "word": "군관",
+      "hanja": "軍官",
+      "id": "군관-軍官",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "각 진영과 관아에 배치된 무관 직책 전문용어",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "귀인_귀인-貴人",
+      "dict_key": "귀인",
+      "word": "귀인",
+      "hanja": "貴人",
+      "id": "귀인-貴人",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "조석_조석-朝夕",
+      "dict_key": "조석",
+      "word": "조석",
+      "hanja": "朝夕",
+      "id": "조석-朝夕",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "성세궁경_성세궁경-聖世躬耕",
+      "dict_key": "성세궁경",
+      "word": "성세궁경",
+      "hanja": "聖世躬耕",
+      "id": "성세궁경-聖世躬耕",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "희황상인_희황상인-羲皇上人",
+      "dict_key": "희황상인",
+      "word": "희황상인",
+      "hanja": "羲皇上人",
+      "id": "희황상인-羲皇上人",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 9모"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "개물성무_개물성무-開物成務",
+      "dict_key": "개물성무",
+      "word": "개물성무",
+      "hanja": "開物成務",
+      "id": "개물성무-開物成務",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "개념 이해형",
+      "reason": "만물의 뜻을 열어 사람의 일을 성취한다는 주역 유교 철학 개념어",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "화민성속_화민성속-化民成俗",
+      "dict_key": "화민성속",
+      "word": "화민성속",
+      "hanja": "化民成俗",
+      "id": "화민성속-化民成俗",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "개념 이해형",
+      "reason": "백성을 교화하여 좋은 풍속을 이룬다는 유교 정치철학 개념어",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "독서/인문·철학"
+      ]
+    },
+    {
+      "key": "토설_토설-吐說",
+      "dict_key": "토설",
+      "word": "토설",
+      "hanja": "吐說",
+      "id": "토설-吐說",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "방성통곡_방성통곡-放聲痛哭",
+      "dict_key": "방성통곡",
+      "word": "방성통곡",
+      "hanja": "放聲痛哭",
+      "id": "방성통곡-放聲痛哭",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "구년지수_구년지수-九年之水",
+      "dict_key": "구년지수",
+      "word": "구년지수",
+      "hanja": "九年之水",
+      "id": "구년지수-九年之水",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "칠년대한_칠년대한-七年大旱",
+      "dict_key": "칠년대한",
+      "word": "칠년대한",
+      "hanja": "七年大旱",
+      "id": "칠년대한-七年大旱",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "앙천통곡_앙천통곡-仰天痛哭",
+      "dict_key": "앙천통곡",
+      "word": "앙천통곡",
+      "hanja": "仰天痛哭",
+      "id": "앙천통곡-仰天痛哭",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "돈수백배_돈수백배-頓首百拜",
+      "dict_key": "돈수백배",
+      "word": "돈수백배",
+      "hanja": "頓首百拜",
+      "id": "돈수백배-頓首百拜",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "진무_진무-鎭撫",
+      "dict_key": "진무",
+      "word": "진무",
+      "hanja": "鎭撫",
+      "id": "진무-鎭撫",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "지리멸렬_지리멸렬-支離滅裂",
+      "dict_key": "지리멸렬",
+      "word": "지리멸렬",
+      "hanja": "支離滅裂",
+      "id": "지리멸렬-支離滅裂",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전소설"
+      ]
+    },
+    {
+      "key": "군정_군정-軍丁",
+      "dict_key": "군정",
+      "word": "군정",
+      "hanja": "軍丁",
+      "id": "군정-軍丁",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "군포를 징수하던 조선 3정의 하나인 군역 제도 전문용어",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "갑민_갑민-甲民",
+      "dict_key": "갑민",
+      "word": "갑민",
+      "hanja": "甲民",
+      "id": "갑민-甲民",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "참소_참소-讒訴",
+      "dict_key": "참소",
+      "word": "참소",
+      "hanja": "讒訴",
+      "id": "참소-讒訴",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "의미 추론형",
+      "reason": "고전 어휘 독해형 기본 매핑: 낯선 한자어·고전어의 구성 및 문맥을 통해 실제 의미를 추론하는 어휘",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    },
+    {
+      "key": "충군_충군-充軍",
+      "dict_key": "충군",
+      "word": "충군",
+      "hanja": "充軍",
+      "id": "충군-充軍",
+      "before_category": "고전 어휘 독해형",
+      "after_category": "전문용어 이해형",
+      "reason": "죄인을 군역에 복무하게 하던 조선 형벌·군제 전문용어",
+      "primary_context_sources": [
+        "2025 본수"
+      ],
+      "section_domain": [
+        "문학/고전시가"
+      ]
+    }
+  ]
+}

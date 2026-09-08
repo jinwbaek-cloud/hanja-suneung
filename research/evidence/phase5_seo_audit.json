@@ -1,0 +1,57 @@
+{
+  "start_head": "62c205e",
+  "canonical": "https://suneung.easyhanja.org/",
+  "title": "한알국쉬 수능 | 한자를 알면 국어가 더 쉬워요",
+  "description": "수능 국어 기출에서 한자를 알면 독해에 도움이 되는 어휘를 선별하여 한자, 뜻풀이, 기출 문맥과 함께 살펴볼 수 있는 한알국쉬의 수능 어휘 학습 웹서비스입니다.",
+  "robots_meta": "index, follow",
+  "html_lang": "ko",
+  "og_tags": {
+    "og:type": "website",
+    "og:site_name": "한알국쉬",
+    "og:title": "한알국쉬 수능 | 한자를 알면 국어가 더 쉬워요",
+    "og:description": "수능 국어 기출에서 한자를 알면 독해에 도움이 되는 어휘를 선별하여 한자, 뜻풀이, 기출 문맥과 함께 살펴볼 수 있는 한알국쉬의 수능 어휘 학습 웹서비스입니다.",
+    "og:url": "https://suneung.easyhanja.org/",
+    "og:locale": "ko_KR"
+  },
+  "twitter_tags": {
+    "twitter:card": "summary",
+    "twitter:title": "한알국쉬 수능 | 한자를 알면 국어가 더 쉬워요",
+    "twitter:description": "수능 국어 기출에서 한자를 알면 독해에 도움이 되는 어휘를 선별하여 한자, 뜻풀이, 기출 문맥과 함께 살펴볼 수 있는 한알국쉬의 수능 어휘 학습 웹서비스입니다."
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "한알국쉬 수능",
+    "alternateName": "한자를 알면 국어가 더 쉬워요",
+    "url": "https://suneung.easyhanja.org/",
+    "inLanguage": "ko-KR",
+    "description": "수능 국어 기출에서 한자를 알면 독해에 도움이 되는 어휘를 선별하여 한자, 뜻풀이, 기출 문맥과 함께 살펴볼 수 있는 한알국쉬의 수능 어휘 학습 웹서비스입니다."
+  },
+  "robots_txt": "User-agent: *\nAllow: /\n\nSitemap: https://suneung.easyhanja.org/sitemap.xml\n",
+  "sitemap_urls": [
+    "https://suneung.easyhanja.org/",
+    "https://suneung.easyhanja.org/about.html",
+    "https://suneung.easyhanja.org/guide.html"
+  ],
+  "noindex_count": 0,
+  "old_domain_references": {
+    "hanja-suneung.netlify.app": 0,
+    "leet.easyhanja.org": 0,
+    "plain_easyhanja.org": 0
+  },
+  "redirect_risk": {
+    "_redirects_exists": false,
+    "netlify_toml_exists": false,
+    "loop_risk": "NONE"
+  },
+  "homepage_http_status": 200,
+  "robots_http_status": 200,
+  "sitemap_http_status": 200,
+  "about_http_status": 200,
+  "guide_http_status": 200,
+  "console_errors": 0,
+  "data_js_changed": false,
+  "db_words": 701,
+  "db_contexts": 879,
+  "assertion_result": "PASS"
+}

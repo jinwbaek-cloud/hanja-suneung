@@ -1,0 +1,277 @@
+{
+  "phase": "Phase 3E Editorial Review Closure",
+  "baseline_words": 701,
+  "baseline_contexts": 879,
+  "statistics": {
+    "target_count": 13,
+    "keep_as_is_count": 2,
+    "edit_definition_count": 7,
+    "edit_source_count": 0,
+    "edit_hanja_count": 0,
+    "edit_multiple_fields_count": 4,
+    "defer_count": 0
+  },
+  "items": [
+    {
+      "key": "평활_평활-平滑",
+      "dict_key": "평활",
+      "word": "평활",
+      "hanja_before": "平滑",
+      "hanja_after": "平滑",
+      "id_before": "평활-平滑",
+      "id_after": "평활-平滑",
+      "definition_before": "평평하고 미끄러움. (‘평활하다’의 어근, 표준국어대사전)",
+      "definition_after": "표면이나 상태가 굴곡 없이 평평하고 매끄러움.",
+      "definitionSource_before": "표준국어대사전",
+      "definitionSource_after": null,
+      "classification": "EDIT_MULTIPLE_FIELDS",
+      "dictionary_evidence": "표준국어대사전: 평활(平滑) ‘평활하다’의 어근. 독립 명사 미등재.",
+      "context_evidence": "2027 9모: '전압 변동을 억제하기 위해 평활 회로가 사용된다' (전압 변동을 평탄하고 매끄럽게 다듬는 회로).",
+      "reason": "어근 및 사전 출처 메타데이터를 제거하고 문맥에 부합하는 자연스러운 뜻풀이로 정비. 어근 한정 등재 원칙에 따라 definitionSource를 null로 처리.",
+      "fields_changed": [
+        "definition",
+        "definitionSource"
+      ]
+    },
+    {
+      "key": "외람_외람-猥濫",
+      "dict_key": "외람",
+      "word": "외람",
+      "hanja_before": "猥濫",
+      "hanja_after": "猥濫",
+      "id_before": "외람-猥濫",
+      "id_after": "외람-猥濫",
+      "definition_before": "하는 행동이나 생각이 분수에 지나침. (‘외람하다’의 어근, 표준국어대사전)",
+      "definition_after": "하는 행동이나 생각이 자신의 분수나 처지에 지나침.",
+      "definitionSource_before": "표준국어대사전",
+      "definitionSource_after": null,
+      "classification": "EDIT_MULTIPLE_FIELDS",
+      "dictionary_evidence": "표준국어대사전: 외람(猥濫) ‘외람하다’의 어근. 독립 명사 미등재.",
+      "context_evidence": "2027 9모: '첩 등의 이목이 외람하여 소저가 재상의 위풍이 당당함...' (분수나 처지에 지나치다는 문맥).",
+      "reason": "어근 및 사전 출처 메타데이터를 제거하고 자연스러운 뜻풀이로 정비. 어근 한정 등재 원칙에 따라 definitionSource를 null로 처리.",
+      "fields_changed": [
+        "definition",
+        "definitionSource"
+      ]
+    },
+    {
+      "key": "수렴_수렴-收斂",
+      "dict_key": "수렴",
+      "word": "수렴",
+      "hanja_before": "收斂",
+      "hanja_after": "收斂",
+      "id_before": "수렴-收斂",
+      "id_after": "수렴-收斂",
+      "definition_before": "의견이나 생각 따위가 한곳으로 모아짐. (수학) 무한히 커지지 않고 특정 값에 가까워짐.",
+      "definition_after": "여러 갈래로 나뉘어 있던 의견이나 생각, 요소 등이 하나로 모아짐.",
+      "definitionSource_before": "표준국어대사전",
+      "definitionSource_after": "표준국어대사전",
+      "classification": "EDIT_DEFINITION",
+      "dictionary_evidence": "표준국어대사전 수렴3(收斂): 「2」 의견이나 사상 따위가 여럿으로 나뉘어 있는 것을 하나로 모아 정리함.",
+      "context_evidence": "2022 본수(수렴적 상향성), 2025 본수(학생들의 의견을 수렴한 결과), 2022 9모(주민들을 대상으로 의견 수렴).",
+      "reason": "실제 기출 context에 존재하지 않는 불필요한 수학 전문 분야 태그 및 정의를 제거하고, 표준국어대사전의 일반 뜻풀이로 일원화 정비.",
+      "fields_changed": [
+        "definition"
+      ]
+    },
+    {
+      "key": "발산_발산-發散",
+      "dict_key": "발산",
+      "word": "발산",
+      "hanja_before": "發散",
+      "hanja_after": "發散",
+      "id_before": "발산-發散",
+      "id_after": "발산-發散",
+      "definition_before": "밖으로 퍼져 나감. (수학) 무한히 커지거나 한 값으로 수렴하지 않음.",
+      "definition_after": "기운, 빛, 열 또는 감정 따위가 밖으로 뻗쳐 퍼져 나감.",
+      "definitionSource_before": "표준국어대사전",
+      "definitionSource_after": "표준국어대사전",
+      "classification": "EDIT_DEFINITION",
+      "dictionary_evidence": "표준국어대사전 발산2(發散): 「1」 감정 따위를 밖으로 드러내어 해소함. 「2」 냄새, 빛, 열 따위가 사방으로 퍼져 나감.",
+      "context_evidence": "2025 6모: '발산하는' (도덕적 운 인문 지문 어휘 문항).",
+      "reason": "실제 기출 context에 없는 수학 전문 분야 태그 및 정의를 제거하고, 표준국어대사전의 일반 뜻풀이로 일원화 정비.",
+      "fields_changed": [
+        "definition"
+      ]
+    },
+    {
+      "key": "효용_효용-效用",
+      "dict_key": "효용",
+      "word": "효용",
+      "hanja_before": "效用",
+      "hanja_after": "效用",
+      "id_before": "효용-效用",
+      "id_after": "효용-效用",
+      "definition_before": "보람 있게 쓰임. 또는 그런 능력. (경제) 인간의 욕망을 만족시킬 수 있는 재화의 능력.",
+      "definition_after": "보람 있게 쓰이거나 쓰임. 또는 그렇게 쓰여서 얻어지는 쓸모나 이익.",
+      "definitionSource_before": "표준국어대사전",
+      "definitionSource_after": "표준국어대사전",
+      "classification": "EDIT_DEFINITION",
+      "dictionary_evidence": "표준국어대사전 효용1(效用): 「1」 보람 있게 쓰거나 쓰임. 또는 그런 보람이나 쓸모.",
+      "context_evidence": "2026 본수(정보의 효용적 가치), 2025 9모(일지 작성의 효용), 2025 본수(청중이 발표 내용을 통해 얻을 수 있는 효용).",
+      "reason": "실제 기출 context에 나타나지 않는 미시경제학 전문 분야 태그 및 정의를 제거하고, 표준국어대사전의 유용성/쓸모 일반 뜻풀이로 정비.",
+      "fields_changed": [
+        "definition"
+      ]
+    },
+    {
+      "key": "범주_범주-範疇",
+      "dict_key": "범주",
+      "word": "범주",
+      "hanja_before": "範疇",
+      "hanja_after": "範疇",
+      "id_before": "범주-範疇",
+      "id_after": "범주-範疇",
+      "definition_before": "동일한 성질을 가진 부류나 범위. (철학) 사유나 존재의 가장 기본적인 틀이나 개념의 갈래.",
+      "definition_after": "동일한 성질을 가진 부류나 범위. 또는 사유와 대상을 이해하는 가장 기본적인 개념의 갈래.",
+      "definitionSource_before": "표준국어대사전",
+      "definitionSource_after": "표준국어대사전",
+      "classification": "EDIT_DEFINITION",
+      "dictionary_evidence": "표준국어대사전 범주(範疇): 「1」 동일한 성질을 가진 부류나 범위. 「2」 사유나 존재의 가장 근본적이고 보편적인 개념의 갈래.",
+      "context_evidence": "2022 본수(대립적인 두 범주의 조화로운 통일), 2026 6모(인간을 별도의 범주로 분류), 2026 9모(범주화 사고방식).",
+      "reason": "불필요한 (철학) 분야 메타데이터 태그를 제거하고, 기출 context에 나타난 일반 부류와 개념 갈래의 의미를 자연스러운 두 문장으로 정비.",
+      "fields_changed": [
+        "definition"
+      ]
+    },
+    {
+      "key": "고양_고양-高揚",
+      "dict_key": "고양",
+      "word": "고양",
+      "hanja_before": "高揚",
+      "hanja_after": "高揚",
+      "id_before": "고양-高揚",
+      "id_after": "고양-高揚",
+      "definition_before": "정신이나 기분 따위를 북돋워서 높임. (철학) 더 높은 수준이나 차원으로 끌어올림.",
+      "definition_after": "정신이나 기분 따위를 북돋워 높임. 또는 수준이나 상태를 더 높은 차원으로 끌어올림.",
+      "definitionSource_before": "표준국어대사전",
+      "definitionSource_after": "표준국어대사전",
+      "classification": "EDIT_DEFINITION",
+      "dictionary_evidence": "표준국어대사전 고양(高揚): 정신이나 기분 따위를 북돋워서 높임.",
+      "context_evidence": "2022 본수: '질적으로 고양된 최상의 범주가 생성됨으로써' (헤겔 변증법의 질적 향상/차원 상승).",
+      "reason": "불필요한 (철학) 분야 메타데이터 태그를 제거하고, 헤겔 기출 context의 질적 차원 상승 의미를 자연스러운 문장으로 정비.",
+      "fields_changed": [
+        "definition"
+      ]
+    },
+    {
+      "key": "천기_천기-天機",
+      "dict_key": "천기",
+      "word": "천기",
+      "hanja_before": "天機",
+      "hanja_after": "天機",
+      "id_before": "천기-天機",
+      "id_after": "천기-天機",
+      "definition_before": "하늘의 기밀이나 자연의 미묘한 조화와 이치. (철학) 자연이 만물을 생성하고 움직이게 하는 근원적인 생명 기운.",
+      "definition_after": "하늘의 비밀이나 자연의 미묘한 조화와 이치. 또는 만물이 타고나는 자연의 오묘한 생명 기운.",
+      "definitionSource_before": "표준국어대사전",
+      "definitionSource_after": "표준국어대사전",
+      "classification": "EDIT_DEFINITION",
+      "dictionary_evidence": "표준국어대사전 천기1(天機): 「1」 하늘의 비밀. 「2」 자연의 미묘한 조화.",
+      "context_evidence": "2022 본수: '천기(天機)를 함께 타고나 형체를 부여받음에 각기 그 자질에...'",
+      "reason": "불필요한 (철학) 분야 메타데이터 태그를 제거하고, 만물이 부여받은 생명 기운과 자연의 조화라는 기출 context에 맞게 정비.",
+      "fields_changed": [
+        "definition"
+      ]
+    },
+    {
+      "key": "궤란_궤란-憒亂",
+      "dict_key": "궤란",
+      "word": "궤란",
+      "hanja_before": "憒亂",
+      "hanja_after": "憒亂",
+      "id_before": "궤란-憒亂",
+      "id_after": "궤란-憒亂",
+      "definition_before": "무너져서 어지러워짐. 도덕이나 질서 따위가 어지럽혀져 엉망이 됨.",
+      "definition_after": "무너져서 어지러워짐. 도덕이나 질서 따위가 어지럽혀져 엉망이 됨.",
+      "definitionSource_before": null,
+      "definitionSource_after": null,
+      "classification": "KEEP_AS_IS",
+      "dictionary_evidence": "표준국어대사전: 궤란3(憒亂) ‘궤란하다’의 어근.",
+      "context_evidence": "2026 9모: '고을이 황폐하여 인심이 궤란함을 들으시고' (도덕과 질서가 무너져 어지러워짐).",
+      "reason": "definition에 어근 메타데이터가 없고 기출 문맥에 정확히 부합하며, 어근 등재 원칙에 따라 definitionSource=null이 이미 올바르게 적용되어 있음.",
+      "fields_changed": []
+    },
+    {
+      "key": "미혹시키다_미혹시키다-迷惑시키다",
+      "dict_key": "미혹시키다",
+      "word": "미혹시키다",
+      "hanja_before": "迷惑시키다",
+      "hanja_after": "迷惑시키다",
+      "id_before": "미혹시키다-迷惑시키다",
+      "id_after": "미혹시키다-迷惑시키다",
+      "definition_before": "무엇에 홀려 정신을 차리지 못하고 갈팡질팡하게 만들다.",
+      "definition_after": "무엇에 홀려 정신을 차리지 못하고 갈팡질팡하게 만들다.",
+      "definitionSource_before": null,
+      "definitionSource_after": null,
+      "classification": "KEEP_AS_IS",
+      "dictionary_evidence": "표준국어대사전: 미혹(迷惑) 등재, 사동형 '미혹시키다' 미등재.",
+      "context_evidence": "2022 6모: '요망한 말로 백성을 미혹시켰다는 이유로 군주가 직언을 하는 신하를 탄압...'",
+      "reason": "파생 사동사 미등재 원칙에 따라 definitionSource=null이 이미 올바르게 적용되어 있으며, 사동 의미 뜻풀이가 기출 문맥에 이미 정확히 부합함.",
+      "fields_changed": []
+    },
+    {
+      "key": "점진적_점진적-漸進적",
+      "dict_key": "점진적",
+      "word": "점진적",
+      "hanja_before": "漸進적",
+      "hanja_after": "漸進的",
+      "id_before": "점진적-漸進적",
+      "id_after": "점진적-漸進的",
+      "definition_before": "조금씩 차례를 따라 점차 나아가는 것.",
+      "definition_after": "조금씩 차례를 따라 점차 나아가는 것.",
+      "definitionSource_before": null,
+      "definitionSource_after": "표준국어대사전",
+      "classification": "EDIT_MULTIPLE_FIELDS",
+      "dictionary_evidence": "표준국어대사전: 점진-적(漸進的) 「명사」「관형사」 조금씩 앞으로 나아가는. 또는 그런 것.",
+      "context_evidence": "2025 본수: '원본 이미지에 노이즈를 점진적으로 추가하였다가 그 노이즈를 다시 제거해 나가면...'",
+      "reason": "한자 필드의 한글 '적'을 정식 한자 '的'으로 교정하고 id를 일치시킴. 표준국어대사전 exact headword, exact Hanja, same sense 확인에 따라 출처 부여.",
+      "fields_changed": [
+        "hanja",
+        "id",
+        "definitionSource"
+      ]
+    },
+    {
+      "key": "소구_소구-訴求",
+      "dict_key": "소구",
+      "word": "소구",
+      "hanja_before": "訴求",
+      "hanja_after": "訴求",
+      "id_before": "소구-訴求",
+      "id_after": "소구-訴求",
+      "definition_before": "광고 따위로 소비자에게 구매 의욕을 일깨우는 호소력.",
+      "definition_after": "광고나 설득 메시지 따위로 대중이나 소비자의 동기를 자극하여 반응을 이끌어 내는 일.",
+      "definitionSource_before": null,
+      "definitionSource_after": null,
+      "classification": "EDIT_DEFINITION",
+      "dictionary_evidence": "표준국어대사전 소구6(訴求): 『법률』 소송에 의하여 권리를 행사함. 광고/마케팅 sense 공식 사전 미등재.",
+      "context_evidence": "2024 6모: '공포 소구는 그 메시지에 담긴 권고를 따르지 않을 때의 해로운 결과를 강조하여 수용자를 설득하는 것으로...'",
+      "reason": "공식 사전에 광고·설득 의미의 표제어가 미등재되어 있으므로 definitionSource=null을 유지하고, 2024 6모 기출(공포 소구, 설득 전략) 문맥에 부합하도록 뜻풀이 정비.",
+      "fields_changed": [
+        "definition"
+      ]
+    },
+    {
+      "key": "궁귀_궁귀-窮鬼",
+      "dict_key": "궁귀",
+      "word": "궁귀",
+      "hanja_before": "窮鬼",
+      "hanja_after": "窮鬼",
+      "id_before": "궁귀-窮鬼",
+      "id_after": "궁귀-窮鬼",
+      "definition_before": "가난을 귀신에 빗대어 의인화한 표현. 「탄궁가」에서 화자가 평생 떨쳐버리고 싶어 하는 지독한 가난을 가리킨다.",
+      "definition_after": "궁한 귀신. 또는 가난을 빗대어 이르는 말.",
+      "definitionSource_before": null,
+      "definitionSource_after": "표준국어대사전",
+      "classification": "EDIT_MULTIPLE_FIELDS",
+      "dictionary_evidence": "표준국어대사전 궁귀(窮鬼): 「1」 궁한 귀신. 「2」 곤궁한 사람을 비유적으로 이르는 말.",
+      "context_evidence": "2022 본수: '이 원수 궁귀(窮鬼)를 어이하여 여의려뇨 술에 후량을 갖추고 이름 불러 전송하여...'",
+      "reason": "「탄궁가」 작품 해설 문구를 definition에서 분리하고 표준국어대사전 일반 표제어 정의에 맞게 정비. exact match 확인에 따른 공식 출처 부여.",
+      "fields_changed": [
+        "definition",
+        "definitionSource"
+      ]
+    }
+  ]
+}

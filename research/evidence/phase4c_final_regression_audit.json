@@ -1,0 +1,159 @@
+{
+  "start_head": "bd0d657",
+  "words": 701,
+  "contexts": 879,
+  "zero_context": 0,
+  "difficulty_distribution": {
+    "1": 91,
+    "2": 286,
+    "3": 324
+  },
+  "category_distribution": {
+    "구조 파악형": 36,
+    "개념 이해형": 170,
+    "의미 추론형": 250,
+    "전문용어 이해형": 245
+  },
+  "top_level_type_count": 0,
+  "relations_type_count": 12,
+  "relations_type_distribution": {
+    "homonym": 10,
+    "contrast": 2
+  },
+  "category_filter_tests": {
+    "status": "PASS",
+    "counts": {
+      "구조 파악형": 36,
+      "개념 이해형": 170,
+      "의미 추론형": 250,
+      "전문용어 이해형": 245
+    },
+    "difficulty_combinations": {
+      "구조 파악형": {
+        "1": 10,
+        "2": 19,
+        "3": 7
+      },
+      "개념 이해형": {
+        "1": 27,
+        "2": 94,
+        "3": 49
+      },
+      "의미 추론형": {
+        "1": 33,
+        "2": 85,
+        "3": 132
+      },
+      "전문용어 이해형": {
+        "1": 21,
+        "2": 88,
+        "3": 136
+      }
+    }
+  },
+  "difficulty_filter_tests": {
+    "status": "PASS",
+    "counts": {
+      "all": 701,
+      "1": 91,
+      "2": 286,
+      "3": 324
+    }
+  },
+  "combined_filter_tests": {
+    "status": "PASS",
+    "category_plus_difficulty": {
+      "구조 파악형": {
+        "1": 10,
+        "2": 19,
+        "3": 7
+      },
+      "개념 이해형": {
+        "1": 27,
+        "2": 94,
+        "3": 49
+      },
+      "의미 추론형": {
+        "1": 33,
+        "2": 85,
+        "3": 132
+      },
+      "전문용어 이해형": {
+        "1": 21,
+        "2": 88,
+        "3": 136
+      }
+    }
+  },
+  "search_tests": {
+    "status": "PASS",
+    "sample_sooryeom_diff2": [
+      "수렴"
+    ],
+    "sample_everyday_diff1": [
+      "망각"
+    ],
+    "sample_technical_diff3": [
+      "재량 행위"
+    ],
+    "sample_classical_diff3": [
+      "초야우생"
+    ]
+  },
+  "classical_filter_tests": {
+    "status": "PASS",
+    "data": {
+      "일반_total": 656,
+      "일반_diff": {
+        "1": 91,
+        "2": 269,
+        "3": 296
+      },
+      "고전_total": 45,
+      "고전_diff": {
+        "1": 0,
+        "2": 17,
+        "3": 28
+      }
+    }
+  },
+  "reset_test": {
+    "status": "PASS",
+    "reset_result_count": 701
+  },
+  "desktop_test": {
+    "status": "PASS",
+    "resolution": "1280x900",
+    "overflow": false
+  },
+  "mobile_test": {
+    "status": "PASS",
+    "resolution": "390x844",
+    "overflow": false
+  },
+  "detail_test": {
+    "status": "PASS",
+    "wording_verified": true,
+    "labels": {
+      "1": "난이도 1 · 기본: 비교적 친숙하여 문맥만으로도 의미를 파악하기 쉬운 어휘",
+      "2": "난이도 2 · 심화: 추상적·학술적 성격이 있어 한자 풀이가 의미 이해에 실질적으로 도움이 되는 어휘",
+      "3": "난이도 3 · 전문·고전: 전문 개념·고전어·희귀어로, 정확한 이해를 위해 추가 설명이 필요한 어휘"
+    }
+  },
+  "relations_test": {
+    "status": "PASS",
+    "count": 12,
+    "types": {
+      "homonym": 10,
+      "contrast": 2
+    }
+  },
+  "print_test": {
+    "status": "PASS",
+    "difficulty_included": true
+  },
+  "console_errors": 0,
+  "data_js_changed": false,
+  "protected_field_changes": 0,
+  "assertion_result": "ALL_PASS"
+}

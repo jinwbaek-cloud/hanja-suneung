@@ -1,0 +1,429 @@
+{
+  "project": "한알국쉬 수능 (suneung.easyhanja.org)",
+  "canonical_url": "https://suneung.easyhanja.org/",
+  "final_head": "a18f436",
+  "final_database": {
+    "words": 701,
+    "contexts": 879,
+    "zero_contexts": 0,
+    "distinct_source_count": 17,
+    "sources": {
+      "2022 본수": 35,
+      "2027 9모": 24,
+      "2025 본수": 71,
+      "2026 9모": 64,
+      "2026 본수": 79,
+      "2025 6모": 74,
+      "2025 9모": 59,
+      "2022 6모": 47,
+      "2026 6모": 62,
+      "2022 9모": 60,
+      "2023 9모": 38,
+      "2024 본수": 39,
+      "2023 6모": 36,
+      "2024 9모": 35,
+      "2024 6모": 41,
+      "2027 6모": 80,
+      "2023 본수": 35
+    },
+    "sections": {
+      "독서": 477,
+      "화법과 작문": 49,
+      "언어와 매체": 65,
+      "문학": 288
+    },
+    "domains": {
+      "인문·철학": 226,
+      "사회·법": 105,
+      "null": 49,
+      "사회·경제": 36,
+      "과학·기술": 110,
+      "매체": 17,
+      "현대소설": 40,
+      "고전시가": 76,
+      "수필": 25,
+      "문법": 48,
+      "고전소설": 134,
+      "현대시": 13
+    },
+    "categories": {
+      "구조 파악형": 36,
+      "개념 이해형": 170,
+      "의미 추론형": 250,
+      "전문용어 이해형": 245
+    },
+    "difficulties": {
+      "2": 286,
+      "3": 324,
+      "1": 91
+    },
+    "definition_sources": {
+      "표준국어대사전": 434,
+      "None": 227,
+      "우리말샘": 40
+    },
+    "top_level_type_count": 0,
+    "relations_types": {
+      "homonym": 10,
+      "contrast": 2
+    },
+    "is_classical_count": 45,
+    "general_count": 656,
+    "word_frequency_by_context_count": {
+      "1_context": 617,
+      "2_contexts": 44,
+      "3_or_more_contexts": 40
+    }
+  },
+  "checkpoint_history": [
+    {
+      "checkpoint": "7204b1d",
+      "words": 717,
+      "contexts": 921,
+      "zero_contexts": 0,
+      "date": "2026-09-08 09:59 KST",
+      "phase": "Baseline: All CSAT entries integrated"
+    },
+    {
+      "checkpoint": "2d1c83a",
+      "words": 717,
+      "contexts": 920,
+      "zero_contexts": 0,
+      "date": "2026-09-08 10:36 KST",
+      "phase": "Phase 1: High-priority factual integrity fix"
+    },
+    {
+      "checkpoint": "f586aaf",
+      "words": 717,
+      "contexts": 902,
+      "zero_contexts": 4,
+      "date": "2026-09-08 10:43 KST",
+      "phase": "Phase 1B: Legacy unsupported contexts removal"
+    },
+    {
+      "checkpoint": "f87244b",
+      "words": 713,
+      "contexts": 904,
+      "zero_contexts": 0,
+      "date": "2026-09-08 10:56 KST",
+      "phase": "Phase 1C: Corpus closure & zero-context purge"
+    },
+    {
+      "checkpoint": "9cbcafa",
+      "words": 713,
+      "contexts": 904,
+      "zero_contexts": 0,
+      "date": "2026-09-08 11:25 KST",
+      "phase": "Phase 2: Legacy metadata & mock feed cleanup"
+    },
+    {
+      "checkpoint": "1dffcd4",
+      "words": 701,
+      "contexts": 879,
+      "zero_contexts": 0,
+      "date": "2026-09-08 13:47 KST",
+      "phase": "Phase 3B-2: Corpus integrity repair & unverified context purge"
+    },
+    {
+      "checkpoint": "4e89050",
+      "words": 701,
+      "contexts": 879,
+      "zero_contexts": 0,
+      "date": "2026-09-08 13:55 KST",
+      "phase": "Phase 3C: Category normalization to 4 standard types"
+    },
+    {
+      "checkpoint": "6309ec4",
+      "words": 701,
+      "contexts": 879,
+      "zero_contexts": 0,
+      "date": "2026-09-08 14:16 KST",
+      "phase": "Phase 3D: DefinitionSource dictionary verification"
+    },
+    {
+      "checkpoint": "646be4c",
+      "words": 701,
+      "contexts": 879,
+      "zero_contexts": 0,
+      "date": "2026-09-08 14:22 KST",
+      "phase": "Phase 3E: Editorial review items closure"
+    },
+    {
+      "checkpoint": "9a91e3e",
+      "words": 701,
+      "contexts": 879,
+      "zero_contexts": 0,
+      "date": "2026-09-08 14:33 KST",
+      "phase": "Phase 4A: Difficulty classification (1/2/3)"
+    },
+    {
+      "checkpoint": "5300d1c",
+      "words": 701,
+      "contexts": 879,
+      "zero_contexts": 0,
+      "date": "2026-09-08 14:42 KST",
+      "phase": "Phase 4A-2: Difficulty boundary & sense integrity audit"
+    },
+    {
+      "checkpoint": "bd0d657",
+      "words": 701,
+      "contexts": 879,
+      "zero_contexts": 0,
+      "date": "2026-09-08 14:57 KST",
+      "phase": "Phase 4B: Difficulty UI integration & top-level type removal"
+    },
+    {
+      "checkpoint": "62c205e",
+      "words": 701,
+      "contexts": 879,
+      "zero_contexts": 0,
+      "date": "2026-09-08 15:04 KST",
+      "phase": "Phase 4C: Final UI wording & regression closure"
+    },
+    {
+      "checkpoint": "a18f436",
+      "words": 701,
+      "contexts": 879,
+      "zero_contexts": 0,
+      "date": "2026-09-08 15:34 KST",
+      "phase": "Phase 5: SEO foundation & canonical domain setup"
+    }
+  ],
+  "git_statistics": {
+    "full_project": {
+      "total_commits": 42,
+      "total_file_changes": 108,
+      "total_insertions": 162099,
+      "total_deletions": 34191,
+      "earliest_commit": "1320469 (2026-09-03 14:30:42 +0900)",
+      "latest_commit": "a18f436 (2026-09-08 15:34:19 +0900)"
+    },
+    "range_b_final_editorial": {
+      "start_commit": "7204b1d (2026-09-08 09:59:50 +0900)",
+      "end_commit": "a18f436 (2026-09-08 15:34:19 +0900)",
+      "commits_count": 13,
+      "files_changed": 30,
+      "insertions": 3304,
+      "deletions": 3439,
+      "baseline_words": 717,
+      "final_words": 701,
+      "word_net_change": -16,
+      "word_net_change_rate_percent": -2.23,
+      "baseline_contexts": 921,
+      "final_contexts": 879,
+      "context_net_change": -42,
+      "context_net_change_rate_percent": -4.56
+    }
+  },
+  "worktime_summary": {
+    "full_project_range": {
+      "wall_clock_span_days": 80.0,
+      "wall_clock_span_minutes": 115238.63,
+      "active_time_10m_minutes": 1339.42,
+      "active_time_10m_hours": 22.3,
+      "confidence": "PARTIAL"
+    },
+    "september_campaign_range": {
+      "wall_clock_span_hours": 50.3,
+      "wall_clock_span_minutes": 3019.57,
+      "active_time_5m_minutes": 956.88,
+      "active_time_10m_minutes": 1098.02,
+      "active_time_15m_minutes": 1191.62,
+      "active_time_10m_hours": 18.3,
+      "confidence": "ESTIMATED"
+    },
+    "final_editorial_validation_range": {
+      "wall_clock_span_hours": 5.6,
+      "wall_clock_span_minutes": 334.97,
+      "active_time_5m_minutes": 224.15,
+      "active_time_10m_minutes": 243.18,
+      "active_time_15m_minutes": 253.73,
+      "active_time_10m_hours": 4.1,
+      "confidence": "ESTIMATED"
+    }
+  },
+  "verification_statistics": {
+    "unsupported_contexts_removed": 43,
+    "unsupported_contexts_sources": {
+      "Phase 1B (f586aaf)": 18,
+      "Phase 3B-2 (1dffcd4)": 25
+    },
+    "zero_context_entries_removed": 16,
+    "zero_context_entries_sources": {
+      "Phase 1C (f87244b)": 4,
+      "Phase 3B-2 (1dffcd4)": 12
+    },
+    "section_domain_restored": 96,
+    "section_domain_restored_sources": {
+      "Phase 3B": 95,
+      "Phase 3B-2 (1dffcd4)": 1
+    },
+    "fake_mock_contexts_pruned": 25,
+    "mock_feed_cleared": 53,
+    "categories_normalized": 134,
+    "definition_sources_verified": 260,
+    "definition_sources_verified_sources": {
+      "Phase 3D (6309ec4)": 247,
+      "Phase 3E (646be4c)": 13
+    },
+    "editorial_review_closed": 13,
+    "difficulties_assigned": 701,
+    "difficulty_boundary_audited": 39,
+    "homograph_sense_contamination_audited": 8,
+    "top_level_type_removed": 701,
+    "seo_pages_files_refined": 5
+  },
+  "error_taxonomy": [
+    {
+      "id": 1,
+      "name": "Hanja transcription error (한자 전자/오기 오류)",
+      "description": "한자 표기 자체를 유사 자형이나 잘못된 한자로 오기하는 오류",
+      "evidence_cases": [
+        "도외시(圖外視 -> 度外視 교정)",
+        "점진적(漸進적 -> 한글 적 혼용 분리)"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Source/provenance fabrication or mismatch (출전·작품명 오귀속/오기)",
+      "description": "실제 기출 지문의 출전이나 작품명을 타 시험 또는 타 작품으로 잘못 표기하는 오류",
+      "evidence_cases": [
+        "소현성록 지문 문맥을 숙향전으로 오기",
+        "2024 6모 귀속 지문의 삼계 서원 취서사 문맥 표기"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Corpus boundary error (코퍼스 범위 일탈)",
+      "description": "목표 평가원 수능/모의평가 범위 밖의 레거시 문맥이 코퍼스에 잔류하는 오류",
+      "evidence_cases": [
+        "2016-2021학년도 구 데이터 잔류분 (Phase 1B 18건 제거)"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Context fabrication/misattribution (기출 문맥 조작/허위 문맥)",
+      "description": "실제 평가원 문제지에 존재하지 않는 가공된 문장이나 임의 요약 문맥이 등재된 오류",
+      "evidence_cases": [
+        "Phase 3B-2에서 발견된 25건의 근거 불명/목업 문맥 (전수 영구 삭제)"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dictionary-source mismatch (사전 표제어/출처 불일치)",
+      "description": "표준국어대사전 표제어에 없는데 표준 사전 출처로 표기하거나, 이체자/동음자 불일치 발생",
+      "evidence_cases": [
+        "통변(표준 사전 미등재, 우리말샘 등재)",
+        "원루(지문 怨淚 vs 표준사전 冤淚 불일치로 null 확정)",
+        "사퇴(지문 謝退 vs 사전 辭退 불일치)"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Sense contamination (동음이의어/다른 한자 의미 오염)",
+      "description": "표제어의 한글 독음이 같다는 이유로 다른 한자나 다른 동음이의어의 의미가 해설/사유에 침투하는 오류",
+      "evidence_cases": [
+        "사가(社歌에 私家 침투)",
+        "사직(社稷에 辭職 침투)",
+        "실정(失政에 實情 침투)",
+        "산재(散在에 産災 침투)",
+        "종용(從容에 慫慂 침투)",
+        "역설(力說에 逆說 침투)",
+        "시차(視差에 時差 침투)"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Legacy metadata contamination (레거시 스키마 잔재 오염)",
+      "description": "초기 설계 당시 사용된 불필요한 더미 배열이나 중복 필드가 후속 DB에 잔존하는 오류",
+      "evidence_cases": [
+        "53개 표제어의 mock feed: [] 잔재 (Phase 2 제거)",
+        "701개 표제어의 redundant top-level type 필드 (Phase 4B 제거)"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Downstream recontamination (후속 단계 재오염)",
+      "description": "앞 단계에서 한자와 뜻풀이를 엄격히 교정했음에도, 후속 분류 단계에서 AI가 다시 동음이의어의 사유를 끌어오는 현상",
+      "evidence_cases": [
+        "Phase 1에서 표제어와 한자를 社歌, 社稷으로 확정했음에도 Phase 4A 난이도 분류 프롬프트에서 AI가 私家, 辭職을 기반으로 난이도 사유를 서술함"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Automated validation false confidence (자동화 검증 과신)",
+      "description": "정규식이나 키 존재 여부 등 기계적 검증 통과를 사실적 무결성으로 착각하는 오류",
+      "evidence_cases": [
+        "section/domain 필드가 채워졌다는 이유로 가공된 문맥(25건)을 정상 문맥으로 오판했던 Phase 3B 초기 상태 (Phase 3B-2 정밀 대조로 제거)"
+      ]
+    }
+  ],
+  "evidence_manifest": [
+    {
+      "filename": "phase2_legacy_cleanup_manifest.json",
+      "sha256": "6edd942af6da74034ab253df198db535671655080f321fcb58f6c8ed5d76cee1",
+      "size_bytes": 164798
+    },
+    {
+      "filename": "phase3a_editorial_metadata_audit.json",
+      "sha256": "dc7a8370e6601e377c75cfec3f2d15277d0baf3a15b7c717c2d6738af509c4b0",
+      "size_bytes": 356779
+    },
+    {
+      "filename": "phase3b_section_domain_restoration_manifest.json",
+      "sha256": "474b03b4d6706b71f2e1779c170c880dae4820cdf76f065fe4ac0190b2d41458",
+      "size_bytes": 68301
+    },
+    {
+      "filename": "phase3b2_corpus_integrity_repair_manifest.json",
+      "sha256": "2437ec6cc56528fc0a0a617ace5a16e3cadd389df4f05124629b3579c366fccb",
+      "size_bytes": 18408
+    },
+    {
+      "filename": "phase3c_category_normalization_manifest.json",
+      "sha256": "d26142ffc4fb5f5b24a0e46f92b24ecb3d9ba6ff47d47117ab78629a596e5590",
+      "size_bytes": 72772
+    },
+    {
+      "filename": "phase3d_definition_source_verification_manifest.json",
+      "sha256": "5a94b7c9ca3cac348a2447641b1b13ad9100db827945e5a581d1d3b9bb716b9d",
+      "size_bytes": 124550
+    },
+    {
+      "filename": "phase3e_editorial_review_manifest.json",
+      "sha256": "986387c80b3f936272e4a3214870b19278edc06ec358ab81289f997b3db67edf",
+      "size_bytes": 15999
+    },
+    {
+      "filename": "phase4a_difficulty_assignment_manifest_v2.json",
+      "sha256": "496428fe987295afbeb1cf5456a5cd99d258b4e0964ca4c74631983c192edd7d",
+      "size_bytes": 266439
+    },
+    {
+      "filename": "phase4a2_difficulty_boundary_audit.json",
+      "sha256": "f5c8ad6137c6d6d64f839f03cd6fd419bae61d3a5b48d7e52f98447432890c43",
+      "size_bytes": 45778
+    },
+    {
+      "filename": "phase4a2_reason_integrity_candidates.json",
+      "sha256": "e8919ab02dd27ecdb84fb81c53323289b6fdbd39e8b99a8e170f382c21a6eb41",
+      "size_bytes": 5670
+    },
+    {
+      "filename": "phase4c_final_regression_audit.json",
+      "sha256": "3159f354118d6f1d62754b7c317897c41ace8d6bd1d439ae92e97237293edacc",
+      "size_bytes": 3313
+    },
+    {
+      "filename": "phase5_seo_inventory.json",
+      "sha256": "8b86cc4f5bd811e0f4a6ae81a890132f141bff8e44e66f58b1e21859daff8273",
+      "size_bytes": 2391
+    },
+    {
+      "filename": "phase5_seo_audit.json",
+      "sha256": "0158c79d3abc922f93444d77839e019a734d5021ce83e793462004f0104a1453",
+      "size_bytes": 2601
+    }
+  ],
+  "generated_at": "2026-09-08T06:50:56.350617+00:00"
+}
