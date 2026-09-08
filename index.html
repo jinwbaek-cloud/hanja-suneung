@@ -576,40 +576,162 @@
       const [isQuizFinished, setIsQuizFinished] = useState(false);
 
       const handleStartQuiz = () => {
-        const keys = Object.keys(MOCK_WORDS);
-        if (keys.length < 5) {
+        const allKeys = Object.keys(MOCK_WORDS);
+        const safeCandidates = [];
+        const byLength = {};
+
+        allKeys.forEach(k => {
+          const entry = MOCK_WORDS[k];
+          const word = cleanWordText(entry.word);
+          const hanja = entry.hanja;
+          const wLen = word.length;
+
+          if (!byLength[wLen]) byLength[wLen] = [];
+          byLength[wLen].push({
+            key: k,
+            word: word,
+            hanja: hanja,
+            difficulty: entry.difficulty || 2,
+            category: entry.category || ""
+          });
+
+          if (wLen >= 2 && wLen <= 4 && entry.contexts && entry.contexts.length > 0) {
+            const validCtxs = [];
+            for (const c of entry.contexts) {
+              const content = c.content || "";
+              let cnt = 0;
+              let pos = content.indexOf(word);
+              while (pos !== -1) {
+                cnt++;
+                pos = content.indexOf(word, pos + word.length);
+              }
+              if (cnt === 1) {
+                if (!content.includes(`${word}(${hanja})`) && !content.includes(`${word} (${hanja})`)) {
+                  if (content.length <= 350) {
+                    validCtxs.push(c);
+                  }
+                }
+              }
+            }
+
+            if (validCtxs.length > 0) {
+              validCtxs.sort((a, b) => (a.content || "").length - (b.content || "").length);
+              safeCandidates.push({
+                key: k,
+                word: word,
+                hanja: hanja,
+                difficulty: entry.difficulty || 2,
+                category: entry.category || "",
+                isClassical: !!entry.isClassical,
+                brief: entry.brief || "",
+                definition: entry.definition || "",
+                context: validCtxs[0]
+              });
+            }
+          }
+        });
+
+        if (safeCandidates.length < 10) {
           alert("퀴즈를 생성하기 위한 수능 어휘 데이터가 부족합니다.");
           return;
         }
 
-        const shuffledKeys = [...keys].sort(() => 0.5 - Math.random());
-        const selectedKeys = shuffledKeys.slice(0, 5);
+        const d1Pool = safeCandidates.filter(c => c.difficulty === 1);
+        const d2Pool = safeCandidates.filter(c => c.difficulty === 2);
+        const d3Pool = safeCandidates.filter(c => c.difficulty === 3);
 
-        const questions = selectedKeys.map(key => {
-          const correctWord = MOCK_WORDS[key];
-          const correctHanja = correctWord.hanja;
-          const cleanCorrectWord = cleanWordText(correctWord.word);
+        const shuffleArray = arr => [...arr].sort(() => 0.5 - Math.random());
+        const selected = [];
+        const usedKeys = new Set();
 
-          const incorrectHanjas = [];
-          while (incorrectHanjas.length < 4) {
-            const rKey = keys[Math.floor(Math.random() * keys.length)];
-            const rWord = MOCK_WORDS[rKey];
-            if (rWord.hanja !== correctHanja && !incorrectHanjas.includes(rWord.hanja)) {
-              incorrectHanjas.push(rWord.hanja);
+        const pickFrom = (pool, count, preferClassical = false) => {
+          let available = pool.filter(c => !usedKeys.has(c.key));
+          if (preferClassical) {
+            const classical = available.filter(c => c.isClassical);
+            if (classical.length > 0) {
+              const chosenClass = classical[Math.floor(Math.random() * classical.length)];
+              selected.push(chosenClass);
+              usedKeys.add(chosenClass.key);
+              count--;
+              available = available.filter(c => !usedKeys.has(c.key));
+            }
+          }
+          const shuffled = shuffleArray(available);
+          for (let i = 0; i < count && i < shuffled.length; i++) {
+            selected.push(shuffled[i]);
+            usedKeys.add(shuffled[i].key);
+          }
+        };
+
+        pickFrom(d1Pool, 2);
+        pickFrom(d2Pool, 4, true);
+        const hasClassical = selected.some(c => c.isClassical);
+        pickFrom(d3Pool, 4, !hasClassical);
+
+        if (selected.length < 10) {
+          const remaining = shuffleArray(safeCandidates.filter(c => !usedKeys.has(c.key)));
+          while (selected.length < 10 && remaining.length > 0) {
+            const extra = remaining.pop();
+            selected.push(extra);
+            usedKeys.add(extra.key);
+          }
+        }
+
+        const blankSymbol = "[   ?   ]";
+
+        const questions = shuffleArray(selected).map(item => {
+          const rawContent = item.context.content || "";
+          const source = item.context.source || "";
+          const targetWord = item.word;
+          const correctHanja = item.hanja;
+
+          let sentenceText = rawContent;
+          if (rawContent.length > 160) {
+            const sentences = rawContent.split(/(?<=[.!?])\s+/);
+            const targetSentences = sentences.filter(s => {
+              let cnt = 0, p = s.indexOf(targetWord);
+              while (p !== -1) { cnt++; p = s.indexOf(targetWord, p + targetWord.length); }
+              return cnt === 1;
+            });
+            if (targetSentences.length > 0 && targetSentences[0].length >= 20) {
+              sentenceText = targetSentences[0];
             }
           }
 
-          const options = [correctHanja, ...incorrectHanjas].sort(() => 0.5 - Math.random());
-          const contextObj = correctWord.contexts && correctWord.contexts[0];
-          const contextText = contextObj ? (contextObj.content || contextObj.desc) : `이 단어의 기출 본문 속 용례는 [${cleanCorrectWord}]입니다.`;
+          const quizContext = sentenceText.replace(targetWord, blankSymbol);
+
+          const wLen = targetWord.length;
+          const distractorPool = (byLength[wLen] || []).filter(
+            d => d.hanja !== correctHanja && d.word !== targetWord
+          );
+
+          const shuffledDistractors = shuffleArray(distractorPool);
+          shuffledDistractors.sort((a, b) => Math.abs(a.difficulty - item.difficulty) - Math.abs(b.difficulty - item.difficulty));
+
+          const chosenDistractorWords = [];
+          const usedSounds = new Set([targetWord]);
+          const usedHanjas = new Set([correctHanja]);
+
+          for (const d of shuffledDistractors) {
+            if (!usedSounds.has(d.word) && !usedHanjas.has(d.hanja)) {
+              chosenDistractorWords.push(d.word);
+              usedSounds.add(d.word);
+              usedHanjas.add(d.hanja);
+              if (chosenDistractorWords.length === 3) break;
+            }
+          }
+
+          const options = shuffleArray([targetWord, ...chosenDistractorWords]);
 
           return {
-            key: key,
-            word: cleanCorrectWord,
+            key: item.key,
+            word: targetWord,
             correctHanja: correctHanja,
-            brief: correctWord.brief,
-            definition: correctWord.definition,
-            context: contextText,
+            brief: item.brief,
+            definition: item.definition,
+            source: source,
+            blankText: blankSymbol,
+            quizContext: quizContext,
             options: options
           };
         });
@@ -626,14 +748,14 @@
         if (selectedOptionIndex !== null) return;
         setSelectedOptionIndex(optIdx);
         const question = quizQuestions[currentQuizIndex];
-        if (question.options[optIdx] === question.correctHanja) {
+        if (question && question.options[optIdx] === question.word) {
           setQuizScore(prev => prev + 1);
         }
       };
 
       const handleNextQuestion = () => {
         setSelectedOptionIndex(null);
-        if (currentQuizIndex < 4) {
+        if (currentQuizIndex < 9) {
           setCurrentQuizIndex(prev => prev + 1);
         } else {
           setIsQuizFinished(true);
@@ -1898,12 +2020,13 @@
             </div>
           )}
 
-          {/* 수능 5지선다 객관식 미니 퀴즈 모달 */}
+          {/* 수능 객관식 미니 퀴즈 모달 */}
           {showQuizModal && (
-            <div className="fixed inset-0 bg-classicText/40 backdrop-blur-sm z-[9999] flex items-center justify-center p-4">
+            <div id="quizModal" className="fixed inset-0 bg-classicText/40 backdrop-blur-sm z-[9999] flex items-center justify-center p-4">
               <div className="w-full max-w-2xl bg-white rounded-3xl border border-classicBorder shadow-2xl p-6 md:p-8 flex flex-col gap-6 relative max-h-[90vh] overflow-y-auto">
 
                 <button
+                  id="quizCloseBtn"
                   onClick={() => setShowQuizModal(false)}
                   className="absolute top-4 right-4 text-classicMuted hover:text-classicRed transition-colors font-bold text-lg"
                 >
@@ -1915,34 +2038,36 @@
                     const question = quizQuestions[currentQuizIndex];
                     if (!question) return null;
 
-                    const blankText = " ______ ";
-                    const quizContext = question.context.replace(new RegExp(question.word, 'g'), blankText);
-
                     return (
                       <div className="space-y-6">
                         <div className="flex items-center justify-between border-b border-classicBorder pb-3">
                           <span className="text-xs font-bold text-classicRed uppercase tracking-wider bg-classicRed/10 border border-classicRed/20 px-2.5 py-0.5 rounded">
                             ⚡ 수능 국어 한자 순삭 퀴즈
                           </span>
-                          <span className="text-sm font-serif font-black text-classicText">
-                            문제 {currentQuizIndex + 1} / 5
+                          <span id="quizProgress" className="text-sm font-serif font-black text-classicText">
+                            문제 {currentQuizIndex + 1} / 10
                           </span>
                         </div>
 
                         <div className="space-y-3">
-                          <h4 className="text-lg font-serif font-bold text-classicText leading-relaxed">
-                            Q. 다음 수능 기출 지문 속 빈칸(<span className="text-classicRed font-bold font-sans"> {blankText} </span>)에 들어갈 올바른 한자 표기를 고르십시오.
+                          <h4 id="quizQuestionTitle" className="text-lg font-serif font-bold text-classicText leading-relaxed">
+                            Q. 다음 수능 기출 지문 속 빈칸(<span className="text-classicRed font-bold font-sans"> {question.blankText} </span>)에 들어갈 알맞은 어휘를 고르십시오.
                           </h4>
 
-                          <div className="bg-classicBg/60 border border-classicBorder/50 rounded-2xl p-5 italic text-sm text-classicText leading-relaxed font-medium">
-                            {renderContentWithBold(quizContext.replace(blankText, `**${blankText}**`))}
+                          <div id="quizQuestion" className="bg-classicBg/60 border border-classicBorder/50 rounded-2xl p-5 italic text-sm text-classicText leading-relaxed font-medium">
+                            {renderContentWithBold(question.quizContext.replace(question.blankText, `**${question.blankText}**`))}
+                            {question.source && (
+                              <div id="quizSource" className="text-right not-italic text-xs text-classicMuted font-sans mt-2 pt-2 border-t border-classicBorder/30">
+                                출전: {question.source}
+                              </div>
+                            )}
                           </div>
                         </div>
 
-                        <div className="flex flex-col gap-2.5">
+                        <div id="quizOptions" className="flex flex-col gap-2.5">
                           {question.options.map((opt, oIdx) => {
                             const isSelected = selectedOptionIndex === oIdx;
-                            const isCorrectOpt = opt === question.correctHanja;
+                            const isCorrectOpt = opt === question.word;
                             const hasAnswered = selectedOptionIndex !== null;
 
                             let btnStyle = "bg-white border-classicBorder hover:border-classicRed/30 hover:bg-classicBg/30 text-classicText";
@@ -1959,6 +2084,8 @@
                             return (
                               <button
                                 key={oIdx}
+                                data-opt={opt}
+                                data-correct={isCorrectOpt}
                                 onClick={() => handleSelectOption(oIdx)}
                                 disabled={hasAnswered}
                                 className={`w-full text-left p-4 rounded-2xl border text-sm transition-all flex items-center justify-between ${btnStyle}`}
@@ -1980,16 +2107,16 @@
                         </div>
 
                         {selectedOptionIndex !== null && (
-                          <div className="p-5 bg-classicBg/60 border border-classicBorder rounded-2xl space-y-2 animate-fade-in">
+                          <div id="quizFeedback" className="p-5 bg-classicBg/60 border border-classicBorder rounded-2xl space-y-2 animate-fade-in">
                             <div className="flex items-center gap-2">
-                              <span className={`text-xs font-bold uppercase px-2.5 py-0.5 rounded border ${question.options[selectedOptionIndex] === question.correctHanja
+                              <span className={`text-xs font-bold uppercase px-2.5 py-0.5 rounded border ${question.options[selectedOptionIndex] === question.word
                                 ? "bg-green-500/10 text-green-700 border-green-500/20"
                                 : "bg-red-500/10 text-red-700 border-red-500/20"
                                 }`}>
-                                {question.options[selectedOptionIndex] === question.correctHanja ? "정답 피드백" : "오답 피드백"}
+                                {question.options[selectedOptionIndex] === question.word ? "정답 피드백" : "오답 피드백"}
                               </span>
                               <span className="text-xs text-classicMuted font-bold">
-                                해답: {question.correctHanja} ({cleanWordText(question.word)})
+                                해답: {question.word} ({question.correctHanja})
                               </span>
                             </div>
                             <p className="text-sm font-serif font-black text-classicText">
@@ -2001,11 +2128,12 @@
 
                             <div className="flex justify-end pt-2">
                               <button
+                                id="quizNextBtn"
                                 onClick={handleNextQuestion}
                                 className="px-5 py-2 bg-classicRed text-white hover:bg-opacity-95 text-xs font-bold rounded-xl transition-all shadow-sm flex items-center gap-1"
                                 style={{ display: 'flex', alignItems: 'center' }}
                               >
-                                {currentQuizIndex < 4 ? "다음 문제" : "결과 보기"} <ArrowRightIcon className="w-3.5 h-3.5" />
+                                {currentQuizIndex < 9 ? "다음 문제" : "결과 보기"} <ArrowRightIcon className="w-3.5 h-3.5" />
                               </button>
                             </div>
                           </div>
@@ -2020,24 +2148,27 @@
                     </div>
 
                     <div className="space-y-2">
-                      <h3 className="text-2xl font-serif font-black text-classicText">수능 미니 퀴즈 완료!</h3>
-                      <p className="text-sm text-classicMuted">5문제 중 총 <span className="text-classicRed font-black text-lg">{quizScore}문제</span> 맞추셨습니다.</p>
+                      <h3 id="quizResultTitle" className="text-2xl font-serif font-black text-classicText">수능 미니 퀴즈 완료!</h3>
+                      <p id="quizResultScore" className="text-sm text-classicMuted">10문제 중 총 <span className="text-classicRed font-black text-lg">{quizScore}문제</span> 맞추셨습니다. (정답률 {Math.round((quizScore / 10) * 100)}%)</p>
                     </div>
 
                     <div className="bg-classicBg/60 border border-classicBorder rounded-2xl p-4 max-w-sm w-full text-sm font-serif font-bold text-classicText">
-                      {quizScore === 5 && "🎯 수능 국어 1등급 페이스! 완벽한 문맥 어휘력입니다."}
-                      {quizScore >= 3 && quizScore <= 4 && "👏 훌륭합니다! 고난도 비문학 독해 안정권입니다."}
-                      {quizScore < 3 && "💪 아쉽습니다! 지문 한자 자구 풀이를 통해 복습해 보세요."}
+                      {quizScore === 10 && "🎯 10/10 만점! 수능 국어 1등급을 넘어선 완벽한 문맥 한자 어휘력입니다."}
+                      {quizScore >= 8 && quizScore <= 9 && "👏 훌륭합니다! 고난도 기출 지문 독해 최상위 안정권입니다."}
+                      {quizScore >= 6 && quizScore <= 7 && "👍 양호합니다! 주요 수능 기출 한자 어휘를 잘 숙지하고 있습니다."}
+                      {quizScore < 6 && "💪 아쉽습니다! 지문 한자 자구 풀이와 기출 문맥을 통해 복습해 보세요."}
                     </div>
 
                     <div className="flex gap-3 w-full max-w-sm" style={{ display: 'flex', gap: '0.75rem', width: '100%', justifyContent: 'center' }}>
                       <button
+                        id="quizRestartBtn"
                         onClick={handleStartQuiz}
                         className="flex-1 py-3 bg-classicRed text-white hover:bg-opacity-95 text-xs font-bold rounded-xl shadow-md transition-all"
                       >
                         다시 풀기
                       </button>
                       <button
+                        id="quizEndBtn"
                         onClick={() => setShowQuizModal(false)}
                         className="flex-1 py-3 bg-white hover:bg-classicBg border border-classicBorder text-classicText text-xs font-bold rounded-xl transition-all"
                       >
