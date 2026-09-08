@@ -47,7 +47,8 @@ window.MOCK_WORDS = {
                 "content": "그는 생존과 편리 증진을 위해 과학 연구가 시급 하지만, 가치관 정립과 인격 수양을 위해 철학 또한 필수적 이라고 보았다."
             }
         ],
-        "id": "정립-定立"
+        "id": "정립-定立",
+        "definitionSource": "표준국어대사전"
     },
     "반정립": {
         "word": "반정립",
@@ -89,7 +90,8 @@ window.MOCK_WORDS = {
                 "domain": "인문·철학"
             }
         ],
-        "id": "반정립-反定立"
+        "id": "반정립-反定立",
+        "definitionSource": "표준국어대사전"
     },
     "종합": {
         "word": "종합",
@@ -147,7 +149,8 @@ window.MOCK_WORDS = {
                 "content": "㉮대법원은 실명을 거론한 경우는 물론, 실명을 거론하지 않았더라도 주위 사정을 종합할 때 지목된 사람이 누구인지를 제3자가 알 수 있는 경우에는 명예훼손이나 모욕에 대한 가해자의 법적 책임이 성립한다고 판시해 왔다."
             }
         ],
-        "id": "종합-綜合"
+        "id": "종합-綜合",
+        "definitionSource": "표준국어대사전"
     },
     "전제": {
         "word": "전제",
@@ -219,7 +222,8 @@ window.MOCK_WORDS = {
                 "content": "정신적 자질 중 과학적 사유 능력이 가장 중요하다고 파악한 그에게 과학 정신이 전제되지 않은 정치적 변혁은 뿌리내릴 수 없는 것이었다."
             }
         ],
-        "id": "전제-前提"
+        "id": "전제-前提",
+        "definitionSource": "표준국어대사전"
     },
     "유추": {
         "word": "유추",
@@ -253,7 +257,8 @@ window.MOCK_WORDS = {
                 "content": "(가)는 법조문의 의미를 다른 상황에서 유추하여 도출하고, (나)는 보증 계약의 유형별로 규제의 공통점을 비교하고 있다."
             }
         ],
-        "id": "유추-類推"
+        "id": "유추-類推",
+        "definitionSource": "표준국어대사전"
     },
     "수렴": {
         "word": "수렴",
@@ -301,7 +306,8 @@ window.MOCK_WORDS = {
                 "content": "우리 시에서는 새로 건립되는 주민 복지 센터의 공간 활용 방안에 대해 Y동과 Z동 주민들을 대상으로 의견 수렴을 실시한다."
             }
         ],
-        "id": "수렴-收斂"
+        "id": "수렴-收斂",
+        "definitionSource": "표준국어대사전"
     },
     "발산": {
         "word": "발산",
@@ -335,7 +341,8 @@ window.MOCK_WORDS = {
                 "content": "④ ⓓ: 발산하는"
             }
         ],
-        "id": "발산-發散"
+        "id": "발산-發散",
+        "definitionSource": "표준국어대사전"
     },
     "변증법": {
         "word": "변증법",
@@ -377,7 +384,8 @@ window.MOCK_WORDS = {
                 "domain": "인문·철학"
             }
         ],
-        "id": "변증법-辨證法"
+        "id": "변증법-辨證法",
+        "definitionSource": "표준국어대사전"
     },
     "동일성": {
         "word": "동일성",
@@ -423,7 +431,8 @@ window.MOCK_WORDS = {
                 "content": "아도르노는 서로 다른 가치 체계를 하나의 가치 체계로 통일시키려는 속성을 동일성으로, 하나의 가치 체계로의 환원을 거부하는 속성을 비동일성으로 규정하고, 예술은 이러한 환원을 거부하는 비동일성을 지녀야 한다고 주장한다."
             }
         ],
-        "id": "동일성-同一性"
+        "id": "동일성-同一性",
+        "definitionSource": "표준국어대사전"
     },
     "자아": {
         "word": "자아",
@@ -457,7 +466,8 @@ window.MOCK_WORDS = {
                 "content": "철학에서 특정한 개인으로서의 인간을 ‘인격’, 그중 ‘나’를 ‘자아’라고 한다."
             }
         ],
-        "id": "자아-自我"
+        "id": "자아-自我",
+        "definitionSource": "표준국어대사전"
     },
     "도외시": {
         "word": "도외시",
@@ -540,7 +550,8 @@ window.MOCK_WORDS = {
                 "content": "공공 저널리즘은 공중을 공공 문제의 잠재적 참여자로 간주하고, 다양한 층위의 사람들을 공론장에 참여하게 함으로써, 공공 문제의 해결 방안이 원활히 토의될 수 있도록 하는 목적을 가진다."
             }
         ],
-        "id": "잠재-潛在"
+        "id": "잠재-潛在",
+        "definitionSource": "표준국어대사전"
     },
     "인과": {
         "word": "인과",
@@ -592,7 +603,8 @@ window.MOCK_WORDS = {
                 "content": "그는 인과 실증의 방법에 근거한 근대 학문 전체를 과학이라 파악하고, 과학을 습득하여 전통 학문의 폐단에서 벗어나야 한다고 주장 했다."
             }
         ],
-        "id": "인과-因果"
+        "id": "인과-因果",
+        "definitionSource": "표준국어대사전"
     },
     "실재": {
         "word": "실재",
@@ -646,7 +658,8 @@ window.MOCK_WORDS = {
                 "content": "또한 잠재 표현의 수치들을 조정하면 다른 특성의 노이즈가 생성되어 여러 이미지를 혼합하거나 실재하지 않는 이미지를 만들어 낼 수도 있다."
             }
         ],
-        "id": "실재-實在"
+        "id": "실재-實在",
+        "definitionSource": "표준국어대사전"
     },
     "결측치": {
         "word": "결측치",
@@ -686,7 +699,8 @@ window.MOCK_WORDS = {
                 "content": "그런데 데이터에 결측치와 이상치가 포함되면 데이터의 특징을 제대로 나타내기 어렵다."
             }
         ],
-        "id": "결측치-缺測値"
+        "id": "결측치-缺測値",
+        "definitionSource": null
     },
     "이상치": {
         "word": "이상치",
@@ -726,7 +740,8 @@ window.MOCK_WORDS = {
                 "content": "그런데 데이터에 결측치와 이상치가 포함되면 데이터의 특징을 제대로 나타내기 어렵다."
             }
         ],
-        "id": "이상치-異常値"
+        "id": "이상치-異常値",
+        "definitionSource": null
     },
     "곡률": {
         "word": "곡률",
@@ -769,7 +784,8 @@ window.MOCK_WORDS = {
                 "domain": "과학·기술"
             }
         ],
-        "id": "곡률-曲率"
+        "id": "곡률-曲率",
+        "definitionSource": "표준국어대사전"
     },
     "민감도": {
         "word": "민감도",
@@ -810,7 +826,8 @@ window.MOCK_WORDS = {
                 "domain": "과학·기술"
             }
         ],
-        "id": "민감도-敏感度"
+        "id": "민감도-敏感度",
+        "definitionSource": "우리말샘"
     },
     "담보": {
         "word": "담보",
@@ -850,7 +867,8 @@ window.MOCK_WORDS = {
                 "content": "담보의 일상적 의미는 ‘맡아서 보증함’이고, 이런 의미로 사용된 예로 ‘구조물의 안전을 담보하기 위한 검사’를 들 수 있다."
             }
         ],
-        "id": "담보-擔保"
+        "id": "담보-擔保",
+        "definitionSource": "표준국어대사전"
     },
     "효용": {
         "word": "효용",
@@ -896,7 +914,8 @@ window.MOCK_WORDS = {
                 "content": "⑤ 청중이 발표 내용을 통해 얻을 수 있는 효용을 제시하며 화제를 전환하고 있다."
             }
         ],
-        "id": "효용-效用"
+        "id": "효용-效用",
+        "definitionSource": "표준국어대사전"
     },
     "상충": {
         "word": "상충",
@@ -950,7 +969,8 @@ window.MOCK_WORDS = {
                 "content": "④ 상충된 이해관계를 인물이 조정하는 단서로, 심화된 사회적 갈등을 해소한다."
             }
         ],
-        "id": "상충-相衝"
+        "id": "상충-相衝",
+        "definitionSource": "표준국어대사전"
     },
     "비판적": {
         "word": "비판적",
@@ -1020,7 +1040,8 @@ window.MOCK_WORDS = {
                 "content": "⑤ (나): 근대 과학 문명에 대한 비판적 인식을 바탕으로 전통 가치관에 주목하는 견해가 제시되었다."
             }
         ],
-        "id": "비판적-批判的"
+        "id": "비판적-批判的",
+        "definitionSource": "표준국어대사전"
     },
     "종합적": {
         "word": "종합적",
@@ -1078,7 +1099,8 @@ window.MOCK_WORDS = {
                 "content": "에이어는 진리 적합성을 갖는 모든 문장은 그 문장에 사용된 단어의 정의를 통해 검증되는 분석적 문장이거나 경험적 관찰에 의해 검증되는 종합적 문장이라는 원리를 바탕으로 도덕 문장은 진리 적합성이 없다고 주장했다."
             }
         ],
-        "id": "종합적-綜合的"
+        "id": "종합적-綜合的",
+        "definitionSource": "표준국어대사전"
     },
     "교차하다": {
         "word": "교차하다",
@@ -1112,7 +1134,8 @@ window.MOCK_WORDS = {
                 "content": "어떤 과정은 다른 과정과 한 시공간적 지점에서 만난다. 즉, 두 과정이 교차한다."
             }
         ],
-        "id": "교차하다-交叉하다"
+        "id": "교차하다-交叉하다",
+        "definitionSource": "표준국어대사전"
     },
     "망각": {
         "word": "망각",
@@ -1146,7 +1169,8 @@ window.MOCK_WORDS = {
                 "content": "탐구 과정에서 개인적으로 구성한 의미를 기록하는 것은 읽은 내용의 망각을 방지하며, 비판과 토론의 자료로서 사회적 차원의 의미 구성에 기여한다."
             }
         ],
-        "id": "망각-忘却"
+        "id": "망각-忘却",
+        "definitionSource": "표준국어대사전"
     },
     "감응하다": {
         "word": "감응하다",
@@ -1180,7 +1204,8 @@ window.MOCK_WORDS = {
                 "content": "인간과 하늘에 공통된 음양의 기(氣)를 통해 하늘과 인간이 서로 감응한다는 천인감응론을 결합하여 재이론을 체계화하였다."
             }
         ],
-        "id": "감응하다-感應하다"
+        "id": "감응하다-感應하다",
+        "definitionSource": "표준국어대사전"
     },
     "표지": {
         "word": "표지",
@@ -1244,7 +1269,8 @@ window.MOCK_WORDS = {
                 "content": "③ 일상적이지 않은 경험을 인물이 의식한다는 표지로, 인물의 심리적 동요를 부른다."
             }
         ],
-        "id": "표지-標識"
+        "id": "표지-標識",
+        "definitionSource": "표준국어대사전"
     },
     "실정": {
         "word": "실정",
@@ -1278,7 +1304,8 @@ window.MOCK_WORDS = {
                 "content": "그에 따르면, 군주가 실정(失政)을 저지르면 그로 말미암아 변화된 음양의 기를 통해 감응한 하늘이 가뭄과 홍수, 일식과 월식 등 재이를 통해 경고를 내린다."
             }
         ],
-        "id": "실정-失政"
+        "id": "실정-失政",
+        "definitionSource": "표준국어대사전"
     },
     "미혹시키다": {
         "word": "미혹시키다",
@@ -1312,7 +1339,8 @@ window.MOCK_WORDS = {
                 "content": "요망한 말로 백성을 미혹시켰다는 이유로 군주가 직언을 하는 신하를 탄압하는 빌미가 되기도 하였다."
             }
         ],
-        "id": "미혹시키다-迷惑시키다"
+        "id": "미혹시키다-迷惑시키다",
+        "definitionSource": null
     },
     "강론하다": {
         "word": "강론하다",
@@ -1346,7 +1374,8 @@ window.MOCK_WORDS = {
                 "content": "퇴계(退溪)는 “읽은 것을 얼굴을 마주하고 강론하는 것이 좋기는 하지만, 항상 마음속의 생각을 다 드러내지는 못하고 만다. 그러니 의문이 드는 부분을 뽑아 기록해서 벗에게 보내 자세히 살펴볼 수 있게 하는 것만 못하다.”라고 하였다."
             }
         ],
-        "id": "강론하다-講論하다"
+        "id": "강론하다-講論하다",
+        "definitionSource": "표준국어대사전"
     },
     "재이론": {
         "word": "재이론",
@@ -1386,7 +1415,8 @@ window.MOCK_WORDS = {
                 "content": "자연 현상과 인간사를 인과 관계로 설명하는 동아시아의 대표적 논의는 재이론(災異論)이다."
             }
         ],
-        "id": "재이론-災異論"
+        "id": "재이론-災異論",
+        "definitionSource": null
     },
     "성문법": {
         "word": "성문법",
@@ -1432,7 +1462,8 @@ window.MOCK_WORDS = {
                 "content": "법조문으로 구성된 법 규범인 성문법의 의미를 파악하는 것을 법 해석이라고 한다."
             }
         ],
-        "id": "성문법-成文法"
+        "id": "성문법-成文法",
+        "definitionSource": "표준국어대사전"
     },
     "귀속": {
         "word": "귀속",
@@ -1478,7 +1509,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "귀속-歸屬"
+        "id": "귀속-歸屬",
+        "definitionSource": "표준국어대사전"
     },
     "제약": {
         "word": "제약",
@@ -1536,7 +1568,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "제약-制約"
+        "id": "제약-制約",
+        "definitionSource": "표준국어대사전"
     },
     "방식": {
         "word": "방식",
@@ -1606,7 +1639,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "방식-方式"
+        "id": "방식-方式",
+        "definitionSource": "표준국어대사전"
     },
     "가치": {
         "word": "가치",
@@ -1670,7 +1704,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "가치-價値"
+        "id": "가치-價値",
+        "definitionSource": "표준국어대사전"
     },
     "도출": {
         "word": "도출",
@@ -1728,7 +1763,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "도출-導出"
+        "id": "도출-導出",
+        "definitionSource": "표준국어대사전"
     },
     "괴리": {
         "word": "괴리",
@@ -1763,7 +1799,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "괴리-乖離"
+        "id": "괴리-乖離",
+        "definitionSource": "표준국어대사전"
     },
     "부합": {
         "word": "부합",
@@ -1833,7 +1870,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "부합-符合"
+        "id": "부합-符合",
+        "definitionSource": "표준국어대사전"
     },
     "환기": {
         "word": "환기",
@@ -1899,7 +1937,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "환기-喚起"
+        "id": "환기-喚起",
+        "definitionSource": "표준국어대사전"
     },
     "탄력성": {
         "word": "탄력성",
@@ -1941,7 +1980,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "탄력성-彈力性"
+        "id": "탄력성-彈力性",
+        "definitionSource": "표준국어대사전"
     },
     "선결정": {
         "word": "선결정",
@@ -1983,7 +2023,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "선결정-先決定"
+        "id": "선결정-先決定",
+        "definitionSource": null
     },
     "무작위": {
         "word": "무작위",
@@ -2025,7 +2066,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "무작위-無作爲"
+        "id": "무작위-無作爲",
+        "definitionSource": "표준국어대사전"
     },
     "동기화": {
         "word": "동기화",
@@ -2067,7 +2109,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "동기화-同期化"
+        "id": "동기화-同期化",
+        "definitionSource": "표준국어대사전"
     },
     "주체": {
         "word": "주체",
@@ -2139,7 +2182,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "주체-主體"
+        "id": "주체-主體",
+        "definitionSource": "표준국어대사전"
     },
     "강호": {
         "word": "강호",
@@ -2177,7 +2221,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "강호-江湖"
+        "id": "강호-江湖",
+        "definitionSource": "표준국어대사전"
     },
     "임천": {
         "word": "임천",
@@ -2217,7 +2262,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "임천-林泉"
+        "id": "임천-林泉",
+        "definitionSource": "표준국어대사전"
     },
     "홍진": {
         "word": "홍진",
@@ -2255,7 +2301,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "홍진-紅塵"
+        "id": "홍진-紅塵",
+        "definitionSource": "표준국어대사전"
     },
     "소구": {
         "word": "소구",
@@ -2291,7 +2338,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "소구-訴求"
+        "id": "소구-訴求",
+        "definitionSource": null
     },
     "구현": {
         "word": "구현",
@@ -2357,7 +2405,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "구현-具現"
+        "id": "구현-具現",
+        "definitionSource": "표준국어대사전"
     },
     "집적": {
         "word": "집적",
@@ -2393,7 +2442,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "집적-集積"
+        "id": "집적-集積",
+        "definitionSource": "표준국어대사전"
     },
     "현혹": {
         "word": "현혹",
@@ -2429,7 +2479,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "현혹-眩惑"
+        "id": "현혹-眩惑",
+        "definitionSource": "표준국어대사전"
     },
     "발복": {
         "word": "발복",
@@ -2469,7 +2520,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "발복-發福"
+        "id": "발복-發福",
+        "definitionSource": "표준국어대사전"
     },
     "가인": {
         "word": "가인",
@@ -2509,7 +2561,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "가인-佳人"
+        "id": "가인-佳人",
+        "definitionSource": "표준국어대사전"
     },
     "해명": {
         "word": "해명",
@@ -2545,7 +2598,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "해명-解明"
+        "id": "해명-解明",
+        "definitionSource": "표준국어대사전"
     },
     "점진적": {
         "word": "점진적",
@@ -2581,7 +2635,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "점진적-漸進적"
+        "id": "점진적-漸進적",
+        "definitionSource": null
     },
     "심층": {
         "word": "심층",
@@ -2623,7 +2678,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "심층-深層"
+        "id": "심층-深層",
+        "definitionSource": "표준국어대사전"
     },
     "야인": {
         "word": "야인",
@@ -2663,7 +2719,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "야인-野人"
+        "id": "야인-野人",
+        "definitionSource": "표준국어대사전"
     },
     "소일": {
         "word": "소일",
@@ -2703,7 +2760,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "소일-消日"
+        "id": "소일-消日",
+        "definitionSource": "표준국어대사전"
     },
     "현알": {
         "word": "현알",
@@ -2743,7 +2801,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "현알-顯謁"
+        "id": "현알-顯謁",
+        "definitionSource": null
     },
     "전별": {
         "word": "전별",
@@ -2789,7 +2848,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "전별-餞別"
+        "id": "전별-餞別",
+        "definitionSource": "표준국어대사전"
     },
     "사퇴": {
         "word": "사퇴",
@@ -2829,7 +2889,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "사퇴-謝退"
+        "id": "사퇴-謝退",
+        "definitionSource": null
     },
     "진세": {
         "word": "진세",
@@ -2881,7 +2942,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "진세-塵世"
+        "id": "진세-塵世",
+        "definitionSource": "표준국어대사전"
     },
     "산재": {
         "word": "산재",
@@ -2917,7 +2979,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "산재-散在"
+        "id": "산재-散在",
+        "definitionSource": "표준국어대사전"
     },
     "과두제": {
         "word": "과두제",
@@ -2959,7 +3022,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "과두제-寡頭制"
+        "id": "과두제-寡頭制",
+        "definitionSource": "표준국어대사전"
     },
     "은폐": {
         "word": "은폐",
@@ -2999,7 +3063,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "은폐-隱蔽"
+        "id": "은폐-隱蔽",
+        "definitionSource": "표준국어대사전"
     },
     "견제": {
         "word": "견제",
@@ -3035,7 +3100,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "견제-牽制"
+        "id": "견제-牽制",
+        "definitionSource": "표준국어대사전"
     },
     "발현": {
         "word": "발현",
@@ -3071,7 +3137,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "발현-發現"
+        "id": "발현-發現",
+        "definitionSource": "표준국어대사전"
     },
     "수중고혼": {
         "word": "수중고혼",
@@ -3123,7 +3190,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "수중고혼-水中孤魂"
+        "id": "수중고혼-水中孤魂",
+        "definitionSource": "표준국어대사전"
     },
     "흠향": {
         "word": "흠향",
@@ -3163,7 +3231,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "흠향-歆饗"
+        "id": "흠향-歆饗",
+        "definitionSource": "표준국어대사전"
     },
     "주달": {
         "word": "주달",
@@ -3203,7 +3272,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "주달-奏達"
+        "id": "주달-奏達",
+        "definitionSource": "표준국어대사전"
     },
     "단서": {
         "word": "단서",
@@ -3257,7 +3327,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "단서-端緖"
+        "id": "단서-端緖",
+        "definitionSource": "표준국어대사전"
     },
     "상호보완적": {
         "word": "상호보완적",
@@ -3311,7 +3382,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "상호보완적-相互補完的"
+        "id": "상호보완적-相互補完的",
+        "definitionSource": null
     },
     "무결성": {
         "word": "무결성",
@@ -3353,7 +3425,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "무결성-無缺性"
+        "id": "무결성-無缺性",
+        "definitionSource": "우리말샘"
     },
     "탈중앙성": {
         "word": "탈중앙성",
@@ -3401,7 +3474,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "탈중앙성-脫中央性"
+        "id": "탈중앙성-脫中央性",
+        "definitionSource": null
     },
     "확장성": {
         "word": "확장성",
@@ -3443,7 +3517,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "확장성-擴張性"
+        "id": "확장성-擴張性",
+        "definitionSource": "우리말샘"
     },
     "총체": {
         "word": "총체",
@@ -3491,7 +3566,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "총체-總體"
+        "id": "총체-總體",
+        "definitionSource": "표준국어대사전"
     },
     "부재": {
         "word": "부재",
@@ -3545,7 +3621,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "부재-不在"
+        "id": "부재-不在",
+        "definitionSource": "표준국어대사전"
     },
     "간극": {
         "word": "간극",
@@ -3593,7 +3670,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "간극-間隙"
+        "id": "간극-間隙",
+        "definitionSource": "표준국어대사전"
     },
     "개연성": {
         "word": "개연성",
@@ -3641,7 +3719,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "개연성-蓋然性"
+        "id": "개연성-蓋然性",
+        "definitionSource": "표준국어대사전"
     },
     "자태": {
         "word": "자태",
@@ -3681,7 +3760,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "자태-姿態"
+        "id": "자태-姿態",
+        "definitionSource": "표준국어대사전"
     },
     "재구성": {
         "word": "재구성",
@@ -3747,7 +3827,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "재구성-再構成"
+        "id": "재구성-再構成",
+        "definitionSource": "표준국어대사전"
     },
     "적합성": {
         "word": "적합성",
@@ -3789,7 +3870,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "적합성-適合性"
+        "id": "적합성-適合性",
+        "definitionSource": "표준국어대사전"
     },
     "존립": {
         "word": "존립",
@@ -3824,7 +3906,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "존립-存立"
+        "id": "존립-存立",
+        "definitionSource": "표준국어대사전"
     },
     "와해": {
         "word": "와해",
@@ -3859,7 +3942,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "와해-瓦解"
+        "id": "와해-瓦解",
+        "definitionSource": "표준국어대사전"
     },
     "당위": {
         "word": "당위",
@@ -3900,7 +3984,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "당위-當爲"
+        "id": "당위-當爲",
+        "definitionSource": "표준국어대사전"
     },
     "개진": {
         "word": "개진",
@@ -3935,7 +4020,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "개진-開陳"
+        "id": "개진-開陳",
+        "definitionSource": "표준국어대사전"
     },
     "매개": {
         "word": "매개",
@@ -3982,7 +4068,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "매개-媒介"
+        "id": "매개-媒介",
+        "definitionSource": "표준국어대사전"
     },
     "환원": {
         "word": "환원",
@@ -4023,7 +4110,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "환원-還元"
+        "id": "환원-還元",
+        "definitionSource": "표준국어대사전"
     },
     "지척": {
         "word": "지척",
@@ -4062,7 +4150,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "지척-咫尺"
+        "id": "지척-咫尺",
+        "definitionSource": "표준국어대사전"
     },
     "행장": {
         "word": "행장",
@@ -4101,7 +4190,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "행장-行裝"
+        "id": "행장-行裝",
+        "definitionSource": "표준국어대사전"
     },
     "기피": {
         "word": "기피",
@@ -4136,7 +4226,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "기피-忌避"
+        "id": "기피-忌避",
+        "definitionSource": "표준국어대사전"
     },
     "담론": {
         "word": "담론",
@@ -4171,7 +4262,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "담론-談論"
+        "id": "담론-談論",
+        "definitionSource": "표준국어대사전"
     },
     "편중": {
         "word": "편중",
@@ -4206,7 +4298,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "편중-偏重"
+        "id": "편중-偏重",
+        "definitionSource": "표준국어대사전"
     },
     "궤란": {
         "word": "궤란",
@@ -4245,7 +4338,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "궤란-憒亂"
+        "id": "궤란-憒亂",
+        "definitionSource": null
     },
     "제수": {
         "word": "제수",
@@ -4298,7 +4392,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "제수-除授"
+        "id": "제수-除授",
+        "definitionSource": "표준국어대사전"
     },
     "대경실색": {
         "word": "대경실색",
@@ -4355,7 +4450,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "대경실색-大驚失色"
+        "id": "대경실색-大驚失色",
+        "definitionSource": "표준국어대사전"
     },
     "정류": {
         "word": "정류",
@@ -5562,7 +5658,8 @@ window.MOCK_WORDS = {
                 "domain": "인문·철학"
             }
         ],
-        "id": "재객관화-再客觀化"
+        "id": "재객관화-再客觀化",
+        "definitionSource": null
     },
     "흠결": {
         "word": "흠결",
@@ -6052,7 +6149,8 @@ window.MOCK_WORDS = {
                 "domain": "고전소설"
             }
         ],
-        "id": "초종례-初終禮"
+        "id": "초종례-初終禮",
+        "definitionSource": null
     },
     "염습": {
         "word": "염습",
@@ -6268,7 +6366,8 @@ window.MOCK_WORDS = {
                 "domain": "고전시가"
             }
         ],
-        "id": "내빈왕객-來賓往客"
+        "id": "내빈왕객-來賓往客",
+        "definitionSource": null
     },
     "궁귀": {
         "word": "궁귀",
@@ -6308,7 +6407,8 @@ window.MOCK_WORDS = {
                 "domain": "고전시가"
             }
         ],
-        "id": "궁귀-窮鬼"
+        "id": "궁귀-窮鬼",
+        "definitionSource": null
     },
     "천기": {
         "word": "천기",
@@ -6401,7 +6501,8 @@ window.MOCK_WORDS = {
                 "domain": "고전시가"
             }
         ],
-        "id": "희로우락-喜怒憂樂"
+        "id": "희로우락-喜怒憂樂",
+        "definitionSource": null
     },
     "상지": {
         "word": "상지",
