@@ -522,6 +522,7 @@
         setIsClosingDetail(true);
         setTimeout(() => {
           setSelectedWord(null);
+          setShowHanjaInContext(false);
           setIsClosingDetail(false);
           if (callback) callback();
         }, 300);
@@ -918,6 +919,7 @@
         if (!wordObj) return;
         setSelectedWord(wordObj);
         setActiveDetailContext(0);
+        setShowHanjaInContext(false);
         if (!dynamicFeeds[wordObj.word]) {
           setDynamicFeeds(prev => {
             const next = Object.assign({}, prev);
@@ -1080,22 +1082,98 @@
         return dynamicFeeds[selectedWord.word] || selectedWord.feed;
       }, [selectedWord, dynamicFeeds]);
 
-      const renderContentWithBold = (content) => {
+      const renderContentWithBold = (content, targetWordObj = selectedWord) => {
         if (!content) return "";
-        const parts = content.split(/\*\*([^*]+)\*\*/g);
-        return parts.map((part, index) => {
-          if (index % 2 === 1) {
-            const cleanWord = selectedWord ? cleanWordText(selectedWord.word) : "";
-            const isTarget = selectedWord && (part.trim() === cleanWord || part.trim() === selectedWord.word);
-            const displayWord = (isTarget && showHanjaInContext) ? selectedWord.hanja : part;
 
-            return React.createElement('strong', {
-              key: index,
-              className: "text-classicRed border-b border-classicRed/30 font-serif font-black px-0.5 transition-all duration-300 bg-classicRed/5 hover:bg-classicRed/10 rounded"
-            }, displayWord);
+        // 1. If content contains markdown **...** (e.g. quiz modal blank or manual bolding)
+        if (content.includes("**")) {
+          const cleanWord = targetWordObj ? cleanWordText(targetWordObj.word) : "";
+          const parts = content.split(/\*\*([^*]+)\*\*/g);
+          return parts.map((part, index) => {
+            if (index % 2 === 1) {
+              const isTarget = targetWordObj && (part.trim() === cleanWord || part.trim() === targetWordObj.word);
+              const displayWord = (isTarget && showHanjaInContext) ? targetWordObj.hanja : part;
+
+              return React.createElement('strong', {
+                key: index,
+                className: "text-classicRed border-b border-classicRed/30 font-serif font-black px-0.5 transition-all duration-300 bg-classicRed/5 hover:bg-classicRed/10 rounded"
+              }, displayWord);
+            }
+            return part;
+          });
+        }
+
+        // 2. If targetWordObj is provided, match surface form in raw context and support Hanja ↔ Korean toggle
+        if (targetWordObj) {
+          const rawWord = targetWordObj.word || "";
+          const rawHanja = targetWordObj.hanja || "";
+          const cWord = cleanWordText(rawWord);
+          const cHanja = cleanWordText(rawHanja);
+
+          let targetMatch = null;
+          let replaceHanja = cHanja;
+
+          // A. Exact clean word match
+          if (cWord && content.includes(cWord)) {
+            targetMatch = cWord;
+            replaceHanja = cHanja;
+          } else if (cWord) {
+            // B. Spaced pattern match (e.g. "평가 절하" for "평가절하")
+            try {
+              const spacedPattern = cWord.split('').map(ch => ch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('\\s*');
+              const regexSpaced = new RegExp(spacedPattern);
+              const match = content.match(regexSpaced);
+              if (match) {
+                targetMatch = match[0];
+                replaceHanja = cHanja;
+              }
+            } catch (e) {}
+
+            // C. Stem matching for predicates/suffixes (하다, 되다, 시키다, 적)
+            if (!targetMatch) {
+              const suffixes = ['시키다', '하다', '되다', '적'];
+              for (const suffix of suffixes) {
+                if (cWord.endsWith(suffix) && cHanja.endsWith(suffix)) {
+                  const stemWord = cWord.slice(0, -suffix.length);
+                  const stemHanja = cHanja.slice(0, -suffix.length);
+                  if (stemWord && content.includes(stemWord)) {
+                    targetMatch = stemWord;
+                    replaceHanja = stemHanja;
+                    break;
+                  }
+                  try {
+                    const spacedStem = stemWord.split('').map(ch => ch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('\\s*');
+                    const matchStem = content.match(new RegExp(spacedStem));
+                    if (matchStem) {
+                      targetMatch = matchStem[0];
+                      replaceHanja = stemHanja;
+                      break;
+                    }
+                  } catch (e) {}
+                }
+              }
+            }
           }
-          return part;
-        });
+
+          if (targetMatch) {
+            const escaped = targetMatch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const splitRegex = new RegExp(`(${escaped})`, 'g');
+            const parts = content.split(splitRegex);
+
+            return parts.map((part, index) => {
+              if (part === targetMatch) {
+                const displayWord = showHanjaInContext ? replaceHanja : part;
+                return React.createElement('strong', {
+                  key: index,
+                  className: "text-classicRed border-b border-classicRed/30 font-serif font-black px-0.5 transition-all duration-300 bg-classicRed/5 hover:bg-classicRed/10 rounded"
+                }, displayWord);
+              }
+              return part;
+            });
+          }
+        }
+
+        return content;
       };
 
       const wordColorInfo = selectedWord ? CATEGORY_COLORS[selectedWord.category] : null;
@@ -1327,6 +1405,7 @@
                       <span>👁️</span> 이 단어 마스터 완료
                     </button>
                     <button
+                      id="closeDetailBtn"
                       onClick={() => closeDetailView()}
                       className="px-3 py-1 bg-classicCard hover:bg-classicBg border border-classicBorder rounded-lg text-xs font-bold text-classicText transition-colors"
                     >
@@ -1485,6 +1564,7 @@
                                 {/* 한자-한글 실시간 스위칭 토글 */}
                                 <div className="flex items-center gap-3" style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                                   <button
+                                    id="contextHanjaToggleBtn"
                                     onClick={() => setShowHanjaInContext(prev => !prev)}
                                     className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all border flex items-center gap-1.5 shrink-0 ${showHanjaInContext
                                       ? "bg-classicRed text-white border-classicRed shadow-sm"
@@ -1506,8 +1586,8 @@
                                 {ctx.title || `${cleanWordText(selectedWord.word)}${getJosa(selectedWord.word, "이/가")} 사용된 실제 기출 문맥`}
                               </h4>
 
-                              <p className="text-sm text-classicText leading-relaxed font-medium">
-                                {renderContentWithBold(ctx.content || ctx.desc)}
+                              <p id="detailContextContent" className="text-sm text-classicText leading-relaxed font-medium">
+                                {renderContentWithBold(ctx.content || ctx.desc, selectedWord)}
                               </p>
 
                               {ctx.tip && (
@@ -1973,7 +2053,7 @@
                                         {formatContextSource(currentCtx)}
                                       </span>
                                       <p className="text-[11px] text-classicText leading-relaxed font-medium bg-classicBg/60 p-2 rounded border border-classicBorder/30 italic">
-                                        🔍 {renderContentWithBold(currentCtx.desc || currentCtx.content)}
+                                        🔍 {renderContentWithBold(currentCtx.desc || currentCtx.content, wordData)}
                                       </p>
                                     </div>
                                   )}
