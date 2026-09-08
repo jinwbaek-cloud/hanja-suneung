@@ -22,7 +22,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘올바른 방향을 정하고(定) 굳건하게 세운다(立)’는 속뜻입니다. 변증법적 전개에서 어떤 명제나 주장을 가장 먼저 뼈대로 세우는 최초의 단계를 의미합니다.",
         "feed": [],
-        "type": "구조 파악형",
         "contexts": [
             {
                 "source": "2022 본수",
@@ -80,7 +79,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘이미 세워진 정립에 반대하여(反) 맞서는 논리를 정립(定立)한다’는 뜻입니다. 기존 주장의 한계를 극복하기 위해 모순과 비판을 던지는 필수 변증법적 단계입니다.",
         "feed": [],
-        "type": "구조 파악형",
         "contexts": [
             {
                 "source": "2022 본수",
@@ -118,7 +116,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘갈라져 있는 것들을 실로 엮어 모으고(綜) 하나로 맞추어 합친다(合)’는 뜻입니다. 두 대립되는 논리적 모순을 버리지 않고, 장점만 수용하여 한 수준 높은 가치로 통합하는 과정을 의미합니다.",
         "feed": [],
-        "type": "구조 파악형",
         "contexts": [
             {
                 "source": "2026 9모",
@@ -178,7 +175,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘어떤 결론을 논의하기에 앞서(前) 먼저 머리에 올려 제시해 두는(提) 조건’입니다. 이 전제가 무너지면 뒤에 나오는 모든 주장이 전부 논리적으로 무효가 됩니다.",
         "feed": [],
-        "type": "구조 파악형",
         "contexts": [
             {
                 "source": "2027 9모",
@@ -252,7 +248,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘서로 비슷한 부류(類)의 사물이나 현상을 잣대 삼아 미루어 생각하고 헤아린다(推)’는 뜻입니다. 어려운 과학적 현상을 우리가 잘 아는 일상적 비유로 풀어서 지문을 전개할 때 핵심 도구가 됩니다.",
         "feed": [],
-        "type": "구조 파악형",
         "contexts": [
             {
                 "source": "2026 본수",
@@ -288,7 +283,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘사방으로 흩어진 것들을 한곳으로 다잡아 거두고(收) 안으로 오므라들게 만든다(斂)’는 뜻입니다. 의견이 하나로 좁혀지거나, 수치가 한 점으로 모이는 전개에 쓰입니다.",
         "feed": [],
-        "type": "구조 파악형",
         "contexts": [
             {
                 "source": "2022 본수",
@@ -338,7 +332,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘안에 갇혀 있던 것을 바깥으로 쏘아(發) 사방으로 흩어지게 만든다(散)’는 뜻입니다. 에너지가 방출되거나 수치가 무한히 커져 흩어지는 현상에 주로 나옵니다.",
         "feed": [],
-        "type": "구조 파악형",
         "contexts": [
             {
                 "source": "2025 6모",
@@ -380,7 +373,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘서로 다른 주장의 잘잘못을 나누어 따지고(辨) 논리적인 증거를 대며(證) 진리에 이르는 방법(法)’입니다. 모순처럼 보이는 두 대립물을 배척하지 않고 조화롭게 승화시켜 지식을 발전시키는 철학적 무기입니다.",
         "feed": [],
-        "type": "개념 이해형",
         "contexts": [
             {
                 "source": "2022 본수",
@@ -424,7 +416,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘수많은 변화 속에서도 결국 처음과 같고(同) 하나인 상태(一)를 고수하는 성질(性)’을 의미합니다. 철학이나 법률 지문에서 주체의 정체성을 논할 때 단골로 쓰입니다.",
         "feed": [],
-        "type": "개념 이해형",
         "contexts": [
             {
                 "source": "2026 본수",
@@ -466,7 +457,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘나 자신(自)의 깊은 본질을 주체적인 나(我)로 뚜렷하게 인식한다’는 뜻입니다. 비문학 철학/심리 지문에서 대상과 주체를 구별하여 세상을 인지하는 출발점으로 쓰입니다.",
         "feed": [],
-        "type": "개념 이해형",
         "contexts": [
             {
                 "source": "2026 본수",
@@ -508,7 +498,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘생각이나 안중의 범위(度) 바깥(外)에 두고 본다(視)’는 뜻입니다. 관심이나 고려의 대상에서 완전히 벗어난 것으로 보아 무시하거나 문제 삼지 않는 태도를 이릅니다.",
         "feed": [],
-        "type": "개념 이해형",
         "contexts": [
             {
                 "source": "2024 본수",
@@ -544,7 +533,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘물밑 깊숙이 잠겨서(潛) 보이지 않는 상태로 숨어 존재한다(在)’는 뜻입니다. 지금 당장 눈앞에는 보이지 않지만, 특정 조건이나 자극이 주어지면 언제든 수면 위로 뿜어져 나올 수 있는 가능성을 내포합니다.",
         "feed": [],
-        "type": "개념 이해형",
         "contexts": [
             {
                 "source": "2025 본수",
@@ -588,7 +576,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘원인(因)이 씨앗이 되어 결과(果)라는 열매를 맺는다’는 뜻입니다. 어떤 사건이 일어나게 된 근본 이유와 그로 인해 나타난 현상 간의 관계를 지칭합니다.",
         "feed": [],
-        "type": "개념 이해형",
         "contexts": [
             {
                 "source": "2022 6모",
@@ -642,7 +629,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘거짓이나 착각이 아니라 진짜 실체(實)로서 세상을 점유하고 존재하고 있다(在)’는 뜻입니다. 서양 철학에서 본질과 현상, 실재와 허상을 구분하는 중요한 이정표가 됩니다.",
         "feed": [],
-        "type": "개념 이해형",
         "contexts": [
             {
                 "source": "2027 9모",
@@ -704,7 +690,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘수집하여 분석해야 할 자료가 빠져서(缺) 측정하지 못한(測) 결과 값(値)’을 뜻합니다. 수능 과학/기술 지문에서 누락된 데이터를 처리하기 위해 다른 데이터들로 채워 넣는 대체 로직이 시험에 자주 출제됩니다.",
         "feed": [],
-        "type": "의미 추론형",
         "contexts": [
             {
                 "source": "2024 본수",
@@ -746,7 +731,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘보통의 일반적인 분포(常)와는 크게 다르고(異) 어긋나는 수치(値)’입니다. 기계 학습이나 센서 데이터 지문에서 노이즈로 작용하는 비정상적인 돌출 값을 지칭합니다.",
         "feed": [],
-        "type": "의미 추론형",
         "contexts": [
             {
                 "source": "2024 본수",
@@ -782,7 +766,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘선이나 면이 일직선에서 얼마나 많이 굽어져(曲) 꺾여 들어가는지의 물리적 비율(率)’을 의미합니다. 곡률 반지름과 반비례 관계를 가지므로 과학 지문에서 고난도 관계 파악 문제로 자주 응용됩니다.",
         "feed": [],
-        "type": "의미 추론형",
         "contexts": [
             {
                 "source": "2022 본수",
@@ -833,7 +816,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘외부 변화를 아주 기민하고 날카롭게(敏) 받아들이고 느껴서(感) 반응하는 정도(度)’를 뜻합니다. 날씨 예보 등에서 초기 조건이 조금만 달라져도 결과가 완전히 틀어지는 예민함을 묘사합니다.",
         "feed": [],
-        "type": "의미 추론형",
         "contexts": [
             {
                 "source": "2026 본수",
@@ -870,7 +852,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘의무 이행의 무거운 짐을 등에 짊어지고(擔) 안전하게 가치를 지켜주겠다(保)는 약속의 증표’를 말합니다. 부동산 주택담보대출이나 저당권 지문에 나옵니다.",
         "feed": [],
-        "type": "개념 이해형",
         "contexts": [
             {
                 "source": "2026 9모",
@@ -912,7 +893,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘대상을 실제로 사용(用)했을 때 얻을 수 있는 가치와 결과적인 보람(效)’을 뜻합니다. 경제지문에서는 소비를 통해 개인이 얻는 주관적인 행복감과 만족을 비교하는 용어로 자주 등장합니다.",
         "feed": [],
-        "type": "전문용어 이해형",
         "contexts": [
             {
                 "source": "2026 본수",
@@ -960,7 +940,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘서로(相) 정면으로 달려와 쾅 하고 강하게 부딪치다(衝)’는 뜻입니다. 양쪽 모두를 동시에 충족시킬 수 없어서, 한쪽을 취하면 다른 한쪽과는 어긋나게 되는 모순과 대립의 상황을 나타냅니다.",
         "feed": [],
-        "type": "전문용어 이해형",
         "contexts": [
             {
                 "source": "2025 9모",
@@ -998,7 +977,6 @@ window.MOCK_WORDS = {
         "hanja": "批判的",
         "sound": "비판적",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "사물의 옳고 그름을 가려내어 판단함",
         "definition": "사물의 옳고 그름을 가려내어 판단하는.",
         "hanjaBreakdown": [
@@ -1070,7 +1048,6 @@ window.MOCK_WORDS = {
         "hanja": "綜合的",
         "sound": "종합적",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "여러 가지를 한데 모아서 하나로 묶음",
         "definition": "여러 가지를 한데 모아서 하나로 묶는.",
         "hanjaBreakdown": [
@@ -1130,7 +1107,6 @@ window.MOCK_WORDS = {
         "hanja": "交叉하다",
         "sound": "교차하다",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "선이나 경로가 서로 엇갈려 만남",
         "definition": "선이나 경로가 서로 엇갈려 만나다.",
         "hanjaBreakdown": [
@@ -1166,7 +1142,6 @@ window.MOCK_WORDS = {
         "hanja": "忘却",
         "sound": "망각",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "기억했던 것을 완전히 잊어버림",
         "definition": "기억했던 것을 완전히 잊어버림.",
         "hanjaBreakdown": [
@@ -1202,7 +1177,6 @@ window.MOCK_WORDS = {
         "hanja": "感應하다",
         "sound": "감응하다",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "자극을 받아 마음이나 기운이 따라 움직임",
         "definition": "어떠한 자극을 받아 마음이나 기운이 따라 움직이다.",
         "hanjaBreakdown": [
@@ -1238,7 +1212,6 @@ window.MOCK_WORDS = {
         "hanja": "標識",
         "sound": "표지",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "다른 것과 구별하기 위해 표시를 해둠, 또는 그 표시",
         "definition": "다른 것과 구별하기 위해 표시를 해둠. 또는 그 표시.",
         "hanjaBreakdown": [
@@ -1304,7 +1277,6 @@ window.MOCK_WORDS = {
         "hanja": "失政",
         "sound": "실정",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "정치를 잘못함",
         "definition": "정치를 잘못함.",
         "hanjaBreakdown": [
@@ -1340,7 +1312,6 @@ window.MOCK_WORDS = {
         "hanja": "迷惑시키다",
         "sound": "미혹시키다",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "무엇에 홀려 정신을 차리지 못하고 갈팡질팡하게 만듦",
         "definition": "무엇에 홀려 정신을 차리지 못하고 갈팡질팡하게 만들다.",
         "hanjaBreakdown": [
@@ -1376,7 +1347,6 @@ window.MOCK_WORDS = {
         "hanja": "講論하다",
         "sound": "강론하다",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "학문의 이치를 해설하고 시비를 따져 토론함",
         "definition": "학문의 이치를 해설하고 시비를 따져 토론하다.",
         "hanjaBreakdown": [
@@ -1412,7 +1382,6 @@ window.MOCK_WORDS = {
         "hanja": "災異論",
         "sound": "재이론",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "자연의 재앙과 괴이한 현상을 설명하는 이론",
         "definition": "자연의 재앙과 괴이한 현상을 설명하는 이론.",
         "hanjaBreakdown": [
@@ -1454,7 +1423,6 @@ window.MOCK_WORDS = {
         "hanja": "成文法",
         "sound": "성문법",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "문서의 형태로 작성되고 공포된 법률",
         "definition": "문서의 형태로 작성되고 공포된 법률.",
         "hanjaBreakdown": [
@@ -1502,7 +1470,6 @@ window.MOCK_WORDS = {
         "hanja": "歸屬",
         "sound": "귀속",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "재산이나 권리 등이 특정 주체에게 넘어가 속하게 되다",
         "definition": "재산이나 권리 등이 특정 주체에게 넘어가 속하게 되다.",
         "hanjaBreakdown": [
@@ -1550,7 +1517,6 @@ window.MOCK_WORDS = {
         "hanja": "制約",
         "sound": "제약",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "조건을 붙여 내용을 제한함, 또는 그 제한",
         "definition": "조건을 붙여 내용을 제한함, 또는 그 제한.",
         "hanjaBreakdown": [
@@ -1610,7 +1576,6 @@ window.MOCK_WORDS = {
         "hanja": "方式",
         "sound": "방식",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "일정한 방법이나 형식",
         "definition": "일정한 방법이나 형식.",
         "hanjaBreakdown": [
@@ -1682,7 +1647,6 @@ window.MOCK_WORDS = {
         "hanja": "價値",
         "sound": "가치",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "사물이 지니고 있는 쓸모나 가당성, 혹은 정신적 의의",
         "definition": "사물이 지니고 있는 쓸모나 가당성, 혹은 정신적 의의.",
         "hanjaBreakdown": [
@@ -1748,7 +1712,6 @@ window.MOCK_WORDS = {
         "hanja": "導出",
         "sound": "도출",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "판단이나 결론을 이끌어 내다",
         "definition": "판단이나 결론을 이끌어 내다.",
         "hanjaBreakdown": [
@@ -1808,7 +1771,6 @@ window.MOCK_WORDS = {
         "hanja": "乖離",
         "sound": "괴리",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "서로 어그러져 동떨어짐",
         "definition": "서로 어그러져 동떨어짐.",
         "hanjaBreakdown": [
@@ -1845,7 +1807,6 @@ window.MOCK_WORDS = {
         "hanja": "符合",
         "sound": "부합",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "사물이나 현상이 서로 꼭 들어맞다",
         "definition": "부신(符信)이 꼭 맞듯 사물이 서로 합치함.",
         "hanjaBreakdown": [
@@ -1917,7 +1878,6 @@ window.MOCK_WORDS = {
         "hanja": "喚起",
         "sound": "환기",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "주의나 여론, 생각이나 감정 등을 불러일으킴",
         "definition": "주의나 여론, 생각 따위를 불러일으킴.",
         "hanjaBreakdown": [
@@ -1985,7 +1945,6 @@ window.MOCK_WORDS = {
         "hanja": "彈力性",
         "sound": "탄력성",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "어떤 자극이나 변화에 대해 반응하는 민감성 또는 가격 변화에 따른 수요량의 변화 정도",
         "definition": "용수철처럼 튀어 오르는 힘을 가진 성질. 경제학에서는 독립변수의 변화율에 대한 종속변수의 변화율의 비를 뜻함.",
         "hanjaBreakdown": [
@@ -2029,7 +1988,6 @@ window.MOCK_WORDS = {
         "hanja": "先決定",
         "sound": "선결정",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "사건이나 행동이 일어나기 전에 이미 그 결과가 정해져 있음",
         "definition": "미리 결정함. 또는 그렇게 됨.",
         "hanjaBreakdown": [
@@ -2073,7 +2031,6 @@ window.MOCK_WORDS = {
         "hanja": "無作爲",
         "sound": "무작위",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "아무런 규칙이나 의도 없이 임의로 일어나는 상태",
         "definition": "일부러 꾸미지 아니하여 자연스러움. 또는 어떤 규칙이나 의도가 없이 임의로 함.",
         "hanjaBreakdown": [
@@ -2117,7 +2074,6 @@ window.MOCK_WORDS = {
         "hanja": "同期化",
         "sound": "동기화",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "서로 다른 장치나 시스템이 동일한 시간이나 주기로 동작을 맞춤",
         "definition": "작업을 수행하는 데 있어서 서로의 보조를 맞춤.",
         "hanjaBreakdown": [
@@ -2161,7 +2117,6 @@ window.MOCK_WORDS = {
         "hanja": "主體",
         "sound": "주체",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "어떤 행위나 의사 결정의 중심이 되는 주도적 존재",
         "definition": "어떤 객체나 대상에 대하여 그것을 의식하고 행동하는 능동적이고 자발적인 주도권자.",
         "hanjaBreakdown": [
@@ -2235,7 +2190,6 @@ window.MOCK_WORDS = {
         "hanja": "江湖",
         "sound": "강호",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "tags": [
             "고전문학"
         ],
@@ -2275,7 +2229,6 @@ window.MOCK_WORDS = {
         "hanja": "林泉",
         "sound": "임천",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "tags": [
             "고전문학"
         ],
@@ -2317,7 +2270,6 @@ window.MOCK_WORDS = {
         "hanja": "紅塵",
         "sound": "홍진",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "tags": [
             "고전문학"
         ],
@@ -2357,7 +2309,6 @@ window.MOCK_WORDS = {
         "hanja": "訴求",
         "sound": "소구",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "광고 등에서 소비자에게 호소하여 마음을 움직이게 함",
         "definition": "광고나 설득 메시지 따위로 대중이나 소비자의 동기를 자극하여 반응을 이끌어 내는 일.",
         "hanjaBreakdown": [
@@ -2395,7 +2346,6 @@ window.MOCK_WORDS = {
         "hanja": "具現",
         "sound": "구현",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "생각이나 사상, 기능을 구체적인 형태나 사실로 나타냄",
         "definition": "구체적인 사실로 나타나게 함. 또는 그런 사실.",
         "hanjaBreakdown": [
@@ -2463,7 +2413,6 @@ window.MOCK_WORDS = {
         "hanja": "集積",
         "sound": "집적",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "사방의 데이터나 물건 등을 쓸어 모아 켜켜이 쌓음",
         "definition": "모아서 쌓음. 또는 모여서 쌓임.",
         "hanjaBreakdown": [
@@ -2501,7 +2450,6 @@ window.MOCK_WORDS = {
         "hanja": "眩惑",
         "sound": "현혹",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "무엇에 홀려 정신을 못 차리거나 정신을 흐리게 함",
         "definition": "정신이 어지러워 도리를 잃고 갈팡질팡 헤맴. 또는 마음이 흐려져 올바른 판단을 내리지 못함.",
         "hanjaBreakdown": [
@@ -2539,7 +2487,6 @@ window.MOCK_WORDS = {
         "hanja": "發福",
         "sound": "발복",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "tags": [
             "고전문학"
         ],
@@ -2581,7 +2528,6 @@ window.MOCK_WORDS = {
         "hanja": "佳人",
         "sound": "가인",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "tags": [
             "고전문학"
         ],
@@ -2623,7 +2569,6 @@ window.MOCK_WORDS = {
         "hanja": "解明",
         "sound": "해명",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "어떤 문제나 의문점 등을 분석하여 이치에 맞게 밝힘",
         "definition": "이유나 뜻을 풀어서 명백히 밝힘.",
         "hanjaBreakdown": [
@@ -2661,7 +2606,6 @@ window.MOCK_WORDS = {
         "hanja": "漸進的",
         "sound": "점진적",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "차례나 절차를 밟아 조금씩 천천히 나아가는 모양새",
         "definition": "조금씩 차례를 따라 점차 나아가는 것.",
         "hanjaBreakdown": [
@@ -2699,7 +2643,6 @@ window.MOCK_WORDS = {
         "hanja": "深層",
         "sound": "심층",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "겉으로 드러나지 않고 깊숙이 묻혀 있는 본질적인 내면의 층",
         "definition": "속에 깊이 들어 있는 층. 또는 드러나지 않은 사물의 깊은 내부나 본질.",
         "hanjaBreakdown": [
@@ -2743,7 +2686,6 @@ window.MOCK_WORDS = {
         "hanja": "野人",
         "sound": "야인",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "tags": [
             "고전문학"
         ],
@@ -2785,7 +2727,6 @@ window.MOCK_WORDS = {
         "hanja": "消日",
         "sound": "소일",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "tags": [
             "고전문학"
         ],
@@ -2827,7 +2768,6 @@ window.MOCK_WORDS = {
         "hanja": "顯謁",
         "sound": "현알",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "tags": [
             "고전문학"
         ],
@@ -2869,7 +2809,6 @@ window.MOCK_WORDS = {
         "hanja": "餞別",
         "sound": "전별",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "tags": [
             "고전문학"
         ],
@@ -2917,7 +2856,6 @@ window.MOCK_WORDS = {
         "hanja": "謝退",
         "sound": "사퇴",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "tags": [
             "고전문학"
         ],
@@ -2959,7 +2897,6 @@ window.MOCK_WORDS = {
         "hanja": "塵世",
         "sound": "진세",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "tags": [
             "고전문학"
         ],
@@ -3013,7 +2950,6 @@ window.MOCK_WORDS = {
         "hanja": "散在",
         "sound": "산재",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "한곳에 모이지 않고 여기저기 흩어져 존재함",
         "definition": "여기저기 흩어져 있음.",
         "hanjaBreakdown": [
@@ -3051,7 +2987,6 @@ window.MOCK_WORDS = {
         "hanja": "寡頭制",
         "sound": "과두제",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "소수의 권력자가 지배하는 지배 체제",
         "definition": "소수의 사람이나 집단이 권력을 독점하고 지배하는 정치나 사회의 체제.",
         "hanjaBreakdown": [
@@ -3095,7 +3030,6 @@ window.MOCK_WORDS = {
         "hanja": "隱蔽",
         "sound": "은폐",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "덮어서 보이지 않게 숨김",
         "definition": "덮어 감추거나 가리어 숨김.",
         "hanjaBreakdown": [
@@ -3137,7 +3071,6 @@ window.MOCK_WORDS = {
         "hanja": "牽制",
         "sound": "견제",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "고삐를 당겨 자유롭게 움직이지 못하도록 억제함",
         "definition": "상대방이 자유롭게 행동하지 못하도록 주의를 끌어당겨 억제함.",
         "hanjaBreakdown": [
@@ -3175,7 +3108,6 @@ window.MOCK_WORDS = {
         "hanja": "發現",
         "sound": "발현",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "속에 숨겨져 있던 본질이나 능력이 드러남",
         "definition": "개별적인 속성이나 효능, 본질 등이 겉으로 나타남. 또는 나타나게 함.",
         "hanjaBreakdown": [
@@ -3213,7 +3145,6 @@ window.MOCK_WORDS = {
         "hanja": "水中孤魂",
         "sound": "수중고혼",
         "category": "의미 추론형",
-        "type": "고전문학 특화",
         "tags": [
             "고전문학"
         ],
@@ -3267,7 +3198,6 @@ window.MOCK_WORDS = {
         "hanja": "歆饗",
         "sound": "흠향",
         "category": "의미 추론형",
-        "type": "고전문학 특화",
         "tags": [
             "고전문학"
         ],
@@ -3309,7 +3239,6 @@ window.MOCK_WORDS = {
         "hanja": "奏達",
         "sound": "주달",
         "category": "의미 추론형",
-        "type": "고전문학 특화",
         "tags": [
             "고전문학"
         ],
@@ -3351,7 +3280,6 @@ window.MOCK_WORDS = {
         "hanja": "端緖",
         "sound": "단서",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "어떤 일을 해결할 수 있는 실마리",
         "definition": "어떤 일의 실마리. 또는 문제를 해결하는 첫 실마리.",
         "hanjaBreakdown": [
@@ -3407,7 +3335,6 @@ window.MOCK_WORDS = {
         "hanja": "相互補完的",
         "sound": "상호보완적",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "서로 모자란 부분을 보완해 줌",
         "definition": "서로서로 모자란 부분을 보충하여 온전하게 해 주는 성질을 가진 것.",
         "hanjaBreakdown": [
@@ -3463,7 +3390,6 @@ window.MOCK_WORDS = {
         "hanja": "無缺性",
         "sound": "무결성",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "결함이나 흠이 없어 온전하고 깨끗함 (데이터 위변조 방지)",
         "definition": "흠이나 결함이 없는 성질. 컴퓨터 공학에서는 저장된 데이터가 무단으로 수정되거나 손상되지 않아 일관성과 정확성을 유지하는 성질.",
         "hanjaBreakdown": [
@@ -3507,7 +3433,6 @@ window.MOCK_WORDS = {
         "hanja": "脫中央性",
         "sound": "탈중앙성",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "특정 중앙 권력의 지배나 통제에서 벗어남",
         "definition": "중심이 되는 집단이나 기구의 직접적인 지배 및 감시 구조에서 벗어나 있는 성질.",
         "hanjaBreakdown": [
@@ -3557,7 +3482,6 @@ window.MOCK_WORDS = {
         "hanja": "擴張性",
         "sound": "확장성",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "범위나 성능을 크게 늘릴 수 있는 성질",
         "definition": "규모나 영역을 크게 넓혀 늘려 갈 수 있는 능력이나 성질.",
         "hanjaBreakdown": [
@@ -3601,7 +3525,6 @@ window.MOCK_WORDS = {
         "hanja": "總體",
         "sound": "총체",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "여러 개별적 요소를 한데 묶은 전체",
         "definition": "흩어져 있는 개별적인 것들을 모두 묶은 전체. 또는 통틀어 하나로 나타나는 덩어리.",
         "hanjaBreakdown": [
@@ -3651,7 +3574,6 @@ window.MOCK_WORDS = {
         "hanja": "不在",
         "sound": "부재",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "대상이 그 자리에 있지 않고 없음",
         "definition": "그 자리에 있지 아니함.",
         "hanjaBreakdown": [
@@ -3707,7 +3629,6 @@ window.MOCK_WORDS = {
         "hanja": "間隙",
         "sound": "간극",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "사물이나 관계 사이의 벌어진 틈이나 차이",
         "definition": "사물과 사물 사이의 틈. 또는 사람이나 집단 사이의 불화나 차이.",
         "hanjaBreakdown": [
@@ -3757,7 +3678,6 @@ window.MOCK_WORDS = {
         "hanja": "蓋然性",
         "sound": "개연성",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "확실하지는 않으나 대개 그러할 법한 성질",
         "definition": "절대적인 필연성은 없으나 대개 그러할 것이라고 추측되는 성질.",
         "hanjaBreakdown": [
@@ -3807,7 +3727,6 @@ window.MOCK_WORDS = {
         "hanja": "姿態",
         "sound": "자태",
         "category": "의미 추론형",
-        "type": "고전문학 특화",
         "tags": [
             "고전문학"
         ],
@@ -3849,7 +3768,6 @@ window.MOCK_WORDS = {
         "hanja": "再構成",
         "sound": "재구성",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "기존의 정보를 새로운 틀에 맞추어 다시 짬",
         "definition": "이미 구성되어 있던 것을 다시 새롭게 짜서 만듦.",
         "hanjaBreakdown": [
@@ -3917,7 +3835,6 @@ window.MOCK_WORDS = {
         "hanja": "適合性",
         "sound": "적합성",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "어떤 기준이나 요구 조건에 꼭 어울리고 알맞은 성질",
         "definition": "어떤 조건이나 요구에 꼭 들어맞는 성질. 철학에서는 문장이 참 또는 거짓일 수 있는 진리 적합성을 뜻함.",
         "hanjaBreakdown": [
@@ -3961,7 +3878,6 @@ window.MOCK_WORDS = {
         "hanja": "存立",
         "sound": "존립",
         "category": "개념 이해형",
-        "type": "일반",
         "brief": "대상이 사라지지 않고 그 지위나 생존을 유지하여 존재함",
         "definition": "생존하여 자립함.",
         "hanjaBreakdown": [
@@ -3998,7 +3914,6 @@ window.MOCK_WORDS = {
         "hanja": "瓦解",
         "sound": "와해",
         "category": "의미 추론형",
-        "type": "일반",
         "brief": "기와가 깨지듯 조직이나 체계가 완전히 무너짐",
         "definition": "기와가 깨진다는 뜻으로, 조직이나 체계 따위가 완전히 무너져 버림을 이르는 말.",
         "hanjaBreakdown": [
@@ -4035,7 +3950,6 @@ window.MOCK_WORDS = {
         "hanja": "當爲",
         "sound": "당위",
         "category": "개념 이해형",
-        "type": "일반",
         "brief": "마땅히 행해야 하는 도리나 의무",
         "definition": "마땅히 행하여야 할 일. 또는 그것을 요구하는 도덕적 명령.",
         "hanjaBreakdown": [
@@ -4078,7 +3992,6 @@ window.MOCK_WORDS = {
         "hanja": "開陳",
         "sound": "개진",
         "category": "의미 추론형",
-        "type": "일반",
         "brief": "자기의 생각이나 의견을 열어 펼쳐 보임",
         "definition": "사실이나 의견을 설명하기 위하여 열어 보임.",
         "hanjaBreakdown": [
@@ -4115,7 +4028,6 @@ window.MOCK_WORDS = {
         "hanja": "媒介",
         "sound": "매개",
         "category": "구조 파악형",
-        "type": "일반",
         "brief": "두 대상 사이에서 관계를 맺어 줌",
         "definition": "둘 사이에서 양편의 관계를 맺어 줌.",
         "hanjaBreakdown": [
@@ -4164,7 +4076,6 @@ window.MOCK_WORDS = {
         "hanja": "還元",
         "sound": "환원",
         "category": "개념 이해형",
-        "type": "일반",
         "brief": "본래의 상태나 근본적인 처음 상태로 되돌림",
         "definition": "본래의 상태로 되돌리거나 되돌아감. 화학에서는 산소를 잃거나 수소를 얻는 반응을 뜻함.",
         "hanjaBreakdown": [
@@ -4207,7 +4118,6 @@ window.MOCK_WORDS = {
         "hanja": "咫尺",
         "sound": "지척",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -4248,7 +4158,6 @@ window.MOCK_WORDS = {
         "hanja": "行裝",
         "sound": "행장",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -4289,7 +4198,6 @@ window.MOCK_WORDS = {
         "hanja": "忌避",
         "sound": "기피",
         "category": "의미 추론형",
-        "type": "일반",
         "brief": "꺼리고 싫어하여 피함",
         "definition": "꺼리거나 싫어하여 피함. 법률적으로는 공정한 재판을 위해 법관 등을 바꾸어 달라고 신청하는 일.",
         "hanjaBreakdown": [
@@ -4326,7 +4234,6 @@ window.MOCK_WORDS = {
         "hanja": "談論",
         "sound": "담론",
         "category": "개념 이해형",
-        "type": "일반",
         "brief": "이야기를 주고받으며 어떤 사안을 밝혀 논함",
         "definition": "이야기를 주고받으며 논의함. 또는 그런 이야기.",
         "hanjaBreakdown": [
@@ -4363,7 +4270,6 @@ window.MOCK_WORDS = {
         "hanja": "偏重",
         "sound": "편중",
         "category": "개념 이해형",
-        "type": "일반",
         "brief": "한쪽으로 치우쳐서 그것만을 더 무겁고 중요하게 대함",
         "definition": "한쪽으로 치우쳐서 무겁게 봄. 또는 한쪽으로 치우쳐서 무거움.",
         "hanjaBreakdown": [
@@ -4400,7 +4306,6 @@ window.MOCK_WORDS = {
         "hanja": "憒亂",
         "sound": "궤란",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -4441,7 +4346,6 @@ window.MOCK_WORDS = {
         "hanja": "除授",
         "sound": "제수",
         "category": "전문용어 이해형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -4496,7 +4400,6 @@ window.MOCK_WORDS = {
         "hanja": "大驚失色",
         "sound": "대경실색",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -4573,7 +4476,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘흐름(流)을 가지런하게 정돈한다(整)’는 뜻입니다. 양방향으로 번갈아 흔들리며 흐르는 교류 전압을 한쪽 방향으로만 고르게 흐르도록 정리해 주는 장치의 원리를 한자에서 바로 읽어낼 수 있습니다.",
         "feed": [],
-        "type": "전문용어 이해형",
         "contexts": [
             {
                 "source": "2027 9모",
@@ -4611,7 +4513,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘평평하고(平) 매끄럽게(滑) 만든다’는 뜻입니다. 정류기를 거쳐 여전히 크기가 출렁거리는 전압의 기복을 평탄하고 고르게 펴 주는 회로의 기능을 한자의 뜻 그대로 나타냅니다.",
         "feed": [],
-        "type": "전문용어 이해형",
         "contexts": [
             {
                 "source": "2027 9모",
@@ -4655,7 +4556,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘정해진(定) 전기의 압력(電壓)’이라는 뜻입니다. 입력되는 전압이 불안정하거나 높아지더라도, 전기 제품이 요구하는 일정한 크기의 전압값으로 딱 고정해 주는 소자의 역할을 뜻합니다.",
         "feed": [],
-        "type": "전문용어 이해형",
         "contexts": [
             {
                 "source": "2027 9모",
@@ -4693,7 +4593,6 @@ window.MOCK_WORDS = {
         ],
         "hanjaExplanation": "‘흙(土)을 덜어내어 없앤다(除)’는 뜻입니다. 바닷속 갯벌이나 땅속에 묻혀 있는 유물을 감싸고 있는 토사를 조심스럽게 걷어내어 유물의 본래 모습을 드러내게 하는 발굴 공정을 가리킵니다.",
         "feed": [],
-        "type": "전문용어 이해형",
         "contexts": [
             {
                 "source": "2027 9모",
@@ -4713,7 +4612,6 @@ window.MOCK_WORDS = {
         "hanja": "伸冤",
         "sound": "신원",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -4761,7 +4659,6 @@ window.MOCK_WORDS = {
         "hanja": "登科",
         "sound": "등과",
         "category": "전문용어 이해형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -4803,7 +4700,6 @@ window.MOCK_WORDS = {
         "hanja": "追贈",
         "sound": "추증",
         "category": "전문용어 이해형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -4845,7 +4741,6 @@ window.MOCK_WORDS = {
         "hanja": "形而上學",
         "sound": "형이상학",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "사물의 본질이나 눈에 보이는 현상을 초월한 근원적 원리를 탐구하는 학문",
         "definition": "사물의 본질, 존재의 근본 원리를 사유나 직관에 의하여 탐구하는 학문.",
         "hanjaBreakdown": [
@@ -4901,7 +4796,6 @@ window.MOCK_WORDS = {
         "hanja": "存在論",
         "sound": "존재론",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "무엇이 실제로 존재하며 어떤 방식으로 존재하는가를 탐구하는 철학적 관점",
         "definition": "존재 또는 존재의 근본적·보편적인 모든 규정을 연구하는 학문.",
         "hanjaBreakdown": [
@@ -4945,7 +4839,6 @@ window.MOCK_WORDS = {
         "hanja": "認識論",
         "sound": "인식론",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "우리가 대상을 무엇으로 어떻게 알 수 있는가의 지식과 인식 문제를 탐구하는 관점",
         "definition": "인식의 기원과 본질, 인식 과정의 형식과 방법 따위에 관하여 연구하는 철학의 한 부문.",
         "hanjaBreakdown": [
@@ -4989,7 +4882,6 @@ window.MOCK_WORDS = {
         "hanja": "規範",
         "sound": "규범",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "인간이 행동하거나 판단할 때 마땅히 따르고 지켜야 할 기준이나 법칙",
         "definition": "인간이 행동하거나 판단할 때에 마땅히 따르고 지켜야 할 가치 판단의 기준.",
         "hanjaBreakdown": [
@@ -5051,7 +4943,6 @@ window.MOCK_WORDS = {
         "hanja": "變壓器",
         "sound": "변압기",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "입력 전압의 변화를 통해 출력 측의 교류 전압을 높이거나 낮추어 변환하는 장치",
         "definition": "전자 상호 유도 작용을 이용하여 교류 전압을 높이거나 낮추는 장치.",
         "hanjaBreakdown": [
@@ -5095,7 +4986,6 @@ window.MOCK_WORDS = {
         "hanja": "猥濫",
         "sound": "외람",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -5137,7 +5027,6 @@ window.MOCK_WORDS = {
         "hanja": "悲感",
         "sound": "비감",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -5179,7 +5068,6 @@ window.MOCK_WORDS = {
         "hanja": "功名",
         "sound": "공명",
         "category": "개념 이해형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -5233,7 +5121,6 @@ window.MOCK_WORDS = {
         "hanja": "引揚",
         "sound": "인양",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "물속이나 땅속에 있는 물체를 끌어당겨 수면 위나 지상으로 들어 올림",
         "definition": "끌어서 높은 곳으로 옮김.",
         "hanjaBreakdown": [
@@ -5271,7 +5158,6 @@ window.MOCK_WORDS = {
         "hanja": "客懷",
         "sound": "객회",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -5313,7 +5199,6 @@ window.MOCK_WORDS = {
         "hanja": "扁額",
         "sound": "편액",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -5355,7 +5240,6 @@ window.MOCK_WORDS = {
         "hanja": "高閣",
         "sound": "고각",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -5397,7 +5281,6 @@ window.MOCK_WORDS = {
         "hanja": "玉音",
         "sound": "옥음",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -5439,7 +5322,6 @@ window.MOCK_WORDS = {
         "hanja": "範疇",
         "sound": "범주",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "동일한 성질이나 특성을 기준으로 묶은 사유의 기본 단위나 영역",
         "definition": "동일한 성질을 가진 부류나 범위. 또는 사유와 대상을 이해하는 가장 기본적인 개념의 갈래.",
         "hanjaBreakdown": [
@@ -5489,7 +5371,6 @@ window.MOCK_WORDS = {
         "hanja": "直觀",
         "sound": "직관",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "사유나 추론 과정을 거치지 않고 대상을 감각적으로 직접 지각함",
         "definition": "판단이나 추리 따위의 사유 작용을 거치지 아니하고 대상을 직접적으로 파악함.",
         "hanjaBreakdown": [
@@ -5533,7 +5414,6 @@ window.MOCK_WORDS = {
         "hanja": "表象",
         "sound": "표상",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "눈앞에 대상이 없어도 내면에서 그 형상이나 이미지를 떠올림",
         "definition": "감각에 의하여 획득한 현상이 마음속에 재생된 것. 심상(心象).",
         "hanjaBreakdown": [
@@ -5583,7 +5463,6 @@ window.MOCK_WORDS = {
         "hanja": "中和",
         "sound": "중화",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "서로 대립하는 성질이 섞여 양쪽의 본질적 특성이 모두 사라지고 밋밋해짐",
         "definition": "서로 다른 성질이 맞서거나 섞이어 어느 한쪽의 특성도 드러나지 아니하게 됨.",
         "hanjaBreakdown": [
@@ -5621,7 +5500,6 @@ window.MOCK_WORDS = {
         "hanja": "高揚",
         "sound": "고양",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "수준이나 정신을 더 높은 차원으로 끌어올리고 북돋움",
         "definition": "정신이나 기분 따위를 북돋워 높임. 또는 수준이나 상태를 더 높은 차원으로 끌어올림.",
         "hanjaBreakdown": [
@@ -5659,7 +5537,6 @@ window.MOCK_WORDS = {
         "hanja": "整合的",
         "sound": "정합적",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "논리적으로 모순 없이 빈틈없이 맞아떨어지는 성질을 띤 것",
         "definition": "논리적 모순이 없이 꼭 들어맞는. 또는 그런 것.",
         "hanjaBreakdown": [
@@ -5703,7 +5580,6 @@ window.MOCK_WORDS = {
         "hanja": "消去",
         "sound": "소거",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "특정한 성질이나 요소를 완전히 지워 없앰",
         "definition": "지워 없앰. 또는 사라져 없어짐.",
         "hanjaBreakdown": [
@@ -5741,7 +5617,6 @@ window.MOCK_WORDS = {
         "hanja": "再客觀化",
         "sound": "재객관화",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "주관성으로 내면화되었던 정신이 다시 외적인 감각과 구체적 형태로 나타남",
         "definition": "주관적 내면으로 통합되었던 정신이나 인식이 다시 감각적·외적인 객관적 실체로 드러나는 과정.",
         "hanjaBreakdown": [
@@ -5791,7 +5666,6 @@ window.MOCK_WORDS = {
         "hanja": "欠缺",
         "sound": "흠결",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "마땅히 갖추어야 할 요건이나 조건이 빠져 부족하거나 불완전함",
         "definition": "일정한 요건이나 자격 따위가 갖추어지지 아니하거나 결여됨. 또는 그 결점.",
         "hanjaBreakdown": [
@@ -5829,7 +5703,6 @@ window.MOCK_WORDS = {
         "hanja": "兌換",
         "sound": "태환",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "지폐나 은행권을 정해진 무게의 순금이나 정화(正貨)로 교환해 줌",
         "definition": "지폐를 정화(正貨), 곧 금이나 은 따위의 본위 화폐와 바꿈.",
         "hanjaBreakdown": [
@@ -5867,7 +5740,6 @@ window.MOCK_WORDS = {
         "hanja": "平價切下",
         "sound": "평가절하",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "고정환율제에서 자국 통화의 기준 가치(평가)를 공식적으로 낮춤",
         "definition": "한 나라의 통화가 다른 나라 통화에 비해 가지는 평가(平價)를 낮춤.",
         "hanjaBreakdown": [
@@ -5917,7 +5789,6 @@ window.MOCK_WORDS = {
         "hanja": "平價切上",
         "sound": "평가절상",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "고정환율제에서 자국 통화의 기준 가치(평가)를 공식적으로 높임",
         "definition": "한 나라의 통화가 다른 나라 통화에 비해 가지는 평가(平價)를 올림.",
         "hanjaBreakdown": [
@@ -5967,7 +5838,6 @@ window.MOCK_WORDS = {
         "hanja": "投影",
         "sound": "투영",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "3차원의 입체적 대상을 평면에 비추어 상이나 그림자로 맺히게 함",
         "definition": "물체의 그림자를 어떤 평면에 비춤. (기하학) 공간의 물체를 빛을 비추어 평면에 사영(射影)함.",
         "hanjaBreakdown": [
@@ -6023,7 +5893,6 @@ window.MOCK_WORDS = {
         "hanja": "命在頃刻",
         "sound": "명재경각",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6077,7 +5946,6 @@ window.MOCK_WORDS = {
         "hanja": "直啓",
         "sound": "직계",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6119,7 +5987,6 @@ window.MOCK_WORDS = {
         "hanja": "下敎",
         "sound": "하교",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6161,7 +6028,6 @@ window.MOCK_WORDS = {
         "hanja": "禁府",
         "sound": "금부",
         "category": "전문용어 이해형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6203,7 +6069,6 @@ window.MOCK_WORDS = {
         "hanja": "定配",
         "sound": "정배",
         "category": "전문용어 이해형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6245,7 +6110,6 @@ window.MOCK_WORDS = {
         "hanja": "初終禮",
         "sound": "초종례",
         "category": "전문용어 이해형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6293,7 +6157,6 @@ window.MOCK_WORDS = {
         "hanja": "殮襲",
         "sound": "염습",
         "category": "전문용어 이해형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6335,7 +6198,6 @@ window.MOCK_WORDS = {
         "hanja": "微服",
         "sound": "미복",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6377,7 +6239,6 @@ window.MOCK_WORDS = {
         "hanja": "社稷",
         "sound": "사직",
         "category": "전문용어 이해형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6419,7 +6280,6 @@ window.MOCK_WORDS = {
         "hanja": "朔望",
         "sound": "삭망",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6461,7 +6321,6 @@ window.MOCK_WORDS = {
         "hanja": "來賓往客",
         "sound": "내빈왕객",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6515,7 +6374,6 @@ window.MOCK_WORDS = {
         "hanja": "窮鬼",
         "sound": "궁귀",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6557,7 +6415,6 @@ window.MOCK_WORDS = {
         "hanja": "天機",
         "sound": "천기",
         "category": "개념 이해형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6599,7 +6456,6 @@ window.MOCK_WORDS = {
         "hanja": "喜怒憂樂",
         "sound": "희로우락",
         "category": "의미 추론형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -6653,7 +6509,6 @@ window.MOCK_WORDS = {
         "hanja": "上肢",
         "sound": "상지",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "인체에서 어깨부터 손가락 끝까지에 이르는 팔 부위",
         "definition": "사람의 어깨부터 손가락 끝까지의 팔 부분.",
         "hanjaBreakdown": [
@@ -6691,7 +6546,6 @@ window.MOCK_WORDS = {
         "hanja": "下肢",
         "sound": "하지",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "인체에서 골반 아래부터 발끝까지에 이르는 다리 부위",
         "definition": "사람의 골반 아래 다리 부분.",
         "hanjaBreakdown": [
@@ -10120,7 +9974,6 @@ window.MOCK_WORDS = {
         "hanja": "造化",
         "sound": "조화",
         "category": "개념 이해형",
-        "type": "고전문학",
         "tags": [
             "고전문학"
         ],
@@ -22117,7 +21970,6 @@ window.MOCK_WORDS = {
         "hanja": "恐怖訴求",
         "sound": "공포 소구",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "공포심이나 위협을 주어 권고를 따르도록 호소함",
         "definition": "광고나 선전 따위에서, 수용자에게 공포심을 자극하여 태도나 행동을 변화시키려는 설득 기법.",
         "definitionSource": "우리말샘",
@@ -22165,7 +22017,6 @@ window.MOCK_WORDS = {
         "hanja": "說得效果",
         "sound": "설득 효과",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "메시지를 통해 수용자의 태도나 행동을 변화시키는 효과",
         "definition": "수용자의 태도, 신념, 행동 따위를 전달자의 의도대로 변화시키는 효과.",
         "definitionSource": null,
@@ -22213,7 +22064,6 @@ window.MOCK_WORDS = {
         "hanja": "恐怖統制反應",
         "sound": "공포 통제 반응",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "위협으로 인한 두려움을 줄이기 위해 메시지를 회피하는 감정적 반응",
         "definition": "공포 소구에 의해 유발된 두려움을 완화하기 위해 방어적 회피나 메시지 왜곡 따위를 보이는 감정적 반응.",
         "definitionSource": null,
@@ -22273,7 +22123,6 @@ window.MOCK_WORDS = {
         "hanja": "危險統制反應",
         "sound": "위험 통제 반응",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "위협을 실제로 줄이기 위해 권고를 적극적으로 수용하는 인지적 반응",
         "definition": "공포 소구에서 제시된 위험 자체를 해결하기 위해 전달자의 권고안을 적극적으로 수용하는 인지적 반응.",
         "definitionSource": null,
@@ -22333,7 +22182,6 @@ window.MOCK_WORDS = {
         "hanja": "效能感",
         "sound": "효능감",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "문제를 해결하거나 행동을 성공적으로 해낼 수 있다고 믿는 신념",
         "definition": "자신이 어떤 문제를 해결하거나 특정한 행동을 성공적으로 수행할 수 있다고 느끼는 기대나 신념.",
         "definitionSource": "우리말샘",
@@ -22375,7 +22223,6 @@ window.MOCK_WORDS = {
         "hanja": "觸媒活性",
         "sound": "촉매 활성",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "화학 반응 속도를 빠르게 만드는 촉매의 작용 능력",
         "definition": "촉매가 화학 반응의 속도를 증가시키는 능력.",
         "definitionSource": null,
@@ -22423,7 +22270,6 @@ window.MOCK_WORDS = {
         "hanja": "活性成分",
         "sound": "활성 성분",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "촉매에서 화학 반응을 직접 일으키는 주된 물질",
         "definition": "촉매나 의약품 따위에서 주된 작용을 하는 성분.",
         "definitionSource": "표준국어대사전",
@@ -22471,7 +22317,6 @@ window.MOCK_WORDS = {
         "hanja": "支持體",
         "sound": "지지체",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "활성 성분을 표면에 분산시켜 지탱해 주는 물질",
         "definition": "어떤 물체나 구조를 떠받쳐 지탱하는 물체. 화학에서는 촉매 활성 성분을 분산시켜 지탱하는 고체 물질을 이른다.",
         "definitionSource": "표준국어대사전",
@@ -22513,7 +22358,6 @@ window.MOCK_WORDS = {
         "hanja": "增進劑",
         "sound": "증진제",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "촉매에 소량 첨가되어 성능이나 활성을 높여 주는 물질",
         "definition": "효력을 더하거나 촉진하는 물질. 화학에서는 소량 첨가되어 촉매의 활성이나 선택성을 향상시키는 물질을 이른다.",
         "definitionSource": "표준국어대사전",
@@ -22555,7 +22399,6 @@ window.MOCK_WORDS = {
         "hanja": "化學吸着",
         "sound": "화학 흡착",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "반응물 분자가 촉매 표면과 화학 결합을 형성하여 달라붙음",
         "definition": "고체 표면과 기체나 액체 분자 사이에 화학 결합이 형성되어 일어나는 흡착.",
         "definitionSource": "표준국어대사전",
@@ -22603,7 +22446,6 @@ window.MOCK_WORDS = {
         "hanja": "脫着",
         "sound": "탈착",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "표면에 흡착되어 있던 생성물이 떨어져 나감",
         "definition": "흡착되어 있던 물질이 고체 표면에서 떨어져 나감.",
         "definitionSource": "표준국어대사전",
@@ -22639,7 +22481,6 @@ window.MOCK_WORDS = {
         "hanja": "燒結",
         "sound": "소결",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "작은 입자들이 열을 받아 서로 엉겨 붙어 큰 덩어리를 이룸",
         "definition": "가루나 입자가 열을 받아 서로 밀착하여 굳어짐. 촉매에서는 금속 입자가 뭉쳐 활성 표면적이 줄어드는 현상을 이른다.",
         "definitionSource": "표준국어대사전",
@@ -22675,7 +22516,6 @@ window.MOCK_WORDS = {
         "hanja": "電子密度",
         "sound": "전자 밀도",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "단위 공간 안에 전자가 분포하는 빽빽한 정도",
         "definition": "단위 부피 안에 존재하는 전자의 수나 전하의 분포 밀도.",
         "definitionSource": "우리말샘",
@@ -22723,7 +22563,6 @@ window.MOCK_WORDS = {
         "hanja": "同一論",
         "sound": "동일론",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "의식이나 정신이 뇌의 물질적 상태와 완전히 같다고 보는 심리 철학",
         "definition": "의식이나 심적 상태가 뇌의 물리적·물질적 상태와 동일하다고 주장하는 심리 철학의 이론.",
         "definitionSource": "표준국어대사전",
@@ -22765,7 +22604,6 @@ window.MOCK_WORDS = {
         "hanja": "機能主義",
         "sound": "기능주의",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "의식을 물질 자체가 아니라 입력과 출력을 매개하는 기능으로 설명하는 철학",
         "definition": "마음이나 의식을 그것이 수행하는 기능이나 역할로 설명하려는 심리 철학적 입장.",
         "definitionSource": "표준국어대사전",
@@ -22813,7 +22651,6 @@ window.MOCK_WORDS = {
         "hanja": "函數的役割",
         "sound": "함수적 역할",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "어떤 입력이 들어왔을 때 정해진 출력을 산출하는 기능적 관계",
         "definition": "어떤 시스템 안에서 특정한 입력에 대해 일정한 출력을 산출하도록 정의되는 기능적 관계나 역할.",
         "definitionSource": null,
@@ -22867,7 +22704,6 @@ window.MOCK_WORDS = {
         "hanja": "思考實驗",
         "sound": "사고 실험",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "실제 도구 대신 머릿속으로 가상의 상황을 설정하여 생각으로 검증함",
         "definition": "실제로 실험을 하지 않고 머릿속으로 어떤 가상의 상황을 설정하여 생각으로 수행하는 실험.",
         "definitionSource": "표준국어대사전",
@@ -22915,7 +22751,6 @@ window.MOCK_WORDS = {
         "hanja": "擴張認知",
         "sound": "확장 인지",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "인지 과정이 뇌 안을 넘어 외부 환경이나 도구와의 상호 작용으로 확장됨",
         "definition": "인지 과정이 뇌나 신체의 경계를 넘어 외부 환경이나 도구와의 상호 작용으로까지 확장된다고 보는 인지 철학 이론.",
         "definitionSource": null,
@@ -22963,7 +22798,6 @@ window.MOCK_WORDS = {
         "hanja": "心的狀態",
         "sound": "심적 상태",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "기억이나 신념처럼 마음이나 의식이 지니는 고유한 내면적 상태",
         "definition": "감정, 신념, 욕망, 기억 따위와 같이 마음이나 의식이 지니는 내면적 상태.",
         "definitionSource": null,
@@ -23011,7 +22845,6 @@ window.MOCK_WORDS = {
         "hanja": "派生的狀態",
         "sound": "파생적 상태",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "주체의 해석이나 사회적 합의에 의존해서만 비로소 의미를 갖는 상태",
         "definition": "주체의 해석이나 사회적 합의에 의존해서만 의미를 획득하는 대상이나 기호의 상태.",
         "definitionSource": null,
@@ -23065,7 +22898,6 @@ window.MOCK_WORDS = {
         "hanja": "認知過程",
         "sound": "인지 과정",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "정보를 받아들이고 기억하고 처리하여 앎에 이르는 정신적 과정",
         "definition": "대상을 지각하고 기억하며 사고하고 판단하는 일련의 정신적 정보 처리 과정.",
         "definitionSource": "우리말샘",
@@ -23113,7 +22945,6 @@ window.MOCK_WORDS = {
         "hanja": "客觀主義",
         "sound": "객관주의",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "주관에 좌우되지 않고 독립된 객관적 실재와 법칙을 중시하는 태도",
         "definition": "개인의 주관이나 감정에 좌우되지 아니하고 객관적인 실재나 보편적 타당성을 중시하는 태도나 사상.",
         "definitionSource": "표준국어대사전",
@@ -23161,7 +22992,6 @@ window.MOCK_WORDS = {
         "hanja": "計策",
         "sound": "계책",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "어떤 일을 이루기 위해 머리를 써서 세운 꾀나 방책",
         "definition": "어떤 일을 이루기 위하여 꾀를 내어 세운 방법이나 방책.",
         "definitionSource": "표준국어대사전",
@@ -23197,7 +23027,6 @@ window.MOCK_WORDS = {
         "hanja": "酒肴",
         "sound": "주효",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "술과 안주",
         "definition": "술과 안주를 아울러 이르는 말.",
         "definitionSource": "표준국어대사전",
@@ -23233,7 +23062,6 @@ window.MOCK_WORDS = {
         "hanja": "厚意",
         "sound": "후의",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "두텁고 친절한 마음이나 호의",
         "definition": "두텁고 친절한 마음이나 뜻.",
         "definitionSource": "표준국어대사전",
@@ -23269,7 +23097,6 @@ window.MOCK_WORDS = {
         "hanja": "姿色",
         "sound": "자색",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "여자의 곱고 아름다운 얼굴과 맵시",
         "definition": "여자의 고운 얼굴이나 자태.",
         "definitionSource": "표준국어대사전",
@@ -23305,7 +23132,6 @@ window.MOCK_WORDS = {
         "hanja": "小室",
         "sound": "소실",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "첩을 점잖게 이르는 말",
         "definition": "첩(妾)을 점잖게 이르는 말.",
         "definitionSource": "표준국어대사전",
@@ -23341,7 +23167,6 @@ window.MOCK_WORDS = {
         "hanja": "致君澤民",
         "sound": "치군택민",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "임금을 바르게 보필하여 백성에게 은택을 베풂",
         "definition": "임금을 바른길로 인도하여 백성에게 은택을 입힘.",
         "definitionSource": "표준국어대사전",
@@ -23389,7 +23214,6 @@ window.MOCK_WORDS = {
         "hanja": "釣月耕雲",
         "sound": "조월경운",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "달을 낚고 구름을 갈며 세속을 떠나 자연 속에 유유자적함",
         "definition": "달빛 아래 낚시질하고 구름 속에서 밭을 갊. 세속을 떠나 자연에 묻혀 한가롭게 살아감을 이르는 말.",
         "definitionSource": "표준국어대사전",
@@ -23437,7 +23261,6 @@ window.MOCK_WORDS = {
         "hanja": "一毫末",
         "sound": "일호말",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "털끝 하나만큼으로, 지극히 작거나 적음",
         "definition": "가느다란 털의 끝만큼 아주 작거나 적은 것.",
         "definitionSource": "우리말샘",
@@ -23479,7 +23302,6 @@ window.MOCK_WORDS = {
         "hanja": "利慾",
         "sound": "이욕",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "자신의 이익만을 탐내는 사사로운 욕심",
         "definition": "이익을 탐하는 욕심. 사리사욕.",
         "definitionSource": "표준국어대사전",
@@ -23515,7 +23337,6 @@ window.MOCK_WORDS = {
         "hanja": "冠形格助詞",
         "sound": "관형격 조사",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "체언 뒤에 붙어 뒤에 오는 말을 꾸미는 관형어 구실을 하게 하는 조사 (예: '의')",
         "definition": "앞에 오는 체언이 관형사 구실을 하게 하는 격 조사. ‘의’가 있다.",
         "definitionSource": "표준국어대사전",
@@ -23569,7 +23390,6 @@ window.MOCK_WORDS = {
         "hanja": "情報主體",
         "sound": "정보 주체",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "처리되는 데이터에 의하여 식별되는 대상자로서 그 권리를 갖는 사람",
         "definition": "처리되는 정보에 의하여 식별되는 사람으로서 그 정보의 주체가 되는 사람.",
         "definitionSource": "표준국어대사전",
@@ -23617,7 +23437,6 @@ window.MOCK_WORDS = {
         "hanja": "個人情報自己決定權",
         "sound": "개인 정보 자기 결정권",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "자신에 관한 정보를 언제, 누구에게, 어느 범위까지 공개하고 이용하게 할지 결정하는 권리",
         "definition": "자신에 관한 정보가 언제, 누구에게, 어느 범위까지 알려지고 또 이용되도록 할 것인가를 정보 주체가 스스로 결정할 수 있는 헌법상의 권리.",
         "definitionSource": "우리말샘",
@@ -23695,7 +23514,6 @@ window.MOCK_WORDS = {
         "hanja": "法制化",
         "sound": "법제화",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "어떤 규칙이나 정책을 법률이나 제도로 정식 제정함",
         "definition": "법률이나 제도로 만듦. 또는 그렇게 됨.",
         "definitionSource": "표준국어대사전",
@@ -23737,7 +23555,6 @@ window.MOCK_WORDS = {
         "hanja": "獨占化",
         "sound": "독점화",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "어떤 시장이나 대상을 혼자서 독차지하여 지배하게 됨",
         "definition": "어떤 대상이나 시장을 혼자서 차지하게 됨. 또는 그렇게 만듦.",
         "definitionSource": "표준국어대사전",
@@ -23779,7 +23596,6 @@ window.MOCK_WORDS = {
         "hanja": "壓電效果",
         "sound": "압전 효과",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "물질에 힘을 주면 전압이 생기고 전압을 걸면 변형이 일어나는 현상",
         "definition": "어떤 종류의 결정판에 압력을 가하면 전압이 발생하고, 반대로 전압을 가하면 변형이 일어나는 현상.",
         "definitionSource": "표준국어대사전",
@@ -23827,7 +23643,6 @@ window.MOCK_WORDS = {
         "hanja": "壓電體",
         "sound": "압전체",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "압전 효과를 나타내는 수정이나 세라믹 따위의 재료",
         "definition": "압전 효과를 나타내는 물질.",
         "definitionSource": "표준국어대사전",
@@ -23869,7 +23684,6 @@ window.MOCK_WORDS = {
         "hanja": "固有周波數",
         "sound": "고유 주파수",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "물체가 외력 없이 자유 진동할 때 나타내는 고유한 진동수",
         "definition": "진동계가 자유 진동을 할 때 나타내는 고유한 진동수.",
         "definitionSource": "표준국어대사전",
@@ -23923,7 +23737,6 @@ window.MOCK_WORDS = {
         "hanja": "質量敏感度",
         "sound": "질량 민감도",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "미세한 질량 변화에 따라 진동자의 주파수가 얼마나 민감하게 변하는지 나타내는 정도",
         "definition": "진동자 따위의 측정 센서에서 측정 대상의 질량 변화에 따라 측정 신호(주파수)가 변화하는 정도나 감도.",
         "definitionSource": null,
@@ -23977,7 +23790,6 @@ window.MOCK_WORDS = {
         "hanja": "反應時間",
         "sound": "반응 시간",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "자극이나 변화가 주어진 뒤 일정한 결과나 평형에 도달할 때까지 걸리는 시간",
         "definition": "자극이 주어졌을 때부터 반응이 나타날 때까지 걸리는 시간. 센서에서는 측정 대상과 반응하여 신호가 일정한 값에 도달하는 데 걸리는 시간.",
         "definitionSource": "표준국어대사전",
@@ -24025,7 +23837,6 @@ window.MOCK_WORDS = {
         "hanja": "良賤制",
         "sound": "양천제",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "사회 구성원을 양인과 천인 둘로 나누었던 조선 시대의 법제적 신분 체계",
         "definition": "조선 시대에 사회 구성원을 양인과 천인으로 나눈 신분 제도.",
         "definitionSource": "표준국어대사전",
@@ -24067,7 +23878,6 @@ window.MOCK_WORDS = {
         "hanja": "賤役",
         "sound": "천역",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "천민이나 노비가 맡아 하던 고되고 힘든 역(役)",
         "definition": "천한 사람이 하던 힘든 일이나 역(役).",
         "definitionSource": "표준국어대사전",
@@ -24103,7 +23913,6 @@ window.MOCK_WORDS = {
         "hanja": "贖良",
         "sound": "속량",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "몸값을 치르고 천인 신분에서 벗어나 양인이 됨",
         "definition": "몸값을 받고 노비의 신분을 풀어 주어 양민이 되게 하던 일.",
         "definitionSource": "표준국어대사전",
@@ -24139,7 +23948,6 @@ window.MOCK_WORDS = {
         "hanja": "幼學",
         "sound": "유학",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "조선 시대에 벼슬하지 않은 유생을 이르던 직역 명칭",
         "definition": "조선 시대에, 벼슬하지 않은 유생.",
         "definitionSource": "표준국어대사전",
@@ -24175,7 +23983,6 @@ window.MOCK_WORDS = {
         "hanja": "職役",
         "sound": "직역",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "조선 시대에 개인이 국가나 사회에 부담하던 직무상의 의무",
         "definition": "국가나 사회에서 맡아서 해야 하는 직무상의 역(役).",
         "definitionSource": "표준국어대사전",
@@ -24211,7 +24018,6 @@ window.MOCK_WORDS = {
         "hanja": "士農工商",
         "sound": "사농공상",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "선비, 농부, 공인, 상인의 네 가지 전통적 직업 계층",
         "definition": "선비, 농부, 공장(工匠), 상인을 아울러 이르는 말.",
         "definitionSource": "표준국어대사전",
@@ -24259,7 +24065,6 @@ window.MOCK_WORDS = {
         "hanja": "四民",
         "sound": "사민",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "사농공상에 속하는 온 백성",
         "definition": "사농공상의 네 계급의 백성.",
         "definitionSource": "표준국어대사전",
@@ -24295,7 +24100,6 @@ window.MOCK_WORDS = {
         "hanja": "道德的能力主義",
         "sound": "도덕적 능력주의",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "세습 신분이 아니라 개인의 도덕적 수양과 능력에 따라 지위를 부여하려는 사상",
         "definition": "세습 신분에 의존하지 않고 개인의 도덕적 성품과 학문적 역량에 따라 인재를 등용하고 사회적 지위를 부여하려는 사상적 입장.",
         "definitionSource": null,
@@ -24361,7 +24165,6 @@ window.MOCK_WORDS = {
         "hanja": "貢擧制",
         "sound": "공거제",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "과거 시험 대신 각 지방에서 덕행과 재능을 갖춘 인재를 천거받아 등용하는 제도",
         "definition": "각 지방에서 덕행과 재능이 뛰어난 인재를 천거받아 등용하던 인재 선발 제도.",
         "definitionSource": "표준국어대사전",
@@ -24403,7 +24206,6 @@ window.MOCK_WORDS = {
         "hanja": "身分世襲",
         "sound": "신분 세습",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "부모의 사회적 신분을 자손이 대대로 물려받아 유지함",
         "definition": "부모나 가문의 사회적 신분을 자손이 대대로 물려받아 유지함.",
         "definitionSource": null,
@@ -24451,7 +24253,6 @@ window.MOCK_WORDS = {
         "hanja": "儒敎的儀禮",
         "sound": "유교적 의례",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "유교의 도덕 규범과 예법에 따라 행해지는 제례나 혼례 등의 의식",
         "definition": "유교의 도덕 규범과 예법에 따라 행해지는 제례, 혼례 따위의 의식 절차.",
         "definitionSource": null,
@@ -24505,7 +24306,6 @@ window.MOCK_WORDS = {
         "hanja": "遵行",
         "sound": "준행",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "법률이나 명령, 예법을 그대로 좇아서 실천함",
         "definition": "법률, 명령, 도덕 따위를 그대로 좇아서 행함.",
         "definitionSource": "표준국어대사전",
@@ -24541,7 +24341,6 @@ window.MOCK_WORDS = {
         "hanja": "行政區域改編",
         "sound": "행정 구역 개편",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "효율적인 통치와 관리를 위해 행정 관할 구역을 새롭게 고쳐 짬",
         "definition": "행정 사무를 관장하는 구역의 편제를 효율적인 통치나 관리를 위하여 새롭게 고쳐 짬.",
         "definitionSource": null,
@@ -24601,7 +24400,6 @@ window.MOCK_WORDS = {
         "hanja": "天恩",
         "sound": "천은",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "하늘이나 임금이 베풀어 준 크나큰 은혜",
         "definition": "하늘이나 임금의 큰 은혜.",
         "definitionSource": "표준국어대사전",
@@ -24637,7 +24435,6 @@ window.MOCK_WORDS = {
         "hanja": "入朝",
         "sound": "입조",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "과거에 급제하거나 벼슬을 받아 조정에 나아가 임금을 뵘",
         "definition": "벼슬아치가 조정에 들어가 임금을 뵘.",
         "definitionSource": "표준국어대사전",
@@ -24673,7 +24470,6 @@ window.MOCK_WORDS = {
         "hanja": "到門",
         "sound": "도문",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "과거에 급제하여 영광스럽게 집 문에 다다름",
         "definition": "과거에 급제한 사람이 집에 돌아와 문에 이름. 또는 그 일.",
         "definitionSource": "표준국어대사전",
@@ -24709,7 +24505,6 @@ window.MOCK_WORDS = {
         "hanja": "白鶴扇",
         "sound": "백학선",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "흰 학의 깃털로 만들어 신비한 효험을 지닌 보물 부채",
         "definition": "고전 소설 ｢숙영낭자전｣ 따위에 등장하는 흰 학의 깃으로 만든 신비한 보물 부채. 몸을 따뜻하게 하거나 병을 물리치는 효험이 있다.",
         "definitionSource": null,
@@ -24751,7 +24546,6 @@ window.MOCK_WORDS = {
         "hanja": "無恙",
         "sound": "무양",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "병이나 탈 없이 건강하고 편안함",
         "definition": "병이나 걱정 따위가 없이 편안함.",
         "definitionSource": "표준국어대사전",
@@ -24787,7 +24581,6 @@ window.MOCK_WORDS = {
         "hanja": "月暈",
         "sound": "월훈",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "달 주위에 둥그렇게 둘러선 달무리",
         "definition": "달무리.",
         "definitionSource": "표준국어대사전",
@@ -24823,7 +24616,6 @@ window.MOCK_WORDS = {
         "hanja": "文漪",
         "sound": "문의",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "물결이 일렁이며 만들어 내는 잔잔하고 아름다운 무늬",
         "definition": "물결에 이는 잔잔하고 아름다운 무늬.",
         "definitionSource": "우리말샘",
@@ -24859,7 +24651,6 @@ window.MOCK_WORDS = {
         "hanja": "合成語",
         "sound": "합성어",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "실질적 의미를 지닌 둘 이상의 어근이 결합하여 이루어진 단어",
         "definition": "둘 이상의 어근이 결합하여 이루어진 단어.",
         "definitionSource": "표준국어대사전",
@@ -24901,7 +24692,6 @@ window.MOCK_WORDS = {
         "hanja": "派生語",
         "sound": "파생어",
         "category": "구조 파악형",
-        "type": "구조 파악형",
         "brief": "어근에 접사가 붙어서 만들어진 단어",
         "definition": "어근에 접사가 붙어서 이루어진 단어.",
         "definitionSource": "표준국어대사전",
@@ -24943,7 +24733,6 @@ window.MOCK_WORDS = {
         "hanja": "超認知",
         "sound": "초인지",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "자신의 인지 과정을 한 차원 높은 시각에서 관찰하고 조절하는 인지 능력",
         "definition": "자신의 인지 과정에 대하여 한 차원 높은 시각에서 관찰하고 통제하는 인지 능력.",
         "definitionSource": "우리말샘",
@@ -24985,7 +24774,6 @@ window.MOCK_WORDS = {
         "hanja": "讀書戰略",
         "sound": "독서 전략",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "글을 효과적으로 읽고 문제를 해결하기 위해 독자가 사용하는 계획이나 방법",
         "definition": "글을 효과적으로 읽고 이해하기 위해 독자가 사용하는 계획이나 방법.",
         "definitionSource": "우리말샘",
@@ -25033,7 +24821,6 @@ window.MOCK_WORDS = {
         "hanja": "競馬式報道",
         "sound": "경마식 보도",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "정책이나 자질 대신 지지율이나 득표율의 승패에만 치중하여 전하는 선거 보도",
         "definition": "선거 보도에서 후보자의 정책이나 자질보다는 득표율이나 지지율의 변화 등 승패에만 치중하여 보도하는 방식.",
         "definitionSource": "표준국어대사전",
@@ -25087,7 +24874,6 @@ window.MOCK_WORDS = {
         "hanja": "得票率",
         "sound": "득표율",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "선거에서 전체 투표수나 유권자 수 대비 특정 후보나 정당이 얻은 표의 비율",
         "definition": "선거에서 투표수나 유권자 수에 대하여 후보자나 정당이 얻은 표 수의 비율.",
         "definitionSource": "표준국어대사전",
@@ -25129,7 +24915,6 @@ window.MOCK_WORDS = {
         "hanja": "公正性",
         "sound": "공정성",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "어느 한쪽에 치우치지 않고 올바르고 공평한 성질",
         "definition": "공평하고 올바른 성질.",
         "definitionSource": "표준국어대사전",
@@ -25171,7 +24956,6 @@ window.MOCK_WORDS = {
         "hanja": "機會均等",
         "sound": "기회균등",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "모든 사람에게 차별 없이 동등한 기회를 제공함",
         "definition": "모든 사람에게 차별 없이 동등한 기회를 줌.",
         "definitionSource": "표준국어대사전",
@@ -25219,7 +25003,6 @@ window.MOCK_WORDS = {
         "hanja": "合憲",
         "sound": "합헌",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "법률이나 공권력 행사가 헌법 조항이나 기본 정신에 어긋나지 아니함",
         "definition": "법률이나 행위가 헌법의 조항이나 정신에 어긋나지 아니함.",
         "definitionSource": "표준국어대사전",
@@ -25255,7 +25038,6 @@ window.MOCK_WORDS = {
         "hanja": "歪曲報道",
         "sound": "왜곡 보도",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "사실을 있는 그대로 전하지 않고 그릇되게 비틀어 전하는 보도",
         "definition": "사실을 있는 그대로 전달하지 아니하고 그릇되게 비틀어 보도함. 또는 그런 보도.",
         "definitionSource": null,
@@ -25303,7 +25085,6 @@ window.MOCK_WORDS = {
         "hanja": "誤差範圍",
         "sound": "오차 범위",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "통계 조사나 측정에서 오차가 발생할 수 있는 허용 한계의 구간",
         "definition": "통계 조사나 측정에서 오차가 발생할 수 있는 허용 한계의 범위.",
         "definitionSource": "우리말샘",
@@ -25351,7 +25132,6 @@ window.MOCK_WORDS = {
         "hanja": "標本誤差",
         "sound": "표본 오차",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "모집단 전체 대신 일부 표본을 추출하여 조사함으로써 발생하는 오차",
         "definition": "모집단에서 표본을 추출하여 조사할 때 표본의 특성값이 모집단의 특성값과 차이를 보이는 오차.",
         "definitionSource": "표준국어대사전",
@@ -25399,7 +25179,6 @@ window.MOCK_WORDS = {
         "hanja": "競合",
         "sound": "경합",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "선거나 시합에서 우열을 가리기 어려울 만큼 서로 맞서서 겨룸",
         "definition": "서로 맞서서 겨룸.",
         "definitionSource": "표준국어대사전",
@@ -25435,7 +25214,6 @@ window.MOCK_WORDS = {
         "hanja": "中央값",
         "sound": "중앙값",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "자료를 크기순으로 나열했을 때 한가운데에 위치하는 값",
         "definition": "통계 자료에서 변량을 크기 순서대로 늘어놓았을 때 그들의 한가운데 있는 값. 즉 전체 항을 이등분한 위치에 있는 값으로 통계 자료에서 대푯값의 하나이다.",
         "definitionSource": "표준국어대사전",
@@ -25471,7 +25249,6 @@ window.MOCK_WORDS = {
         "hanja": "最頻값",
         "sound": "최빈값",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "어떤 자료에서 빈도수가 가장 높게 나타나는 값",
         "definition": "통계 자료의 대푯값의 하나. 최대의 도수를 가지는 변량의 수치이다.",
         "definitionSource": "표준국어대사전",
@@ -25507,7 +25284,6 @@ window.MOCK_WORDS = {
         "hanja": "代表값",
         "sound": "대푯값",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "자료 전체의 특징이나 경향을 대표적으로 나타내는 수치 (평균, 중앙값 등)",
         "definition": "자료의 특징이나 경향을 가리키는 수의 값. 평균값, 중앙값, 최빈값 따위가 있다.",
         "definitionSource": "표준국어대사전",
@@ -25543,7 +25319,6 @@ window.MOCK_WORDS = {
         "hanja": "門턱값",
         "sound": "문턱값",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "작동 상태를 바꾸거나 후보군에 들기 위해 넘어야 하는 최소 기준 수치",
         "definition": "작동 상태를 바꾸는 기준이 되는 값.",
         "definitionSource": "우리말샘",
@@ -25573,7 +25348,6 @@ window.MOCK_WORDS = {
         "hanja": "恒常性",
         "sound": "항상성",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "외부 환경이 변하더라도 본래의 안정된 성질을 늘 한결같이 유지함",
         "definition": "생체나 사물이 외부 환경의 변화에도 불구하고 스스로 조절하여 일정한 안정 상태를 유지하는 성질. 철학에서는 변하지 않는 영구불변의 속성을 이른다.",
         "definitionSource": "표준국어대사전",
@@ -25615,7 +25389,6 @@ window.MOCK_WORDS = {
         "hanja": "可變性",
         "sound": "가변성",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "고정되어 있지 않고 조건이나 상황에 따라 변할 수 있는 성질",
         "definition": "사물의 모양이나 성질 따위가 변할 수 있는 성질.",
         "definitionSource": "표준국어대사전",
@@ -25657,7 +25430,6 @@ window.MOCK_WORDS = {
         "hanja": "法治",
         "sound": "법치",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "자의적 권력이 아니라 엄격한 법률에 바탕을 두고 국가를 통치함",
         "definition": "법률에 바탕을 두고 국가를 통치함.",
         "definitionSource": "표준국어대사전",
@@ -25693,7 +25465,6 @@ window.MOCK_WORDS = {
         "hanja": "富國强兵",
         "sound": "부국강병",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "나라의 경제를 부유하게 하고 군사력을 굳세게 기름",
         "definition": "나라를 부유하게 하고 군대를 강하게 함.",
         "definitionSource": "표준국어대사전",
@@ -25741,7 +25512,6 @@ window.MOCK_WORDS = {
         "hanja": "統治術",
         "sound": "통치술",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "국가 권력을 행사하여 백성을 지배하고 다스리는 기술이나 방법",
         "definition": "국가 권력을 행사하여 백성을 지배하고 다스리는 기술이나 방법.",
         "definitionSource": "우리말샘",
@@ -25783,7 +25553,6 @@ window.MOCK_WORDS = {
         "hanja": "是非",
         "sound": "시비",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "옳음과 그름을 따져 판별함",
         "definition": "옳음과 그름. 또는 옳고 그름을 따지는 말다툼.",
         "definitionSource": "표준국어대사전",
@@ -25819,7 +25588,6 @@ window.MOCK_WORDS = {
         "hanja": "立法",
         "sound": "입법",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "사회 질서와 통치의 기준이 되는 법률을 제정함",
         "definition": "법률을 제정함.",
         "definitionSource": "표준국어대사전",
@@ -25855,7 +25623,6 @@ window.MOCK_WORDS = {
         "hanja": "中央集權化",
         "sound": "중앙집권화",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "국가의 통치 권력이 중앙 정부에 집중되는 현상",
         "definition": "국가의 모든 권력이 중앙 정부나 중앙 권력에 집중되는 현상. 또는 그렇게 되게 함.",
         "definitionSource": "우리말샘",
@@ -25909,7 +25676,6 @@ window.MOCK_WORDS = {
         "hanja": "仁義禮智",
         "sound": "인의예지",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "어짊, 의로움, 예의, 지혜의 네 가지 유학의 근본 도덕 덕목",
         "definition": "인(仁), 의(義), 예(禮), 지(智)의 네 가지 도덕적 덕목. 맹자가 도덕 본성으로 제시한 사단(四端)의 바탕이다.",
         "definitionSource": "표준국어대사전",
@@ -25957,7 +25723,6 @@ window.MOCK_WORDS = {
         "hanja": "註釋",
         "sound": "주석",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "낱말이나 글귀의 어려운 뜻을 알기 쉽게 풀이함",
         "definition": "낱말이나 문장의 뜻을 쉽게 풀이함. 또는 그런 글.",
         "definitionSource": "표준국어대사전",
@@ -25993,7 +25758,6 @@ window.MOCK_WORDS = {
         "hanja": "異端",
         "sound": "이단",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "정통적인 주류 학문이나 도덕 규범에서 벗어난 사상이나 교파",
         "definition": "전통이나 통설에서 벗어난 교리나 사상. 유학에서는 정통 유학에서 벗어난 노자나 불교 따위의 사상을 이른다.",
         "definitionSource": "표준국어대사전",
@@ -26029,7 +25793,6 @@ window.MOCK_WORDS = {
         "hanja": "忠君",
         "sound": "충군",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "임금에게 충성을 다하여 섬김",
         "definition": "임금에게 충성을 다함.",
         "definitionSource": "표준국어대사전",
@@ -26065,7 +25828,6 @@ window.MOCK_WORDS = {
         "hanja": "國變",
         "sound": "국변",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "반란이나 외적의 침입 등 나라에 일어난 커다란 변고나 난리",
         "definition": "나라에 일어난 변고.",
         "definitionSource": "표준국어대사전",
@@ -26101,7 +25863,6 @@ window.MOCK_WORDS = {
         "hanja": "計巧",
         "sound": "계교",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "일을 성사시키기 위해 요리조리 생각하여 낸 꾀나 책략",
         "definition": "요리조리 헤아려 보고 생각해 낸 꾀.",
         "definitionSource": "표준국어대사전",
@@ -26143,7 +25904,6 @@ window.MOCK_WORDS = {
         "hanja": "謝恩肅拜",
         "sound": "사은숙배",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "임금의 은혜에 감사하며 정중하고 엄숙하게 절함",
         "definition": "임금의 은혜에 감사하여 정중하게 절함.",
         "definitionSource": "표준국어대사전",
@@ -26191,7 +25951,6 @@ window.MOCK_WORDS = {
         "hanja": "道伴",
         "sound": "도반",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "함께 도를 닦거나 뜻을 같이하여 함께 나아가는 벗",
         "definition": "함께 불도(佛道)를 닦는 벗. 널리 뜻을 같이하여 함께 나아가는 동반자를 이르기도 한다.",
         "definitionSource": "표준국어대사전",
@@ -26227,7 +25986,6 @@ window.MOCK_WORDS = {
         "hanja": "焚書坑儒",
         "sound": "분서갱유",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "진시황이 사상 통제를 위해 실용서 외의 책을 불태우고 유학자를 생매장한 일",
         "definition": "중국 진(秦)나라의 시황제가 사상 통제를 목적으로 민간의 실용 서적을 제외한 사상 서적을 불태우고 많은 유학자를 생매장하여 죽인 일.",
         "definitionSource": "표준국어대사전",
@@ -26275,7 +26033,6 @@ window.MOCK_WORDS = {
         "hanja": "思想統制",
         "sound": "사상 통제",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "지배 권력이 특정한 정치적·사회적 사상을 억압하고 강제하는 일",
         "definition": "지배 권력이 지배 체제의 안정과 유지를 위해 사상의 자유로운 표현과 유통을 억압하고 특정 이념만을 따르도록 단속·제한하는 일.",
         "definitionSource": null,
@@ -26323,7 +26080,6 @@ window.MOCK_WORDS = {
         "hanja": "治國計策",
         "sound": "치국 계책",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "나라를 올바르게 다스리기 위한 꾀나 책략",
         "definition": "나라를 올바르고 평안하게 다스리기 위해 세우는 정치적 방책이나 계략.",
         "definitionSource": null,
@@ -26371,7 +26127,6 @@ window.MOCK_WORDS = {
         "hanja": "統物",
         "sound": "통물",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "천문·지리·인사 등 천하의 모든 일을 하나로 포괄함",
         "definition": "자연의 이치에 따라 천문, 지리, 인사 등 천하의 모든 사물과 현상을 하나로 널리 포괄함.",
         "definitionSource": null,
@@ -26407,7 +26162,6 @@ window.MOCK_WORDS = {
         "hanja": "通變",
         "sound": "통변",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "사물의 변화에 맞추어 융통성 있게 대처하고 변통함",
         "definition": "사물의 변화에 통달하여 때에 맞추어 알맞게 변통함.",
         "definitionSource": "우리말샘",
@@ -26443,7 +26197,6 @@ window.MOCK_WORDS = {
         "hanja": "仁義",
         "sound": "인의",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "어짊과 의로움, 유교의 근본 도덕 규범",
         "definition": "어짊과 의로움이라는 뜻으로, 유교에서 사람이 마땅히 지켜야 할 최고의 도덕 규범.",
         "definitionSource": "표준국어대사전",
@@ -26479,7 +26232,6 @@ window.MOCK_WORDS = {
         "hanja": "王道政治",
         "sound": "왕도 정치",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "무력이 아닌 도덕과 인의로 백성을 다스리는 이상적인 정치",
         "definition": "유교에서, 군주가 무력이나 형벌이 아니라 도덕과 인의(仁義)로 백성을 교화하여 다스리는 이상적인 정치.",
         "definitionSource": null,
@@ -26527,7 +26279,6 @@ window.MOCK_WORDS = {
         "hanja": "敎化",
         "sound": "교화",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "가르치고 이끌어 착하고 올바른 방향으로 나아가게 함",
         "definition": "가르치고 이끌어서 좋은 방향으로 나아가게 함.",
         "definitionSource": "표준국어대사전",
@@ -26563,7 +26314,6 @@ window.MOCK_WORDS = {
         "hanja": "權勢",
         "sound": "권세",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "남을 지배하거나 복종시키는 권력과 세력",
         "definition": "권력과 세력을 아울러 이르는 말.",
         "definitionSource": "표준국어대사전",
@@ -26599,7 +26349,6 @@ window.MOCK_WORDS = {
         "hanja": "興亡盛衰",
         "sound": "흥망성쇠",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "국가나 세력이 번성하고 쇠퇴하며 흥하고 망함",
         "definition": "흥하고 망하고 성하고 쇠함을 아울러 이르는 말.",
         "definitionSource": "표준국어대사전",
@@ -26647,7 +26396,6 @@ window.MOCK_WORDS = {
         "hanja": "國朝",
         "sound": "국조",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "자기 나라의 왕조나 조정",
         "definition": "자기 나라의 왕조나 조정을 이르는 말.",
         "definitionSource": "표준국어대사전",
@@ -26683,7 +26431,6 @@ window.MOCK_WORDS = {
         "hanja": "血液凝固",
         "sound": "혈액 응고",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "출혈 시 피가 엉기어 굳어 혈액 손실을 막는 현상",
         "definition": "출혈이 일어났을 때 피가 엉기어 굳는 현상.",
         "definitionSource": "표준국어대사전",
@@ -26731,7 +26478,6 @@ window.MOCK_WORDS = {
         "hanja": "血栓",
         "sound": "혈전",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "혈관 속에서 피가 굳어서 덩어리를 이룬 것",
         "definition": "혈관 속에서 피가 굳어서 된 조그마한 핏덩이.",
         "definitionSource": "표준국어대사전",
@@ -26767,7 +26513,6 @@ window.MOCK_WORDS = {
         "hanja": "不溶性",
         "sound": "불용성",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "어떤 물질이 액체에 녹지 아니하는 성질",
         "definition": "어떤 물질이 액체에 녹지 아니하는 성질.",
         "definitionSource": "표준국어대사전",
@@ -26809,7 +26554,6 @@ window.MOCK_WORDS = {
         "hanja": "血管石灰化",
         "sound": "혈관 석회화",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "혈관 벽에 칼슘염이 침착되어 딱딱하게 굳어지는 현상",
         "definition": "혈관 벽에 칼슘염이 비정상적으로 침착되어 혈관이 탄력을 잃고 딱딱하게 굳어지는 현상.",
         "definitionSource": null,
@@ -26863,7 +26607,6 @@ window.MOCK_WORDS = {
         "hanja": "骨多孔症",
         "sound": "골다공증",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "뼛속에 구멍이 많이 생겨 뼈가 약해지고 부러지기 쉬워지는 증상",
         "definition": "뼛속에 구멍이 많이 생기는 증상. 뼈에서 칼슘이 빠져나가 골밀도가 낮아져 뼈가 부러지기 쉬워진다.",
         "definitionSource": "표준국어대사전",
@@ -26911,7 +26654,6 @@ window.MOCK_WORDS = {
         "hanja": "二重差分法",
         "sound": "이중차분법",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "시행집단의 전후 변화에서 비교집단의 전후 변화를 빼 사건의 효과를 평가하는 분석 방법",
         "definition": "사건을 경험한 시행집단에서 일어난 변화에서 비교집단에서 일어난 변화를 뺀 값으로 사건의 효과를 평가하는 방법.",
         "definitionSource": null,
@@ -26965,7 +26707,6 @@ window.MOCK_WORDS = {
         "hanja": "平行趨勢假定",
         "sound": "평행추세 가정",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "사건이 없었더라도 두 집단이 같은 크기의 변화 추세를 보였을 것이라는 가정",
         "definition": "이중차분법에서 사건이 없었더라도 비교집단에서 일어난 변화와 같은 크기의 변화가 시행집단에서도 일어났을 것이라고 전제하는 가정.",
         "definitionSource": null,
@@ -27025,7 +26766,6 @@ window.MOCK_WORDS = {
         "hanja": "施行集團",
         "sound": "시행집단",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "정책이나 특정 사건의 영향을 직접 경험한 표본들로 구성된 집단",
         "definition": "정책이나 특정 사건을 실제로 경험하여 그 효과의 평가 대상이 되는 표본들로 구성된 집단.",
         "definitionSource": null,
@@ -27073,7 +26813,6 @@ window.MOCK_WORDS = {
         "hanja": "比較集團",
         "sound": "비교집단",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "사건을 경험하지 않아 시행집단과의 비교 기준이 되는 표본 집단",
         "definition": "정책이나 특정 사건을 경험하지 않은 표본들로 구성되어, 사건이 없었을 경우의 변화를 추정하기 위한 기준이 되는 집단.",
         "definitionSource": null,
@@ -27121,7 +26860,6 @@ window.MOCK_WORDS = {
         "hanja": "統計的類似性",
         "sound": "통계적 유사성",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "비교하는 두 집단 간 표본의 특성이나 변수 분포가 서로 비슷함",
         "definition": "집단 간 비교에서 표본을 구성하는 여러 변수나 특성의 통계적 분포와 수치가 서로 비슷하게 나타나는 성질.",
         "definitionSource": null,
@@ -27181,7 +26919,6 @@ window.MOCK_WORDS = {
         "hanja": "景氣變動",
         "sound": "경기변동",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "경제 활동 수준이 호황과 불황을 주기적으로 되풀이하며 변하는 현상",
         "definition": "총체적인 경제 활동 수준이 상승과 하강을 되풀이하며 주기적으로 변동하는 현상.",
         "definitionSource": "표준국어대사전",
@@ -27229,7 +26966,6 @@ window.MOCK_WORDS = {
         "hanja": "謫降仙女",
         "sound": "적강선녀",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "하늘에서 죄를 짓고 인간 세상에 내려온 선녀, 빼어난 여성을 비유함",
         "definition": "천상에서 죄를 지어 인간 세상으로 쫓겨 내려온 선녀라는 뜻으로, 용모와 덕행이 매우 뛰어난 여성을 비유적으로 이르는 말.",
         "definitionSource": null,
@@ -27277,7 +27013,6 @@ window.MOCK_WORDS = {
         "hanja": "寵愛",
         "sound": "총애",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "특별히 귀여워하고 사랑함",
         "definition": "특별히 귀여워하고 사랑함.",
         "definitionSource": "표준국어대사전",
@@ -27313,7 +27048,6 @@ window.MOCK_WORDS = {
         "hanja": "魂飛魄散",
         "sound": "혼비백산",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "몹시 놀라 넋을 잃음",
         "definition": "혼백이 어지러이 흩어진다는 뜻으로, 몹시 놀라 넋을 잃음을 이르는 말.",
         "definitionSource": "표준국어대사전",
@@ -27361,7 +27095,6 @@ window.MOCK_WORDS = {
         "hanja": "拍掌大笑",
         "sound": "박장대소",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "손뼉을 치며 크게 웃음",
         "definition": "손뼉을 치며 크게 웃음.",
         "definitionSource": "표준국어대사전",
@@ -27409,7 +27142,6 @@ window.MOCK_WORDS = {
         "hanja": "天門九重",
         "sound": "천문구중",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "아홉 겹으로 깊숙이 둘러싸인 대궐 문, 임금이 계신 궁궐",
         "definition": "아홉 겹으로 깊숙하게 닫힌 궁궐의 문이라는 뜻으로, 임금이 계신 깊은 궁궐을 비유적으로 이르는 말.",
         "definitionSource": null,
@@ -27457,7 +27189,6 @@ window.MOCK_WORDS = {
         "hanja": "怨淚",
         "sound": "원루",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "원망스럽고 한스러워 흘리는 눈물",
         "definition": "원망스럽고 한탄스러워 흘리는 눈물.",
         "definitionSource": null,
@@ -27493,7 +27224,6 @@ window.MOCK_WORDS = {
         "hanja": "半壁靑燈",
         "sound": "반벽청등",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "벽에 걸려 희미하게 비추는 푸른 등불, 쓸쓸한 방안의 정경",
         "definition": "벽에 걸린 채 희미하게 비추는 푸르스름한 등불이라는 뜻으로, 쓸쓸하고 적막한 방안의 정경을 이르는 말.",
         "definitionSource": null,
@@ -27541,7 +27271,6 @@ window.MOCK_WORDS = {
         "hanja": "不正蓄財",
         "sound": "부정 축재",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "부정한 방법이나 수단으로 재산을 모음",
         "definition": "올바르지 못한 방법으로 재산을 모음. 또는 그렇게 모은 재산.",
         "definitionSource": null,
@@ -27589,7 +27318,6 @@ window.MOCK_WORDS = {
         "hanja": "小切手",
         "sound": "소절수",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "‘수표’를 일상적으로 이르는 말",
         "definition": "‘수표’를 일상적으로 이르는 말.",
         "definitionSource": "표준국어대사전",
@@ -27631,7 +27359,6 @@ window.MOCK_WORDS = {
         "hanja": "交換價値",
         "sound": "교환 가치",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "상품이 다른 상품과 교환될 수 있는 상대적 가치",
         "definition": "일정량의 물품이 다른 종류의 물품과 어떤 비율로 교환될 수 있는가 하는 상대적 가치.",
         "definitionSource": "표준국어대사전",
@@ -27679,7 +27406,6 @@ window.MOCK_WORDS = {
         "hanja": "非同一性",
         "sound": "비동일성",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "하나의 가치나 틀로 환원되거나 통일되지 않는 고유한 성질",
         "definition": "서로 같지 아니하거나 하나의 기준이나 체계로 획일화되지 않는 성질. 아도르노 미학에서 획일적 동일화에 저항하는 예술의 고유한 본질을 가리킨다.",
         "definitionSource": null,
@@ -27727,7 +27453,6 @@ window.MOCK_WORDS = {
         "hanja": "非定型性",
         "sound": "비정형성",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "일정한 틀이나 고정된 형식에 얽매이지 않는 성질",
         "definition": "일정한 형식이나 정해진 틀에 얽매이지 않고 자유롭거나 불규칙한 성질.",
         "definitionSource": null,
@@ -27775,7 +27500,6 @@ window.MOCK_WORDS = {
         "hanja": "前衛藝術",
         "sound": "전위 예술",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "기존의 예술 형식을 배격하고 새로운 수법을 시도하는 혁신적 예술",
         "definition": "이전의 것을 배격하고 새로운 표현 수법을 시도하는 실험적이고 혁신적인 예술. 다다이즘, 초현실주의, 앙티로망 따위를 이른다.",
         "definitionSource": "표준국어대사전",
@@ -27823,7 +27547,6 @@ window.MOCK_WORDS = {
         "hanja": "啓蒙",
         "sound": "계몽",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "지식이 부족하거나 미성숙한 사람을 가르쳐 깨우침",
         "definition": "지식수준이 낮거나 인습에 젖은 사람을 가르쳐서 깨우침.",
         "definitionSource": "표준국어대사전",
@@ -27859,7 +27582,6 @@ window.MOCK_WORDS = {
         "hanja": "沈澱",
         "sound": "침전",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "물질이나 감정, 역사적 경험 따위가 밑바닥에 가라앉아 쌓임",
         "definition": "액체 속에 있는 물질이 밑바닥에 가라앉음. 또는 그 물질. 비유적으로 어떤 경험이나 상태 따위가 마음이나 사물 속에 가라앉아 쌓여 있음을 이른다.",
         "definitionSource": "표준국어대사전",
@@ -27895,7 +27617,6 @@ window.MOCK_WORDS = {
         "hanja": "自律性",
         "sound": "자율성",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "외부의 간섭 없이 스스로의 원칙에 따라 판단하고 행동하는 성질",
         "definition": "자기 스스로의 원칙에 따라 어떤 일을 하거나 자기 스스로 자신을 통제하여 절제하는 성질이나 특성.",
         "definitionSource": "표준국어대사전",
@@ -27937,7 +27658,6 @@ window.MOCK_WORDS = {
         "hanja": "再現",
         "sound": "재현",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "과거의 일, 관념, 대상을 다시 나타내거나 형상화함",
         "definition": "다시 나타남. 또는 다시 나타냄. 미학에서는 주체의 관념이나 대상을 감각 가능한 매체로 다시 구현하는 것을 이른다.",
         "definitionSource": "표준국어대사전",
@@ -27973,7 +27693,6 @@ window.MOCK_WORDS = {
         "hanja": "無償處分",
         "sound": "무상 처분",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "대가 없이 재산을 남에게 넘겨주는 행위 (증여·기부 등)",
         "definition": "아무런 대가를 받지 않고 자신의 재산을 타인에게 양도하거나 처분하는 법률 행위.",
         "definitionSource": null,
@@ -28021,7 +27740,6 @@ window.MOCK_WORDS = {
         "hanja": "無償取得者",
         "sound": "무상 취득자",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "아무런 대가를 치르지 않고 재산을 넘겨받은 사람",
         "definition": "대가나 보상을 치르지 아니하고 증여나 기부 따위를 통해 재산의 권리를 얻은 사람.",
         "definitionSource": null,
@@ -28075,7 +27793,6 @@ window.MOCK_WORDS = {
         "hanja": "被相續人",
         "sound": "피상속인",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "사망하여 상속인에게 자신의 재산과 권리·의무를 물려주는 사람",
         "definition": "상속인에게 자기의 권리, 의무를 물려주는 사람.",
         "definitionSource": "표준국어대사전",
@@ -28123,7 +27840,6 @@ window.MOCK_WORDS = {
         "hanja": "遺留分",
         "sound": "유류분",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "상속인을 위해 법률상 반드시 남겨 두어야 하는 상속 재산의 최소 지분",
         "definition": "상속 재산 가운데, 상속을 받은 사람이 마음대로 처리하지 못하고 일정한 상속인을 위하여 법률상 반드시 남겨 두어야 할 일정 부분.",
         "definitionSource": "표준국어대사전",
@@ -28165,7 +27881,6 @@ window.MOCK_WORDS = {
         "hanja": "遺留分權",
         "sound": "유류분권",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "법정 유류분을 침해받은 상속인이 반환을 청구할 수 있는 권리",
         "definition": "상속인이 피상속인의 무상 처분 등으로 침해된 자신의 법정 유류분을 반환받을 수 있는 법률상의 권리.",
         "definitionSource": null,
@@ -28213,7 +27928,6 @@ window.MOCK_WORDS = {
         "hanja": "遺留分不足額",
         "sound": "유류분 부족액",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "법정 유류분에서 실제로 상속받은 이익을 뺀 부족한 금액",
         "definition": "유류분 권리자가 보장받아야 할 유류분액에서 이미 상속받은 순재산액 등을 공제하여 실제로 반환을 청구할 수 있는 부족한 금액.",
         "definitionSource": null,
@@ -28273,7 +27987,6 @@ window.MOCK_WORDS = {
         "hanja": "持分",
         "sound": "지분",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "공유 재산에서 각 공유자가 소유하는 몫이나 비율",
         "definition": "공유물이나 공유 재산 따위에서, 공유자 각자가 소유하는 몫. 또는 그런 비율.",
         "definitionSource": "표준국어대사전",
@@ -28309,7 +28022,6 @@ window.MOCK_WORDS = {
         "hanja": "市價",
         "sound": "시가",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "시장에서 실제로 물건이 매매되는 가격",
         "definition": "시장에서 상품이 매매되는 가격.",
         "definitionSource": "표준국어대사전",
@@ -28345,7 +28057,6 @@ window.MOCK_WORDS = {
         "hanja": "算定",
         "sound": "산정",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "수량이나 금액을 셈하여 정함",
         "definition": "셈하여 정함.",
         "definitionSource": "표준국어대사전",
@@ -28381,7 +28092,6 @@ window.MOCK_WORDS = {
         "hanja": "適合度",
         "sound": "적합도",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "조건이나 목적에 꼭 들어맞는 정도",
         "definition": "어떤 조건, 기준, 환경 따위에 꼭 들어맞거나 알맞은 정도. 검색 엔진에서는 검색어와 웹 페이지의 일치 부합 정도를 가리킨다.",
         "definitionSource": null,
@@ -28423,7 +28133,6 @@ window.MOCK_WORDS = {
         "hanja": "均等",
         "sound": "균등",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "고르고 가지런하여 차별이나 치우침이 없음",
         "definition": "고르고 가지런하여 차별이 없음.",
         "definitionSource": "표준국어대사전",
@@ -28459,7 +28168,6 @@ window.MOCK_WORDS = {
         "hanja": "更新",
         "sound": "갱신",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "기존의 상태를 고쳐 새롭게 바꿈",
         "definition": "이미 있던 것을 고쳐 새롭게 함.",
         "definitionSource": "표준국어대사전",
@@ -28495,7 +28203,6 @@ window.MOCK_WORDS = {
         "hanja": "合算",
         "sound": "합산",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "여러 수량이나 항목을 한데 합하여 계산함",
         "definition": "합하여 계산함.",
         "definitionSource": "표준국어대사전",
@@ -28531,7 +28238,6 @@ window.MOCK_WORDS = {
         "hanja": "頻度數",
         "sound": "빈도수",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "같은 현상이나 단어 따위가 반복되어 나타나는 횟수",
         "definition": "같은 현상이나 일이 반복되는 도수(度數).",
         "definitionSource": "표준국어대사전",
@@ -28573,7 +28279,6 @@ window.MOCK_WORDS = {
         "hanja": "讒言",
         "sound": "참언",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "거짓으로 꾸며 남을 헐뜯어 윗사람에게 고해바침",
         "definition": "거짓으로 꾸며서 남을 헐뜯어 윗사람에게 고하여 바침. 또는 그런 말.",
         "definitionSource": "표준국어대사전",
@@ -28609,7 +28314,6 @@ window.MOCK_WORDS = {
         "hanja": "謫居",
         "sound": "적거",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "귀양살이를 하고 있음",
         "definition": "귀양살이를 하고 있음.",
         "definitionSource": "표준국어대사전",
@@ -28645,7 +28349,6 @@ window.MOCK_WORDS = {
         "hanja": "永訣",
         "sound": "영결",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "죽은 사람과 산 사람이 영원히 헤어짐",
         "definition": "죽은 사람과 산 사람이 서로 영원히 헤어짐.",
         "definitionSource": "표준국어대사전",
@@ -28681,7 +28384,6 @@ window.MOCK_WORDS = {
         "hanja": "狀啓",
         "sound": "장계",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "지방 관원이 중요한 사건이나 정세를 임금에게 올리던 보고서",
         "definition": "왕명을 받고 지방에 나가 있는 신하가 자기 관하(管下)의 중요한 일을 왕에게 보고하던 일. 또는 그런 문서.",
         "definitionSource": "표준국어대사전",
@@ -28717,7 +28419,6 @@ window.MOCK_WORDS = {
         "hanja": "捷書",
         "sound": "첩서",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "전쟁에서 승리한 소식을 조정이나 윗사람에게 알리는 글",
         "definition": "싸움에서 승리한 것을 보고하는 글.",
         "definitionSource": "표준국어대사전",
@@ -28753,7 +28454,6 @@ window.MOCK_WORDS = {
         "hanja": "問招",
         "sound": "문초",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "죄인의 죄상이나 잘못을 캐묻고 따짐",
         "definition": "죄나 잘못을 따져 물음.",
         "definitionSource": "표준국어대사전",
@@ -28789,7 +28489,6 @@ window.MOCK_WORDS = {
         "hanja": "風雪",
         "sound": "풍설",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "눈과 함께 매섭게 불어닥치는 차가운 바람",
         "definition": "눈과 함께, 또는 눈 위로 불어오는 차가운 바람.",
         "definitionSource": "표준국어대사전",
@@ -28825,7 +28524,6 @@ window.MOCK_WORDS = {
         "hanja": "蒼天",
         "sound": "창천",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "푸르고 맑은 하늘",
         "definition": "맑고 푸른 하늘.",
         "definitionSource": "표준국어대사전",
@@ -28861,7 +28559,6 @@ window.MOCK_WORDS = {
         "hanja": "爛漫",
         "sound": "난만",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "꽃이 흐드러지게 활짝 피어 매우 화려함",
         "definition": "꽃이 활짝 많이 피어 화려함.",
         "definitionSource": "표준국어대사전",
@@ -28897,7 +28594,6 @@ window.MOCK_WORDS = {
         "hanja": "道德律",
         "sound": "도덕률",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "도덕적 행위의 기준이 되는 보편타당한 법칙",
         "definition": "도덕적 행위의 기준이 되는 보편타당한 법칙. 자연법칙과 달리 명령의 형식을 취하는 법칙이다.",
         "definitionSource": "표준국어대사전",
@@ -28939,7 +28635,6 @@ window.MOCK_WORDS = {
         "hanja": "功利的",
         "sound": "공리적",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "자신의 공명이나 실제적 이익만을 우선적으로 추구하는 (것)",
         "definition": "어떤 일을 할 때 자신의 공명과 이익을 먼저 생각하거나 추구하는 것. 또는 그러한 성질을 띤 것.",
         "definitionSource": "표준국어대사전",
@@ -28981,7 +28676,6 @@ window.MOCK_WORDS = {
         "hanja": "類書",
         "sound": "유서",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "여러 서적의 내용을 갈래별로 분류하여 엮은 책",
         "definition": "예전에 중국에서, 경전ㆍ역사ㆍ자서ㆍ집부 등 여러 책의 내용을 갈래별로 분류하여 편찬한 책을 통틀어 이르던 말. 오늘날의 백과사전과 비슷한 성격을 지닌다.",
         "definitionSource": "표준국어대사전",
@@ -29017,7 +28711,6 @@ window.MOCK_WORDS = {
         "hanja": "集成",
         "sound": "집성",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "여러 가지를 모아서 체계 있는 하나를 이룸",
         "definition": "여러 가지를 모아서 체계 있는 하나를 이룸.",
         "definitionSource": "표준국어대사전",
@@ -29053,7 +28746,6 @@ window.MOCK_WORDS = {
         "hanja": "考證",
         "sound": "고증",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "옛 문헌이나 물건에 기초하여 증거를 대며 이론적으로 밝힘",
         "definition": "어떤 자료나 사실에 기초하여 밝힘. 주로 예전에 있던 사물들의 시대, 가치, 내용 따위를 옛 문헌이나 물건에 기초하여 증거를 세워 이론적으로 밝히는 것을 이른다.",
         "definitionSource": "표준국어대사전",
@@ -29089,7 +28781,6 @@ window.MOCK_WORDS = {
         "hanja": "按說",
         "sound": "안설",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "앞의 내용이나 여러 학설을 살펴본 뒤 자신의 의견을 덧붙여 풀이함",
         "definition": "여러 학설이나 앞의 내용을 살펴본 뒤, 이에 대한 자신의 견해를 덧붙여 설명하거나 풀이하는 말.",
         "definitionSource": null,
@@ -29125,7 +28816,6 @@ window.MOCK_WORDS = {
         "hanja": "博物學",
         "sound": "박물학",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "자연계의 사물을 연구하는 학문",
         "definition": "동물학, 식물학, 광물학, 지질학을 통틀어 이르는 말. 본디 천연물 전체에 걸친 지식의 기재를 목적으로 하는 학문을 이른다.",
         "definitionSource": "표준국어대사전",
@@ -29167,7 +28857,6 @@ window.MOCK_WORDS = {
         "hanja": "折衷",
         "sound": "절충",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "서로 다른 의견이나 관점을 조절하여 어울리게 함",
         "definition": "서로 다른 사물이나 의견, 관점 따위를 알맞게 조절하여 서로 잘 어울리게 함.",
         "definitionSource": "표준국어대사전",
@@ -29203,7 +28892,6 @@ window.MOCK_WORDS = {
         "hanja": "源流說",
         "sound": "원류설",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "사물이나 학문의 근원과 계통에 관한 학설",
         "definition": "어떤 학문이나 문물, 사상의 근원과 그 전래 계통에 관한 학설.",
         "definitionSource": null,
@@ -29245,7 +28933,6 @@ window.MOCK_WORDS = {
         "hanja": "中華觀念",
         "sound": "중화 관념",
         "category": "개념 이해형",
-        "type": "개념 이해형",
         "brief": "중국이 세계 문명의 중심이라는 전통적 사고방식",
         "definition": "중국이 세계 문명의 중심이며 가장 우수한 문화를 지니고 있다는 전통적인 가치관이나 사상적 관념.",
         "definitionSource": null,
@@ -29293,7 +28980,6 @@ window.MOCK_WORDS = {
         "hanja": "不確定槪念",
         "sound": "불확정 개념",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "법령에서 구체적 상황에 따라 의미가 정해지는 다의적 개념",
         "definition": "행정법상에서 행정 행위의 안건을 정할 때 행정청이 선택할 여지가 있다는 추상적이고 다의적인 개념.",
         "definitionSource": "우리말샘",
@@ -29347,7 +29033,6 @@ window.MOCK_WORDS = {
         "hanja": "損害賠償豫定額",
         "sound": "손해 배상 예정액",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "계약 위반 시 지급하기로 미리 정해 둔 손해 배상 금액",
         "definition": "채무 불이행 등의 계약 위반이 발생할 경우를 대비하여, 당사자 사이에 미리 지급하기로 정해 놓은 손해 배상액.",
         "definitionSource": null,
@@ -29413,7 +29098,6 @@ window.MOCK_WORDS = {
         "hanja": "違約罰",
         "sound": "위약벌",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "채무 불이행에 대한 제재로 지급하는 위약금",
         "definition": "사적 제재(制裁)의 하나. 채무를 이행하지 않을 경우, 채무자가 채권자에게 돈이나 물건을 줄 것을 미리 약속하는 일이다.",
         "definitionSource": "표준국어대사전",
@@ -29455,7 +29139,6 @@ window.MOCK_WORDS = {
         "hanja": "羈束行爲",
         "sound": "기속 행위",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "법령 규정대로만 집행해야 하는 행정 작용",
         "definition": "행정 기관이 행정 행위를 하거나 행위의 내용을 결정할 때, 기관의 자의적 판단을 배제하고 법규의 내용대로만 집행하는 행위.",
         "definitionSource": "우리말샘",
@@ -29503,7 +29186,6 @@ window.MOCK_WORDS = {
         "hanja": "裁量行爲",
         "sound": "재량 행위",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "행정청에 자유로운 판단과 선택이 인정되는 행정 작용",
         "definition": "행정 기관이 행정 법규를 구체적으로 적용하고 집행하거나 그 행위의 내용을 정할 때, 자유롭게 판단하고 처리함을 인정하는 처분.",
         "definitionSource": "우리말샘",
@@ -29551,7 +29233,6 @@ window.MOCK_WORDS = {
         "hanja": "裁量準則",
         "sound": "재량 준칙",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "재량권 행사의 일반적인 기준과 방향을 정한 규칙",
         "definition": "하급 행정 기관이 재량 처분을 할 때에 재량권 행사의 일반적인 방향을 제시하기 위한 규칙.",
         "definitionSource": "우리말샘",
@@ -29599,7 +29280,6 @@ window.MOCK_WORDS = {
         "hanja": "行政慣行",
         "sound": "행정 관행",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "행정 영역에서 오랫동안 반복되어 굳어진 처리 방식",
         "definition": "법에 따라 국가의 목표를 이루기 위하여 사회에서 예전부터 해 오던 대로 하는 활동.",
         "definitionSource": "우리말샘",
@@ -29647,7 +29327,6 @@ window.MOCK_WORDS = {
         "hanja": "平等原則",
         "sound": "평등 원칙",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "모든 국민을 법 앞에 차별 없이 대우해야 한다는 원칙",
         "definition": "헌법 제11조에서 정하고 있는 바처럼 모든 국민은 법 앞에 평등함을 강조하는 원칙.",
         "definitionSource": "우리말샘",
@@ -29695,7 +29374,6 @@ window.MOCK_WORDS = {
         "hanja": "代謝量",
         "sound": "대사량",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "생물체가 생명 유지와 활동을 위해 소모하는 총 열량",
         "definition": "기초 대사량과 활동 대사량을 합친 에너지 대사량.",
         "definitionSource": "우리말샘",
@@ -29737,7 +29415,6 @@ window.MOCK_WORDS = {
         "hanja": "基礎代謝量",
         "sound": "기초 대사량",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "생물체가 생명을 유지하는 데 필요한 최소한의 에너지양",
         "definition": "생물체가 생명을 유지하는 데 필요한 최소한의 에너지의 양. 주로 체온 유지, 심장 박동, 호흡 운동, 근육의 긴장 따위에 쓰이는 에너지를 말한다.",
         "definitionSource": "표준국어대사전",
@@ -29791,7 +29468,6 @@ window.MOCK_WORDS = {
         "hanja": "體表面積",
         "sound": "체표 면적",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "생물체의 몸 겉면의 총면적",
         "definition": "동물의 체표면의 총면적. 정온 동물의 기초 대사량은 동물의 종이나 체중에도 불구하고 그 체표 면적에 근사하게, 비례하므로 체표 면적을 측정하여 기초 대사량을 계산하는 방법이 사용되고 있다.",
         "definitionSource": "표준국어대사전",
@@ -29839,7 +29515,6 @@ window.MOCK_WORDS = {
         "hanja": "熱量計",
         "sound": "열량계",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "열량을 측정하는 기구",
         "definition": "열량을 재는 기구. 물 열량계, 금속 열량계, 얼음 열량계 따위가 있다.",
         "definitionSource": "표준국어대사전",
@@ -29881,7 +29556,6 @@ window.MOCK_WORDS = {
         "hanja": "增加率",
         "sound": "증가율",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "값이 늘어나는 비율",
         "definition": "늘어나는 비율.",
         "definitionSource": "표준국어대사전",
@@ -29923,7 +29597,6 @@ window.MOCK_WORDS = {
         "hanja": "相對成長",
         "sound": "상대 성장",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "어떤 형질이나 기관이 전체 몸 크기에 비례하여 증가하는 성장 방식",
         "definition": "생물의 어떤 형질이나 신체 기관의 크기가 전체 몸 크기나 체중과 일정한 관계를 유지하며 비례적으로 발달하는 성장 현상.",
         "definitionSource": null,
@@ -29971,7 +29644,6 @@ window.MOCK_WORDS = {
         "hanja": "最小제곱法",
         "sound": "최소 제곱법",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "오차의 제곱합이 최소가 되는 근사선을 구하는 수학적 방법",
         "definition": "많은 측정값으로부터 참값에 가까운 값을 구하기 위하여 각 측정값의 오차의 제곱의 합이 최소가 되는 것으로 구하는 방법.",
         "definitionSource": "표준국어대사전",
@@ -30013,7 +29685,6 @@ window.MOCK_WORDS = {
         "hanja": "代謝體重",
         "sound": "대사 체중",
         "category": "전문용어 이해형",
-        "type": "전문용어 이해형",
         "brief": "동물의 기초 대사량에 비례하도록 조정한 기준 체중",
         "definition": "기초 대사량이 체중에 직접 비례하지 않고 체중의 0.75제곱에 비례한다는 법칙에 따라, 동물의 체중을 0.75제곱한 값으로 나타낸 체중 지표.",
         "definitionSource": null,
@@ -30061,7 +29732,6 @@ window.MOCK_WORDS = {
         "hanja": "草野愚生",
         "sound": "초야우생",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "시골에 묻혀 사는 어리석은 선비라는 뜻으로, 자신을 낮추어 이르는 말",
         "definition": "초야(시골)에 묻혀 사는 어리석은 사람이라는 뜻으로, 벼슬하지 않고 자연 속에 사는 자신을 겸손하게 낮추어 이르는 말.",
         "definitionSource": null,
@@ -30109,7 +29779,6 @@ window.MOCK_WORDS = {
         "hanja": "泉石膏肓",
         "sound": "천석고황",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "자연의 아름다운 경치를 몹시 사랑하는 고질병 같은 마음",
         "definition": "자연의 아름다운 경치를 몹시 사랑하고 즐기는 성벽(性癖).",
         "definitionSource": "표준국어대사전",
@@ -30157,7 +29826,6 @@ window.MOCK_WORDS = {
         "hanja": "烟霞",
         "sound": "연하",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "안개와 노을이라는 뜻으로, 아름다운 자연 경치를 이르는 말",
         "definition": "안개와 노을을 아울러 이르는 말로, 산수나 자연의 아름다운 경치를 비유적으로 이른다.",
         "definitionSource": null,
@@ -30193,7 +29861,6 @@ window.MOCK_WORDS = {
         "hanja": "風月",
         "sound": "풍월",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "맑은 바람과 밝은 달이라는 뜻으로, 아름다운 자연 풍경이나 시가",
         "definition": "맑은 바람과 밝은 달.",
         "definitionSource": "표준국어대사전",
@@ -30229,7 +29896,6 @@ window.MOCK_WORDS = {
         "hanja": "花滿山",
         "sound": "화만산",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "꽃이 온 산에 가득히 핌",
         "definition": "봄철에 온 산에 꽃이 가득하게 흐드러지게 피어 있는 풍경.",
         "definitionSource": null,
@@ -30271,7 +29937,6 @@ window.MOCK_WORDS = {
         "hanja": "月滿臺",
         "sound": "월만대",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "달빛이 누대 위에 가득함",
         "definition": "가을밤에 밝은 달빛이 누대(臺) 위에 가득하게 비치는 풍경.",
         "definitionSource": null,
@@ -30313,7 +29978,6 @@ window.MOCK_WORDS = {
         "hanja": "佳興",
         "sound": "가흥",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "마음속에서 우러나오는 좋은 흥취",
         "definition": "마음속으로부터 느껴지는 재미있는 흥취.",
         "definitionSource": "표준국어대사전",
@@ -30349,7 +30013,6 @@ window.MOCK_WORDS = {
         "hanja": "魚躍鳶飛",
         "sound": "어약연비",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "물고기가 뛰고 솔개가 난다는 뜻으로, 만물이 약동하는 자연의 이치",
         "definition": "물고기가 펄펄 뛰고 솔개가 하늘 높이 난다는 뜻으로, 매우 박력 있고 활달한 상태를 비유적으로 이르는 말.",
         "definitionSource": "표준국어대사전",
@@ -30397,7 +30060,6 @@ window.MOCK_WORDS = {
         "hanja": "雲影天光",
         "sound": "운영천광",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "구름 그림자와 하늘빛이라는 뜻으로, 물에 비친 아름다운 자연경치",
         "definition": "구름의 그림자와 하늘의 밝은 빛이라는 뜻으로, 맑은 물이나 연못에 비치는 아름다운 자연 경관을 이르는 말.",
         "definitionSource": null,
@@ -30445,7 +30107,6 @@ window.MOCK_WORDS = {
         "hanja": "太平聖代",
         "sound": "태평성대",
         "category": "의미 추론형",
-        "type": "의미 추론형",
         "brief": "어진 임금이 다스리는 태평하고 평화로운 세상",
         "definition": "어진 임금이 잘 다스리어 태평한 세상이나 시대.",
         "definitionSource": "표준국어대사전",
