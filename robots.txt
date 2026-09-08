@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hanja-suneung.netlify.app/sitemap.xml
+Sitemap: https://suneung.easyhanja.org/sitemap.xml

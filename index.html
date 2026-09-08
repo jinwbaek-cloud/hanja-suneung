@@ -77,11 +77,41 @@
   </script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>한알국쉬(수능버전) | 한자를 알면 국어가 쉬워</title>
+  <link rel="canonical" href="https://suneung.easyhanja.org/">
+  <title>한알국쉬 수능 | 한자를 알면 국어가 더 쉬워요</title>
+  <meta name="robots" content="index, follow">
 
   <!-- SEO Meta Tags -->
   <meta name="description"
-    content="한알국쉬(수능버전) - 수능 국어 문학 및 독서 기출 지문의 한자어 문해력을 단아하고 품격 있게 배양하는 사전. 한지 톤 테마에 한자 속뜻과 평가원 기출 지문 속 전용 용례를 수록하였습니다.">
+    content="수능 국어 기출에서 한자를 알면 독해에 도움이 되는 어휘를 선별하여 한자, 뜻풀이, 기출 문맥과 함께 살펴볼 수 있는 한알국쉬의 수능 어휘 학습 웹서비스입니다.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="한알국쉬">
+  <meta property="og:title" content="한알국쉬 수능 | 한자를 알면 국어가 더 쉬워요">
+  <meta property="og:description"
+    content="수능 국어 기출에서 한자를 알면 독해에 도움이 되는 어휘를 선별하여 한자, 뜻풀이, 기출 문맥과 함께 살펴볼 수 있는 한알국쉬의 수능 어휘 학습 웹서비스입니다.">
+  <meta property="og:url" content="https://suneung.easyhanja.org/">
+  <meta property="og:locale" content="ko_KR">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="한알국쉬 수능 | 한자를 알면 국어가 더 쉬워요">
+  <meta name="twitter:description"
+    content="수능 국어 기출에서 한자를 알면 독해에 도움이 되는 어휘를 선별하여 한자, 뜻풀이, 기출 문맥과 함께 살펴볼 수 있는 한알국쉬의 수능 어휘 학습 웹서비스입니다.">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "한알국쉬 수능",
+    "alternateName": "한자를 알면 국어가 더 쉬워요",
+    "url": "https://suneung.easyhanja.org/",
+    "inLanguage": "ko-KR",
+    "description": "수능 국어 기출에서 한자를 알면 독해에 도움이 되는 어휘를 선별하여 한자, 뜻풀이, 기출 문맥과 함께 살펴볼 수 있는 한알국쉬의 수능 어휘 학습 웹서비스입니다."
+  }
+  </script>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -236,8 +266,22 @@
 <body
   class="bg-classicBg text-classicText font-sans min-h-screen selection:bg-classicRed selection:text-white antialiased overflow-x-hidden">
 
-  <!-- React Root Node -->
-  <div id="root"></div>
+  <!-- React Root Node with Crawlable Fallback -->
+  <div id="root">
+    <header class="py-12 px-4 text-center max-w-2xl mx-auto">
+      <h1 class="text-3xl font-serif font-black text-classicText mb-3">한알국쉬 수능</h1>
+      <p class="text-sm font-serif font-bold text-classicRed mb-3">한자를 알면 국어가 더 쉬워요</p>
+      <p class="text-xs text-classicMuted leading-relaxed">
+        한알국쉬 수능은 수능 국어 기출에서 한자를 알면 독해에 도움이 되는 어휘를 선별하여 한자, 뜻풀이, 실제 기출 문맥을 함께 살펴볼 수 있도록 구성한 웹 기반 어휘 학습 콘텐츠입니다.
+      </p>
+    </header>
+  </div>
+  <noscript>
+    <div style="padding: 16px 20px; text-align: center; background-color: #FDFCF7; border-bottom: 1px solid #E6DFD3; font-size: 13px; color: #2C2520;">
+      <p><strong>한알국쉬 수능</strong>은 수능 국어 기출에서 한자를 알면 독해에 도움이 되는 어휘를 선별하여 한자, 뜻풀이, 실제 기출 문맥을 함께 살펴볼 수 있도록 구성한 웹 기반 어휘 학습 콘텐츠입니다.</p>
+      <p style="margin-top: 6px; font-size: 12px; color: #7A7267;">실시간 검색, 난이도 필터, 상세 보기 등 모든 기능을 이용하시려면 브라우저의 JavaScript를 활성화해 주세요.</p>
+    </div>
+  </noscript>
 
   <!-- React Script -->
   <script type="text/babel" data-presets="react-classic">
@@ -961,10 +1005,10 @@
                 </div>
                 <div>
                   <h1 className="text-2xl font-serif font-black tracking-tight text-classicText flex items-center gap-2">
-                    한알국쉬
+                    한알국쉬 수능
                   </h1>
                   <p className="text-xs text-classicMuted font-serif font-medium tracking-wide mt-0.5">
-                    한자를 알면 국어가 쉬워 (수능 국어 특화)
+                    한자를 알면 국어가 더 쉬워요 (수능 국어 특화)
                   </p>
                 </div>
               </div>
@@ -1569,7 +1613,7 @@
                 </div>
 
                 <div className="space-y-2">
-                  <h3 className="text-2xl md:text-3xl font-serif font-black text-classicText tracking-tight">한자를 알면 국어가 쉬워</h3>
+                  <h3 className="text-2xl md:text-3xl font-serif font-black text-classicText tracking-tight">한자를 알면 국어가 더 쉬워요</h3>
                   <p className="text-sm text-classicMuted leading-relaxed max-w-2xl mx-auto font-medium">
                     수능 비문학 독서 지문이나 고전문학에서 독해가 지체되고 선지 판단이 흔들리는 것은 개념 한자어의 속뜻을 직관적으로 관통하지 못하기 때문입니다.
                     아래 수능 기출 표제어를 탐색하며, 실제 기출 문맥과 낱글자 속뜻의 긴밀한 유기적 연결고리를 통찰해 보십시오.
