@@ -266,7 +266,7 @@ window.MOCK_WORDS = {
         "sound": "수렴",
         "category": "구조 파악형",
         "brief": "여러 갈래의 생각이나 수치 등이 하나로 모여 좁혀짐",
-        "definition": "의견이나 생각 따위가 한곳으로 모아짐. (수학) 무한히 커지지 않고 특정 값에 가까워짐.",
+        "definition": "여러 갈래로 나뉘어 있던 의견이나 생각, 요소 등이 하나로 모아짐.",
         "hanjaBreakdown": [
             {
                 "character": "收",
@@ -315,7 +315,7 @@ window.MOCK_WORDS = {
         "sound": "발산",
         "category": "구조 파악형",
         "brief": "빛이나 기운, 생각 등이 바깥으로 뻗어 나가며 퍼짐",
-        "definition": "밖으로 퍼져 나감. (수학) 무한히 커지거나 한 값으로 수렴하지 않음.",
+        "definition": "기운, 빛, 열 또는 감정 따위가 밖으로 뻗쳐 퍼져 나감.",
         "hanjaBreakdown": [
             {
                 "character": "發",
@@ -876,7 +876,7 @@ window.MOCK_WORDS = {
         "sound": "효용",
         "category": "전문용어 이해형",
         "brief": "어떤 행위나 물건을 사용할 때 우리가 얻을 수 있는 보람이나 주관적 만족의 가치",
-        "definition": "보람 있게 쓰임. 또는 그런 능력. (경제) 인간의 욕망을 만족시킬 수 있는 재화의 능력.",
+        "definition": "보람 있게 쓰이거나 쓰임. 또는 그렇게 쓰여서 얻어지는 쓸모나 이익.",
         "hanjaBreakdown": [
             {
                 "character": "效",
@@ -2311,7 +2311,7 @@ window.MOCK_WORDS = {
         "category": "개념 이해형",
         "type": "개념 이해형",
         "brief": "광고 등에서 소비자에게 호소하여 마음을 움직이게 함",
-        "definition": "광고 따위로 소비자에게 구매 의욕을 일깨우는 호소력.",
+        "definition": "광고나 설득 메시지 따위로 대중이나 소비자의 동기를 자극하여 반응을 이끌어 내는 일.",
         "hanjaBreakdown": [
             {
                 "character": "訴",
@@ -2603,7 +2603,7 @@ window.MOCK_WORDS = {
     },
     "점진적": {
         "word": "점진적",
-        "hanja": "漸進적",
+        "hanja": "漸進的",
         "sound": "점진적",
         "category": "구조 파악형",
         "type": "구조 파악형",
@@ -2635,8 +2635,8 @@ window.MOCK_WORDS = {
             }
         ],
         "feed": [],
-        "id": "점진적-漸進적",
-        "definitionSource": null
+        "id": "점진적-漸進的",
+        "definitionSource": "표준국어대사전"
     },
     "심층": {
         "word": "심층",
@@ -4496,7 +4496,7 @@ window.MOCK_WORDS = {
         "sound": "평활",
         "category": "전문용어 이해형",
         "brief": "들쭉날쭉한 전압 변동을 평탄하고 매끄럽게 다듬음",
-        "definition": "평평하고 미끄러움. (‘평활하다’의 어근, 표준국어대사전)",
+        "definition": "표면이나 상태가 굴곡 없이 평평하고 매끄러움.",
         "hanjaBreakdown": [
             {
                 "character": "平",
@@ -4524,7 +4524,7 @@ window.MOCK_WORDS = {
                 "domain": "과학·기술"
             }
         ],
-        "definitionSource": "표준국어대사전",
+        "definitionSource": null,
         "id": "평활-平滑"
     },
     "정전압": {
@@ -4992,7 +4992,7 @@ window.MOCK_WORDS = {
         ],
         "isClassical": true,
         "brief": "하는 행동이나 생각이 자신의 분수나 처지에 지나치게 넘침",
-        "definition": "하는 행동이나 생각이 분수에 지나침. (‘외람하다’의 어근, 표준국어대사전)",
+        "definition": "하는 행동이나 생각이 자신의 분수나 처지에 지나침.",
         "hanjaBreakdown": [
             {
                 "character": "猥",
@@ -5019,7 +5019,7 @@ window.MOCK_WORDS = {
                 "domain": "고전소설"
             }
         ],
-        "definitionSource": "표준국어대사전",
+        "definitionSource": null,
         "id": "외람-猥濫"
     },
     "비감": {
@@ -5324,7 +5324,7 @@ window.MOCK_WORDS = {
         "category": "개념 이해형",
         "type": "개념 이해형",
         "brief": "동일한 성질이나 특성을 기준으로 묶은 사유의 기본 단위나 영역",
-        "definition": "동일한 성질을 가진 부류나 범위. (철학) 사유나 존재의 가장 기본적인 틀이나 개념의 갈래.",
+        "definition": "동일한 성질을 가진 부류나 범위. 또는 사유와 대상을 이해하는 가장 기본적인 개념의 갈래.",
         "hanjaBreakdown": [
             {
                 "character": "範",
@@ -5502,7 +5502,7 @@ window.MOCK_WORDS = {
         "category": "개념 이해형",
         "type": "개념 이해형",
         "brief": "수준이나 정신을 더 높은 차원으로 끌어올리고 북돋움",
-        "definition": "정신이나 기분 따위를 북돋워서 높임. (철학) 더 높은 수준이나 차원으로 끌어올림.",
+        "definition": "정신이나 기분 따위를 북돋워 높임. 또는 수준이나 상태를 더 높은 차원으로 끌어올림.",
         "hanjaBreakdown": [
             {
                 "character": "高",
@@ -6380,7 +6380,7 @@ window.MOCK_WORDS = {
         ],
         "isClassical": true,
         "brief": "가난을 귀신처럼 빗대어 의인화한 표현",
-        "definition": "가난을 귀신에 빗대어 의인화한 표현. 「탄궁가」에서 화자가 평생 떨쳐버리고 싶어 하는 지독한 가난을 가리킨다.",
+        "definition": "궁한 귀신. 또는 가난을 빗대어 이르는 말.",
         "hanjaBreakdown": [
             {
                 "character": "窮",
@@ -6408,7 +6408,7 @@ window.MOCK_WORDS = {
             }
         ],
         "id": "궁귀-窮鬼",
-        "definitionSource": null
+        "definitionSource": "표준국어대사전"
     },
     "천기": {
         "word": "천기",
@@ -6421,7 +6421,7 @@ window.MOCK_WORDS = {
         ],
         "isClassical": true,
         "brief": "자연이 만물을 생성하고 움직이게 하는 미묘하고 신비로운 생명의 기운과 이치",
-        "definition": "하늘의 기밀이나 자연의 미묘한 조화와 이치. (철학) 자연이 만물을 생성하고 움직이게 하는 근원적인 생명 기운.",
+        "definition": "하늘의 비밀이나 자연의 미묘한 조화와 이치. 또는 만물이 타고나는 자연의 오묘한 생명 기운.",
         "hanjaBreakdown": [
             {
                 "character": "天",
