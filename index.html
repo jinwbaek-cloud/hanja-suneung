@@ -850,6 +850,50 @@
         }, 50);
       };
 
+      const handleCopyQuestionFeedback = (question, selectedOptId) => {
+        if (!question) return;
+        const selectedOpt = question.options.find(o => o.id === selectedOptId);
+        const selectedOptIndex = question.options.findIndex(o => o.id === selectedOptId);
+        const correctOptIndex = question.options.findIndex(o => o.isCorrect);
+        const correctOpt = question.options.find(o => o.isCorrect);
+        const isCorrect = selectedOpt ? selectedOpt.isCorrect : false;
+
+        const optionsListText = question.options.map((o, idx) => `  ${idx + 1}. ${o.text}`).join('\n');
+        const selectedText = selectedOpt ? `${selectedOptIndex + 1}번. ${selectedOpt.text}` : '미선택';
+        const correctText = correctOpt ? `${correctOptIndex + 1}번. ${correctOpt.text}` : '';
+
+        const copyText = `[한알국쉬 미니퀴즈 검수 의견]\n- 문항 ID: ${question.id}\n- 어휘: ${question.word} (${question.hanja})\n- 질문: ${question.question}\n- 제시문: ${question.passage || "제시문 없음"}\n- 표시 선택지:\n${optionsListText}\n- 선택한 답: ${selectedText}\n- 정답: ${correctText} (판정: ${isCorrect ? "정답" : "오답"})\n\n----------------------------------------\n[의견 작성란] (아래 항목 중 해당하는 부분에 의견을 입력해 주세요)\n1. 정답·설명 오류: \n2. 난도·표현 개선: \n3. 기타 의견: `;
+
+        const onCopySuccess = () => {
+          showToast("📋 검수 의견 양식이 복사되었습니다. (의견 제출 창구가 지정되면 이 텍스트를 전달해 주세요)");
+        };
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(copyText).then(onCopySuccess).catch(() => {
+            fallbackCopy(copyText, onCopySuccess);
+          });
+        } else {
+          fallbackCopy(copyText, onCopySuccess);
+        }
+      };
+
+      const fallbackCopy = (text, callback) => {
+        const textArea = document.createElement("textarea");
+        textArea.value = text;
+        textArea.style.position = "fixed";
+        textArea.style.opacity = "0";
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        try {
+          document.execCommand('copy');
+          if (callback) callback();
+        } catch (err) {
+          alert("복사 실패. 아래 내용을 직접 복사해 주세요:\n\n" + text);
+        }
+        document.body.removeChild(textArea);
+      };
+
       const handleStartQuiz = () => {
 
         const allKeys = Object.keys(MOCK_WORDS);
