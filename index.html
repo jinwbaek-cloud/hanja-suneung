@@ -763,8 +763,9 @@
         }, 50);
       };
 
-      // --- 정식 수능 어휘 퀴즈 상태 (총 38문항 통합 고도화) ---
+      // --- 정식 수능 어휘 퀴즈 상태 (통합 661문항 / 검토 157문항 고도화) ---
       const [showVocabModal, setShowVocabModal] = useState(false);
+      const [includeDrafts, setIncludeDrafts] = useState(true);
       const [vocabCategory, setVocabCategory] = useState(null); // 'classical', 'reading', 'all', or null (selector)
       const [vocabQuestions, setVocabQuestions] = useState([]);
       const [currentVocabIndex, setCurrentVocabIndex] = useState(0);
@@ -774,7 +775,7 @@
       const vocabModalScrollRef = useRef(null);
 
       const handleStartVocabQuiz = (category = null) => {
-        if (!window.UNIFIED_QUIZ_DATA) {
+        if (!window.UNIFIED_QUIZ_DATA && !window.APPROVED_QUIZ_DATA) {
           alert("어휘 퀴즈 데이터를 불러오지 못했습니다.");
           return;
         }
@@ -787,13 +788,14 @@
           return;
         }
 
+        const dataSource = includeDrafts ? window.UNIFIED_QUIZ_DATA : window.APPROVED_QUIZ_DATA;
         let sourceItems = [];
         if (category === 'classical') {
-          sourceItems = window.UNIFIED_QUIZ_DATA.classical || [];
+          sourceItems = (dataSource && dataSource.classical) || [];
         } else if (category === 'reading') {
-          sourceItems = window.UNIFIED_QUIZ_DATA.reading || [];
+          sourceItems = (dataSource && dataSource.reading) || [];
         } else if (category === 'all') {
-          sourceItems = window.UNIFIED_QUIZ_DATA.all || [];
+          sourceItems = (dataSource && dataSource.all) || [];
         }
 
         // 문제은행에서 10문항 무작위 추출 및 선택지 셔플 (동일 회차 중복 없음)
@@ -3578,6 +3580,24 @@
             </div>
           )}
 
+          {/* Toast Notification */}
+          {toastMessage && (
+            <div className="fixed bottom-12 left-1/2 transform -translate-x-1/2 z-[99999] bg-classicText text-white px-5 py-3 rounded-xl shadow-2xl border border-classicBorder/20 flex items-center gap-2 text-xs font-bold tracking-wide pointer-events-none animate-fade-in-up">
+              <span className="text-amber-400">✨</span> {toastMessage}
+            </div>
+          )}
+
+          {/* Footer with Secret Admin Bullet (•) */}
+          <footer className="mt-auto border-t border-classicBorder pt-8 text-center text-xs text-classicMuted space-y-2 pb-6">
+            <p>© 2026 한알국쉬(수능버전) & Baek Jinwoo. All rights reserved.</p>
+            <p className="font-serif font-medium text-[10px] uppercase tracking-widest text-classicMuted">
+              편찬 책임자: 백진우 <span className="cursor-pointer select-none opacity-20 hover:opacity-100 hover:text-classicRed transition-all" onClick={handleAdminBulletClick}>•</span> 한자를 알면 국어가 쉬워 • POWERED BY REACT & TAILWIND CSS
+            </p>
+          </footer>
+
+        </div>
+      );
+    }
 
     // Mount React App
     ReactDOM.render(<App />, document.getElementById('root'));
