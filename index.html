@@ -865,7 +865,7 @@
         const copyText = `[한알국쉬 미니퀴즈 검수 의견]\n- 문항 ID: ${question.id}\n- 어휘: ${question.word} (${question.hanja})\n- 질문: ${question.question}\n- 제시문: ${question.passage || "제시문 없음"}\n- 표시 선택지:\n${optionsListText}\n- 선택한 답: ${selectedText}\n- 정답: ${correctText} (판정: ${isCorrect ? "정답" : "오답"})\n\n----------------------------------------\n[의견 작성란] (아래 항목 중 해당하는 부분에 의견을 입력해 주세요)\n1. 정답·설명 오류: \n2. 난도·표현 개선: \n3. 기타 의견: `;
 
         const onCopySuccess = () => {
-          showToast("📋 검수 의견 양식이 복사되었습니다. (의견 제출 창구가 지정되면 이 텍스트를 전달해 주세요)");
+          showToast("검수 의견이 복사되었습니다. 소개 페이지 하단의 ‘의견 및 오류 제보’에서 보내 주세요.");
         };
 
         if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -3451,13 +3451,23 @@
                                   문항 ID: {question.id}
                                 </span>
                               </div>
-                              <button
-                                id="vocabQuizCopyFeedbackBtn"
-                                onClick={() => handleCopyQuestionFeedback(question, selectedVocabOptionId)}
-                                className="px-3 py-1 bg-white hover:bg-amber-50 border border-amber-300 text-amber-900 text-xs font-bold rounded-lg shadow-sm transition-all flex items-center gap-1 active:scale-95 shrink-0 cursor-pointer"
-                              >
-                                <span>📋</span> 검수 의견 복사
-                              </button>
+                              <div className="flex items-center gap-2 shrink-0">
+                                <button
+                                  id="vocabQuizCopyFeedbackBtn"
+                                  onClick={() => handleCopyQuestionFeedback(question, selectedVocabOptionId)}
+                                  className="px-3 py-1 bg-white hover:bg-amber-50 border border-amber-300 text-amber-900 text-xs font-bold rounded-lg shadow-sm transition-all flex items-center gap-1 active:scale-95 cursor-pointer"
+                                >
+                                  <span>📋</span> 검수 의견 복사
+                                </button>
+                                <a
+                                  href="about.html#feedback"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="px-3 py-1 bg-white hover:bg-classicBg border border-classicBorder text-classicText hover:text-classicRed text-xs font-bold rounded-lg shadow-sm transition-all flex items-center gap-1 cursor-pointer"
+                                >
+                                  <span>의견 보내는 곳 ↗</span>
+                                </a>
+                              </div>
                             </div>
 
                             {/* 오답 선택 시 오답 해설 표시 */}

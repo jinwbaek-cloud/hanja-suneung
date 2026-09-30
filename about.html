@@ -269,6 +269,45 @@
       </div>
     </section>
 
+    <!-- Feedback & Error Reporting Section -->
+    <section id="feedback" class="classic-card rounded-3xl p-8 space-y-6 border border-classicBorder scroll-mt-8">
+      <div class="border-b border-classicBorder pb-3">
+        <h3 class="text-xl font-serif font-black text-classicText flex items-center gap-2">
+          <span class="text-2xl">💌</span>
+          의견 및 오류 제보
+        </h3>
+      </div>
+
+      <p class="text-xs md:text-sm text-classicMuted leading-relaxed font-medium">
+        한알국쉬를 이용하며 발견한 오류나 개선 의견을 보내 주세요. 어휘의 뜻과 한자 표기, 미니퀴즈의 정답·해설, 사용상의 불편 등 여러분의 의견을 바탕으로 보완하겠습니다.<br>
+        미니퀴즈 관련 의견은 문항 ID 또는 ‘검수 의견 복사’로 복사한 내용을 함께 보내 주시면 확인에 도움이 됩니다.
+      </p>
+
+      <div class="p-5 rounded-2xl bg-classicBg/80 border border-classicBorder space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-classicBorder/50 pb-4">
+          <div class="space-y-0.5">
+            <span class="text-[11px] font-serif font-bold text-classicMuted uppercase tracking-wider">의견 접수 이메일</span>
+            <div class="text-base md:text-lg font-mono font-bold text-classicRed select-all">jinw.baek@gmail.com</div>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+          <a href="mailto:jinw.baek@gmail.com?subject=%5B%ED%95%9C%EC%95%8C%EA%B5%AD%EC%89%AC%5D%20%EC%9D%98%EA%B2%AC%20%EB%B0%8F%20%EC%98%A4%EB%A5%98%20%EC%A0%9C%EB%B3%B4&body=1.%20%EC%9D%98%EA%B2%AC%20%EC%A2%85%EB%A5%98%3A%20%EC%96%B4%ED%9C%98%20%EC%A0%95%EB%B3%B4%20%2F%20%EB%AF%B8%EB%8B%80%ED%80%B4%EC%A6%88%20%2F%20%EC%9D%B4%EC%9A%A9%20%EB%B6%88%ED%8E%B8%20%2F%20%EA%B8%B0%ED%83%80%0A%0A2.%20%EA%B4%80%EB%A0%A8%20%EC%96%B4%ED%9C%98%20%EB%98%90%EB%8A%94%20%EB%AC%B8%ED%95%AD%20ID%3A%0A%0A3.%20%EC%9D%98%EA%B2%AC%20%EB%80%B4%EC%9A%A9%3A%0A%0A%E2%80%BB%20%EB%AF%B8%EB%8B%80%ED%80%B4%EC%A6%88%EC%97%90%EC%84%9C%20%EB%B3%B5%EC%82%AC%ED%95%9C%20%EA%B2%80%EC%88%98%20%EC%9D%98%EA%B2%AC%EC%9D%B4%20%EC%9E%88%EB%8B%A4%EB%A9%B4%20%EC%95%84%EB%9E%98%EC%97%90%20%EB%B6%99%EC%96%B4%20%EB%84%A3%EC%96%B4%20%EC%A3%BC%EC%84%B8%EC%9A%94."
+            class="px-5 py-3 rounded-xl bg-classicRed text-white font-serif font-bold text-xs md:text-sm hover:bg-opacity-95 transition-all shadow-sm flex items-center justify-center gap-2 text-center">
+            ✉️ 이메일로 의견 보내기
+          </a>
+          <button onclick="copyEmailAddress()"
+            class="px-5 py-3 rounded-xl bg-white border border-classicBorder text-classicText font-serif font-bold text-xs md:text-sm hover:bg-classicBg transition-all shadow-sm flex items-center justify-center gap-2 cursor-pointer">
+            📋 이메일 주소 복사
+          </button>
+        </div>
+
+        <p class="text-[11px] md:text-xs text-classicMuted leading-relaxed">
+          메일 작성창에서 내용을 작성한 뒤 직접 전송해 주세요. 창이 열리지 않으면 이메일 주소를 복사하여 이용하시는 메일 서비스에서 보내 주세요.
+        </p>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer class="mt-auto border-t border-classicBorder pt-8 text-center text-xs text-classicMuted space-y-2 pb-6">
       <p>© 2026 한알국쉬(수능버전). All rights reserved.</p>
@@ -278,6 +317,59 @@
     </footer>
 
   </div>
+
+  <!-- Toast Container -->
+  <div id="toast"
+    class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-gray-900/90 text-white text-xs md:text-sm px-4 py-2.5 rounded-xl shadow-xl z-50 transition-all opacity-0 pointer-events-none transform translate-y-2">
+  </div>
+
+  <script>
+    function showToast(msg) {
+      const toast = document.getElementById("toast");
+      if (!toast) return;
+      toast.innerText = msg;
+      toast.classList.remove("opacity-0", "pointer-events-none", "translate-y-2");
+      toast.classList.add("opacity-100", "translate-y-0");
+      setTimeout(() => {
+        toast.classList.remove("opacity-100", "translate-y-0");
+        toast.classList.add("opacity-0", "pointer-events-none", "translate-y-2");
+      }, 3000);
+    }
+
+    function copyEmailAddress() {
+      const email = "jinw.baek@gmail.com";
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(email).then(() => {
+          showToast("📋 이메일 주소(jinw.baek@gmail.com)가 복사되었습니다.");
+        }).catch(() => {
+          fallbackCopyEmail(email);
+        });
+      } else {
+        fallbackCopyEmail(email);
+      }
+    }
+
+    function fallbackCopyEmail(email) {
+      const textArea = document.createElement("textarea");
+      textArea.value = email;
+      textArea.style.position = "fixed";
+      textArea.style.opacity = "0";
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+          showToast("📋 이메일 주소(jinw.baek@gmail.com)가 복사되었습니다.");
+        } else {
+          alert("복사 실패. 아래 이메일 주소를 직접 선택하여 복사해 주세요:\n\n" + email);
+        }
+      } catch (err) {
+        alert("복사 실패. 아래 이메일 주소를 직접 선택하여 복사해 주세요:\n\n" + email);
+      }
+      document.body.removeChild(textArea);
+    }
+  </script>
 
 </body>
 
