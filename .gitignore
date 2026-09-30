@@ -7,9 +7,12 @@ PDF/
 scratch/
 review_import_20260930/
 hanalgukshwi_batch02_rewrite/
-*.zip
+# 백업 및 내역 파일
 *.bak
 *.bak2
+편찬일지.md
+docs/
+research/
 
 # 운영체제 임시 파일 제외
 .DS_Store
