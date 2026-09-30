@@ -124,6 +124,10 @@
   <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
   <script src="js/data.js"></script>
+  <script src="js/quiz_data.js"></script>
+  <script src="js/pilot_data.js"></script>
+  <script src="js/reading_pilot_data.js"></script>
+  <script src="js/expansion_batch_01_data.js"></script>
 
   <!-- Babel Standalone CDN -->
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -285,7 +289,7 @@
 
   <!-- React Script -->
   <script type="text/babel" data-presets="react-classic">
-    const { useState, useEffect, useMemo } = React;
+    const { useState, useEffect, useMemo, useRef } = React;
 
     // --- 유령 숫자/괄호 소거 헬퍼 ---
     const cleanWordText = (word) => {
@@ -568,7 +572,7 @@
         }
       };
 
-      // --- 5지선다 수능형 미니 퀴즈 상태 ---
+      // --- 4지선다 수능형 미니 퀴즈 상태 ---
       const [showQuizModal, setShowQuizModal] = useState(false);
       const [quizQuestions, setQuizQuestions] = useState([]);
       const [currentQuizIndex, setCurrentQuizIndex] = useState(0);
@@ -576,7 +580,278 @@
       const [selectedOptionIndex, setSelectedOptionIndex] = useState(null);
       const [isQuizFinished, setIsQuizFinished] = useState(false);
 
+      // --- 고전 어휘 연습 시범 10문항 퀴즈 상태 ---
+      const [showPilotModal, setShowPilotModal] = useState(false);
+      const [pilotQuestions, setPilotQuestions] = useState([]);
+      const [currentPilotIndex, setCurrentPilotIndex] = useState(0);
+      const [pilotScore, setPilotScore] = useState(0);
+      const [selectedPilotOptionId, setSelectedPilotOptionId] = useState(null);
+      const [isPilotFinished, setIsPilotFinished] = useState(false);
+      const pilotModalScrollRef = useRef(null);
+
+      const handleStartPilotQuiz = () => {
+        if (!window.PILOT_QUIZ_DATA || !window.PILOT_QUIZ_DATA.length) {
+          alert("시범 퀴즈 데이터를 불러오지 못했습니다.");
+          return;
+        }
+        // 선택지 셔플 및 상태 고정 (답안 제출 후에도 순서 불변 보장)
+        const questions = window.PILOT_QUIZ_DATA.map(q => {
+          const shuffledOptions = [...q.options].sort(() => Math.random() - 0.5);
+          return {
+            ...q,
+            options: shuffledOptions
+          };
+        });
+        setPilotQuestions(questions);
+        setCurrentPilotIndex(0);
+        setPilotScore(0);
+        setSelectedPilotOptionId(null);
+        setIsPilotFinished(false);
+        setShowPilotModal(true);
+        setTimeout(() => {
+          if (pilotModalScrollRef.current) {
+            pilotModalScrollRef.current.scrollTop = 0;
+          }
+        }, 50);
+      };
+
+      const handleSelectPilotOption = (optId) => {
+        if (selectedPilotOptionId !== null) return;
+        setSelectedPilotOptionId(optId);
+        const question = pilotQuestions[currentPilotIndex];
+        if (question) {
+          const selectedOpt = question.options.find(o => o.id === optId);
+          if (selectedOpt && selectedOpt.isCorrect) {
+            setPilotScore(prev => prev + 1);
+          }
+        }
+      };
+
+      const handleNextPilotQuestion = () => {
+        setSelectedPilotOptionId(null);
+        if (currentPilotIndex < pilotQuestions.length - 1) {
+          setCurrentPilotIndex(prev => prev + 1);
+        } else {
+          setIsPilotFinished(true);
+        }
+        setTimeout(() => {
+          if (pilotModalScrollRef.current) {
+            pilotModalScrollRef.current.scrollTop = 0;
+          }
+        }, 50);
+      };
+
+      // --- 독서·비문학 어휘 연습 시범 9문항 퀴즈 상태 ---
+      const [showReadingPilotModal, setShowReadingPilotModal] = useState(false);
+      const [readingPilotQuestions, setReadingPilotQuestions] = useState([]);
+      const [currentReadingPilotIndex, setCurrentReadingPilotIndex] = useState(0);
+      const [readingPilotScore, setReadingPilotScore] = useState(0);
+      const [selectedReadingPilotOptionId, setSelectedReadingPilotOptionId] = useState(null);
+      const [isReadingPilotFinished, setIsReadingPilotFinished] = useState(false);
+      const readingPilotModalScrollRef = useRef(null);
+
+      const handleStartReadingPilotQuiz = () => {
+        if (!window.READING_PILOT_QUIZ_DATA || !window.READING_PILOT_QUIZ_DATA.length) {
+          alert("독서·비문학 시범 퀴즈 데이터를 불러오지 못했습니다.");
+          return;
+        }
+        // 선택지 셔플 및 상태 고정 (답안 제출 후에도 순서 불변 보장)
+        const questions = window.READING_PILOT_QUIZ_DATA.map(q => {
+          const shuffledOptions = [...q.options].sort(() => Math.random() - 0.5);
+          return {
+            ...q,
+            options: shuffledOptions
+          };
+        });
+        setReadingPilotQuestions(questions);
+        setCurrentReadingPilotIndex(0);
+        setReadingPilotScore(0);
+        setSelectedReadingPilotOptionId(null);
+        setIsReadingPilotFinished(false);
+        setShowReadingPilotModal(true);
+        setTimeout(() => {
+          if (readingPilotModalScrollRef.current) {
+            readingPilotModalScrollRef.current.scrollTop = 0;
+          }
+        }, 50);
+      };
+
+      const handleSelectReadingPilotOption = (optId) => {
+        if (selectedReadingPilotOptionId !== null) return;
+        setSelectedReadingPilotOptionId(optId);
+        const question = readingPilotQuestions[currentReadingPilotIndex];
+        if (question) {
+          const selectedOpt = question.options.find(o => o.id === optId);
+          if (selectedOpt && selectedOpt.isCorrect) {
+            setReadingPilotScore(prev => prev + 1);
+          }
+        }
+      };
+
+      const handleNextReadingPilotQuestion = () => {
+        setSelectedReadingPilotOptionId(null);
+        if (currentReadingPilotIndex < readingPilotQuestions.length - 1) {
+          setCurrentReadingPilotIndex(prev => prev + 1);
+        } else {
+          setIsReadingPilotFinished(true);
+        }
+        setTimeout(() => {
+          if (readingPilotModalScrollRef.current) {
+            readingPilotModalScrollRef.current.scrollTop = 0;
+          }
+        }, 50);
+      };
+
+      // --- 1차 확대 어휘 연습 19문항 퀴즈 상태 (Batch 01) ---
+      const [showBatch01Modal, setShowBatch01Modal] = useState(false);
+      const [batch01Questions, setBatch01Questions] = useState([]);
+      const [currentBatch01Index, setCurrentBatch01Index] = useState(0);
+      const [batch01Score, setBatch01Score] = useState(0);
+      const [selectedBatch01OptionId, setSelectedBatch01OptionId] = useState(null);
+      const [isBatch01Finished, setIsBatch01Finished] = useState(false);
+      const batch01ModalScrollRef = useRef(null);
+
+      const handleStartBatch01Quiz = () => {
+        if (!window.EXPANSION_BATCH_01_QUIZ_DATA || !window.EXPANSION_BATCH_01_QUIZ_DATA.length) {
+          alert("1차 확대 퀴즈 데이터를 불러오지 못했습니다.");
+          return;
+        }
+        // 선택지 셔플 및 상태 고정 (답안 제출 후에도 순서 불변 보장)
+        const questions = window.EXPANSION_BATCH_01_QUIZ_DATA.map(q => {
+          const shuffledOptions = [...q.options].sort(() => Math.random() - 0.5);
+          return {
+            ...q,
+            options: shuffledOptions
+          };
+        });
+        setBatch01Questions(questions);
+        setCurrentBatch01Index(0);
+        setBatch01Score(0);
+        setSelectedBatch01OptionId(null);
+        setIsBatch01Finished(false);
+        setShowBatch01Modal(true);
+        setTimeout(() => {
+          if (batch01ModalScrollRef.current) {
+            batch01ModalScrollRef.current.scrollTop = 0;
+          }
+        }, 50);
+      };
+
+      const handleSelectBatch01Option = (optId) => {
+        if (selectedBatch01OptionId !== null) return;
+        setSelectedBatch01OptionId(optId);
+        const question = batch01Questions[currentBatch01Index];
+        if (question) {
+          const selectedOpt = question.options.find(o => o.id === optId);
+          if (selectedOpt && selectedOpt.isCorrect) {
+            setBatch01Score(prev => prev + 1);
+          }
+        }
+      };
+
+      const handleNextBatch01Question = () => {
+        setSelectedBatch01OptionId(null);
+        if (currentBatch01Index < batch01Questions.length - 1) {
+          setCurrentBatch01Index(prev => prev + 1);
+        } else {
+          setIsBatch01Finished(true);
+        }
+        setTimeout(() => {
+          if (batch01ModalScrollRef.current) {
+            batch01ModalScrollRef.current.scrollTop = 0;
+          }
+        }, 50);
+      };
+
+      // --- 정식 수능 어휘 퀴즈 상태 (총 38문항 통합 고도화) ---
+      const [showVocabModal, setShowVocabModal] = useState(false);
+      const [vocabCategory, setVocabCategory] = useState(null); // 'classical', 'reading', 'all', or null (selector)
+      const [vocabQuestions, setVocabQuestions] = useState([]);
+      const [currentVocabIndex, setCurrentVocabIndex] = useState(0);
+      const [vocabScore, setVocabScore] = useState(0);
+      const [selectedVocabOptionId, setSelectedVocabOptionId] = useState(null);
+      const [isVocabFinished, setIsVocabFinished] = useState(false);
+      const vocabModalScrollRef = useRef(null);
+
+      const handleStartVocabQuiz = (category = null) => {
+        if (!window.UNIFIED_QUIZ_DATA) {
+          alert("어휘 퀴즈 데이터를 불러오지 못했습니다.");
+          return;
+        }
+
+        if (!category) {
+          // Open category selector landing view
+          setVocabCategory(null);
+          setVocabQuestions([]);
+          setShowVocabModal(true);
+          return;
+        }
+
+        let sourceItems = [];
+        if (category === 'classical') {
+          sourceItems = window.UNIFIED_QUIZ_DATA.classical || [];
+        } else if (category === 'reading') {
+          sourceItems = window.UNIFIED_QUIZ_DATA.reading || [];
+        } else if (category === 'all') {
+          sourceItems = window.UNIFIED_QUIZ_DATA.all || [];
+        }
+
+        // 문제은행에서 10문항 무작위 추출 및 선택지 셔플 (동일 회차 중복 없음)
+        const extractCount = Math.min(10, sourceItems.length);
+        const shuffledQuestions = [...sourceItems]
+          .sort(() => Math.random() - 0.5)
+          .slice(0, extractCount)
+          .map(q => {
+            const shuffledOptions = [...q.options].sort(() => Math.random() - 0.5);
+            return {
+              ...q,
+              options: shuffledOptions
+            };
+          });
+
+        setVocabCategory(category);
+        setVocabQuestions(shuffledQuestions);
+        setCurrentVocabIndex(0);
+        setVocabScore(0);
+        setSelectedVocabOptionId(null);
+        setIsVocabFinished(false);
+        setShowVocabModal(true);
+
+        setTimeout(() => {
+          if (vocabModalScrollRef.current) {
+            vocabModalScrollRef.current.scrollTop = 0;
+          }
+        }, 50);
+      };
+
+      const handleSelectVocabOption = (optId) => {
+        if (selectedVocabOptionId !== null) return;
+        setSelectedVocabOptionId(optId);
+        const question = vocabQuestions[currentVocabIndex];
+        if (question) {
+          const selectedOpt = question.options.find(o => o.id === optId);
+          if (selectedOpt && selectedOpt.isCorrect) {
+            setVocabScore(prev => prev + 1);
+          }
+        }
+      };
+
+      const handleNextVocabQuestion = () => {
+        setSelectedVocabOptionId(null);
+        if (currentVocabIndex < vocabQuestions.length - 1) {
+          setCurrentVocabIndex(prev => prev + 1);
+        } else {
+          setIsVocabFinished(true);
+        }
+        setTimeout(() => {
+          if (vocabModalScrollRef.current) {
+            vocabModalScrollRef.current.scrollTop = 0;
+          }
+        }, 50);
+      };
+
       const handleStartQuiz = () => {
+
         const allKeys = Object.keys(MOCK_WORDS);
         const safeCandidates = [];
         const byLength = {};
@@ -608,15 +883,13 @@
               }
               if (cnt === 1) {
                 if (!content.includes(`${word}(${hanja})`) && !content.includes(`${word} (${hanja})`)) {
-                  if (content.length <= 350) {
-                    validCtxs.push(c);
-                  }
+                  validCtxs.push(c);
                 }
               }
             }
 
             if (validCtxs.length > 0) {
-              validCtxs.sort((a, b) => (a.content || "").length - (b.content || "").length);
+              const chosenContext = validCtxs[Math.floor(Math.random() * validCtxs.length)];
               safeCandidates.push({
                 key: k,
                 word: word,
@@ -626,7 +899,7 @@
                 isClassical: !!entry.isClassical,
                 brief: entry.brief || "",
                 definition: entry.definition || "",
-                context: validCtxs[0]
+                context: chosenContext
               });
             }
           }
@@ -686,20 +959,7 @@
           const targetWord = item.word;
           const correctHanja = item.hanja;
 
-          let sentenceText = rawContent;
-          if (rawContent.length > 160) {
-            const sentences = rawContent.split(/(?<=[.!?])\s+/);
-            const targetSentences = sentences.filter(s => {
-              let cnt = 0, p = s.indexOf(targetWord);
-              while (p !== -1) { cnt++; p = s.indexOf(targetWord, p + targetWord.length); }
-              return cnt === 1;
-            });
-            if (targetSentences.length > 0 && targetSentences[0].length >= 20) {
-              sentenceText = targetSentences[0];
-            }
-          }
-
-          const quizContext = sentenceText.replace(targetWord, blankSymbol);
+          const quizContext = rawContent.replace(targetWord, blankSymbol);
 
           const wLen = targetWord.length;
           const distractorPool = (byLength[wLen] || []).filter(
@@ -1234,11 +1494,12 @@
             <div className="flex flex-wrap items-center justify-between gap-4 pt-2 border-t border-dashed border-classicBorder/60">
               <div className="flex flex-wrap items-center gap-3">
                 <button
-                  onClick={handleStartQuiz}
-                  className="flex items-center gap-2 px-5 py-2.5 bg-classicRed text-white hover:bg-opacity-95 text-sm font-black rounded-xl shadow-md transition-all duration-300 transform active:scale-95 hover:shadow-lg shrink-0"
+                  id="miniQuizStartBtn"
+                  onClick={() => handleStartVocabQuiz()}
+                  className="flex items-center gap-2 px-5 py-2.5 bg-classicRed text-white hover:bg-classicRed/95 text-sm font-black rounded-xl shadow-md transition-all duration-300 transform active:scale-95 hover:shadow-lg shrink-0"
                   style={{ display: 'flex', alignItems: 'center' }}
                 >
-                  <span>⚡</span> 10초 순삭 미니 퀴즈
+                  <span>⚡</span> 어휘 미니퀴즈
                 </button>
 
                 <button
@@ -1258,6 +1519,11 @@
                     <span>🔄</span> 학습 기록 초기화 ({passedWords.length}개 완료)
                   </button>
                 )}
+
+                <span className="text-[11px] text-classicMuted flex items-center gap-1 font-medium select-none py-1.5 px-3 bg-classicCard rounded-xl border border-classicBorder/70 shrink-0">
+                  <span>🔒</span> 학습 기록은 현재 기기의 브라우저에 저장됩니다.
+                  <a href="guide.html" className="text-classicTeal hover:underline ml-1 font-bold">안내 ↗</a>
+                </span>
               </div>
 
               {/* 2단 우측: 고전문학/일반 필터 및 카운트 */}
@@ -2102,8 +2368,11 @@
 
           {/* 수능 객관식 미니 퀴즈 모달 */}
           {showQuizModal && (
-            <div id="quizModal" className="fixed inset-0 bg-classicText/40 backdrop-blur-sm z-[9999] flex items-center justify-center p-4">
-              <div className="w-full max-w-2xl bg-white rounded-3xl border border-classicBorder shadow-2xl p-6 md:p-8 flex flex-col gap-6 relative max-h-[90vh] overflow-y-auto">
+            <div id="quizModal" className="fixed inset-0 bg-classicText/40 backdrop-blur-sm z-[9999] flex items-center justify-center p-3 sm:p-4">
+              <div 
+                className="w-full max-w-2xl bg-white rounded-3xl border border-classicBorder shadow-2xl p-5 sm:p-6 md:p-8 flex flex-col gap-5 md:gap-6 relative max-h-[90vh] max-h-[90dvh] overflow-y-auto overscroll-contain"
+                style={{ WebkitOverflowScrolling: 'touch' }}
+              >
 
                 <button
                   id="quizCloseBtn"
@@ -2261,261 +2530,1000 @@
             </div>
           )}
 
-          {/* 관리자 패널 비밀번호 인증 모달 */}
-          {showAdminAuth && (
-            <div className="fixed inset-0 bg-classicText/40 backdrop-blur-sm z-[9999] flex items-center justify-center p-4" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <div className="w-full max-w-xs bg-white rounded-2xl shadow-2xl p-6 border border-classicBorder">
-                <h3 className="text-sm font-bold text-classicText flex items-center gap-2 mb-1" style={{ display: 'flex', alignItems: 'center' }}>
-                  <span>🔒</span> 관리자 인증
-                </h3>
-                <p className="text-[11px] text-classicMuted mb-4">수능 데이터 수정 툴은 비밀번호로 보호되어 있습니다.</p>
-                <form onSubmit={handleAdminAuthSubmit} className="space-y-3">
-                  <input
-                    type="password"
-                    autoFocus
-                    value={adminPasswordInput}
-                    onChange={(e) => setAdminPasswordInput(e.target.value)}
-                    placeholder="비밀번호 입력"
-                    className="w-full p-2.5 border border-classicBorder rounded-xl text-sm focus:outline-none focus:border-classicRed transition-all"
-                  />
-                  {adminAuthError && (
-                    <p className="text-[11px] font-bold text-classicRed">{adminAuthError}</p>
-                  )}
-                  <div className="flex items-center gap-2" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <button
-                      type="button"
-                      onClick={() => setShowAdminAuth(false)}
-                      className="flex-1 py-2 text-xs font-bold text-classicMuted border border-classicBorder rounded-xl hover:bg-classicBg transition-all"
-                    >
-                      취소
-                    </button>
-                    <button
-                      type="submit"
-                      className="flex-1 py-2 text-xs font-bold text-white bg-classicRed rounded-xl hover:bg-classicRed/90 transition-all"
-                    >
-                      확인
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          )}
+          {/* 고전 어휘 연습 시범 10문항 모달 */}
+          {showPilotModal && (
+            <div id="pilotQuizModal" className="fixed inset-0 bg-classicText/40 backdrop-blur-sm z-[9999] flex items-center justify-center p-3 sm:p-4">
+              <div 
+                ref={pilotModalScrollRef}
+                id="pilotQuizModalContainer"
+                className="w-full max-w-2xl bg-white rounded-3xl border border-classicBorder shadow-2xl p-5 sm:p-6 md:p-8 flex flex-col gap-5 md:gap-6 relative max-h-[90vh] max-h-[90dvh] overflow-y-auto overscroll-contain"
+                style={{ WebkitOverflowScrolling: 'touch' }}
+              >
+                <button
+                  id="pilotQuizCloseBtn"
+                  onClick={() => setShowPilotModal(false)}
+                  className="absolute top-4 right-4 text-classicMuted hover:text-classicRed transition-colors font-bold text-lg"
+                >
+                  ✕
+                </button>
 
-          {/* 교수님 전용 데이터 관리자 패널 (숨은 점 클릭 시 오픈) */}
-          {showAdmin && (
-            <div className="fixed inset-0 bg-classicText/40 backdrop-blur-sm z-[9999] flex justify-end transition-all duration-300">
-              <div className="w-full max-w-lg bg-white h-full shadow-2xl p-6 overflow-y-auto flex flex-col justify-between border-l border-classicBorder">
-                <div className="space-y-6">
-                  <div className="flex items-center justify-between border-b border-classicBorder pb-4" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <h3 className="text-lg font-bold text-classicText flex items-center gap-2">
-                      <span>🛠️</span> 교수님 전용 수능 데이터 관리자 툴
-                    </h3>
-                    <div className="flex items-center gap-2" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                      <button
-                        onClick={handleAdminLock}
-                        title="인증을 해제하고 닫기"
-                        className="text-classicMuted hover:text-classicRed text-xs font-bold border border-classicBorder px-2.5 py-1 rounded-lg bg-classicBg hover:bg-classicBg/60 transition-all"
-                      >
-                        🔒 잠그기
-                      </button>
-                      <button
-                        onClick={() => setShowAdmin(false)}
-                        className="text-classicMuted hover:text-classicRed text-xs font-bold border border-classicBorder px-2.5 py-1 rounded-lg bg-classicBg hover:bg-classicBg/60 transition-all"
-                      >
-                        닫기
-                      </button>
-                    </div>
-                  </div>
+                {!isPilotFinished ? (
+                  (() => {
+                    const question = pilotQuestions[currentPilotIndex];
+                    if (!question) return null;
+                    const hasAnswered = selectedPilotOptionId !== null;
 
-                  {supportsFileSystemAccess ? (
-                    <div className={"rounded-xl p-3 text-xs font-semibold flex items-center justify-between gap-2 " + (connectedFileHandle ? "bg-emerald-50 border border-emerald-200 text-emerald-700" : "bg-classicBg border border-classicBorder text-classicMuted")} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                      <span>
-                        {connectedFileHandle ? `🔗 연결됨: ${connectedFileHandle.name}` : "⚠️ data.js 파일이 아직 연결되지 않았습니다"}
-                      </span>
-                      <button
-                        onClick={handleConnectDataFile}
-                        className="px-2.5 py-1 rounded-lg bg-white border border-classicBorder text-classicText hover:border-classicRed hover:text-classicRed transition-all text-[11px] font-bold shrink-0"
-                      >
-                        {connectedFileHandle ? "다른 파일로 변경" : "파일 연결하기"}
-                      </button>
-                    </div>
-                  ) : (
-                    <div className="rounded-xl p-3 text-[11px] font-medium bg-classicBg border border-classicBorder text-classicMuted">
-                      ⚠️ Chrome/Edge 로컬 환경에서 열면 data.js 직접 쓰기가 지원됩니다. 현재는 다운로드 방식으로 저장됩니다.
-                    </div>
-                  )}
-
-                  <div className="space-y-2">
-                    <label className="text-xs font-bold text-classicMuted">수정할 어휘 선택 ({Object.keys(MOCK_WORDS).length}개 로드됨)</label>
-                    <input
-                      type="text"
-                      value={adminSearchTerm}
-                      onChange={(e) => setAdminSearchTerm(e.target.value)}
-                      placeholder="어휘 검색 (단어 또는 한자)"
-                      className="w-full text-sm p-2.5 border border-classicBorder rounded-xl bg-white font-serif focus:outline-none focus:border-classicRed transition-all mb-1.5"
-                    />
-                    <select
-                      value={adminSelectedWordKey}
-                      onChange={(e) => setAdminSelectedWordKey(e.target.value)}
-                      className="w-full text-sm p-3 border border-classicBorder rounded-xl bg-classicBg font-serif focus:outline-none focus:border-classicRed transition-all"
-                    >
-                      <option value="">-- 어휘 선택 --</option>
-                      {Object.keys(MOCK_WORDS).sort().filter(k => {
-                        const q = adminSearchTerm.trim();
-                        if (!q) return true;
-                        const w = MOCK_WORDS[k];
-                        return (w.word && w.word.includes(q)) || (w.hanja && w.hanja.includes(q));
-                      }).map(k => (
-                        <option key={k} value={k}>
-                          {MOCK_WORDS[k].word} ({MOCK_WORDS[k].hanja})
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-
-                  {adminSelectedWordKey && MOCK_WORDS[adminSelectedWordKey] && (
-                    <div className="space-y-4 pt-2 border-t border-classicBorder/50">
-                      <div className="grid grid-cols-2 gap-4" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-                        <div className="space-y-1">
-                          <label className="text-[11px] font-bold text-classicMuted">단어명 (한글)</label>
-                          <input
-                            type="text"
-                            value={editWord}
-                            onChange={(e) => setEditWord(e.target.value)}
-                            className="w-full p-2.5 border border-classicBorder rounded-xl text-xs focus:outline-none focus:border-classicRed transition-all"
-                          />
+                    return (
+                      <div className="space-y-6">
+                        {/* 헤더: 배지 & 진행도 */}
+                        <div className="flex items-center justify-between border-b border-classicBorder pb-3">
+                          <div className="flex items-center gap-2">
+                            <span className="text-xs font-bold text-classicTeal bg-classicTeal/10 border border-classicTeal/20 px-2.5 py-0.5 rounded">
+                              📜 고전 어휘 연습
+                            </span>
+                            <span className="text-xs font-medium text-classicMuted bg-classicBg border border-classicBorder px-2 py-0.5 rounded">
+                              {question.typeLabel}
+                            </span>
+                          </div>
+                          <span id="pilotQuizProgress" className="text-sm font-serif font-black text-classicText">
+                            문제 {currentPilotIndex + 1} / 10
+                          </span>
                         </div>
-                        <div className="space-y-1">
-                          <label className="text-[11px] font-bold text-classicMuted">한자 표기</label>
-                          <input
-                            type="text"
-                            value={editHanja}
-                            onChange={(e) => setEditHanja(e.target.value)}
-                            className="w-full p-2.5 border border-classicBorder rounded-xl text-xs focus:outline-none focus:border-classicRed transition-all"
-                          />
+
+                        {/* 질문 및 본문 영역 */}
+                        <div className="space-y-3">
+                          <h4 id="pilotQuizQuestionTitle" className="text-lg font-serif font-bold text-classicText leading-relaxed">
+                            {question.question}
+                          </h4>
+
+                          {question.passage ? (
+                            <div id="pilotQuizPassage" className="bg-classicBg/60 border border-classicBorder/50 rounded-2xl p-5 text-sm text-classicText leading-relaxed font-medium space-y-2">
+                              <div>
+                                {question.type === "blank" ? (
+                                  renderContentWithBold(question.passage.replace(question.blankText, `**${question.blankText}**`))
+                                ) : question.type === "context_meaning" && question.targetHighlight ? (
+                                  renderContentWithBold(question.passage.replace(question.targetHighlight, `**${question.targetHighlight}**`))
+                                ) : (
+                                  question.passage
+                                )}
+                              </div>
+                              <div className="flex items-center justify-between pt-2 border-t border-classicBorder/30 text-xs text-classicMuted font-sans">
+                                <span>{question.isCreative ? "✍️ 학습용 창작 예문" : "📖 표준국어대사전 규범 정의"}</span>
+                                {question.word && (
+                                  <span className="font-serif text-classicTeal font-bold">
+                                    {hasAnswered ? `${question.word} (${question.hanja})` : "목표 어휘"}
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          ) : (
+                            <div className="bg-classicBg/40 border border-classicBorder/40 rounded-xl p-3 text-xs text-classicMuted flex items-center gap-1.5">
+                              <span>📖</span> 표준국어대사전 규범 정의 기반 뜻 확인형 문항
+                            </div>
+                          )}
                         </div>
-                      </div>
 
-                      <div className="space-y-1">
-                        <label className="text-[11px] font-bold text-classicMuted">뜻풀이 (Brief)</label>
-                        <textarea
-                          rows="2"
-                          value={editBrief}
-                          onChange={(e) => setEditBrief(e.target.value)}
-                          className="w-full p-2.5 border border-classicBorder rounded-xl text-xs focus:outline-none focus:border-classicRed transition-all resize-none"
-                        />
-                      </div>
+                        {/* 선택지 목록 (4지선다) */}
+                        <div id="pilotQuizOptions" className="flex flex-col gap-2.5">
+                          {question.options.map((opt, oIdx) => {
+                            const isSelected = selectedPilotOptionId === opt.id;
+                            const isCorrectOpt = opt.isCorrect;
 
-                      <div className="space-y-3">
-                        <label className="text-[11px] font-bold text-classicMuted block border-b border-classicBorder/30 pb-1">
-                          수능 기출 지문 문맥 및 학습 팁 ({editContexts.length}건 등록됨)
-                        </label>
-                        {editContexts.map((ctx, idx) => (
-                          <div key={idx} className="p-3 border border-classicBorder rounded-xl bg-classicBg/40 space-y-2.5">
-                            <div className="flex items-center justify-between" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                              <span className="text-[10px] font-bold text-classicRed">문맥 #{idx + 1}</span>
-                              <input
-                                type="text"
-                                value={ctx.source || ""}
-                                onChange={(e) => {
-                                  const val = e.target.value;
-                                  setEditContexts(prev => {
-                                    const next = [...prev];
-                                    next[idx].source = val;
-                                    return next;
-                                  });
-                                }}
-                                className="w-1/2 p-1 px-2 border border-classicBorder rounded text-[10px] focus:outline-none focus:border-classicRed bg-white"
-                                placeholder="출처 (예: 2024학년도 6모)"
-                              />
+                            let btnStyle = "bg-white border-classicBorder hover:border-classicTeal hover:bg-classicTeal/5 text-classicText";
+                            if (hasAnswered) {
+                              if (isCorrectOpt) {
+                                btnStyle = "bg-green-500/10 border-green-500 text-green-700 font-bold";
+                              } else if (isSelected) {
+                                btnStyle = "bg-red-500/10 border-red-500 text-red-700 font-bold";
+                              } else {
+                                btnStyle = "bg-white border-classicBorder opacity-60 pointer-events-none";
+                              }
+                            }
+
+                            return (
+                              <button
+                                key={opt.id}
+                                id={`pilotOptBtn-${oIdx}`}
+                                data-opt-id={opt.id}
+                                data-correct={isCorrectOpt}
+                                onClick={() => handleSelectPilotOption(opt.id)}
+                                disabled={hasAnswered}
+                                className={`w-full text-left p-4 rounded-2xl border text-sm transition-all flex items-center justify-between ${btnStyle}`}
+                                style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+                              >
+                                <span className="font-serif text-base font-medium">
+                                  {oIdx + 1}. {opt.text}
+                                </span>
+                                {hasAnswered && (
+                                  isCorrectOpt ? (
+                                    <span className="text-green-600 font-bold text-xs shrink-0">🎉 정답</span>
+                                  ) : isSelected ? (
+                                    <span className="text-red-600 font-bold text-xs shrink-0">❌ 오답</span>
+                                  ) : null
+                                )}
+                              </button>
+                            );
+                          })}
+                        </div>
+
+                        {/* 해설 피드백 박스 (선택 후 노출) */}
+                        {hasAnswered && (
+                          <div id="pilotQuizFeedback" className="p-5 bg-classicBg/70 border border-classicBorder rounded-2xl space-y-3 animate-fade-in">
+                            <div className="flex items-center gap-2">
+                              <span className={`text-xs font-bold uppercase px-2.5 py-0.5 rounded border ${
+                                question.options.find(o => o.id === selectedPilotOptionId)?.isCorrect
+                                  ? "bg-green-500/10 text-green-700 border-green-500/20"
+                                  : "bg-red-500/10 text-red-700 border-red-500/20"
+                              }`}>
+                                {question.options.find(o => o.id === selectedPilotOptionId)?.isCorrect ? "정답 피드백" : "오답 피드백"}
+                              </span>
+                              <span className="text-xs font-bold text-classicTeal font-serif">
+                                정답 어휘: {question.word} ({question.hanja})
+                              </span>
                             </div>
 
-                            <div className="space-y-1">
-                              <label className="text-[9px] font-bold text-classicMuted">기출 지문 예문</label>
-                              <textarea
-                                rows="3"
-                                value={ctx.desc || ctx.content || ""}
-                                onChange={(e) => {
-                                  const val = e.target.value;
-                                  setEditContexts(prev => {
-                                    const next = [...prev];
-                                    if (next[idx].desc !== undefined) next[idx].desc = val;
-                                    if (next[idx].content !== undefined) next[idx].content = val;
-                                    return next;
-                                  });
-                                }}
-                                className="w-full p-2 border border-classicBorder rounded text-xs focus:outline-none focus:border-classicRed bg-white resize-none"
-                                placeholder="실제 기출 예문을 입력하세요."
-                              />
+                            <div className="space-y-1.5 text-xs text-classicText leading-relaxed">
+                              {question.hun && (
+                                <p className="font-sans text-classicMuted">
+                                  <strong className="text-classicText font-semibold">한자 훈음:</strong> {question.hun}
+                                </p>
+                              )}
+                              <p className="font-sans">
+                                <strong className="text-classicText font-semibold">사전 정의:</strong> {question.definition}
+                              </p>
+                              <p className="font-serif font-medium text-sm text-classicText pt-1 border-t border-classicBorder/30">
+                                {question.explanation}
+                              </p>
+                              {question.hanjaExplanation && (
+                                <p className="text-xs text-classicMuted font-sans">
+                                  💡 {question.hanjaExplanation}
+                                </p>
+                              )}
                             </div>
 
-                            <div className="space-y-1">
-                              <label className="text-[9px] font-bold text-classicMuted">독해 팁 (Tip)</label>
-                              <input
-                                type="text"
-                                value={ctx.tip || ""}
-                                onChange={(e) => {
-                                  const val = e.target.value;
-                                  setEditContexts(prev => {
-                                    const next = [...prev];
-                                    next[idx].tip = val;
-                                    return next;
-                                  });
-                                }}
-                                className="w-full p-2 border border-classicBorder rounded text-xs focus:outline-none focus:border-classicRed bg-white"
-                                placeholder="수험생에게 제공할 독해 팁을 작성하세요."
-                              />
+                            <div className="flex justify-end pt-2">
+                              <button
+                                id="pilotQuizNextBtn"
+                                onClick={handleNextPilotQuestion}
+                                className="px-5 py-2 bg-classicTeal text-white hover:bg-classicTeal/90 text-xs font-bold rounded-xl transition-all shadow-sm flex items-center gap-1"
+                                style={{ display: 'flex', alignItems: 'center' }}
+                              >
+                                {currentPilotIndex < pilotQuestions.length - 1 ? "다음 문제" : "결과 보기"} <ArrowRightIcon className="w-3.5 h-3.5" />
+                              </button>
                             </div>
                           </div>
-                        ))}
+                        )}
                       </div>
+                    );
+                  })()
+                ) : (
+                  /* 결과 화면 */
+                  <div className="text-center py-6 space-y-6 flex flex-col items-center">
+                    <div className="w-16 h-16 rounded-full bg-classicTeal/10 flex items-center justify-center text-3xl animate-bounce">
+                      📜
+                    </div>
 
+                    <div className="space-y-2">
+                      <h3 id="pilotQuizResultTitle" className="text-2xl font-serif font-black text-classicText">
+                        고전 어휘 연습 시범 퀴즈 완료
+                      </h3>
+                      <p id="pilotQuizResultScore" className="text-sm text-classicMuted">
+                        10문제 중 총 <span className="text-classicTeal font-black text-lg">{pilotScore}문제</span> 정답
+                      </p>
+                    </div>
+
+                    <div className="flex gap-3 w-full max-w-sm" style={{ display: 'flex', gap: '0.75rem', width: '100%', justifyContent: 'center' }}>
                       <button
-                        onClick={handleSaveWord}
-                        className="w-full py-2.5 bg-classicTeal text-white text-xs font-bold rounded-xl shadow-sm hover:bg-classicTeal/90 hover:shadow-md transition-all duration-300"
+                        id="pilotQuizRestartBtn"
+                        onClick={handleStartPilotQuiz}
+                        className="flex-1 py-3 bg-classicTeal text-white hover:bg-classicTeal/90 text-xs font-bold rounded-xl shadow-md transition-all"
                       >
-                        메모리 임시 저장
+                        다시 풀기
+                      </button>
+                      <button
+                        id="pilotQuizEndBtn"
+                        onClick={() => setShowPilotModal(false)}
+                        className="flex-1 py-3 bg-white hover:bg-classicBg border border-classicBorder text-classicText text-xs font-bold rounded-xl transition-all"
+                      >
+                        종료
                       </button>
                     </div>
-                  )}
-                </div>
-
-                <div className="border-t border-classicBorder pt-4 mt-6 space-y-2">
-                  <button
-                    onClick={handleExportData}
-                    className="w-full py-3 bg-classicRed text-white text-xs font-bold rounded-xl shadow-md hover:bg-opacity-95 hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
-                    style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
-                  >
-                    <span>{connectedFileHandle ? "💾 연결된 data.js에 바로 저장" : "💾 새 데이터 파일 생성 (data.js)"}</span>
-                  </button>
-                  <p className="text-[10px] text-classicMuted text-center">
-                    {connectedFileHandle
-                      ? "저장 버튼을 누르면 연결된 data.js 파일에 즉시 영구 반영됩니다."
-                      : "다운로드한 data.js 파일을 프로젝트의 js/ 폴더 안에 덮어씌우면 화면에 영구 갱신됩니다."}
-                  </p>
-                </div>
+                  </div>
+                )}
               </div>
             </div>
           )}
 
-          {/* Toast Notification */}
-          {toastMessage && (
-            <div className="fixed bottom-12 left-1/2 transform -translate-x-1/2 z-[99999] bg-classicText text-white px-5 py-3 rounded-xl shadow-2xl border border-classicBorder/20 flex items-center gap-2 text-xs font-bold tracking-wide pointer-events-none animate-fade-in-up">
-              <span className="text-amber-400">✨</span> {toastMessage}
+          {/* 독서·비문학 어휘 연습 시범 9문항 모달 */}
+          {showReadingPilotModal && (
+            <div id="readingPilotQuizModal" className="fixed inset-0 bg-classicText/40 backdrop-blur-sm z-[9999] flex items-center justify-center p-3 sm:p-4">
+              <div
+                ref={readingPilotModalScrollRef}
+                id="readingPilotQuizModalContainer"
+                className="w-full max-w-2xl bg-white rounded-3xl border border-classicBorder shadow-2xl p-5 sm:p-6 md:p-8 flex flex-col gap-5 md:gap-6 relative max-h-[90vh] max-h-[90dvh] overflow-y-auto overscroll-contain"
+                style={{ WebkitOverflowScrolling: 'touch' }}
+              >
+                <button
+                  id="readingPilotQuizCloseBtn"
+                  onClick={() => setShowReadingPilotModal(false)}
+                  className="absolute top-4 right-4 text-classicMuted hover:text-classicRed transition-colors font-bold text-lg"
+                >
+                  ✕
+                </button>
+
+                {!isReadingPilotFinished ? (
+                  (() => {
+                    const question = readingPilotQuestions[currentReadingPilotIndex];
+                    if (!question) return null;
+                    const hasAnswered = selectedReadingPilotOptionId !== null;
+
+                    return (
+                      <div className="space-y-6">
+                        {/* 헤더: 영역 배지, 유형 배지, 진행도 */}
+                        <div className="flex items-center justify-between border-b border-classicBorder pb-3">
+                          <div className="flex items-center gap-2">
+                            <span className="text-xs font-bold text-[#2D3748] bg-slate-100 border border-slate-300 px-2.5 py-0.5 rounded">
+                              📖 독서·비문학 어휘 연습
+                            </span>
+                            <span className="text-xs font-medium text-classicMuted bg-classicBg border border-classicBorder px-2 py-0.5 rounded">
+                              {question.typeLabel}
+                            </span>
+                          </div>
+                          <span id="readingPilotQuizProgress" className="text-sm font-serif font-black text-classicText">
+                            문제 {currentReadingPilotIndex + 1} / {readingPilotQuestions.length}
+                          </span>
+                        </div>
+
+                        {/* 질문 및 본문 영역 */}
+                        <div className="space-y-3">
+                          <h4 id="readingPilotQuizQuestionTitle" className="text-lg font-serif font-bold text-classicText leading-relaxed">
+                            {question.question}
+                          </h4>
+
+                          {question.passage && (
+                            <div id="readingPilotQuizPassage" className="bg-classicBg/60 border border-classicBorder/50 rounded-2xl p-5 text-sm text-classicText leading-relaxed font-medium space-y-2">
+                              <div>
+                                {(() => {
+                                  let text = question.passage;
+                                  if (question.type === "blank") {
+                                    text = text.replace("[　　]", "**[　　]**");
+                                  } else if (question.type === "context_meaning") {
+                                    if (text.includes(question.word)) {
+                                      text = text.replace(question.word, `**${question.word}**`);
+                                    }
+                                  }
+                                  return renderContentWithBold(text, null);
+                                })()}
+                              </div>
+                              <div className="flex items-center justify-between pt-2 border-t border-classicBorder/30 text-xs text-classicMuted font-sans">
+                                <span>✍️ {question.sourceLabel || "학습용 창작 예문"}</span>
+                                {hasAnswered && question.word && (
+                                  <span className="font-serif text-[#2D3748] font-bold">
+                                    {question.word} ({question.hanja})
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          )}
+                        </div>
+
+                        {/* 선택지 목록 (4지선다) */}
+                        <div id="readingPilotQuizOptions" className="flex flex-col gap-2.5">
+                          {question.options.map((opt, oIdx) => {
+                            const isSelected = selectedReadingPilotOptionId === opt.id;
+                            const isCorrectOpt = opt.isCorrect;
+
+                            let btnStyle = "bg-white border-classicBorder hover:border-[#2D3748] hover:bg-slate-50 text-classicText";
+                            if (hasAnswered) {
+                              if (isCorrectOpt) {
+                                btnStyle = "bg-green-500/10 border-green-500 text-green-700 font-bold";
+                              } else if (isSelected) {
+                                btnStyle = "bg-red-500/10 border-red-500 text-red-700 font-bold";
+                              } else {
+                                btnStyle = "bg-white border-classicBorder opacity-60 pointer-events-none";
+                              }
+                            }
+
+                            return (
+                              <button
+                                key={opt.id}
+                                id={`readingPilotOptBtn-${oIdx}`}
+                                data-opt-id={opt.id}
+                                data-correct={isCorrectOpt}
+                                onClick={() => handleSelectReadingPilotOption(opt.id)}
+                                disabled={hasAnswered}
+                                className={`w-full text-left p-4 rounded-2xl border text-sm transition-all flex items-center justify-between ${btnStyle}`}
+                                style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+                              >
+                                <span className="font-serif text-base font-medium">
+                                  {oIdx + 1}. {opt.text}
+                                </span>
+                                {hasAnswered && (
+                                  isCorrectOpt ? (
+                                    <span className="text-green-600 font-bold text-xs shrink-0">🎉 정답</span>
+                                  ) : isSelected ? (
+                                    <span className="text-red-600 font-bold text-xs shrink-0">❌ 오답</span>
+                                  ) : null
+                                )}
+                              </button>
+                            );
+                          })}
+                        </div>
+
+                        {/* 해설 피드백 박스 (선택 후 노출) */}
+                        {hasAnswered && (
+                          <div id="readingPilotQuizFeedback" className="p-5 bg-classicBg/70 border border-classicBorder rounded-2xl space-y-3 animate-fade-in">
+                            <div className="flex items-center gap-2">
+                              <span className={`text-xs font-bold uppercase px-2.5 py-0.5 rounded border ${
+                                question.options.find(o => o.id === selectedReadingPilotOptionId)?.isCorrect
+                                  ? "bg-green-500/10 text-green-700 border-green-500/20"
+                                  : "bg-red-500/10 text-red-700 border-red-500/20"
+                              }`}>
+                                {question.options.find(o => o.id === selectedReadingPilotOptionId)?.isCorrect ? "정답 피드백" : "오답 피드백"}
+                              </span>
+                              <span className="text-xs font-bold text-[#2D3748] font-serif">
+                                정답 어휘: {question.word} ({question.hanja})
+                              </span>
+                            </div>
+
+                            <div className="space-y-1.5 text-xs text-classicText leading-relaxed">
+                              {question.hun && (
+                                <p className="font-sans text-classicMuted">
+                                  <strong className="text-classicText font-semibold">한자 훈음:</strong> {question.hun}
+                                </p>
+                              )}
+                              <p className="font-sans">
+                                <strong className="text-classicText font-semibold">사전 정의:</strong> {question.definition}
+                              </p>
+                              <p className="font-serif font-medium text-sm text-classicText pt-1 border-t border-classicBorder/30">
+                                {question.explanation}
+                              </p>
+                              {question.hanjaExplanation && (
+                                <p className="text-xs text-classicMuted font-sans">
+                                  💡 {question.hanjaExplanation}
+                                </p>
+                              )}
+                            </div>
+
+                            <div className="flex justify-end pt-2">
+                              <button
+                                id="readingPilotQuizNextBtn"
+                                onClick={handleNextReadingPilotQuestion}
+                                className="px-5 py-2 bg-[#2D3748] text-white hover:bg-[#1A202C] text-xs font-bold rounded-xl transition-all shadow-sm flex items-center gap-1"
+                                style={{ display: 'flex', alignItems: 'center' }}
+                              >
+                                {currentReadingPilotIndex < readingPilotQuestions.length - 1 ? "다음 문제" : "결과 보기"} <ArrowRightIcon className="w-3.5 h-3.5" />
+                              </button>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })()
+                ) : (
+                  /* 결과 화면 */
+                  <div className="text-center py-6 space-y-6 flex flex-col items-center">
+                    <div className="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center text-3xl animate-bounce">
+                      📖
+                    </div>
+
+                    <div className="space-y-2">
+                      <h3 id="readingPilotQuizResultTitle" className="text-2xl font-serif font-black text-classicText">
+                        독서·비문학 어휘 연습 시범 퀴즈 완료
+                      </h3>
+                      <p id="readingPilotQuizResultScore" className="text-sm text-classicMuted">
+                        {readingPilotQuestions.length}문제 중 총 <span className="text-[#2D3748] font-black text-lg">{readingPilotScore}문제</span> 정답
+                      </p>
+                    </div>
+
+                    <div className="flex gap-3 w-full max-w-sm" style={{ display: 'flex', gap: '0.75rem', width: '100%', justifyContent: 'center' }}>
+                      <button
+                        id="readingPilotQuizRestartBtn"
+                        onClick={handleStartReadingPilotQuiz}
+                        className="flex-1 py-3 bg-[#2D3748] text-white hover:bg-[#1A202C] text-xs font-bold rounded-xl shadow-md transition-all"
+                      >
+                        다시 풀기
+                      </button>
+                      <button
+                        id="readingPilotQuizEndBtn"
+                        onClick={() => setShowReadingPilotModal(false)}
+                        className="flex-1 py-3 bg-white hover:bg-classicBg border border-classicBorder text-classicText text-xs font-bold rounded-xl transition-all"
+                      >
+                        종료
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
           )}
 
-          {/* Footer with Secret Admin Bullet (•) */}
-          <footer className="mt-auto border-t border-classicBorder pt-8 text-center text-xs text-classicMuted space-y-2 pb-6">
-            <p>© 2026 한알국쉬(수능버전) & Baek Jinwoo. All rights reserved.</p>
-            <p className="font-serif font-medium text-[10px] uppercase tracking-widest text-classicMuted">
-              편찬 책임자: 백진우 <span className="cursor-pointer select-none opacity-20 hover:opacity-100 hover:text-classicRed transition-all" onClick={handleAdminBulletClick}>•</span> 한자를 알면 국어가 쉬워 • POWERED BY REACT & TAILWIND CSS
-            </p>
-          </footer>
+          {/* 1차 확대 어휘 퀴즈 19문항 모달 */}
+          {showBatch01Modal && (
+            <div id="batch01QuizModal" className="fixed inset-0 bg-classicText/40 backdrop-blur-sm z-[9999] flex items-center justify-center p-3 sm:p-4">
+              <div 
+                ref={batch01ModalScrollRef}
+                id="batch01QuizModalContainer"
+                className="w-full max-w-2xl bg-white rounded-3xl border border-classicBorder shadow-2xl p-5 sm:p-6 md:p-8 flex flex-col gap-5 md:gap-6 relative max-h-[90vh] max-h-[90dvh] overflow-y-auto overscroll-contain"
+                style={{ WebkitOverflowScrolling: 'touch' }}
+              >
+                <button
+                  id="batch01QuizCloseBtn"
+                  onClick={() => setShowBatch01Modal(false)}
+                  className="absolute top-4 right-4 text-classicMuted hover:text-classicRed transition-colors font-bold text-lg"
+                >
+                  ✕
+                </button>
 
-        </div>
-      );
-    }
+                {!isBatch01Finished ? (
+                  (() => {
+                    const question = batch01Questions[currentBatch01Index];
+                    if (!question) return null;
+                    const hasAnswered = selectedBatch01OptionId !== null;
+
+                    return (
+                      <div className="space-y-6">
+                        {/* 헤더: 배지 & 진행도 */}
+                        <div className="flex items-center justify-between border-b border-classicBorder pb-3">
+                          <div className="flex items-center gap-2">
+                            <span className="text-xs font-bold text-classicRed bg-classicRed/10 border border-classicRed/20 px-2.5 py-0.5 rounded">
+                              🚀 1차 확대 퀴즈
+                            </span>
+                            <span className="text-xs font-medium text-classicMuted bg-classicBg border border-classicBorder px-2 py-0.5 rounded">
+                              {question.typeLabel}
+                            </span>
+                          </div>
+                          <span id="batch01QuizProgress" className="text-sm font-serif font-black text-classicText">
+                            문제 {currentBatch01Index + 1} / {batch01Questions.length}
+                          </span>
+                        </div>
+
+                        {/* 질문 및 본문 영역 */}
+                        <div className="space-y-3">
+                          <h4 id="batch01QuizQuestionTitle" className="text-lg font-serif font-bold text-classicText leading-relaxed">
+                            {question.question}
+                          </h4>
+
+                          {question.passage ? (
+                            <div id="batch01QuizPassage" className="bg-classicBg/60 border border-classicBorder/50 rounded-2xl p-5 text-sm text-classicText leading-relaxed font-medium space-y-2">
+                              <div>
+                                {question.type === "blank" && question.blankText ? (
+                                  renderContentWithBold(question.passage.replace(question.blankText, `**${question.blankText}**`))
+                                ) : question.type === "context_meaning" && question.targetHighlight ? (
+                                  renderContentWithBold(question.passage.replace(question.targetHighlight, `**${question.targetHighlight}**`))
+                                ) : (
+                                  renderContentWithBold(question.passage)
+                                )}
+                              </div>
+                              <div className="flex items-center justify-between pt-2 border-t border-classicBorder/30 text-xs text-classicMuted font-sans">
+                                <span>{question.isCreative ? "✍️ 학습용 창작 예문" : `📖 ${question.sourceLabel || "표준국어대사전 규범 정의"}`}</span>
+                                {question.word && (
+                                  <span className="font-serif text-classicRed font-bold">
+                                    {question.type === "blank" || question.type === "situation" ? (
+                                      hasAnswered ? `${question.word} (${question.hanja})` : "목표 어휘 (답변 후 공개)"
+                                    ) : (
+                                      `${question.word} (${question.hanja})`
+                                    )}
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          ) : (
+                            <div className="bg-classicBg/40 border border-classicBorder/40 rounded-xl p-3 text-xs text-classicMuted flex items-center justify-between">
+                              <span>📖 {question.sourceLabel || "표준국어대사전 규범 정의 기반 뜻 확인형 문항"}</span>
+                              {question.word && (
+                                <span className="font-serif text-classicRed font-bold">
+                                  {question.word} ({question.hanja})
+                                </span>
+                              )}
+                            </div>
+                          )}
+                        </div>
+
+                        {/* 선택지 목록 (4지선다) */}
+                        <div id="batch01QuizOptions" className="flex flex-col gap-2.5">
+                          {question.options.map((opt, oIdx) => {
+                            const isSelected = selectedBatch01OptionId === opt.id;
+                            const isCorrectOpt = opt.isCorrect;
+
+                            let btnStyle = "bg-white border-classicBorder hover:border-classicRed hover:bg-classicRed/5 text-classicText";
+                            if (hasAnswered) {
+                              if (isCorrectOpt) {
+                                btnStyle = "bg-green-500/10 border-green-500 text-green-700 font-bold";
+                              } else if (isSelected) {
+                                btnStyle = "bg-red-500/10 border-red-500 text-red-700 font-bold";
+                              } else {
+                                btnStyle = "bg-white border-classicBorder opacity-60 pointer-events-none";
+                              }
+                            }
+
+                            return (
+                              <button
+                                key={opt.id}
+                                id={`batch01OptBtn-${oIdx}`}
+                                data-opt-id={opt.id}
+                                data-correct={isCorrectOpt}
+                                onClick={() => handleSelectBatch01Option(opt.id)}
+                                disabled={hasAnswered}
+                                className={`w-full text-left p-4 rounded-2xl border text-sm transition-all flex items-center justify-between ${btnStyle}`}
+                                style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+                              >
+                                <span className="font-serif text-base font-medium">
+                                  {oIdx + 1}. {opt.text}
+                                </span>
+                                {hasAnswered && (
+                                  isCorrectOpt ? (
+                                    <span className="text-green-600 font-bold text-xs shrink-0">🎉 정답</span>
+                                  ) : isSelected ? (
+                                    <span className="text-red-600 font-bold text-xs shrink-0">❌ 오답</span>
+                                  ) : null
+                                )}
+                              </button>
+                            );
+                          })}
+                        </div>
+
+                        {/* 해설 피드백 박스 (선택 후 노출) */}
+                        {hasAnswered && (
+                          <div id="batch01QuizFeedback" className="p-5 bg-classicBg/70 border border-classicBorder rounded-2xl space-y-3 animate-fade-in">
+                            <div className="flex items-center gap-2">
+                              <span className={`text-xs font-bold uppercase px-2.5 py-0.5 rounded border ${
+                                question.options.find(o => o.id === selectedBatch01OptionId)?.isCorrect
+                                  ? "bg-green-500/10 text-green-700 border-green-500/20"
+                                  : "bg-red-500/10 text-red-700 border-red-500/20"
+                              }`}>
+                                {question.options.find(o => o.id === selectedBatch01OptionId)?.isCorrect ? "정답 피드백" : "오답 피드백"}
+                              </span>
+                              <span className="text-xs font-bold text-classicRed font-serif">
+                                정답 어휘: {question.word} ({question.hanja})
+                              </span>
+                            </div>
+
+                            <div className="space-y-1.5 text-xs text-classicText leading-relaxed">
+                              {question.hun && (
+                                <p className="font-sans text-classicMuted">
+                                  <strong className="text-classicText font-semibold">한자 훈음:</strong> {question.hun}
+                                </p>
+                              )}
+                              <p className="font-sans">
+                                <strong className="text-classicText font-semibold">사전 정의:</strong> {question.definition}
+                              </p>
+                              <p className="font-serif font-medium text-sm text-classicText pt-1 border-t border-classicBorder/30">
+                                {question.explanation}
+                              </p>
+                            </div>
+
+                            <div className="flex justify-end pt-2">
+                              <button
+                                id="batch01QuizNextBtn"
+                                onClick={handleNextBatch01Question}
+                                className="px-5 py-2 bg-classicRed text-white hover:bg-classicRed/90 text-xs font-bold rounded-xl transition-all shadow-sm flex items-center gap-1"
+                                style={{ display: 'flex', alignItems: 'center' }}
+                              >
+                                <span>{currentBatch01Index < batch01Questions.length - 1 ? "다음 문제" : "결과 확인"}</span>
+                                <span>→</span>
+                              </button>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })()
+                ) : (
+                  /* 결과 화면 */
+                  <div className="text-center py-6 space-y-6 flex flex-col items-center">
+                    <div className="w-16 h-16 rounded-full bg-classicRed/10 flex items-center justify-center text-3xl animate-bounce">
+                      🚀
+                    </div>
+
+                    <div className="space-y-2">
+                      <h3 id="batch01QuizResultTitle" className="text-2xl font-serif font-black text-classicText">
+                        1차 확대 어휘 퀴즈 완료
+                      </h3>
+                      <p id="batch01QuizResultScore" className="text-sm text-classicMuted">
+                        {batch01Questions.length}문제 중 총 <span className="text-classicRed font-black text-lg">{batch01Score}문제</span> 정답
+                      </p>
+                    </div>
+
+                    <div className="flex gap-3 w-full max-w-sm" style={{ display: 'flex', gap: '0.75rem', width: '100%', justifyContent: 'center' }}>
+                      <button
+                        id="batch01QuizRestartBtn"
+                        onClick={handleStartBatch01Quiz}
+                        className="flex-1 py-3 bg-classicRed text-white hover:bg-classicRed/90 text-xs font-bold rounded-xl shadow-md transition-all"
+                      >
+                        다시 풀기
+                      </button>
+                      <button
+                        id="batch01QuizEndBtn"
+                        onClick={() => setShowBatch01Modal(false)}
+                        className="flex-1 py-3 bg-white hover:bg-classicBg border border-classicBorder text-classicText text-xs font-bold rounded-xl transition-all"
+                      >
+                        종료
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+          {/* 정식 수능 어휘 퀴즈 통합 모달 (38문항) */}
+          {showVocabModal && (
+            <div id="vocabQuizModal" className="fixed inset-0 bg-classicText/40 backdrop-blur-sm z-[9999] flex items-center justify-center p-3 sm:p-4">
+              <div 
+                ref={vocabModalScrollRef}
+                id="vocabQuizModalContainer"
+                className="w-full max-w-2xl bg-white rounded-3xl border border-classicBorder shadow-2xl p-5 sm:p-6 md:p-8 flex flex-col gap-5 md:gap-6 relative max-h-[90vh] max-h-[90dvh] overflow-y-auto overscroll-contain"
+                style={{ WebkitOverflowScrolling: 'touch' }}
+              >
+                <button
+                  id="vocabQuizCloseBtn"
+                  onClick={() => setShowVocabModal(false)}
+                  className="absolute top-4 right-4 text-classicMuted hover:text-classicRed transition-colors font-bold text-lg"
+                >
+                  ✕
+                </button>
+
+                {!vocabCategory ? (
+                  /* 영역 선택 화면 (Landing View) */
+                  <div className="space-y-5 text-center py-2">
+                    <div className="space-y-2">
+                      <div className="w-14 h-14 rounded-2xl bg-classicRed/10 border border-classicRed/20 mx-auto flex items-center justify-center text-3xl">
+                        ⚡
+                      </div>
+                      <h3 id="vocabQuizSelectorTitle" className="text-2xl font-serif font-black text-classicText">
+                        어휘 미니퀴즈 (공개 검수용 베타)
+                      </h3>
+                      <p className="text-sm text-classicRed font-bold leading-relaxed max-w-md mx-auto bg-classicRed/5 border border-classicRed/20 p-3 rounded-xl">
+                        “미니퀴즈 베타 — 문항을 보완하고 있습니다. 정답이나 설명이 모호하거나 난도가 적절하지 않다면 의견을 보내 주세요.”
+                      </p>
+                    </div>
+
+                    {/* 베타 문항 504개 포함 옵션 토글 (기본값: 포함) */}
+                    <div className="p-3.5 bg-amber-500/10 border border-amber-500/20 rounded-2xl text-left text-xs text-amber-900 flex flex-wrap items-center justify-between gap-3">
+                      <div className="space-y-0.5 max-w-xs">
+                        <div className="font-bold flex items-center gap-1.5 text-amber-800">
+                          <span>🧪 검수용 베타 옵션</span>
+                          <span className="text-[10px] bg-amber-200/60 text-amber-900 px-1.5 py-0.2 rounded font-mono font-bold">BETA</span>
+                        </div>
+                        <p className="text-[11px] text-amber-700 leading-snug">
+                          신규 베타 문항 504개를 출제 문제은행에 포함합니다. (해설에서 의견 복사 가능)
+                        </p>
+                      </div>
+                      <label className="flex items-center gap-2 cursor-pointer font-bold shrink-0 bg-white px-3.5 py-2 rounded-xl border border-amber-300 shadow-sm hover:border-amber-400 transition-all select-none">
+                        <input
+                          type="checkbox"
+                          checked={includeDrafts}
+                          onChange={(e) => setIncludeDrafts(e.target.checked)}
+                          className="rounded text-amber-600 focus:ring-amber-500 w-4 h-4 cursor-pointer"
+                        />
+                        <span className="text-amber-900 text-xs">베타 문항 포함 ({includeDrafts ? "661문항" : "157문항"})</span>
+                      </label>
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1 text-left">
+                      <button
+                        id="vocabSelectClassicBtn"
+                        onClick={() => handleStartVocabQuiz('classical')}
+                        className="p-5 rounded-2xl border-2 border-classicTeal/30 hover:border-classicTeal bg-classicTeal/5 hover:bg-classicTeal/10 transition-all flex flex-col justify-between gap-3 group cursor-pointer"
+                      >
+                        <div className="space-y-1">
+                          <div className="text-2xl">📜</div>
+                          <div className="font-serif font-bold text-classicTeal text-base group-hover:underline">
+                            고전·문학 어휘
+                          </div>
+                          <div className="text-xs text-classicMuted leading-relaxed">
+                            {includeDrafts ? "고전 필수 어휘 (기존 검토 문항 80 + 베타 문항 167)" : "고전 필수 어휘 (기존 검토 문항 80)"}
+                          </div>
+                        </div>
+                        <div className="text-xs font-bold text-classicTeal flex items-center justify-between pt-2 border-t border-classicTeal/20">
+                          <span>무작위 10문항</span>
+                          <span>시작하기 →</span>
+                        </div>
+                      </button>
+
+                      <button
+                        id="vocabSelectReadingBtn"
+                        onClick={() => handleStartVocabQuiz('reading')}
+                        className="p-5 rounded-2xl border-2 border-[#2D3748]/30 hover:border-[#2D3748] bg-[#2D3748]/5 hover:bg-[#2D3748]/10 transition-all flex flex-col justify-between gap-3 group cursor-pointer"
+                      >
+                        <div className="space-y-1">
+                          <div className="text-2xl">📖</div>
+                          <div className="font-serif font-bold text-[#2D3748] text-base group-hover:underline">
+                            독서·비문학 어휘
+                          </div>
+                          <div className="text-xs text-classicMuted leading-relaxed">
+                            {includeDrafts ? "학술 필수 어휘 (기존 검토 문항 77 + 베타 문항 337)" : "학술 필수 어휘 (기존 검토 문항 77)"}
+                          </div>
+                        </div>
+                        <div className="text-xs font-bold text-[#2D3748] flex items-center justify-between pt-2 border-t border-[#2D3748]/20">
+                          <span>무작위 10문항</span>
+                          <span>시작하기 →</span>
+                        </div>
+                      </button>
+
+                      <button
+                        id="vocabSelectAllBtn"
+                        onClick={() => handleStartVocabQuiz('all')}
+                        className="p-5 rounded-2xl border-2 border-classicRed/30 hover:border-classicRed bg-classicRed/5 hover:bg-classicRed/10 transition-all flex flex-col justify-between gap-3 group cursor-pointer"
+                      >
+                        <div className="space-y-1">
+                          <div className="text-2xl">⚡</div>
+                          <div className="font-serif font-bold text-classicRed text-base group-hover:underline">
+                            전체 영역 어휘
+                          </div>
+                          <div className="text-xs text-classicMuted leading-relaxed">
+                            {includeDrafts ? "전체 어휘 셔플 (기존 검토 문항 157 + 베타 문항 504)" : "전체 어휘 셔플 (기존 검토 문항 157)"}
+                          </div>
+                        </div>
+                        <div className="text-xs font-bold text-classicRed flex items-center justify-between pt-2 border-t border-classicRed/20">
+                          <span>무작위 10문항</span>
+                          <span>시작하기 →</span>
+                        </div>
+                      </button>
+                    </div>
+                  </div>
+                ) : !isVocabFinished ? (
+                  /* 퀴즈 풀이 화면 */
+                  (() => {
+                    const question = vocabQuestions[currentVocabIndex];
+                    if (!question) return null;
+                    const hasAnswered = selectedVocabOptionId !== null;
+
+                    return (
+                      <div className="space-y-6">
+                        {/* 헤더: 영역 배지, 기존검토/베타 상태 배지 & 진행도 */}
+                        <div className="flex items-center justify-between border-b border-classicBorder pb-3">
+                          <div className="flex items-center gap-2 flex-wrap">
+                            <span className="text-xs font-bold text-classicRed bg-classicRed/10 border border-classicRed/20 px-2.5 py-0.5 rounded">
+                              {question.domainLabel || (vocabCategory === 'classical' ? '📜 고전·문학' : vocabCategory === 'reading' ? '📖 독서·비문학' : '🎯 전체 어휘')}
+                            </span>
+                            <span className="text-xs font-medium text-classicMuted bg-classicBg border border-classicBorder px-2 py-0.5 rounded">
+                              {question.typeLabel || question.type}
+                            </span>
+                            {question.isDraft ? (
+                              <span className="text-xs font-bold text-amber-800 bg-amber-100 border border-amber-300 px-2 py-0.5 rounded flex items-center gap-1">
+                                <span>🧪 베타 문항</span>
+                              </span>
+                            ) : (
+                              <span className="text-xs font-bold text-green-800 bg-green-100 border border-green-300 px-2 py-0.5 rounded flex items-center gap-1">
+                                <span>✅ 기존 검토 문항</span>
+                              </span>
+                            )}
+                          </div>
+                          <div className="flex items-center gap-3">
+                            <button 
+                              onClick={() => setVocabCategory(null)}
+                              className="text-xs text-classicMuted hover:text-classicRed underline font-sans"
+                            >
+                              영역 변경
+                            </button>
+                            <span id="vocabQuizProgress" className="text-sm font-serif font-black text-classicText">
+                              문제 {currentVocabIndex + 1} / {vocabQuestions.length}
+                            </span>
+                          </div>
+                        </div>
+
+                        {/* 질문 및 본문 영역 */}
+                        <div className="space-y-3">
+                          <h4 id="vocabQuizQuestionTitle" className="text-lg font-serif font-bold text-classicText leading-relaxed">
+                            {question.question}
+                          </h4>
+
+                          {question.passage ? (
+                            <div id="vocabQuizPassage" className="bg-classicBg/60 border border-classicBorder/50 rounded-2xl p-5 text-sm text-classicText leading-relaxed font-medium space-y-2">
+                              <div>
+                                {question.type === "blank" && question.blankText ? (
+                                  renderContentWithBold(question.passage.replace(question.blankText, `**${question.blankText}**`))
+                                ) : question.type === "context_meaning" && question.targetHighlight ? (
+                                  renderContentWithBold(question.passage.replace(question.targetHighlight, `**${question.targetHighlight}**`))
+                                ) : (
+                                  renderContentWithBold(question.passage)
+                                )}
+                              </div>
+                              <div className="flex items-center justify-between pt-2 border-t border-classicBorder/30 text-xs text-classicMuted font-sans">
+                                <span>{question.isCreative ? "✍️ 학습용 창작 예문" : `📖 ${question.sourceLabel || "표준국어대사전 규범 정의"}`}</span>
+                                {question.word && (
+                                  <span className="font-serif text-classicRed font-bold">
+                                    {question.type === "blank" || question.type === "situation" ? (
+                                      hasAnswered ? `${question.word} (${question.hanja})` : "목표 어휘 (답변 후 공개)"
+                                    ) : (
+                                      `${question.word} (${question.hanja})`
+                                    )}
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          ) : (
+                            <div className="bg-classicBg/40 border border-classicBorder/40 rounded-xl p-3 text-xs text-classicMuted flex items-center justify-between">
+                              <span>📖 {question.sourceLabel || "표준국어대사전 규범 정의 기반 뜻 확인형 문항"}</span>
+                              {question.word && (
+                                <span className="font-serif text-classicRed font-bold">
+                                  {question.word} ({question.hanja})
+                                </span>
+                              )}
+                            </div>
+                          )}
+                        </div>
+
+                        {/* 선택지 목록 (4지선다) */}
+                        <div id="vocabQuizOptions" className="flex flex-col gap-2.5">
+                          {question.options.map((opt, oIdx) => {
+                            const isSelected = selectedVocabOptionId === opt.id;
+                            const isCorrectOpt = opt.isCorrect;
+
+                            let btnStyle = "bg-white border-classicBorder hover:border-classicRed hover:bg-classicRed/5 text-classicText";
+                            if (hasAnswered) {
+                              if (isCorrectOpt) {
+                                btnStyle = "bg-green-500/10 border-green-500 text-green-700 font-bold";
+                              } else if (isSelected) {
+                                btnStyle = "bg-red-500/10 border-red-500 text-red-700 font-bold";
+                              } else {
+                                btnStyle = "bg-white border-classicBorder opacity-60 pointer-events-none";
+                              }
+                            }
+
+                            return (
+                              <button
+                                key={opt.id}
+                                id={`vocabOptBtn-${oIdx}`}
+                                data-opt-id={opt.id}
+                                data-correct={isCorrectOpt}
+                                onClick={() => handleSelectVocabOption(opt.id)}
+                                disabled={hasAnswered}
+                                className={`w-full text-left p-4 rounded-2xl border text-sm transition-all flex items-center justify-between ${btnStyle}`}
+                                style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+                              >
+                                <span className="font-serif text-base font-medium">
+                                  {oIdx + 1}. {opt.text}
+                                </span>
+                                {hasAnswered && (
+                                  isCorrectOpt ? (
+                                    <span className="text-green-600 font-bold text-xs shrink-0">🎉 정답</span>
+                                  ) : isSelected ? (
+                                    <span className="text-red-600 font-bold text-xs shrink-0">❌ 오답</span>
+                                  ) : null
+                                )}
+                              </button>
+                            );
+                          })}
+                        </div>
+
+                        {/* 해설 피드백 박스 (선택 후 노출) */}
+                        {hasAnswered && (
+                          <div id="vocabQuizFeedback" className="p-5 bg-classicBg/70 border border-classicBorder rounded-2xl space-y-3 animate-fade-in">
+                            <div className="flex items-center justify-between flex-wrap gap-2 pb-2 border-b border-classicBorder/40">
+                              <div className="flex items-center gap-2 flex-wrap">
+                                <span className={`text-xs font-bold uppercase px-2.5 py-0.5 rounded border ${
+                                  question.options.find(o => o.id === selectedVocabOptionId)?.isCorrect
+                                    ? "bg-green-500/10 text-green-700 border-green-500/20"
+                                    : "bg-red-500/10 text-red-700 border-red-500/20"
+                                }`}>
+                                  {question.options.find(o => o.id === selectedVocabOptionId)?.isCorrect ? "정답 피드백" : "오답 피드백"}
+                                </span>
+                                <span className="text-xs font-bold text-classicRed font-serif">
+                                  정답 어휘: {question.word} ({question.hanja})
+                                </span>
+                                <span className="text-[11px] font-mono text-classicMuted bg-white px-2 py-0.5 rounded border border-classicBorder">
+                                  문항 ID: {question.id}
+                                </span>
+                              </div>
+                              <button
+                                id="vocabQuizCopyFeedbackBtn"
+                                onClick={() => handleCopyQuestionFeedback(question, selectedVocabOptionId)}
+                                className="px-3 py-1 bg-white hover:bg-amber-50 border border-amber-300 text-amber-900 text-xs font-bold rounded-lg shadow-sm transition-all flex items-center gap-1 active:scale-95 shrink-0 cursor-pointer"
+                              >
+                                <span>📋</span> 검수 의견 복사
+                              </button>
+                            </div>
+
+                            {/* 오답 선택 시 오답 해설 표시 */}
+                            {selectedVocabOptionId && 
+                             !question.options.find(o => o.id === selectedVocabOptionId)?.isCorrect && 
+                             question.distractorExplanations && 
+                             question.distractorExplanations[selectedVocabOptionId] && (
+                              <div className="p-3 bg-red-50/80 border border-red-200 rounded-xl text-xs text-red-800 font-sans space-y-1">
+                                <p className="font-semibold flex items-center gap-1">
+                                  <span>💡 선택한 오답 풀이:</span>
+                                </p>
+                                <p>{question.distractorExplanations[selectedVocabOptionId]}</p>
+                              </div>
+                            )}
+
+                            <div className="space-y-2 text-xs text-classicText leading-relaxed">
+                              {/* 1. explanation */}
+                              {question.explanation && (
+                                <p className="font-serif font-medium text-sm text-classicText pt-1">
+                                  {question.explanation}
+                                </p>
+                              )}
+
+                              {/* 2. definition */}
+                              {question.definition && (
+                                <p className="font-sans pt-1 border-t border-classicBorder/20">
+                                  <strong className="text-classicText font-semibold">
+                                    {question.definitionKind || "학습용 풀이"}:
+                                  </strong> {question.definition}
+                                </p>
+                              )}
+
+                              {/* 3. hun / hanjaExplanation */}
+                              {(question.hun || question.hanjaExplanation) && (
+                                <div className="font-sans text-classicMuted pt-1 border-t border-classicBorder/20 space-y-1">
+                                  {question.hun && (
+                                    <p>
+                                      <strong className="text-classicText font-semibold">한자 훈음:</strong> {question.hun}
+                                    </p>
+                                  )}
+                                  {question.hanjaExplanation && (
+                                    <p>
+                                      <strong className="text-classicText font-semibold">한자 해설:</strong> {question.hanjaExplanation}
+                                    </p>
+                                  )}
+                                </div>
+                              )}
+                            </div>
+
+                            <div className="flex justify-end pt-2">
+                              <button
+                                id="vocabQuizNextBtn"
+                                onClick={handleNextVocabQuestion}
+                                className="px-5 py-2 bg-classicRed text-white hover:bg-classicRed/90 text-xs font-bold rounded-xl transition-all shadow-sm flex items-center gap-1"
+                                style={{ display: 'flex', alignItems: 'center' }}
+                              >
+                                <span>{currentVocabIndex < vocabQuestions.length - 1 ? "다음 문제" : "결과 확인"}</span>
+                                <span>→</span>
+                              </button>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })()
+                ) : (
+                  /* 결과 화면 */
+                  <div className="text-center py-6 space-y-6 flex flex-col items-center">
+                    <div className="w-16 h-16 rounded-full bg-classicRed/10 flex items-center justify-center text-3xl animate-bounce">
+                      🏆
+                    </div>
+
+                    <div className="space-y-2">
+                      <h3 id="vocabQuizResultTitle" className="text-2xl font-serif font-black text-classicText">
+                        {vocabCategory === 'classical' ? '고전·문학 어휘 퀴즈 완료' : vocabCategory === 'reading' ? '독서·비문학 어휘 퀴즈 완료' : '전체 통합 어휘 퀴즈 완료'}
+                      </h3>
+                      <p id="vocabQuizResultScore" className="text-sm text-classicMuted">
+                        {vocabQuestions.length}문제 중 총 <span className="text-classicRed font-black text-lg">{vocabScore}문제</span> 정답 ({Math.round((vocabScore / vocabQuestions.length) * 100)}%)
+                      </p>
+                    </div>
+
+                    <div className="flex flex-wrap gap-3 w-full max-w-md justify-center">
+                      <button
+                        id="vocabQuizRestartBtn"
+                        onClick={() => handleStartVocabQuiz(vocabCategory)}
+                        className="flex-1 py-3 bg-classicRed text-white hover:bg-classicRed/90 text-xs font-bold rounded-xl shadow-md transition-all min-w-[120px]"
+                      >
+                        다시 풀기
+                      </button>
+                      <button
+                        id="vocabQuizChangeCategoryBtn"
+                        onClick={() => setVocabCategory(null)}
+                        className="flex-1 py-3 bg-classicTeal text-white hover:bg-classicTeal/90 text-xs font-bold rounded-xl shadow-md transition-all min-w-[120px]"
+                      >
+                        영역 변경
+                      </button>
+                      <button
+                        id="vocabQuizEndBtn"
+                        onClick={() => setShowVocabModal(false)}
+                        className="flex-1 py-3 bg-white hover:bg-classicBg border border-classicBorder text-classicText text-xs font-bold rounded-xl transition-all min-w-[100px]"
+                      >
+                        종료
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
 
     // Mount React App
     ReactDOM.render(<App />, document.getElementById('root'));

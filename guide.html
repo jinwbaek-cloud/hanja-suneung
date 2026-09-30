@@ -182,7 +182,7 @@
               기출 문맥 미니 퀴즈로 어휘 점검
             </h4>
             <p class="text-xs text-classicMuted leading-relaxed font-medium">
-              기출 문맥 미니 퀴즈를 통해 10문항씩 풀어볼 수 있습니다. 실제 기출 문맥의 빈칸에 들어갈 적절한 어휘를 4개의 선택지 가운데 고르고, 정답 확인 뒤 해당 어휘의 한자 표기를 함께 살펴봅니다.
+              미니퀴즈 베타를 통해 10문항씩 무작위로 풀어볼 수 있습니다. 4지선다 문항 풀이 후 정답·오답 피드백, 한자 훈음 및 문맥 해설을 확인하고, 오답이나 설명 개선이 필요한 경우 '검수 의견 복사' 버튼을 활용하여 손쉽게 의견을 전달할 수 있습니다.
             </p>
           </div>
         </div>
@@ -201,6 +201,40 @@
               확실하게 숙지된 어휘는 카드의 <strong>'다 외웠어요' 단추(👁️)</strong>를 눌러 목록에서 가려둘 수 있습니다. 익숙하지 않은 어휘를 선별하여 반복해서 살펴볼 수 있습니다.
             </p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Login-free Learning Record Storage Guide -->
+    <section class="classic-card rounded-3xl p-8 space-y-4 border-2 border-classicRed/20">
+      <h3 class="text-xl font-serif font-black text-classicText flex items-center gap-2">
+        <span class="text-2xl">🔒</span>
+        로그인 없이 학습 기록 자동 유지 안내
+      </h3>
+      <p class="text-xs md:text-sm text-classicMuted leading-relaxed font-medium">
+        한알국쉬 수능 플랫폼은 수험생의 학습 편의를 위해 <strong>별도의 회원가입이나 로그인 과정이 전혀 필요하지 않습니다.</strong>
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 text-xs md:text-sm">
+        <div class="p-4 rounded-2xl bg-classicBg/60 border border-classicBorder space-y-1">
+          <h4 class="font-serif font-bold text-classicRed">💾 학습 완료 기록(👁️) 저장 원리</h4>
+          <p class="text-classicMuted leading-relaxed font-sans">
+            카드의 <strong>'다 외웠어요(👁️)'</strong> 단추로 표시한 어휘 완료 기록은 현재 사용하시는 기기의 웹 브라우저 로컬 저장소(localStorage)에 저장되어, <strong>같은 기기·브라우저·프로필·사이트 주소에서 일반적으로 유지되며, 사이트 데이터 삭제 시 사라질 수 있습니다.</strong>
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-classicBg/60 border border-classicBorder space-y-1">
+          <h4 class="font-serif font-bold text-classicTeal">⚠️ 기기 간 미동기화 & 데이터 주의사항</h4>
+          <p class="text-classicMuted leading-relaxed font-sans">
+            서버 로그인이 없으므로 <strong>다른 기기(스마트폰↔PC) 간 자동 동기화는 지원되지 않습니다.</strong> 또한 인터넷 브라우저의 방문 기록/쿠키 삭제나 '시크릿/비공개 모드' 사용 시 기존 기록이 초기화될 수 있습니다.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-classicBg/60 border border-classicBorder space-y-1 md:col-span-2">
+          <h4 class="font-serif font-bold text-classicText">📊 학습 기록 vs 퀴즈 점수 데이터 구분</h4>
+          <p class="text-classicMuted leading-relaxed font-sans">
+            어휘 카드의 완료 상태(학습 완료 목록)는 같은 기기·브라우저·프로필·사이트 주소에서 일반적으로 유지되며, <strong>미니퀴즈의 회차별 점수 및 풀이 이력은 개별 세션 실습용</strong>으로 브라우저나 데이터베이스에 누적 저장되지 않습니다. 학습 기록은 언제든 메인 화면 상단의 <strong>[🔄 학습 기록 초기화]</strong> 버튼으로 직접 지울 수 있습니다.
+          </p>
         </div>
       </div>
     </section>

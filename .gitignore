@@ -1,9 +1,15 @@
-# PDF 폴더 전체 업로드 제외
+# PDF 폴더 및 대용량 문서 제외
 pdf/
 PDF/
-
-# 혹시 다른 폴더에 있는 모든 .pdf 파일도 제외
 *.pdf
+
+# 임시 스크립트 및 작업 백업/검토자료 Git 제외
+scratch/
+review_import_20260930/
+hanalgukshwi_batch02_rewrite/
+*.zip
+*.bak
+*.bak2
 
 # 운영체제 임시 파일 제외
 .DS_Store
