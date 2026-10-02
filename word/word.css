@@ -1,0 +1,385 @@
+/* word/word.css - Common stylesheet for Hanal Gukshi Suneung word SEO pages */
+:root {
+  --classicBg: #F9F6F0;
+  --classicText: #2C2520;
+  --classicRed: #8B263E;
+  --classicTeal: #3A606E;
+  --classicCard: #FDFCF7;
+  --classicBorder: #E6DFD3;
+  --classicMuted: #7A7267;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background-color: var(--classicBg);
+  color: var(--classicText);
+  font-family: 'Outfit', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  padding: 0 16px;
+  -webkit-font-smoothing: antialiased;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 0 64px;
+}
+header.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--classicBorder);
+}
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--classicRed);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.back-link:hover {
+  text-decoration: underline;
+}
+.service-tag {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--classicMuted);
+  background: rgba(122, 114, 103, 0.1);
+  padding: 4px 10px;
+  border-radius: 9999px;
+}
+.hero-card {
+  background: var(--classicCard);
+  border: 1px solid var(--classicBorder);
+  border-radius: 16px;
+  padding: 28px 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 20px -2px rgba(139, 38, 62, 0.04);
+}
+.category-pill {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--classicTeal);
+  background: rgba(58, 96, 110, 0.1);
+  padding: 3px 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+h1.word-title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--classicText);
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+.word-hanja {
+  font-family: 'Noto Serif KR', Georgia, serif;
+  color: var(--classicRed);
+  font-weight: 700;
+  margin-left: 6px;
+}
+.sound-info {
+  font-size: 14px;
+  color: var(--classicMuted);
+}
+.section-card {
+  background: var(--classicCard);
+  border: 1px solid var(--classicBorder);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 20px -2px rgba(139, 38, 62, 0.03);
+}
+h2.section-heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--classicText);
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid rgba(230, 223, 211, 0.7);
+  padding-bottom: 10px;
+}
+.brief-box {
+  background: #FFF9F3;
+  border: 1px solid #F0DCCE;
+  border-left: 4px solid var(--classicRed);
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4A2E18;
+  line-height: 1.5;
+}
+.definition-text {
+  font-size: 15px;
+  color: var(--classicText);
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+.source-meta {
+  font-size: 12px;
+  color: var(--classicMuted);
+}
+.hanja-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.hanja-char-card {
+  background: #F8F5EE;
+  border: 1px solid #E8E1D5;
+  border-radius: 10px;
+  padding: 14px 12px;
+  text-align: center;
+}
+.hanja-char {
+  font-family: 'Noto Serif KR', Georgia, serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--classicRed);
+  line-height: 1.1;
+  margin-bottom: 6px;
+}
+.hanja-hun-sound {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--classicText);
+  margin-bottom: 4px;
+}
+.hanja-meaning {
+  font-size: 11px;
+  color: var(--classicMuted);
+  line-height: 1.4;
+}
+.hanja-explanation {
+  font-size: 14px;
+  color: #3D3833;
+  line-height: 1.7;
+  background: rgba(58, 96, 110, 0.04);
+  border-left: 3px solid var(--classicTeal);
+  padding: 12px 14px;
+  border-radius: 0 8px 8px 0;
+}
+.homonym-notice {
+  margin-top: 14px;
+  background: #F0F4F6;
+  border: 1px solid #D0DEE5;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 13px;
+  color: #234351;
+}
+.homonym-link {
+  color: var(--classicRed);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.context-item {
+  padding: 16px 0;
+  border-bottom: 1px dashed var(--classicBorder);
+}
+.context-item:first-child {
+  padding-top: 0;
+}
+.context-item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.context-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.context-source-badge {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--classicRed);
+  background: rgba(139, 38, 62, 0.08);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.context-domain-badge {
+  font-size: 12px;
+  color: var(--classicMuted);
+  background: rgba(122, 114, 103, 0.08);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.context-passage {
+  font-size: 15px;
+  color: var(--classicText);
+  line-height: 1.7;
+  background: #FAF7F2;
+  border: 1px solid #ECE4D8;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  font-style: normal;
+}
+.tip-box {
+  background: #EDF4F2;
+  border: 1px solid #CCE0D9;
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 13px;
+  color: #1F453B;
+  line-height: 1.6;
+}
+.cta-card {
+  text-align: center;
+  background: linear-gradient(135deg, #FDFCF7 0%, #F5F0E6 100%);
+  border: 1px solid var(--classicBorder);
+  border-radius: 16px;
+  padding: 32px 20px;
+  margin-top: 32px;
+}
+.cta-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.cta-desc {
+  font-size: 13px;
+  color: var(--classicMuted);
+  margin-bottom: 18px;
+}
+.btn-primary {
+  display: inline-block;
+  background: var(--classicRed);
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  box-shadow: 0 4px 12px rgba(139, 38, 62, 0.25);
+  transition: transform 0.2s, background-color 0.2s;
+}
+.btn-primary:hover {
+  background: #731F33;
+  transform: translateY(-1px);
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.footer-links a {
+  color: var(--classicMuted);
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: var(--classicRed);
+  text-decoration: underline;
+}
+.site-footer {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 12px;
+  color: var(--classicMuted);
+}
+
+/* Styles for word/index.html */
+.index-jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  background: var(--classicCard);
+  border: 1px solid var(--classicBorder);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 24px;
+  justify-content: center;
+}
+.jump-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #F4EFE6;
+  color: var(--classicText);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+.jump-chip:hover {
+  background: var(--classicRed);
+  color: #fff;
+}
+.index-section {
+  margin-bottom: 32px;
+}
+.index-chosung-header {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--classicRed);
+  border-bottom: 2px solid var(--classicBorder);
+  padding-bottom: 8px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.index-chosung-count {
+  font-size: 12px;
+  color: var(--classicMuted);
+  font-weight: 500;
+}
+.index-word-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+.index-word-card {
+  display: block;
+  background: var(--classicCard);
+  border: 1px solid var(--classicBorder);
+  border-radius: 10px;
+  padding: 12px 14px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+}
+.index-word-card:hover {
+  border-color: var(--classicRed);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(139, 38, 62, 0.08);
+}
+.iwc-word {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--classicText);
+}
+.iwc-hanja {
+  font-family: 'Noto Serif KR', Georgia, serif;
+  font-size: 13px;
+  color: var(--classicRed);
+  margin-left: 4px;
+}
+.iwc-brief {
+  display: block;
+  font-size: 11px;
+  color: var(--classicMuted);
+  margin-top: 4px;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
