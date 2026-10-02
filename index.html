@@ -4,14 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="naver-site-verification" content="d93b48ae2cd0c662498df6ffe8ad2d025eb18f77" />
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLF2001H5Q"></script>
+  <!-- Google tag (gtag.js) - 운영 도메인에서만 활성화 -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    var ALLOWED_GA_HOSTS = ['suneung.easyhanja.org', 'hanja-suneung.netlify.app'];
+    if (ALLOWED_GA_HOSTS.indexOf(window.location.hostname) !== -1) {
+      var gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-YLF2001H5Q';
+      document.head.appendChild(gaScript);
 
-    gtag('config', 'G-YLF2001H5Q');
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-YLF2001H5Q');
+    }
   </script>
   <!-- Uncaught Error Boundary for Visual Overlay Debugging -->
   <script>
@@ -572,6 +578,34 @@
         }
       };
 
+      // --- GA4 이벤트 전송 안전 래퍼 (로컬/비운영 환경 안전 보장) ---
+      const sendGAEvent = (eventName, params = {}) => {
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', eventName, params);
+        }
+      };
+
+      const formatTerm = (word, hanja) => {
+        const w = (word || '').trim();
+        const h = (hanja || '').trim();
+        return h ? `${w}(${h})` : w;
+      };
+
+      const getQuestionCategory = (q) => {
+        if (!q) return 'unknown';
+        if (q.category && typeof q.category === 'string' && q.category.trim()) return q.category.trim();
+        if (q.domainLabel && typeof q.domainLabel === 'string' && q.domainLabel.trim()) return q.domainLabel.trim();
+        if (window.MOCK_WORDS && q.word && window.MOCK_WORDS[q.word]) {
+          const entry = window.MOCK_WORDS[q.word];
+          if (entry.contexts && entry.contexts.length > 0 && entry.contexts[0].domain) {
+            return entry.contexts[0].domain;
+          }
+          if (entry.category) return entry.category;
+        }
+        if (q.domain && typeof q.domain === 'string' && q.domain.trim()) return q.domain.trim();
+        return 'unknown';
+      };
+
       // --- 4지선다 수능형 미니 퀴즈 상태 ---
       const [showQuizModal, setShowQuizModal] = useState(false);
       const [quizQuestions, setQuizQuestions] = useState([]);
@@ -770,6 +804,7 @@
       const [vocabQuestions, setVocabQuestions] = useState([]);
       const [currentVocabIndex, setCurrentVocabIndex] = useState(0);
       const [vocabScore, setVocabScore] = useState(0);
+      const latestVocabScoreRef = useRef(0);
       const [selectedVocabOptionId, setSelectedVocabOptionId] = useState(null);
       const [isVocabFinished, setIsVocabFinished] = useState(false);
       const vocabModalScrollRef = useRef(null);
@@ -815,9 +850,15 @@
         setVocabQuestions(shuffledQuestions);
         setCurrentVocabIndex(0);
         setVocabScore(0);
+        latestVocabScoreRef.current = 0;
         setSelectedVocabOptionId(null);
         setIsVocabFinished(false);
         setShowVocabModal(true);
+
+        sendGAEvent('quiz_start', {
+          exam_type: 'suneung',
+          question_count: 10
+        });
 
         setTimeout(() => {
           if (vocabModalScrollRef.current) {
@@ -830,12 +871,25 @@
         if (selectedVocabOptionId !== null) return;
         setSelectedVocabOptionId(optId);
         const question = vocabQuestions[currentVocabIndex];
-        if (question) {
-          const selectedOpt = question.options.find(o => o.id === optId);
-          if (selectedOpt && selectedOpt.isCorrect) {
-            setVocabScore(prev => prev + 1);
-          }
+        if (!question) return;
+
+        const selectedOpt = question.options.find(o => o.id === optId);
+        const isCorrect = selectedOpt ? !!selectedOpt.isCorrect : false;
+        if (isCorrect) {
+          latestVocabScoreRef.current += 1;
+          setVocabScore(prev => prev + 1);
         }
+
+        const term = formatTerm(question.word, question.hanja);
+        const categoryVal = getQuestionCategory(question);
+
+        sendGAEvent('quiz_answer', {
+          exam_type: 'suneung',
+          term: term,
+          question_no: `q${currentVocabIndex + 1}`,
+          answer_result: isCorrect ? 'correct' : 'incorrect',
+          category: categoryVal
+        });
       };
 
       const handleNextVocabQuestion = () => {
@@ -844,12 +898,32 @@
           setCurrentVocabIndex(prev => prev + 1);
         } else {
           setIsVocabFinished(true);
+          const finalScore = latestVocabScoreRef.current;
+          sendGAEvent('quiz_complete', {
+            exam_type: 'suneung',
+            question_count: 10,
+            correct_count: finalScore,
+            score_pct: Math.round((finalScore / 10) * 100)
+          });
         }
         setTimeout(() => {
           if (vocabModalScrollRef.current) {
             vocabModalScrollRef.current.scrollTop = 0;
           }
         }, 50);
+      };
+
+      const handleCloseVocabQuiz = () => {
+        if (showVocabModal && vocabCategory && vocabQuestions.length > 0 && !isVocabFinished) {
+          const answeredCount = selectedVocabOptionId !== null ? currentVocabIndex + 1 : currentVocabIndex;
+          const exitPoint = answeredCount === 0 ? 'before_q1' : `after_q${answeredCount}`;
+          sendGAEvent('quiz_exit', {
+            exam_type: 'suneung',
+            question_count: 10,
+            exit_point: exitPoint
+          });
+        }
+        setShowVocabModal(false);
       };
 
       const handleCopyQuestionFeedback = (question, selectedOptId) => {
@@ -3203,7 +3277,7 @@
               >
                 <button
                   id="vocabQuizCloseBtn"
-                  onClick={() => setShowVocabModal(false)}
+                  onClick={handleCloseVocabQuiz}
                   className="absolute top-4 right-4 text-classicMuted hover:text-classicRed transition-colors font-bold text-lg"
                 >
                   ✕
