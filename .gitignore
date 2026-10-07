@@ -6,11 +6,6 @@ PDF/
 # 임시 스크립트 및 작업 백업/검토자료 Git 제외
 scratch/
 review_import_20260930/
-review_import_20261004/
-review_import_20261004 2/
-screenshots/
-browser_verification_summary.json
-hanalgukshwi_2017_2021_stage9C_final_report.md
 hanalgukshwi_batch02_rewrite/
 # 백업 및 내역 파일
 *.bak
