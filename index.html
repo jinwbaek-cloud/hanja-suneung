@@ -84,7 +84,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="canonical" href="https://suneung.easyhanja.org/">
-  <title>한알국쉬 수능판 v2.0.0 | 한자를 알면 국어가 쉬워집니다</title>
+  <title>한알국쉬 수능판 v2.1.0 | 한자를 알면 국어가 쉬워집니다</title>
   <meta name="robots" content="index, follow">
 
   <!-- SEO Meta Tags -->
@@ -372,6 +372,72 @@
 
     const MOCK_WORDS = window.MOCK_WORDS;
 
+    // --- v2.1.0 Storage Namespace & Date Helper ---
+    const V21_STORAGE = {
+      MASTERED: "hanal_suneung_v21_mastered",
+      LEGACY_PASSED: "suneung_passed_words",
+      TODAY: "hanal_suneung_v21_today",
+      DAILY_SET: "hanal_suneung_v21_daily_set",
+      BOOKMARKS: "hanal_suneung_v21_bookmarks",
+      INCORRECT: "hanal_suneung_v21_incorrect",
+      LAST_STUDIED: "hanal_suneung_v21_last_studied"
+    };
+
+    const getKSTDateString = () => {
+      if (typeof window !== "undefined") {
+        try {
+          const override = window.__OVERRIDE_KST_DATE__ || (window.sessionStorage && sessionStorage.getItem('__OVERRIDE_KST_DATE__'));
+          if (override) return override;
+        } catch (e) {}
+      }
+      const now = new Date();
+      const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+      const kst = new Date(utc + (9 * 3600000));
+      const year = kst.getFullYear();
+      const month = String(kst.getMonth() + 1).padStart(2, '0');
+      const day = String(kst.getDate()).padStart(2, '0');
+      return `${year}-${month}-${day}`;
+    };
+
+    // 오늘의 10어 생성 헬퍼 (미학습 어휘 중 비복원 무작위 최대 10개 추출)
+    const createNewDailySet = (currentPassedWords = []) => {
+      const todayStr = getKSTDateString();
+      if (!window.MOCK_WORDS) {
+        return { date: todayStr, wordIds: [], currentIndex: 0, goalCompletedSent: false, allCompleted: false };
+      }
+      const allKeys = Object.keys(window.MOCK_WORDS);
+      const unmastered = allKeys.filter(k => {
+        const item = window.MOCK_WORDS[k];
+        if (!item) return !currentPassedWords.includes(k);
+        return !currentPassedWords.includes(k) &&
+               !(item.id && currentPassedWords.includes(item.id)) &&
+               !currentPassedWords.includes(item.word);
+      });
+
+      if (unmastered.length === 0) {
+        return { date: todayStr, wordIds: [], currentIndex: 0, goalCompletedSent: false, allCompleted: true };
+      }
+
+      // Fisher-Yates 셔플로 중복 없는 무작위 선정
+      const pool = [...unmastered];
+      for (let i = pool.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [pool[i], pool[j]] = [pool[j], pool[i]];
+      }
+
+      const selected = pool.slice(0, Math.min(10, pool.length));
+      return {
+        date: todayStr,
+        wordIds: selected,
+        currentIndex: 0,
+        goalCompletedSent: false,
+        allCompleted: false
+      };
+    };
+    if (typeof window !== "undefined") {
+      window.createNewDailySet = createNewDailySet;
+    }
+
     // --- Classical Colors Mapping ---
     const CATEGORY_COLORS = {
       "구조 파악형": {
@@ -538,15 +604,100 @@
         };
       }, [showMobileMoreMenu]);
 
-      // --- 마스터/패스 상태 관리 ---
+      // --- v2.1.0 학습 시스템 상태 관리 (A~J 요구사항 반영) ---
+      // 1. 익힘 완료 어휘 목록 (v2.1 네임스페이스 + v2.0 레거시 마이그레이션 호환)
       const [passedWords, setPassedWords] = useState(() => {
         try {
-          const saved = localStorage.getItem("suneung_passed_words");
+          const v21Saved = localStorage.getItem(V21_STORAGE.MASTERED);
+          if (v21Saved) {
+            return JSON.parse(v21Saved);
+          }
+          const legacySaved = localStorage.getItem(V21_STORAGE.LEGACY_PASSED);
+          if (legacySaved) {
+            const parsed = JSON.parse(legacySaved);
+            if (Array.isArray(parsed)) {
+              localStorage.setItem(V21_STORAGE.MASTERED, JSON.stringify(parsed));
+              return parsed;
+            }
+          }
+        } catch (e) {
+          console.warn("[v2.1 Storage] Failed to load mastered words:", e);
+        }
+        return [];
+      });
+
+      // 2. 오늘의 10어 학습 시스템 세트 (하루 목표 10어, 5어 단위 2회 세션, KST 기준 유지/갱신)
+      const [dailySet, setDailySet] = useState(() => {
+        const todayStr = getKSTDateString();
+        try {
+          const saved = localStorage.getItem(V21_STORAGE.DAILY_SET);
+          if (saved) {
+            const parsed = JSON.parse(saved);
+            if (parsed && parsed.date === todayStr && Array.isArray(parsed.wordIds)) {
+              return parsed;
+            }
+          }
+        } catch (e) {
+          console.warn("[v2.1 Storage] Failed to load dailySet:", e);
+        }
+
+        // 초기 진입 시 미학습 어휘 기반으로 일일 세트 생성
+        let initialPassed = [];
+        try {
+          const v21Saved = localStorage.getItem(V21_STORAGE.MASTERED);
+          if (v21Saved) {
+            initialPassed = JSON.parse(v21Saved) || [];
+          } else {
+            const legacySaved = localStorage.getItem(V21_STORAGE.LEGACY_PASSED);
+            if (legacySaved) initialPassed = JSON.parse(legacySaved) || [];
+          }
+        } catch (e) {}
+
+        const newSet = createNewDailySet(initialPassed);
+        try {
+          localStorage.setItem(V21_STORAGE.DAILY_SET, JSON.stringify(newSet));
+        } catch (e) {}
+        return newSet;
+      });
+
+      // 3. 다시 보기 북마크 목록 (사용자가 직접 저장한 어휘)
+      const [reviewBookmarks, setReviewBookmarks] = useState(() => {
+        try {
+          const saved = localStorage.getItem(V21_STORAGE.BOOKMARKS);
           return saved ? JSON.parse(saved) : [];
         } catch (e) {
+          console.warn("[v2.1 Storage] Failed to load bookmarks:", e);
           return [];
         }
       });
+
+      // 4. 미니퀴즈 오답 자동 저장 맵 ({ [wordId]: { wordId, word, hanja, incorrectCount, lastIncorrectAt, history } })
+      const [quizIncorrectMap, setQuizIncorrectMap] = useState(() => {
+        try {
+          const saved = localStorage.getItem(V21_STORAGE.INCORRECT);
+          return saved ? JSON.parse(saved) : {};
+        } catch (e) {
+          console.warn("[v2.1 Storage] Failed to load incorrect map:", e);
+          return {};
+        }
+      });
+
+      // 5. 마지막 학습 위치 (어휘 key)
+      const [lastStudiedWordKey, setLastStudiedWordKey] = useState(() => {
+        try {
+          return localStorage.getItem(V21_STORAGE.LAST_STUDIED) || null;
+        } catch (e) {
+          return null;
+        }
+      });
+
+      // 6. 복습 모달 및 필터 상태
+      const [showReviewModal, setShowReviewModal] = useState(false);
+      const [reviewModalFilter, setReviewModalFilter] = useState('all'); // 'all', 'incorrect', 'bookmarks'
+
+      // 7. 메인 어휘 목록의 학습 상태 필터 ('all', 'unlearned', 'mastered', 'review')
+      const [learningStatusFilter, setLearningStatusFilter] = useState('all');
+
       const [fadingKeys, setFadingKeys] = useState([]);
       const [toastMessage, setToastMessage] = useState(null);
       const [isClosingDetail, setIsClosingDetail] = useState(false);
@@ -562,6 +713,102 @@
         }
       }, [toastMessage]);
 
+      // Storage 동기화 Effects
+      useEffect(() => {
+        try {
+          localStorage.setItem(V21_STORAGE.MASTERED, JSON.stringify(passedWords));
+          localStorage.setItem(V21_STORAGE.LEGACY_PASSED, JSON.stringify(passedWords));
+        } catch (e) {
+          console.error(e);
+        }
+      }, [passedWords]);
+
+      useEffect(() => {
+        if (dailySet) {
+          try {
+            localStorage.setItem(V21_STORAGE.DAILY_SET, JSON.stringify(dailySet));
+          } catch (e) {
+            console.error(e);
+          }
+        }
+      }, [dailySet]);
+
+      // KST 날짜 변경 감지 및 새로운 당일 10어 세트 자동 생성
+      useEffect(() => {
+        const currentKst = getKSTDateString();
+        if (!dailySet || dailySet.date !== currentKst) {
+          const freshSet = createNewDailySet(passedWords);
+          setDailySet(freshSet);
+        }
+      }, []);
+
+      // 오늘의 10어 전체 달성 시 daily_goal_complete 이벤트 1회 안전 발송
+      useEffect(() => {
+        if (!dailySet || !Array.isArray(dailySet.wordIds) || dailySet.wordIds.length === 0) return;
+        if (dailySet.goalCompletedSent) return;
+
+        const isGoalAchieved = dailySet.wordIds.every(id => isWordMastered(id));
+        if (isGoalAchieved) {
+          showToast("🎯 오늘의 10어 학습을 모두 완료했습니다! 꾸준한 학습이 국어 1등급의 밑거름입니다.");
+          sendGAEvent('daily_goal_complete', {
+            date: dailySet.date,
+            total_mastered: passedWords.length
+          });
+          setDailySet(prev => ({
+            ...prev,
+            goalCompletedSent: true
+          }));
+        }
+      }, [passedWords, dailySet]);
+
+      useEffect(() => {
+        try {
+          localStorage.setItem(V21_STORAGE.BOOKMARKS, JSON.stringify(reviewBookmarks));
+        } catch (e) {
+          console.error(e);
+        }
+      }, [reviewBookmarks]);
+
+      useEffect(() => {
+        try {
+          localStorage.setItem(V21_STORAGE.INCORRECT, JSON.stringify(quizIncorrectMap));
+        } catch (e) {
+          console.error(e);
+        }
+      }, [quizIncorrectMap]);
+
+      useEffect(() => {
+        if (lastStudiedWordKey) {
+          try {
+            localStorage.setItem(V21_STORAGE.LAST_STUDIED, lastStudiedWordKey);
+          } catch (e) {
+            console.error(e);
+          }
+        }
+      }, [lastStudiedWordKey]);
+
+      useEffect(() => {
+        try {
+          localStorage.setItem("suneung_dynamic_feeds", JSON.stringify(dynamicFeeds));
+        } catch (e) {
+          console.error(e);
+        }
+      }, [dynamicFeeds]);
+
+      // 어휘 익힘 완료 시 진도 갱신
+      const markWordAsMastered = (wordKey) => {
+        const isAlreadyMastered = passedWords.includes(wordKey);
+        if (!isAlreadyMastered) {
+          const nextMastered = [...passedWords, wordKey];
+          setPassedWords(nextMastered);
+          sendGAEvent('word_mastered', {
+            word: wordKey,
+            action: 'add',
+            total_mastered: nextMastered.length
+          });
+        }
+      };
+
       const closeDetailView = (callback) => {
         setIsClosingDetail(true);
         setTimeout(() => {
@@ -573,43 +820,247 @@
       };
 
       const handleMasterWord = (wordKey) => {
-        setPassedWords(prev => !prev.includes(wordKey) ? [...prev, wordKey] : prev);
-        showToast("🎉 수능 필수 어휘를 완벽히 마스터했습니다!");
-        closeDetailView();
+        if (!wordKey) return;
+        const alreadyMastered = isWordMastered(wordKey);
+        if (alreadyMastered) {
+          const target = window.MOCK_WORDS ? window.MOCK_WORDS[wordKey] : null;
+          const keysToRemove = [wordKey, target?.id, target?.word].filter(Boolean);
+          setPassedWords(prev => prev.filter(k => !keysToRemove.includes(k)));
+          showToast("익힘 완료 상태가 취소되었습니다.");
+          sendGAEvent('word_mastered', {
+            word: wordKey,
+            action: 'remove',
+            total_mastered: Math.max(0, passedWords.length - 1)
+          });
+        } else {
+          markWordAsMastered(wordKey);
+          showToast("🎉 수능 필수 어휘를 익힘 완료했습니다!");
+        }
       };
-
-      useEffect(() => {
-        try {
-          localStorage.setItem("suneung_passed_words", JSON.stringify(passedWords));
-        } catch (e) {
-          console.error(e);
-        }
-      }, [passedWords]);
-
-      useEffect(() => {
-        try {
-          localStorage.setItem("suneung_dynamic_feeds", JSON.stringify(dynamicFeeds));
-        } catch (e) {
-          console.error(e);
-        }
-      }, [dynamicFeeds]);
 
       const handlePassWord = (wordKey, e) => {
         if (e) e.stopPropagation();
         setFadingKeys(prev => [...prev, wordKey]);
         setTimeout(() => {
-          setPassedWords(prev => !prev.includes(wordKey) ? [...prev, wordKey] : prev);
+          markWordAsMastered(wordKey);
           setFadingKeys(prev => prev.filter(k => k !== wordKey));
-          setSelectedWord(current => (current && current.word === wordKey ? null : current));
+          setSelectedWord(current => (current && (current.id === wordKey || current.word === wordKey) ? null : current));
         }, 500);
       };
 
-      const handleResetPassed = () => {
-        if (confirm("학습 기록을 초기화하시겠습니까? 외운 단어들이 모두 복구됩니다.")) {
-          setPassedWords([]);
-          localStorage.removeItem("suneung_passed_words");
-          showToast("🔄 학습 기록이 초기화되었습니다.");
+      // D. 다시 보기 북마크 토글 핸들러
+      const handleToggleReviewBookmark = (wordKey) => {
+        setReviewBookmarks(prev => {
+          const exists = prev.includes(wordKey);
+          const next = exists ? prev.filter(k => k !== wordKey) : [...prev, wordKey];
+          if (exists) {
+            showToast("🔖 다시 보기 목록에서 제외되었습니다.");
+            sendGAEvent('review_removed', { word: wordKey, source: 'manual_bookmark' });
+          } else {
+            showToast("📑 다시 보기에 저장되었습니다. 복습 노트에서 언제든 확인하세요.");
+            sendGAEvent('review_added', { word: wordKey, source: 'manual_bookmark' });
+          }
+          return next;
+        });
+      };
+
+      // E. 미니퀴즈 오답 자동 저장 함수
+      const recordQuizIncorrect = (matchedKey, question) => {
+        if (!matchedKey || !window.MOCK_WORDS) return;
+        const target = window.MOCK_WORDS[matchedKey];
+        const nowIso = new Date().toISOString();
+
+        setQuizIncorrectMap(prev => {
+          const current = prev[matchedKey] || {
+            wordId: matchedKey,
+            word: target ? target.word : (question.word || matchedKey),
+            hanja: target ? (target.hanja || '') : (question.hanja || ''),
+            incorrectCount: 0,
+            lastIncorrectAt: null,
+            history: []
+          };
+          const nextCount = current.incorrectCount + 1;
+          return {
+            ...prev,
+            [matchedKey]: {
+              ...current,
+              word: target ? target.word : current.word,
+              hanja: target ? (target.hanja || '') : current.hanja,
+              incorrectCount: nextCount,
+              lastIncorrectAt: nowIso,
+              history: [...(current.history || []).slice(-9), { at: nowIso, questionId: question ? question.id : null }]
+            }
+          };
+        });
+      };
+
+      // 퀴즈 문제에서 MOCK_WORDS key 매칭 헬퍼
+      const findWordKeyFromQuizQuestion = (q) => {
+        if (!q || !window.MOCK_WORDS) return null;
+        if (q.db_id && window.MOCK_WORDS[q.db_id]) return q.db_id;
+        if (q.word && window.MOCK_WORDS[q.word]) return q.word;
+        const cleanQ = cleanWordText(q.word);
+        for (const k of Object.keys(window.MOCK_WORDS)) {
+          const item = window.MOCK_WORDS[k];
+          if (cleanWordText(item.word) === cleanQ) {
+            if (!q.hanja || item.hanja === q.hanja) return k;
+          }
         }
+        return q.db_id || q.word || null;
+      };
+
+      // 어휘 익힘 여부 판정 헬퍼 (ID, Word, Key 모두 지원)
+      const isWordMastered = (k) => {
+        if (!k || !window.MOCK_WORDS) return false;
+        const item = window.MOCK_WORDS[k];
+        if (!item) return passedWords.includes(k);
+        return passedWords.includes(k) || (item.id && passedWords.includes(item.id)) || passedWords.includes(item.word);
+      };
+
+      // 북마크(다시 보기) 여부 판정 헬퍼
+      const isWordBookmarked = (k) => {
+        if (!k) return false;
+        const item = window.MOCK_WORDS ? window.MOCK_WORDS[k] : null;
+        const keysToCheck = [k, item?.id, item?.word].filter(Boolean);
+        return keysToCheck.some(key => reviewBookmarks.includes(key));
+      };
+
+      // 복습 대상(북마크 또는 퀴즈 오답) 여부 판정 헬퍼
+      const isWordInReview = (k) => {
+        if (!k) return false;
+        const item = window.MOCK_WORDS ? window.MOCK_WORDS[k] : null;
+        const keysToCheck = [k, item?.id, item?.word].filter(Boolean);
+        const hasBookmark = keysToCheck.some(key => reviewBookmarks.includes(key));
+        const hasIncorrect = keysToCheck.some(key => !!quizIncorrectMap[key]);
+        return hasBookmark || hasIncorrect;
+      };
+
+      // 퀴즈 오답 상세 정보 가져오기 헬퍼
+      const getWordIncorrectInfo = (k) => {
+        if (!k) return null;
+        const item = window.MOCK_WORDS ? window.MOCK_WORDS[k] : null;
+        const keysToCheck = [k, item?.id, item?.word].filter(Boolean);
+        for (const key of keysToCheck) {
+          if (quizIncorrectMap[key]) return quizIncorrectMap[key];
+        }
+        return null;
+      };
+
+      // C. 이어서 학습하기 핸들러
+      const handleContinueLearning = () => {
+        if (!window.MOCK_WORDS) return;
+        const allKeys = Object.keys(window.MOCK_WORDS).sort((a, b) => {
+          const itemA = window.MOCK_WORDS[a];
+          const itemB = window.MOCK_WORDS[b];
+          if (!itemA || !itemB) return 0;
+          return koreanWordCollator.compare(cleanWordText(itemA.word), cleanWordText(itemB.word))
+            || koreanWordCollator.compare(itemA.hanja || "", itemB.hanja || "")
+            || koreanWordCollator.compare(itemA.id || a, itemB.id || b);
+        });
+
+        let nextKey = null;
+        if (lastStudiedWordKey) {
+          const lastIdx = allKeys.indexOf(lastStudiedWordKey);
+          if (lastIdx !== -1) {
+            for (let i = lastIdx + 1; i < allKeys.length; i++) {
+              if (!isWordMastered(allKeys[i])) {
+                nextKey = allKeys[i];
+                break;
+              }
+            }
+          }
+        }
+
+        if (!nextKey) {
+          for (let i = 0; i < allKeys.length; i++) {
+            if (!isWordMastered(allKeys[i])) {
+              nextKey = allKeys[i];
+              break;
+            }
+          }
+        }
+
+        if (!nextKey) {
+          showToast("🎉 1,045어 전체 학습을 완료했습니다! 복습 노트를 통해 헷갈리는 어휘를 점검하세요.");
+          return;
+        }
+
+        const targetItem = window.MOCK_WORDS[nextKey];
+        if (targetItem) {
+          selectAndScrollToWord(targetItem);
+          setLastStudiedWordKey(nextKey);
+          const totalWords = Object.keys(window.MOCK_WORDS).length;
+          const pct = Math.min(100, Math.round((passedWords.length / totalWords) * 100));
+          sendGAEvent('learning_continue', {
+            word: cleanWordText(targetItem.word),
+            hanja: targetItem.hanja || '',
+            progress_pct: pct
+          });
+        }
+      };
+
+      // F. 복습 대상 키 목록 (다시 보기 + 오답 합집합)
+      const reviewWordKeys = useMemo(() => {
+        const set = new Set([...reviewBookmarks, ...Object.keys(quizIncorrectMap)]);
+        return Array.from(set);
+      }, [reviewBookmarks, quizIncorrectMap]);
+
+      // F. 복습 모달 표시용 아이템 목록
+      const reviewListItems = useMemo(() => {
+        if (!window.MOCK_WORDS) return [];
+        const allReviewKeys = Array.from(new Set([...reviewBookmarks, ...Object.keys(quizIncorrectMap)]));
+
+        return allReviewKeys.map(k => {
+          const wordData = window.MOCK_WORDS[k] || Object.values(window.MOCK_WORDS).find(w => w.id === k || w.word === k);
+          const isBookmarked = isWordBookmarked(k);
+          const incorrectInfo = getWordIncorrectInfo(k);
+
+          return {
+            key: k,
+            wordData: wordData || { word: k, hanja: '', brief: '어휘 정보' },
+            isBookmarked,
+            incorrectInfo
+          };
+        }).filter(item => {
+          if (reviewModalFilter === 'bookmarks') return item.isBookmarked;
+          if (reviewModalFilter === 'incorrect') return !!item.incorrectInfo;
+          return true; // 'all'
+        }).sort((a, b) => {
+          return koreanWordCollator.compare(cleanWordText(a.wordData.word), cleanWordText(b.wordData.word));
+        });
+      }, [reviewBookmarks, quizIncorrectMap, reviewModalFilter]);
+
+      // I. 전체 학습 기록 초기화 핸들러 (확인 절차 포함)
+      const handleResetPassed = () => {
+        const confirmed = confirm(
+          "⚠️ 전체 학습 기록 초기화 안내\n\n" +
+          "지금까지 익힌 단어, 오늘의 학습 진행률, 다시 보기 및 퀴즈 오답 기록이 모두 초기화됩니다.\n\n" +
+          "정말로 모든 학습 기록을 초기화하시겠습니까?"
+        );
+        if (!confirmed) return;
+
+        setPassedWords([]);
+        setReviewBookmarks([]);
+        setQuizIncorrectMap({});
+        setLastStudiedWordKey(null);
+
+        // 당일 10어 세트 초기화 및 새로 생성
+        const freshDailySet = createNewDailySet([]);
+        setDailySet(freshDailySet);
+
+        try {
+          localStorage.removeItem(V21_STORAGE.MASTERED);
+          localStorage.removeItem(V21_STORAGE.LEGACY_PASSED);
+          localStorage.removeItem(V21_STORAGE.TODAY);
+          localStorage.removeItem(V21_STORAGE.BOOKMARKS);
+          localStorage.removeItem(V21_STORAGE.INCORRECT);
+          localStorage.removeItem(V21_STORAGE.LAST_STUDIED);
+          localStorage.setItem(V21_STORAGE.DAILY_SET, JSON.stringify(freshDailySet));
+        } catch (e) {
+          console.error(e);
+        }
+
+        showToast("🔄 모든 학습 기록이 안전하게 초기화되었습니다.");
       };
 
       // --- GA4 이벤트 전송 안전 래퍼 (로컬/비운영 환경 안전 보장) ---
@@ -691,6 +1142,9 @@
           const selectedOpt = question.options.find(o => o.id === optId);
           if (selectedOpt && selectedOpt.isCorrect) {
             setPilotScore(prev => prev + 1);
+          } else {
+            const matchedKey = findWordKeyFromQuizQuestion(question);
+            if (matchedKey) recordQuizIncorrect(matchedKey, question);
           }
         }
       };
@@ -752,6 +1206,9 @@
           const selectedOpt = question.options.find(o => o.id === optId);
           if (selectedOpt && selectedOpt.isCorrect) {
             setReadingPilotScore(prev => prev + 1);
+          } else {
+            const matchedKey = findWordKeyFromQuizQuestion(question);
+            if (matchedKey) recordQuizIncorrect(matchedKey, question);
           }
         }
       };
@@ -813,6 +1270,9 @@
           const selectedOpt = question.options.find(o => o.id === optId);
           if (selectedOpt && selectedOpt.isCorrect) {
             setBatch01Score(prev => prev + 1);
+          } else {
+            const matchedKey = findWordKeyFromQuizQuestion(question);
+            if (matchedKey) recordQuizIncorrect(matchedKey, question);
           }
         }
       };
@@ -912,6 +1372,12 @@
         if (isCorrect) {
           latestVocabScoreRef.current += 1;
           setVocabScore(prev => prev + 1);
+        } else {
+          // E. 오답 자동 저장
+          const matchedKey = findWordKeyFromQuizQuestion(question);
+          if (matchedKey) {
+            recordQuizIncorrect(matchedKey, question);
+          }
         }
 
         const term = formatTerm(question.word, question.hanja);
@@ -1163,8 +1629,13 @@
         if (selectedOptionIndex !== null) return;
         setSelectedOptionIndex(optIdx);
         const question = quizQuestions[currentQuizIndex];
-        if (question && question.options[optIdx] === question.word) {
-          setQuizScore(prev => prev + 1);
+        if (question) {
+          if (question.options[optIdx] === question.word) {
+            setQuizScore(prev => prev + 1);
+          } else {
+            const matchedKey = findWordKeyFromQuizQuestion(question);
+            if (matchedKey) recordQuizIncorrect(matchedKey, question);
+          }
         }
       };
 
@@ -1334,6 +1805,7 @@
         setSelectedWord(wordObj);
         setActiveDetailContext(0);
         setShowHanjaInContext(false);
+        setLastStudiedWordKey(wordObj.id || wordObj.word);
         if (!dynamicFeeds[wordObj.word]) {
           setDynamicFeeds(prev => {
             const next = Object.assign({}, prev);
@@ -1411,13 +1883,12 @@
         });
       };
 
-      // 중복 제거 및 필터링
-      const baseKeys = useMemo(() => {
+      // 1. 중복 제거된 고유 어휘 키 목록 (총 1,045어)
+      const uniqueKeys = useMemo(() => {
         if (!MOCK_WORDS) return [];
         const allKeys = Object.keys(MOCK_WORDS);
-        const uniqueKeys = [];
+        const res = [];
         const seenWords = new Set();
-
         allKeys.forEach(k => {
           const item = MOCK_WORDS[k];
           if (!item) return;
@@ -1425,25 +1896,118 @@
           const identityKey = (item.id || k) + "_" + (item.hanja || "");
           if (!seenWords.has(identityKey)) {
             seenWords.add(identityKey);
-            uniqueKeys.push(k);
+            res.push(k);
           }
         });
+        return res;
+      }, []);
 
-        const activeKeys = uniqueKeys.filter(k => {
-          const item = MOCK_WORDS[k];
-          const isPassed = passedWords.includes(k) || (item && item.id && passedWords.includes(item.id)) || (item && passedWords.includes(item.word));
-          return !isPassed || fadingKeys.includes(k);
-        });
+      // 2. 전체 통계치 산출
+      const totalWordsCount = uniqueKeys.length;
+      const masteredWordsCount = useMemo(() => {
+        return uniqueKeys.filter(k => isWordMastered(k)).length;
+      }, [uniqueKeys, passedWords]);
+      const unlearnedWordsCount = totalWordsCount - masteredWordsCount;
+      const masteredPct = totalWordsCount > 0 ? Math.min(100, Math.round((masteredWordsCount / totalWordsCount) * 100)) : 0;
+      // 오늘의 10어 학습 시스템 세션 및 진도 계산
+      const dailyWordIds = dailySet ? (dailySet.wordIds || []) : [];
+      const dailyTotal = dailyWordIds.length;
+      const dailyCompletedCount = dailyWordIds.filter(id => isWordMastered(id)).length;
+      const todayCount = dailyCompletedCount;
 
-        if (selectedClassicalFilter === "전체") {
-          return activeKeys;
-        } else if (selectedClassicalFilter === "일반") {
-          return activeKeys.filter(k => !MOCK_WORDS[k].isClassical && !(MOCK_WORDS[k].tags && MOCK_WORDS[k].tags.includes("고전문학")));
-        } else if (selectedClassicalFilter === "고전문학") {
-          return activeKeys.filter(k => MOCK_WORDS[k].isClassical === true || (MOCK_WORDS[k].tags && MOCK_WORDS[k].tags.includes("고전문학")));
+      const session1Ids = dailyWordIds.slice(0, 5);
+      const session2Ids = dailyWordIds.slice(5, 10);
+
+      const session1DoneCount = session1Ids.filter(id => isWordMastered(id)).length;
+      const session1Total = session1Ids.length;
+      const isSession1Done = session1Total > 0 && session1DoneCount >= session1Total;
+
+      const session2DoneCount = session2Ids.filter(id => isWordMastered(id)).length;
+      const session2Total = session2Ids.length;
+      const isSession2Done = session2Total > 0 && session2DoneCount >= session2Total;
+
+      const isAllDailyDone = dailyTotal > 0 && dailyCompletedCount >= dailyTotal;
+
+      let activeSessionNum = 1;
+      let currentSessionIds = session1Ids;
+      let currentSessionDoneCount = session1DoneCount;
+      let currentSessionTotal = session1Total;
+      let nextSessionWordId = null;
+      let sessionStatusLabel = "";
+      let sessionButtonLabel = "";
+
+      if (dailySet?.allCompleted || (dailyTotal === 0 && totalWordsCount > 0 && masteredWordsCount >= totalWordsCount)) {
+        sessionStatusLabel = "전체 학습 완료 (1,045 / 1,045어)";
+        sessionButtonLabel = "복습 노트 확인";
+      } else if (isAllDailyDone) {
+        sessionStatusLabel = `오늘의 10어 완료 (${dailyCompletedCount} / ${dailyTotal}어)`;
+        sessionButtonLabel = "오늘의 10어 완료";
+      } else if (!isSession1Done) {
+        activeSessionNum = 1;
+        currentSessionIds = session1Ids;
+        currentSessionDoneCount = session1DoneCount;
+        currentSessionTotal = session1Total;
+        nextSessionWordId = session1Ids.find(id => !isWordMastered(id)) || null;
+        sessionStatusLabel = `1차 학습 ${session1DoneCount} / ${session1Total}`;
+        sessionButtonLabel = session1DoneCount === 0 ? "5어 학습 시작" : "이어서 학습하기";
+      } else {
+        activeSessionNum = 2;
+        currentSessionIds = session2Ids;
+        currentSessionDoneCount = session2DoneCount;
+        currentSessionTotal = session2Total;
+        nextSessionWordId = session2Ids.find(id => !isWordMastered(id)) || null;
+        if (session2DoneCount === 0) {
+          sessionStatusLabel = `오늘 5 / ${dailyTotal}어 완료`;
+          sessionButtonLabel = "5어 더 학습하기";
+        } else {
+          sessionStatusLabel = `2차 학습 ${session2DoneCount} / ${session2Total}`;
+          sessionButtonLabel = "이어서 학습하기";
         }
-        return activeKeys;
-      }, [selectedClassicalFilter, passedWords, fadingKeys]);
+      }
+
+      const handleDailySessionAction = () => {
+        if (isAllDailyDone || dailySet?.allCompleted) {
+          setShowReviewModal(true);
+          return;
+        }
+
+        if (nextSessionWordId && window.MOCK_WORDS && window.MOCK_WORDS[nextSessionWordId]) {
+          const targetWord = window.MOCK_WORDS[nextSessionWordId];
+          const targetIdx = dailyWordIds.indexOf(nextSessionWordId);
+          setDailySet(prev => ({
+            ...prev,
+            currentIndex: targetIdx !== -1 ? targetIdx : (prev.currentIndex || 0)
+          }));
+          selectAndScrollToWord(targetWord);
+        } else {
+          showToast("오늘의 10어 학습을 모두 완료했습니다!");
+        }
+      };
+
+      // 3. H. 학습 상태 필터링 (전체 · 미학습 · 익힘 완료 · 복습)
+      const learningFilteredKeys = useMemo(() => {
+        if (learningStatusFilter === 'unlearned') {
+          return uniqueKeys.filter(k => !isWordMastered(k) || fadingKeys.includes(k));
+        } else if (learningStatusFilter === 'mastered') {
+          return uniqueKeys.filter(k => isWordMastered(k));
+        } else if (learningStatusFilter === 'review') {
+          return uniqueKeys.filter(k => isWordInReview(k));
+        }
+        // 'all' (전체):
+        return uniqueKeys;
+      }, [uniqueKeys, learningStatusFilter, passedWords, reviewBookmarks, quizIncorrectMap, fadingKeys]);
+
+      // 4. 고전문학 / 일반 필터링
+      const baseKeys = useMemo(() => {
+        if (selectedClassicalFilter === "전체") {
+          return learningFilteredKeys;
+        } else if (selectedClassicalFilter === "일반") {
+          return learningFilteredKeys.filter(k => !MOCK_WORDS[k].isClassical && !(MOCK_WORDS[k].tags && MOCK_WORDS[k].tags.includes("고전문학")));
+        } else if (selectedClassicalFilter === "고전문학") {
+          return learningFilteredKeys.filter(k => MOCK_WORDS[k].isClassical === true || (MOCK_WORDS[k].tags && MOCK_WORDS[k].tags.includes("고전문학")));
+        }
+        return learningFilteredKeys;
+      }, [learningFilteredKeys, selectedClassicalFilter]);
 
       const categoryFilteredWords = useMemo(() => {
         if (selectedCategory === "전체보기") return baseKeys;
@@ -1653,7 +2217,7 @@
                 </div>
                 <div>
                   <h1 className="text-2xl font-serif font-black tracking-tight text-classicText flex items-center gap-2">
-                    한알국쉬 수능판 <span className="text-xs font-sans font-bold text-classicRed bg-classicRed/10 border border-classicRed/20 px-1.5 py-0.5 rounded">v2.0.0</span>
+                    한알국쉬 수능판 <span className="text-xs font-sans font-bold text-classicRed bg-classicRed/10 border border-classicRed/20 px-1.5 py-0.5 rounded">v2.1.0</span>
                   </h1>
                   <p className="text-xs text-classicMuted font-serif font-medium tracking-wide mt-0.5">
                     한자를 알면 국어가 쉬워집니다 (수능 국어 특화)
@@ -1689,6 +2253,18 @@
                   style={{ display: 'flex', alignItems: 'center' }}
                 >
                   <span>⚡</span> 어휘 미니퀴즈
+                </button>
+
+                <button
+                  id="openReviewNoteBtn"
+                  onClick={() => {
+                    setShowReviewModal(true);
+                    sendGAEvent('review_open', { source: 'desktop_nav', count: reviewWordKeys.length });
+                  }}
+                  className="flex items-center gap-2 px-4 py-2.5 bg-classicCard border-2 border-classicBorder hover:border-amber-500 hover:text-amber-800 text-sm font-black rounded-xl shadow-sm transition-all duration-300 transform active:scale-95 shrink-0"
+                  style={{ display: 'flex', alignItems: 'center' }}
+                >
+                  <span>🔖</span> 나의 복습 노트 ({reviewWordKeys.length})
                 </button>
 
                 <button
@@ -1750,7 +2326,7 @@
 
                 <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-classicTeal/5 border border-classicTeal/15 text-classicTeal shrink-0" style={{ display: 'inline-flex', alignItems: 'center' }}>
                   <span className="w-1.5 h-1.5 rounded-full bg-classicTeal animate-pulse"></span>
-                  남은 어휘 {baseKeys.length}개 / 완료 {passedWords.length}개
+                  익힘 {masteredWordsCount} / 1,045어 ({masteredPct}%)
                 </span>
               </div>
             </div>
@@ -1784,6 +2360,18 @@
                       id="mobileMoreDropdown"
                       className="absolute right-0 top-full mt-2 w-56 bg-white border border-classicBorder rounded-2xl shadow-xl p-2 z-50 flex flex-col gap-1.5"
                     >
+                      <button
+                        id="mobileOpenReviewNoteBtn"
+                        onClick={() => {
+                          setShowMobileMoreMenu(false);
+                          setShowReviewModal(true);
+                          sendGAEvent('review_open', { source: 'mobile_more_menu', count: reviewWordKeys.length });
+                        }}
+                        className="w-full flex items-center gap-2 px-3 py-2 text-left text-xs font-bold text-classicText hover:bg-classicBg rounded-xl transition-colors"
+                      >
+                        <span>🔖</span> 나의 복습 노트 ({reviewWordKeys.length}개)
+                      </button>
+
                       <button
                         onClick={() => { setShowMobileMoreMenu(false); window.print(); }}
                         className="w-full flex items-center gap-2 px-3 py-2 text-left text-xs font-bold text-classicText hover:bg-classicBg rounded-xl transition-colors"
@@ -1836,52 +2424,148 @@
 
                 <span className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-full text-[11px] font-semibold bg-classicTeal/5 border border-classicTeal/15 text-classicTeal shrink-0 whitespace-nowrap">
                   <span className="w-1.5 h-1.5 rounded-full bg-classicTeal animate-pulse"></span>
-                  남은 {baseKeys.length}개 / 완료 {passedWords.length}개
+                  익힘 {masteredWordsCount} / 1,045어 ({masteredPct}%)
                 </span>
               </div>
             </div>
           </header>
 
-          {/* Today's Recommendation Section */}
-          <section className="flex flex-col items-center justify-center gap-6 max-w-2xl mx-auto w-full my-4">
-            <div className="text-center">
-              <h2 className="text-3xl md:text-4xl font-serif font-black tracking-tight mb-2 text-classicText">
-                오늘의 <span className="text-classicRed font-serif">추천 어휘</span>
-              </h2>
-              <p className="text-classicMuted text-sm">
-                새로고침할 때마다 수능 및 모의평가 기출 어휘 중 하나를 무작위로 선정합니다.
-              </p>
-            </div>
+          {/* Today's 10-Word Learning Section */}
+          <section id="todayDailySetSection" className="max-w-3xl mx-auto w-full my-4 px-2">
+            <div className="classic-card rounded-2xl p-5 md:p-6 w-full border border-classicBorder shadow-classic hover:shadow-classic-hover transition-all duration-300 bg-classicCard relative overflow-hidden">
+              <div className="absolute -right-12 -top-12 w-32 h-32 rounded-full bg-classicRed/5 blur-xl pointer-events-none"></div>
 
-            {todayWord && (
-              <div
-                onClick={() => selectAndScrollToWord(todayWord)}
-                className="classic-card rounded-2xl p-6 md:p-8 w-full border border-classicBorder shadow-classic hover:shadow-classic-hover hover:border-classicRed/20 transition-all duration-300 cursor-pointer group flex flex-col sm:flex-row items-center justify-between gap-6 bg-classicCard relative overflow-hidden"
-              >
-                <div className="absolute -right-16 -top-16 w-32 h-32 rounded-full bg-classicRed/5 blur-xl pointer-events-none group-hover:opacity-10 transition-all duration-300"></div>
-
-                <div className="space-y-3 flex-1 text-center sm:text-left">
-                  <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2.5">
-                    <span className="text-3xl md:text-4xl font-serif font-black text-classicText group-hover:text-classicRed transition-colors">
-                      {cleanWordText(todayWord.word)}
-                    </span>
-                    <span className="text-lg font-serif text-classicMuted bg-classicBg border border-classicBorder px-2.5 py-0.5 rounded-lg">
-                      {todayWord.hanja}
-                    </span>
-                    <span className="text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded bg-classicRed/10 border border-classicRed/20 text-classicRed">
-                      {todayWord.category}
+              {/* Header Row */}
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-classicBorder/60">
+                <div>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="w-2 h-2 rounded-full bg-classicRed"></span>
+                    <h2 className="text-xl md:text-2xl font-serif font-black tracking-tight text-classicText">
+                      오늘의 10어
+                    </h2>
+                    <span className="px-2 py-0.5 rounded-full text-[11px] font-bold bg-classicRed/10 text-classicRed border border-classicRed/20">
+                      {sessionStatusLabel}
                     </span>
                   </div>
-                  <p className="text-sm font-medium text-classicText leading-relaxed italic">
-                    “{todayWord.brief}”
+                  <p className="text-xs text-classicMuted mt-1">
+                    수능·모의평가 기출에서 고른 오늘의 한자어 10개
                   </p>
                 </div>
 
-                <div className="shrink-0 flex items-center gap-1.5 text-xs font-bold text-classicMuted group-hover:text-classicRed transition-all">
-                  상세 학습하기 <ArrowRightIcon className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                <div className="flex items-center gap-2 self-start sm:self-auto">
+                  <span className="text-xs font-semibold text-classicText bg-classicBg border border-classicBorder px-2.5 py-1 rounded-lg">
+                    오늘 <strong className="text-classicRed font-bold">{dailyCompletedCount}</strong> / {dailyTotal > 0 ? dailyTotal : 10}어
+                  </span>
+                  {isAllDailyDone && (
+                    <span className="text-emerald-700 bg-emerald-50 border border-emerald-300 text-[11px] font-bold px-2 py-0.5 rounded-md flex items-center gap-1">
+                      ✓ 완료
+                    </span>
+                  )}
                 </div>
               </div>
-            )}
+
+              {/* Progress Bar (Overall 10 words) */}
+              <div className="mt-3.5 space-y-1.5">
+                <div className="w-full bg-classicBorder/40 rounded-full h-2 overflow-hidden">
+                  <div
+                    className="bg-classicRed h-full rounded-full transition-all duration-500"
+                    style={{ width: `${dailyTotal > 0 ? Math.min(100, Math.round((dailyCompletedCount / dailyTotal) * 100)) : 0}%` }}
+                  />
+                </div>
+              </div>
+
+              {/* Active Session Words (5 Word Chips) */}
+              {currentSessionIds.length > 0 && !isAllDailyDone && (
+                <div className="mt-4 pt-3 border-t border-classicBorder/40">
+                  <div className="flex items-center justify-between text-xs text-classicMuted mb-2">
+                    <span className="font-medium text-classicText">
+                      {activeSessionNum === 1 ? "1차 학습 어휘 (1~5번)" : "2차 학습 어휘 (6~10번)"}
+                    </span>
+                    <span className="text-[11px]">
+                      {currentSessionDoneCount} / {currentSessionTotal} 완료
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
+                    {currentSessionIds.map((wordKey, idx) => {
+                      const wordObj = window.MOCK_WORDS ? window.MOCK_WORDS[wordKey] : null;
+                      if (!wordObj) return null;
+                      const mastered = isWordMastered(wordKey);
+                      const isNext = wordKey === nextSessionWordId;
+                      return (
+                        <button
+                          key={wordKey}
+                          type="button"
+                          onClick={() => {
+                            const targetIdx = dailyWordIds.indexOf(wordKey);
+                            setDailySet(prev => ({
+                              ...prev,
+                              currentIndex: targetIdx !== -1 ? targetIdx : (prev.currentIndex || 0)
+                            }));
+                            selectAndScrollToWord(wordObj);
+                          }}
+                          className={`flex items-center justify-between p-2 rounded-xl text-left border transition-all text-xs ${
+                            mastered
+                              ? "bg-classicBg/60 border-classicBorder/60 text-classicMuted line-through opacity-75"
+                              : isNext
+                              ? "bg-classicRed/5 border-classicRed/40 text-classicText font-bold shadow-xs ring-1 ring-classicRed/20"
+                              : "bg-classicCard border-classicBorder text-classicText hover:border-classicBorder/80"
+                          }`}
+                          title={`${cleanWordText(wordObj.word)} (${wordObj.hanja}): ${wordObj.brief}`}
+                        >
+                          <div className="truncate pr-1">
+                            <span className="font-serif">{cleanWordText(wordObj.word)}</span>
+                            <span className="text-[10px] text-classicMuted ml-1">({wordObj.hanja})</span>
+                          </div>
+                          <span className="text-[11px] shrink-0 font-medium">
+                            {mastered ? "✓" : isNext ? "▶" : `${(activeSessionNum - 1) * 5 + idx + 1}`}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* Restrained Completion Notice */}
+              {isAllDailyDone && (
+                <div className="mt-4 p-3.5 rounded-xl bg-classicBg border border-classicBorder text-center space-y-1">
+                  <p className="text-sm font-serif font-bold text-classicText">
+                    오늘의 10어 학습을 모두 완료했습니다.
+                  </p>
+                  <p className="text-xs text-classicMuted">
+                    내일 한국시간(KST) 자정 이후 새로운 10어가 준비됩니다. 복습 노트를 통해 배운 어휘를 점검하세요.
+                  </p>
+                </div>
+              )}
+
+              {/* Footer Action Row */}
+              <div className="mt-4 pt-3 flex flex-col sm:flex-row items-center justify-between gap-3 border-t border-classicBorder/40">
+                <div className="text-[11px] text-classicMuted order-2 sm:order-1 text-center sm:text-left">
+                  {isAllDailyDone
+                    ? "오늘 선정한 10어를 모두 익혔습니다."
+                    : activeSessionNum === 1
+                    ? "첫 5어를 완료하면 다음 5어로 이어집니다."
+                    : "2차 5어를 완료하면 오늘의 10어 학습이 끝납니다."}
+                </div>
+
+                <div className="order-1 sm:order-2 w-full sm:w-auto">
+                  <button
+                    id="dailySessionBtn"
+                    type="button"
+                    onClick={handleDailySessionAction}
+                    className={`w-full sm:w-auto px-5 py-2.5 rounded-xl text-xs font-serif font-bold transition-all flex items-center justify-center gap-1.5 shadow-sm active:scale-95 ${
+                      isAllDailyDone
+                        ? "bg-classicCard text-classicText border border-classicBorder hover:bg-classicBg"
+                        : "bg-classicRed text-white hover:bg-opacity-95"
+                    }`}
+                  >
+                    <span>{isAllDailyDone ? "🔖" : "📖"}</span>
+                    <span>{sessionButtonLabel}</span>
+                    {!isAllDailyDone && <ArrowRightIcon className="w-3.5 h-3.5 ml-0.5" />}
+                  </button>
+                </div>
+              </div>
+            </div>
           </section>
 
           {selectedWord ? (
@@ -1934,19 +2618,42 @@
                     )}
                   </div>
 
-                  <div className="flex items-center gap-2 shrink-0" style={{ display: 'flex', alignItems: 'center' }}>
+                  <div className="flex items-center gap-2 shrink-0 flex-wrap" style={{ display: 'flex', alignItems: 'center' }}>
                     <span className="px-3 py-1 bg-classicBg/60 rounded-lg text-xs font-medium text-classicMuted flex items-center gap-1.5" style={{ display: 'inline-flex', alignItems: 'center' }}>
                       <FlameIcon className="w-3.5 h-3.5 text-classicRed" /> 기출 분석 완료
                     </span>
+                    {/* D. 다시 보기 토글 버튼 */}
                     <button
-                      onClick={() => handleMasterWord(selectedWord.word)}
-                      className="px-3 py-1 bg-classicRed hover:bg-opacity-95 text-white border border-classicRed rounded-lg text-xs font-bold flex items-center gap-1.5 transition-all transform active:scale-95 shadow-sm"
+                      id="toggleReviewBookmarkBtn"
+                      type="button"
+                      onClick={() => handleToggleReviewBookmark(selectedWord.id || selectedWord.word)}
+                      className={`px-3 py-1 border rounded-lg text-xs font-bold flex items-center gap-1.5 transition-all transform active:scale-95 shadow-sm ${
+                        isWordBookmarked(selectedWord.id || selectedWord.word)
+                          ? "bg-amber-100 text-amber-900 border-amber-300 hover:bg-amber-200"
+                          : "bg-classicCard hover:bg-classicBg text-classicText border-classicBorder"
+                      }`}
+                      style={{ display: 'inline-flex', alignItems: 'center' }}
+                      title="헷갈리거나 다시 볼 어휘를 복습 노트에 보관합니다"
+                    >
+                      <span>{isWordBookmarked(selectedWord.id || selectedWord.word) ? "🔖 다시 보기 저장됨" : "🔖 다시 보기"}</span>
+                    </button>
+                    {/* 익힘 완료 토글 버튼 */}
+                    <button
+                      id="masterWordBtn"
+                      type="button"
+                      onClick={() => handleMasterWord(selectedWord.id || selectedWord.word)}
+                      className={`px-3 py-1 rounded-lg text-xs font-bold flex items-center gap-1.5 transition-all transform active:scale-95 shadow-sm ${
+                        isWordMastered(selectedWord.id || selectedWord.word)
+                          ? "bg-emerald-600 hover:bg-emerald-700 text-white border border-emerald-700"
+                          : "bg-classicRed hover:bg-opacity-95 text-white border border-classicRed"
+                      }`}
                       style={{ display: 'inline-flex', alignItems: 'center' }}
                     >
-                      <span>👁️</span> 이 단어 마스터 완료
+                      <span>{isWordMastered(selectedWord.id || selectedWord.word) ? "✓ 익힘 완료됨" : "✓ 익힘 완료"}</span>
                     </button>
                     <button
                       id="closeDetailBtn"
+                      type="button"
                       onClick={() => closeDetailView()}
                       className="px-3 py-1 bg-classicCard hover:bg-classicBg border border-classicBorder rounded-lg text-xs font-bold text-classicText transition-colors"
                     >
@@ -2386,6 +3093,79 @@
                 </div>
               </div>
 
+              {/* G. 메인 화면의 ‘나의 학습’ 영역 */}
+              <div id="myLearningDashboard" className="classic-card rounded-2xl p-4 sm:p-5 shadow-sm border border-classicBorder/80 bg-white/70 space-y-3">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <div className="space-y-2 flex-1">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="font-serif font-black text-sm text-classicText flex items-center gap-1.5">
+                        <span className="w-2 h-2 rounded-full bg-classicRed"></span>
+                        나의 학습
+                      </span>
+                      <span className="text-xs text-classicMuted font-serif">
+                        {totalWordsCount.toLocaleString()}어 중 {masteredWordsCount.toLocaleString()}어 익힘 · {masteredPct}%
+                      </span>
+                    </div>
+
+                    {/* A. 시각적으로 과장하지 않은 간결한 progress bar */}
+                    <div className="w-full bg-classicBorder/40 rounded-full h-1.5 overflow-hidden">
+                      <div
+                        className="bg-classicRed h-full rounded-full transition-all duration-500"
+                        style={{ width: `${masteredPct}%` }}
+                      />
+                    </div>
+
+                    {/* B & F. 오늘의 학습 및 복습 카운트 */}
+                    <div className="flex items-center gap-3 text-xs font-medium text-classicMuted pt-0.5 flex-wrap">
+                      <span className="flex items-center gap-1">
+                        <span className="text-classicText font-bold">오늘</span> {dailyCompletedCount} / {dailyTotal > 0 ? dailyTotal : 10}어
+                        {dailyTotal > 0 && dailyCompletedCount >= dailyTotal && (
+                          <span className="text-emerald-700 bg-emerald-100 border border-emerald-300 text-[10px] font-bold px-1.5 py-0.2 rounded ml-1">
+                            목표 달성
+                          </span>
+                        )}
+                      </span>
+                      <span className="text-classicBorder">·</span>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setShowReviewModal(true);
+                          sendGAEvent('review_open', { source: 'dashboard_card', count: reviewWordKeys.length });
+                        }}
+                        className="hover:text-classicRed hover:underline flex items-center gap-1 transition-colors text-classicText"
+                        title="복습 노트 열기"
+                      >
+                        복습할 어휘 <strong className="text-classicRed font-bold">{reviewWordKeys.length}</strong>개
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* C. 이어서 학습하기 버튼 */}
+                  <div className={"w-full sm:w-auto items-center gap-2 shrink-0 " + (reviewWordKeys.length > 0 ? "grid grid-cols-2 sm:flex" : "flex")}>
+                    <button
+                      id="continueLearningBtn"
+                      type="button"
+                      onClick={handleContinueLearning}
+                      className="w-full sm:w-auto px-4 py-2.5 bg-classicRed hover:bg-opacity-95 text-white rounded-xl text-xs font-bold font-serif flex items-center justify-center gap-1.5 transition-all shadow-sm active:scale-95 text-center"
+                    >
+                      <span>📖</span> 이어서 학습하기
+                    </button>
+                    {reviewWordKeys.length > 0 && (
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setShowReviewModal(true);
+                          sendGAEvent('review_open', { source: 'dashboard_button', count: reviewWordKeys.length });
+                        }}
+                        className="w-full sm:w-auto px-3 py-2.5 bg-classicCard hover:bg-classicBg text-classicText border border-classicBorder rounded-xl text-xs font-bold font-serif flex items-center justify-center gap-1 transition-colors text-center"
+                      >
+                        <span>🔖</span> 복습 노트
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </div>
+
               {/* Filtering & Search Row */}
               <div className="space-y-6">
                 <div className="flex flex-col gap-4 border-b border-classicBorder pb-5">
@@ -2397,10 +3177,43 @@
                     <span className="text-xs text-classicMuted font-semibold">범주를 선택하거나 검색해서 학습하십시오</span>
                   </div>
 
+                  {/* H. 학습 상태 필터 (전체 · 미학습 · 익힘 완료 · 복습) */}
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="text-xs font-bold text-classicMuted mr-1 shrink-0">학습 상태:</span>
+                    {[
+                      { id: 'all', label: '전체', count: totalWordsCount },
+                      { id: 'unlearned', label: '미학습', count: unlearnedWordsCount },
+                      { id: 'mastered', label: '익힘 완료', count: masteredWordsCount },
+                      { id: 'review', label: '복습', count: reviewWordKeys.length }
+                    ].map(tab => {
+                      const isActive = learningStatusFilter === tab.id;
+                      return (
+                        <button
+                          key={tab.id}
+                          id={`learningFilter_${tab.id}`}
+                          type="button"
+                          onClick={() => setLearningStatusFilter(tab.id)}
+                          aria-pressed={isActive}
+                          className={"px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all border flex items-center gap-1.5 " + (
+                            isActive
+                              ? "bg-classicText text-white border-classicText shadow-sm"
+                              : "bg-classicCard border-classicBorder text-classicMuted hover:border-classicRed/30 hover:text-classicRed"
+                          )}
+                        >
+                          <span>{tab.label}</span>
+                          <span className={"text-[11px] " + (isActive ? "text-amber-200" : "text-classicMuted")}>
+                            ({tab.count})
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
+
                   {/* 실시간 단어 검색창 */}
                   <div className="relative w-full sm:max-w-sm" style={{ position: 'relative' }}>
                     <SearchIcon className="w-4 h-4 text-classicMuted absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
                     <input
+                      id="searchInput"
                       type="text"
                       value={searchTerm}
                       onChange={(e) => setSearchTerm(e.target.value)}
@@ -2571,16 +3384,16 @@
                           <button
                             type="button"
                             onClick={(e) => handlePassWord(key, e)}
-                            title="다 외웠어요 (목록에서 제외)"
+                            title={isWordMastered(key) ? "익힘 완료된 어휘" : "다 외웠어요 (익힘 완료)"}
                             aria-label={`${cleanWordText(wordData.word)} 다 외웠어요`}
                             className={"absolute top-3.5 right-3.5 sm:top-4 sm:right-4 z-10 min-w-[38px] min-h-[38px] sm:min-w-8 sm:min-h-8 rounded-full flex items-center justify-center transition-all duration-300 shadow-xs " +
-                              (isFading
-                                ? "bg-emerald-50 border-emerald-400 text-emerald-600 scale-110 rotate-12"
+                              (isFading || isWordMastered(key)
+                                ? "bg-emerald-50 border-emerald-400 text-emerald-600 scale-105"
                                 : "bg-classicBg/95 border border-classicBorder text-classicMuted hover:border-red-500 hover:text-red-500 hover:bg-red-50/50 hover:scale-110 active:scale-95"
                               )}
                             style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}
                           >
-                            {isFading ? "✅" : "👁️"}
+                            {isFading || isWordMastered(key) ? "✅" : "👁️"}
                           </button>
 
                           <div className="space-y-3">
@@ -2600,6 +3413,16 @@
                                     }
                                   >
                                     난이도 {wordData.difficulty}
+                                  </span>
+                                )}
+                                {isWordMastered(key) && (
+                                  <span className="text-[10px] font-bold px-1.5 py-0.5 rounded border bg-emerald-50 border-emerald-300 text-emerald-800">
+                                    익힘 완료
+                                  </span>
+                                )}
+                                {isWordInReview(key) && (
+                                  <span className="text-[10px] font-bold px-1.5 py-0.5 rounded border bg-amber-50 border-amber-300 text-amber-800">
+                                    복습
                                   </span>
                                 )}
                               </div>
@@ -3878,6 +4701,160 @@
                     </div>
                   </div>
                 )}
+              </div>
+            </div>
+          )}
+
+          {/* F. 복습 모달 (나의 복습 노트) */}
+          {showReviewModal && (
+            <div id="reviewModal" className="fixed inset-0 bg-classicText/40 backdrop-blur-sm z-[9999] flex items-center justify-center p-3 sm:p-4">
+              <div
+                id="reviewModalContainer"
+                className="w-full max-w-2xl bg-white rounded-3xl border border-classicBorder shadow-2xl p-4 sm:p-6 md:p-8 flex flex-col gap-3.5 sm:gap-4 relative max-h-[90vh] max-h-[90dvh] overflow-hidden"
+              >
+                {/* 헤더 및 닫기 버튼 */}
+                <div className="flex items-center justify-between border-b border-classicBorder pb-3 sm:pb-4 gap-2 shrink-0">
+                  <div className="flex items-center gap-2.5 min-w-0 flex-1">
+                    <span className="w-10 h-10 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-xl shrink-0">
+                      🔖
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <h3 className="text-lg sm:text-xl font-serif font-black text-classicText truncate">
+                        나의 복습 노트
+                      </h3>
+                      <p className="text-xs text-classicMuted truncate sm:whitespace-normal">
+                        헷갈려 저장한 어휘와 미니퀴즈에서 틀린 어휘를 한곳에서 점검합니다.
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    id="closeReviewModalBtn"
+                    type="button"
+                    onClick={() => setShowReviewModal(false)}
+                    className="text-classicMuted hover:text-classicRed transition-colors font-bold text-lg p-2 shrink-0 rounded-xl"
+                    aria-label="닫기"
+                  >
+                    ✕
+                  </button>
+                </div>
+
+                {/* 3단 필터 탭 (전체 · 오답 · 다시 보기) */}
+                <div className="flex items-center gap-2 border-b border-classicBorder/60 pb-3 shrink-0 overflow-x-auto no-scrollbar">
+                  {[
+                    { id: 'all', label: '전체', count: reviewWordKeys.length },
+                    { id: 'incorrect', label: '오답', count: Object.keys(quizIncorrectMap).length },
+                    { id: 'bookmarks', label: '다시 보기', count: reviewBookmarks.length }
+                  ].map(tab => {
+                    const isActive = reviewModalFilter === tab.id;
+                    return (
+                      <button
+                        key={tab.id}
+                        type="button"
+                        onClick={() => setReviewModalFilter(tab.id)}
+                        className={"px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all border flex items-center gap-1.5 shrink-0 " + (
+                          isActive
+                            ? "bg-classicText text-white border-classicText shadow-sm"
+                            : "bg-classicCard border-classicBorder text-classicMuted hover:text-classicText"
+                        )}
+                      >
+                        <span>{tab.label}</span>
+                        <span className={"text-[11px] " + (isActive ? "text-amber-200" : "text-classicMuted")}>
+                          ({tab.count})
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* 복습 어휘 목록 */}
+                <div className="space-y-3 flex-1 overflow-y-auto overscroll-contain pr-1">
+                  {reviewListItems.length > 0 ? (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      {reviewListItems.map(item => {
+                        const w = item.wordData;
+                        const hasIncorrect = !!item.incorrectInfo;
+                        const isBookmarked = item.isBookmarked;
+
+                        return (
+                          <div
+                            key={item.key}
+                            onClick={() => {
+                              setShowReviewModal(false);
+                              selectAndScrollToWord(w);
+                              setLastStudiedWordKey(w.id || w.word || item.key);
+                            }}
+                            className="p-4 rounded-2xl border border-classicBorder bg-classicCard/40 hover:bg-white hover:border-classicRed/30 hover:shadow-sm cursor-pointer transition-all flex flex-col justify-between gap-2.5 group"
+                          >
+                            <div className="flex items-start justify-between gap-2">
+                              <div>
+                                <h4 className="font-serif font-black text-lg text-classicText group-hover:text-classicRed transition-colors flex items-baseline gap-1.5">
+                                  {cleanWordText(w.word)}
+                                  {w.hanja && (
+                                    <span className="text-xs text-classicMuted font-sans font-normal">
+                                      ({w.hanja})
+                                    </span>
+                                  )}
+                                </h4>
+                                <p className="text-xs text-classicMuted line-clamp-2 mt-1 leading-relaxed">
+                                  {w.brief || (w.meanings && w.meanings[0]) || "수능 기출 필수 어휘"}
+                                </p>
+                              </div>
+
+                              <div className="flex flex-col items-end gap-1 shrink-0">
+                                {isBookmarked && (
+                                  <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-amber-100 text-amber-900 border border-amber-300">
+                                    🔖 다시 보기
+                                  </span>
+                                )}
+                                {hasIncorrect && (
+                                  <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-red-100 text-red-800 border border-red-300">
+                                    ❌ 오답 {item.incorrectInfo.incorrectCount}회
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+
+                            <div className="flex items-center justify-between text-[11px] text-classicMuted border-t border-classicBorder/40 pt-2">
+                              <span>
+                                {w.category || "기출 어휘"}
+                              </span>
+                              <span className="group-hover:text-classicRed font-bold flex items-center gap-0.5">
+                                상세 학습하기 →
+                              </span>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    /* 빈 화면 상태 */
+                    <div className="py-12 px-4 text-center space-y-3 bg-classicBg/40 rounded-2xl border border-dashed border-classicBorder">
+                      <div className="text-3xl">📭</div>
+                      <h4 className="font-serif font-bold text-base text-classicText">
+                        {reviewModalFilter === 'bookmarks' && "저장된 다시 보기 어휘가 없습니다."}
+                        {reviewModalFilter === 'incorrect' && "퀴즈 오답 어휘가 없습니다."}
+                        {reviewModalFilter === 'all' && "복습할 어휘가 아직 없습니다."}
+                      </h4>
+                      <p className="text-xs text-classicMuted max-w-sm mx-auto leading-relaxed">
+                        어휘 상세 화면에서 <strong>[🔖 다시 보기]</strong>를 눌러 저장하거나,
+                        미니퀴즈에서 틀린 어휘가 이곳에 자동으로 기록되어 체계적인 복습을 돕습니다.
+                      </p>
+                    </div>
+                  )}
+                </div>
+
+                {/* 하단 안내 */}
+                <div className="pt-3 border-t border-classicBorder/60 flex items-center justify-between text-xs text-classicMuted shrink-0">
+                  <span className="truncate mr-2">💡 카드를 누르면 상세 풀이를 확인하실 수 있습니다.</span>
+                  <button
+                    id="closeReviewModalBottomBtn"
+                    type="button"
+                    onClick={() => setShowReviewModal(false)}
+                    className="px-4 py-2 bg-classicText text-white rounded-xl text-xs font-bold hover:bg-opacity-90 shrink-0"
+                  >
+                    닫기
+                  </button>
+                </div>
               </div>
             </div>
           )}
